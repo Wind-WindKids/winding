@@ -1,3 +1,4 @@
+import os
 import unittest
 from winding import grammar
 
@@ -7,15 +8,39 @@ class TestGrammar(unittest.TestCase):
         # Test if the grammar is loaded correctly
         self.assertIsNotNone(grammar)
 
-    def test_ebnf_rules(self):
-        # Example test for specific EBNF rules
-        # Replace 'some_rule' with actual rule names from grammar
-        self.assertIn('some_rule', grammar.rules)
+    def test_lark_grammar_parsing(self):
+        """Test that the Lark grammar can parse a sample input."""
+        try:
+            from lark import Lark
+        except ImportError:
+            self.skipTest("Lark is not installed")
 
-    def test_grammar_validity(self):
-        # Test if the EBNF grammar is valid
-        # This is a placeholder for actual validation logic
-        self.assertTrue(grammar.is_valid())
+        parser = Lark(grammar, start='start', parser='lalr')
+
+        sample = """--
+page: landscape-oriented
+--
+Text
+
+@top: large, landscape-oriented
+![caption](http://url)
+
+@right: small, cursive, !black
+Other Text
+
+@background: colorful
+An image of a cat. 
+
+@cat.tail: 
+Up with a curl
+
+@cat.eyes: green, shining
+"""
+
+        try:
+            tree = parser.parse(sample)
+        except Exception as e:
+            self.fail(f"Parsing failed: {e}")
 
 if __name__ == '__main__':
     unittest.main()

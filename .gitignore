@@ -1,3 +1,4 @@
 build/
 dist/
 src/winding.egg-info/
+src/winding/__pycache__/
