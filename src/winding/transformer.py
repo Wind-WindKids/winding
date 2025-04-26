@@ -38,6 +38,9 @@ class WindingTransformer(Transformer):
                 body.append(c)
         return Winding(at=at, attributes=attrs, content=body)
 
+    def meta_winding(self, at, attrs, *children):
+        return self.inline_winding(at, attrs, *children)
+
     def space_winding(self, at, attrs, *children):
         return self.inline_winding(at, attrs, *children)
 

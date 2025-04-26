@@ -52,7 +52,13 @@ Up with a curl
             self.skipTest("Required modules are not installed")
 
         parser = Lark_StandAlone()
-        sample = """--
+        sample = """---
+book: portrait-oriented
+filename: test.md
+---
+The book
+
+--
 front-cover: portrait-oriented
 --
 Text
