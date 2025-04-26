@@ -1,12 +1,13 @@
 # Winding Markdown Extension
 
-Winding is a Python module that provides an EBNF (Extended Backus-Naur Form) grammar for the Winding Markdown extension. This extension enhances Markdown, allowing to specify scenes, layout and agentic behaviours.
+Winding is a grammar, AST and parser for the Winding Markdown extension. This extension enhances Markdown, allowing to specify scenes, layout and agentic behaviours.
 
 ## Features
 
 - Defines a clear and concise EBNF grammar for the Winding Markdown extension.
-- Facilitates the parsing and interpretation of Winding Markdown documents.
-- Easy to integrate into existing Markdown processing workflows.
+- Defines a pure Python parser, based on the Lark standalone parser.
+- Defines AST and WindingTransformer, to facilitate the parsing.
+- No external dependencies required.
 
 ## Installation
 
@@ -18,14 +19,86 @@ pip install winding
 
 ## Usage
 
-Here is a simple example of how to use the Winding module:
+You can find runnable examples in the `samples/` directory.
+
+Here is a simple example of printing the grammar:
 
 ```python
-from winding import grammar
+>>> from winding import grammar
+>>> print(grammar)
 
-# Example usage of the grammar
-ebnf_definition = grammar.load_grammar()
-print(ebnf_definition)
+start: (winding | markdown)+
+
+winding: meta_winding | space_winding | inline_winding
+meta_winding: "---\n" IDENTIFIER ":" attributes header_winding* "\n---\n" content? 
+space_winding: "--\n" IDENTIFIER ":" attributes header_winding* "\n--\n" content?
+header_winding: "\n" IDENTIFIER ":" attributes
+inline_winding: "@" IDENTIFIER ":" attributes "\n" content?
+
+content: (winding | markdown)+
+
+markdown: (image | TEXT)+
+
+attributes: (IDENTIFIER ("," IDENTIFIER)*)?
+
+image: "![" CAPTION? "]" "(" URI? ")"
+
+IDENTIFIER: /!?[A-Za-z][A-Za-z0-9_.-]*/
+URI: /[^\)\n]+/
+TEXT: /(?:(?!@\w+:|--|!\[).)*\n+/ 
+CAPTION: /[^\]]+/
+    
+%ignore /[ \t]+/
+%ignore "\r" 
+```
+
+## Example of parsing a Winding Markdown file
+
+See `samples/dragon.py` for a complete example.
+
+```python
+from winding.parser import Lark_StandAlone
+from winding.transformer import WindingTransformer
+from winding.ast import Winding
+from pprint import pprint
+
+parser = Lark_StandAlone()
+sample = """---
+dragons: portrait-oriented
+---
+A book about dragons
+
+--
+front-cover: portrait-oriented
+--
+Dragons
+
+@center: large, landscape-oriented
+![Flying Wind Dragon](dragon.png)
+"""
+
+tree = parser.parse(sample)
+ast = WindingTransformer().transform(tree)
+pprint(ast, indent=2)
+```
+
+This will output the following AST:
+```
+Winding(at='this',
+    attributes=[],
+    content=[ 
+        Winding(at='dragons',
+            attributes=['portrait-oriented'],
+            content=[ 
+                Markdown(content='A book about dragons\n\n'),
+                Winding(at='front-cover', attributes=['portrait-oriented'],
+                    content=[ 
+                        Markdown(content='Dragons\n\n'),
+                        Winding(at='center', attributes=['large', 'landscape-oriented'],
+                            content=[Markdown(content=Image(caption='Flying Wind Dragon',
+                                               url='dragon.png')),
+                                     Markdown(content='\n')]
+                                )])])])
 ```
 
 ## Contributing
