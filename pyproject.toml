@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "winding"
+version = "0.1.0"
+description = "A module providing an EBNF grammar for the Winding Markdown extension."
+authors = ["Wind <wind@wind.kids>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://pypi.org/project/winding"
+repository = "https://github.com/yourusername/winding"
+keywords = ["markdown", "ebnf", "grammar", "winding"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

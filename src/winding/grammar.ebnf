@@ -1,0 +1,33 @@
+module WindingMarkdownExtension
+
+// The EBNF grammar for the Winding Markdown extension
+
+// Define the main structure of a Winding document
+document ::= (block)*
+
+// Define the different types of blocks
+block ::= heading | paragraph | list | code_block
+
+// Define headings
+heading ::= "#" heading_text
+heading_text ::= (character)+
+
+// Define paragraphs
+paragraph ::= (character)+
+
+// Define lists
+list ::= ("*" list_item)+
+list_item ::= (character)+
+
+// Define code blocks
+code_block ::= "```" language? newline (character)* "```"
+language ::= (character)+
+newline ::= "\n"
+
+// Define characters
+character ::= letter | digit | punctuation | whitespace
+letter ::= "a" | "b" | "c" | "d" | "e" | "f" | "g" | "h" | "i" | "j" | "k" | "l" | "m" | "n" | "o" | "p" | "q" | "r" | "s" | "t" | "u" | "v" | "w" | "x" | "y" | "z" | 
+            "A" | "B" | "C" | "D" | "E" | "F" | "G" | "H" | "I" | "J" | "K" | "L" | "M" | "N" | "O" | "P" | "Q" | "R" | "S" | "T" | "U" | "V" | "W" | "X" | "Y" | "Z"
+digit ::= "0" | "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9"
+punctuation ::= "." | "," | ";" | ":" | "!" | "?" | "-" | "_" | "'" | "\"" | "(" | ")" | "[" | "]" | "{" | "}" | "<" | ">" | "/" | "\\" | "|"
+whitespace ::= " " | "\t" | "\n" | "\r"
