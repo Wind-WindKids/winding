@@ -42,5 +42,28 @@ Up with a curl
         except Exception as e:
             self.fail(f"Parsing failed: {e}")
 
+    def test_transformer_ast(self):
+        """Test that the transformer produces a Winding AST root."""
+        try:
+            from lark import Lark
+            from winding.transformer import WindingTransformer
+            from winding.ast import Winding
+        except ImportError:
+            self.skipTest("Required modules are not installed")
+
+        parser = Lark(grammar, start='start', parser='lalr')
+        sample = """--
+page: landscape-oriented
+--
+Text
+
+@top: large, landscape-oriented
+![caption](http://url)
+"""
+        tree = parser.parse(sample)
+        ast = WindingTransformer().transform(tree)
+        self.assertIsInstance(ast, Winding)
+        print(ast)
+
 if __name__ == '__main__':
     unittest.main()
