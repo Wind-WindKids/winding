@@ -9,8 +9,8 @@ class WindingTransformer(Transformer):
     def URI(self, tk):
         return tk.value
 
-    def TEXT_LINE(self, tk):
-        return tk.value.strip()
+    def TEXT(self, tk):
+        return tk.value
 
     def attributes(self, *ids):
         return list(ids)
