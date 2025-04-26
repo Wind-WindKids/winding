@@ -1,1 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Winding Markdown Spec</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      max-width: 800px;
+      margin: 2em auto;
+      font-family: system-ui, sans-serif;
+      background: #fafbfc;
+      color: #222;
+      line-height: 1.6;
+      padding: 0 1em;
+    }
+    pre, code {
+      background: #f6f8fa;
+      border-radius: 4px;
+      font-size: 0.95em;
+      padding: 0.2em 0.4em;
+    }
+    pre {
+      padding: 1em;
+      overflow-x: auto;
+    }
+    h1, h2, h3 {
+      margin-top: 2em;
+    }
+    a {
+      color: #0366d6;
+    }
+  </style>
+</head>
+<body>
+  <main id="content">
+    <p>Loading <code>winding.md</code>…</p>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script>
+    fetch('winding.md')
+      .then(response => {
+        if (!response.ok) throw new Error('Failed to load winding.md');
+        return response.text();
+      })
+      .then(md => {
+        document.getElementById('content').innerHTML = marked.parse(md);
+      })
+      .catch(err => {
+        document.getElementById('content').innerHTML = '<p style="color:red;">Error loading <code>winding.md</code>: ' + err.message + '</p>';
+      });
+  </script>
+</body>
+</html>
 
