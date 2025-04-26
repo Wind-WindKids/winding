@@ -1,4 +1,7 @@
 # .github/workflows/workflow.yaml
+on:
+  workflow_dispatch:
+  
 jobs:
   pypi-publish:
     name: Upload release to PyPI
