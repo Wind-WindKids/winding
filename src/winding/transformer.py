@@ -1,4 +1,4 @@
-from .parser import Transformer, v_args
+from .parser import Transformer, Token, v_args
 from .ast import Image, Markdown, Winding
 
 @v_args(inline=True)
@@ -6,7 +6,7 @@ class WindingTransformer(Transformer):
     def IDENTIFIER(self, tk):
         return tk.value
 
-    def URI(self, tk):
+    def CAPTION(self, tk):
         return tk.value
 
     def TEXT(self, tk):
@@ -15,8 +15,10 @@ class WindingTransformer(Transformer):
     def attributes(self, *ids):
         return list(ids)
 
-    def image(self, caption, url):
-        return Image(caption=caption, url=url)
+    def image(self, caption="", url=Token("URI", "")):
+        if isinstance(caption, Token):
+            url, caption = caption, ""        
+        return Image(caption=caption, url=url.value)
 
     def markdown(self, *items):
         nodes = []
@@ -38,6 +40,10 @@ class WindingTransformer(Transformer):
 
     def space_winding(self, at, attrs, *children):
         return self.inline_winding(at, attrs, *children)
+
+    def header_winding(self, at, attrs, *children):
+        return Winding(at=at, attributes=attrs, content=[])
+
 
     def content(self, *items):
         # flatten lists

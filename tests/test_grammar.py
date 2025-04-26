@@ -59,6 +59,21 @@ Text
 
 @top: large, landscape-oriented
 ![caption](http://url)
+
+![Another caption](another.png)
+
+![Yet another]()
+
+![](other.png)
+
+![]()
+
+--
+spread: landscape-oriented
+theme: colorful
+--
+Text
+
 """
         tree = parser.parse(sample)
         ast = WindingTransformer().transform(tree)
