@@ -21,21 +21,46 @@ class WindingTransformer(Transformer):
     def markdown(self, *items):
         nodes = []
         for it in items:
-            nodes.append(Markdown(content=it))
+            if isinstance(it, Image):
+                nodes.append(Markdown(content=it))
+            else:
+                nodes.append(Markdown(content=it))
         return nodes if len(nodes) > 1 else nodes[0]
 
-    def inline_winding(self, at, attrs, *content):
+    def inline_winding(self, at, attrs, *children):
         body = []
-        for c in content:
+        for c in children:
             if isinstance(c, list):
                 body.extend(c)
             else:
                 body.append(c)
         return Winding(at=at, attributes=attrs, content=body)
 
-    def space_winding(self, at, attrs, *content):
-        return self.inline_winding(at, attrs, *content)
+    def space_winding(self, at, attrs, *children):
+        return self.inline_winding(at, attrs, *children)
+
+    def content(self, *items):
+        # flatten lists
+        flat = []
+        for i in items:
+            if isinstance(i, list):
+                flat.extend(i)
+            else:
+                flat.append(i)
+        return flat
 
     def start(self, *items):
-        doc = Winding(at="document", attributes=[], content=list(items))
-        return doc
+        # top-level wrapper
+        return Winding(at="document", attributes=[], content=list(items))
+
+    def __default__(self, data, children, meta):
+        # catch-all: flatten nested lists or return sole child
+        flat = []
+        for c in children:
+            if isinstance(c, list):
+                flat.extend(c)
+            else:
+                flat.append(c)
+        if len(flat) == 1:
+            return flat[0]
+        return flat

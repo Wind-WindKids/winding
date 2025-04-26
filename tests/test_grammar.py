@@ -45,13 +45,13 @@ Up with a curl
     def test_transformer_ast(self):
         """Test that the transformer produces a Winding AST root."""
         try:
-            from lark import Lark
+            from winding.parser import Lark_StandAlone
             from winding.transformer import WindingTransformer
             from winding.ast import Winding
         except ImportError:
             self.skipTest("Required modules are not installed")
 
-        parser = Lark(grammar, start='start', parser='lalr')
+        parser = Lark_StandAlone()
         sample = """--
 page: landscape-oriented
 --
