@@ -51,7 +51,7 @@ class WindingTransformer(Transformer):
 
     def start(self, *items):
         # top-level wrapper
-        return Winding(at="document", attributes=[], content=list(items))
+        return Winding(at="this", attributes=[], content=list(items))
 
     def __default__(self, data, children, meta):
         # catch-all: flatten nested lists or return sole child

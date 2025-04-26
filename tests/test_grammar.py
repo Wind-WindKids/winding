@@ -53,7 +53,7 @@ Up with a curl
 
         parser = Lark_StandAlone()
         sample = """--
-page: landscape-oriented
+front-cover: portrait-oriented
 --
 Text
 
