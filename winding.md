@@ -147,31 +147,52 @@ You can find the up-to-date spec at [winding.md](https://winding.md).
 
 ### Image Example
 
+[Wind on the Grass](https://winding.md/samples/gpt-image-1-wind_on_the_grass.jpeg
+
 ```markdown
----
-wind_on_the_grass.png: image, square
----
-Wind lies in the grass, focused on screen.right.  
-Sunlight glows through his hair. His back is to us.  
+--
+wind_on_the_grass: image, landscape-orientation, png
+style: nwind
+--
+Two laptops. Wind is lying on the grass, completely absorbed by the code on screen.right. Dappled sunlight through a high oak canopy flickers across his back and the keyboards. His tousled blond hair glows gold with soft iridescence, tiny freckles visible at his temples. A sleek smartphone rests nearby, its glass surface reflecting the green of the trees.
 
-@laptops: two, side by side
+@laptop.left: matte-silver
+A Kite logo to the left of the mouse pad.
 
-@screen.left
-A robotics sim, Omniverse or Isaac Sim.
+@laptop.right: smaller, !logo, charcoal-gray
 
-@sim-subject
-A metallic quadruped dragon stands in a virtual rig.  
-Inspired by Japanese motorcycles and robotic dogs. Battery and hydrogen  
-cell powered. Metal wings folded. Intake fan centered.  
-@dragon.eyes: green — functional, HCI.
+@screen.left:
+running a robotics simulation in Omniverse / Isaac Sim.  
+
+@simulation.subject: 
+a quadruped metallic dragon in a test harness. Influence: robotic dog, Japanese motorcycle. Wings unfolded, aerodynamic plating, slightly smaller than a hang glider.
+
+@dragon.eyes:
+glow bright green — functional HCI, alert despite mechanical constraint.
 
 @screen.right:
-VSCode. Terminal open. Logs streaming.  
-@code.density: high  
+VSCode in dark mode, split view with terminals at the bottom, logs streaming and editor pane showing dense motion-control code.
 
-@wind.focus: full, wind types rapidly, in flow.
-@wind.hair: soft, gold-tinted, unstyled
-@phone: nearby, dark screen
+@Wind:
+boy, around 8 years old, tousled blond hair, bright blue eyes.
+
+@Wind.pose:
+He is lying on his stomach, propped up on his elbows, fingertips poised over the keyboard, slight tension in his wrists. Looking at the laptop, away from the camera, his face is not visible. 
+
+@clothing:
+Teal short-sleeved shirt and charcoal-gray shorts.
+
+@phone:
+modern smartphone with a matte-black case, screen dark but glossy, edges catching sunlight.
+
+@trees:
+tall oak canopy overhead, leaves filtering light into soft, shifting patterns.
+
+@grass:
+lush carpet of individual blades, dew lightly beading near the laptops.
+
+@Wind.focus:
+complete, absorbed by the code on screen.right, everything else is background blur.
 ```
 
 # Philosophy
