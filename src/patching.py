@@ -4,60 +4,62 @@ from scipy.ndimage import label
 from shapely.geometry import MultiPoint
 import math, time
 
+from scipy.spatial import ConvexHull
+
+
+# Shapely-equivalent region detection (worked earlier)
+def get_region_rect_shapely(labels: np.ndarray, rid: int):
+    coords = np.column_stack(np.nonzero(labels == rid))
+    pts = coords[:, [1, 0]].astype(float)
+    hull = ConvexHull(pts)
+    hull_pts = np.vstack([pts[hull.vertices], pts[hull.vertices][0]])
+    edges = hull_pts[1:] - hull_pts[:-1]
+    angles = np.unique(np.arctan2(edges[:,1], edges[:,0]))
+    best_area = np.inf
+    best = (0, 0, 0.0)
+    for ang in angles:
+        ca, sa = math.cos(-ang), math.sin(-ang)
+        R = np.array([[ca, -sa],[sa, ca]])
+        rot = pts @ R.T
+        min_x, max_x = rot[:,0].min(), rot[:,0].max()
+        min_y, max_y = rot[:,1].min(), rot[:,1].max()
+        w, h = max_x-min_x, max_y-min_y
+        area = w*h
+        if area < best_area:
+            if w <= h:
+                width, height, angle_edge = w, h, ang
+            else:
+                width, height, angle_edge = h, w, ang + math.pi/2
+            best_area = area
+            best = (width, height, angle_edge)
+    w_opt, h_opt, angle_edge = best
+    ang_deg = math.degrees(angle_edge)
+    if ang_deg > 90: ang_deg -= 180
+    elif ang_deg <= -90: ang_deg += 180
+    return int(w_opt+0.5), int(h_opt+0.5), ang_deg
 
 def detect_transparent_regions(base_rgba: Image.Image) -> list[dict]:
-    start = time.time()
-    print(start, "Entering detect_transparent_regions")
     alpha = np.array(base_rgba.split()[-1])
-    print(time.time() - start, "Alpha channel extracted")
     mask = alpha < 10
-    print(time.time() - start, "Mask created")
     labels, num = label(mask)
-    print(time.time() - start, "Labels created")
-
-    def order_points(pts):
-        pts = np.array(pts)
-        s = pts.sum(axis=1)
-        diff = np.diff(pts, axis=1).ravel()
-        tl = pts[np.argmin(s)]
-        br = pts[np.argmax(s)]
-        tr = pts[np.argmin(diff)]
-        bl = pts[np.argmax(diff)]
-        return [tuple(tl), tuple(tr), tuple(br), tuple(bl)]
-
-    transparent_regions = []
-    for rid in range(1, num + 1):
-        print(time.time() - start, f"Starting processing region {rid}")
+    regions = []
+    for rid in range(1, num+1):
+        width, height, angle = get_region_rect_shapely(labels, rid)
         coords = np.column_stack(np.nonzero(labels == rid))
-        pts = [(c[1], c[0]) for c in coords]
-        print(time.time() - start, f"Coordinates for region {rid} extracted")
-        mrr = MultiPoint(pts).minimum_rotated_rectangle
-        print(time.time() - start, f"Minimum rotated rectangle for region {rid} calculated")
-        rect = list(mrr.exterior.coords)[:-1]
-        tl, tr, br, bl = order_points(rect)
-
-        width = math.hypot(tr[0] - tl[0], tr[1] - tl[1])
-        height = math.hypot(bl[0] - tl[0], bl[1] - tl[1])
-        angle = math.degrees(math.atan2(tr[1] - tl[1], tr[0] - tl[0]))
-        centroid = MultiPoint(pts).centroid
-        
-        orientation = 'landscape' if width > height * 1.25 else \
-                      'portrait' if height > width * 1.25 else 'square'   
-
-        transparent_regions.append({
-            'coords': pts,
-            'width': int(width + 0.5),
-            'height': int(height + 0.5),
+        pts = coords[:, [1,0]].astype(float)
+        centroid = pts.mean(axis=0)
+        if width > height * 1.25: orientation = 'landscape'
+        elif height > width * 1.25: orientation = 'portrait'
+        else: orientation = 'square'
+        regions.append({
+            'width': width,
+            'height': height,
             'angle': angle,
-            'centroid': {'x': centroid.x, 'y': centroid.y},
+            'centroid': {'x': float(centroid[0]), 'y': float(centroid[1])},
             'orientation': orientation
         })
-        print(time.time() - start, f"Region {rid} processed")
-
-
-    transparent_regions.sort(key=lambda r: (r['centroid']['y'], r['centroid']['x']))
-    print(time.time() - start, "Regions sorted")
-    return transparent_regions
+    regions.sort(key=lambda r:(r['centroid']['y'], r['centroid']['x']))
+    return regions
 
 def calculate_orientations(patch_paths: list[str]) -> list[str]:
     orientations = []
@@ -79,6 +81,7 @@ def fill_transparent_frames(
         target_width: int = -1,
         target_height: int = -1,
         reorder_by_orientation: bool = True,
+        pad: int = 0,
     ) -> Image.Image:
 
     start = time.time()
@@ -91,10 +94,12 @@ def fill_transparent_frames(
 
     if target_width > 0:
         print(time.time() - start, f"Resizing base image to {target_width}x{target_height}")
-        base_rgba = base_rgba.resize((target_width, target_height), Image.LANCZOS)
+        base_rgba = base_rgba.resize((target_width, target_height))
 
 
     transparent_regions = detect_transparent_regions(base_rgba)
+    print(time.time() - start, "Transparent regions detected")
+    print("Detected regions:", transparent_regions)
     if len(transparent_regions) != len(patch_paths):
         raise ValueError(f"{len(transparent_regions)} frames detected but {len(patch_paths)} patches provided")
     
@@ -114,7 +119,7 @@ def fill_transparent_frames(
     for region, patch_path in zip(transparent_regions, patch_paths):
         print(time.time() - start, f"Processing region with centroid {region['centroid']} and patch")   
         patch = Image.open(patch_path).convert('RGBA')
-        patch_rs = patch.resize((region['width'], region['height']), Image.LANCZOS)
+        patch_rs = patch.resize((region['width'] + pad, region['height'] + pad), Image.LANCZOS)
         patch_rot = patch_rs.rotate(-region['angle'], expand=True)
 
         px = int(region['centroid']['x'] - patch_rot.width / 2)
@@ -136,9 +141,10 @@ if __name__ == '__main__':
     parser.add_argument('--reorder', action='store_true', help='Reorder patches by orientation')
     parser.add_argument('--width', type=int, default=-1, help='Width of target image')
     parser.add_argument('--height', type=int, default=-1, help='Height of target image')
+    parser.add_argument('--pad' , type=int, default=4, help='Padding for the patches')
     args = parser.parse_args()
 
-    result = fill_transparent_frames(args.base_img, args.patches, args.width, args.height, args.reorder)
+    result = fill_transparent_frames(args.base_img, args.patches, args.width, args.height, args.reorder, args.pad)
     if args.output:
         result.save(args.output)
     else:
