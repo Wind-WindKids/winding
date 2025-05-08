@@ -39,6 +39,9 @@ def get_region_rect_shapely(labels: np.ndarray, rid: int):
     return int(w_opt+0.5), int(h_opt+0.5), ang_deg
 
 def detect_transparent_regions(base_rgba: Image.Image) -> list[dict]:
+    if base_rgba.mode != 'RGBA':
+        raise ValueError("Base image must be in RGBA mode")
+
     alpha = np.array(base_rgba.split()[-1])
     mask = alpha < 10
     labels, num = label(mask)
@@ -76,17 +79,19 @@ def calculate_orientations(patch_paths: list[str]) -> list[str]:
 
 
 def fill_transparent_frames(
-        base_path: str,
+        base_rgba: Image.Image,
         patch_paths: list[str],
         target_width: int = -1,
         target_height: int = -1,
         reorder_by_orientation: bool = True,
-        pad: int = 0,
+        pad: int = 4,
     ) -> Image.Image:
+
+    if base_rgba.mode != 'RGBA':
+        raise ValueError("Base image must be in RGBA mode")
 
     start = time.time()
     print(start, "Starting fill_transparent_frames")
-    base_rgba = Image.open(base_path).convert('RGBA')
     if target_width > 0 and target_height <= 0:
         target_height = int(base_rgba.height * target_width / base_rgba.width + 0.5)
     elif target_height > 0 and target_width <= 0:

@@ -36,6 +36,8 @@ from winding.transformer import WindingTransformer
 from winding.ast import Winding
 
 from openai import OpenAI
+from PIL import Image
+from patching import detect_transparent_regions, fill_transparent_frames
 
 def save_img(img, filename: str):
     """Decode base64-encoded image and write to file."""
@@ -92,11 +94,15 @@ def main():
         description="Illuminate Winding Markdown pages via OpenAI image generation"
     )
     parser.add_argument("input", help="Path to the .md file")
+    parser.add_argument("--preview", help="Path to save the preview.md file", default="preview.md")
     parser.add_argument("--outdir", default="images/", help="Directory to save generated images")
     parser.add_argument("--model", default="gpt-image-1", help="Image generation model")
     parser.add_argument("--landscape", default="1536x1024", help="Landscape image size (e.g., 1536x1024)")
     parser.add_argument("--portrait", default="1024x1536", help="Portrait image size (e.g., 1024x1536)")
     parser.add_argument("--square", default="1024x1024", help="Square image size (e.g., 1024x1024)")
+    parser.add_argument("--trim", default="4x6", help="Physical Trim size in inches (e.g., 4x6)")
+    # parser.add_argument("--bleed", default="0.125", help="Bleed size in inches (e.g., 0.125)")
+    parser.add_argument("--dpi", default=300, type=int, help="DPI for the output pages")
     parser.add_argument("--quality", default="high", help="Image quality setting")
     parser.add_argument("--dry-run", action="store_true", help="Skip image generation, just parse and print")
     args = parser.parse_args()
@@ -139,14 +145,77 @@ def main():
         and any(attr in ("page", "spread") for attr in node.attributes)
     ]
 
-    # 3. Process each page
+    # 3.0 Generate preview.md
+    with open(args.preview, "w") as f:
+        for page in pages:
+            outpath  = os.path.join(args.outdir, "pages", f"{page.at}.png")
+            f.write(f"![{page.at}]({outpath})\n")
+            f.write(flatten_winding_to_md(page))
+            f.write("\n\n")
+
+
+
+
+    # 3.1 Process each page
     client = OpenAI()
     for page in pages:
-        filename = f"{page.at}.png"
-        outpath  = os.path.join(args.outdir, filename)
+        outpath  = os.path.join(args.outdir, "pages", f"{page.at}.png")
         if os.path.exists(outpath):
-            print(f"Skipping existing {filename}")
+            print(f"Skipping existing {outpath}")
             continue
+
+
+        # Check if there are any cutouts windings
+        cutouts = [child for child in page.content if isinstance(child, Winding) and "cutout" in child.attributes]
+        if cutouts:
+            print(f"Found cutouts in page '{page.at}': {cutouts}")
+            transparent_path = os.path.join(args.outdir, "pages", f"{page.at}.transparent.png")
+
+            if not os.path.exists(transparent_path):
+                print(f"Transparent image path not found, skipping'{page.at}.transparent.png'")
+                continue
+
+            # Get the patch paths
+            for cutout in cutouts:
+                print(f"Cutout '{cutout.at}' with content: {cutout.content[0].content.url}")
+                patch_path = os.path.join(args.outdir, "cutouts", cutout.content[0].content.url)
+                if not os.path.exists(patch_path):
+                    print(f"Patch {patch_path} not found, skipping '{cutout.at}'")
+
+            
+            patch_paths = [os.path.join(args.outdir, "cutouts", cutout.content[0].content.url) for cutout in cutouts]
+            existing_patch_paths = [path for path in patch_paths if os.path.exists(path)]
+
+            if len(existing_patch_paths) != len(patch_paths):
+                print(f"Warning: {len(patch_paths) - len(existing_patch_paths)} patches not found for '{page.at}'")
+                continue
+
+            if len(existing_patch_paths) != len(cutouts):
+                print(f"Warning: {len(existing_patch_paths)} patches found, but {len(cutouts)} expected for '{page.at}'")
+                continue
+
+
+            base_rgba = Image.open(transparent_path)
+            if base_rgba.mode != 'RGBA':
+                print(f"Error: '{page.at}.transparent.png' is not in RGBA mode. Skipping.")
+                continue
+
+            transparent_regions = detect_transparent_regions(base_rgba)
+
+            if len(transparent_regions) != len(existing_patch_paths):
+                print(f"Warning: {len(transparent_regions)} transparent regions detected, but {len(existing_patch_paths)} patches provided for '{page.at}'")
+                continue
+
+            print(f"Transparent regions detected in '{page.at}.transparent.png' with existing patches: {existing_patch_paths}")
+            patched_rgb = fill_transparent_frames(base_rgba, patch_paths)
+            if patched_rgb:
+                patched_path = os.path.join(args.outdir, "pages", f"{page.at}.patched.png")
+                patched_rgb.save(patched_path)
+                print(f"Saved filled transparent regions to '{patched_path}'")
+            else:
+                print(f"Error: Failed to fill transparent regions for '{page.at}'")
+
+        continue
 
         prompt_snippet = flatten_winding_to_md(page)
         print(f"Generating image for page '{page.at}' with prompt:\n{prompt_snippet}")
