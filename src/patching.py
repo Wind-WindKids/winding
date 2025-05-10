@@ -51,9 +51,12 @@ def detect_transparent_regions(base_rgba: Image.Image) -> list[dict]:
         coords = np.column_stack(np.nonzero(labels == rid))
         pts = coords[:, [1,0]].astype(float)
         centroid = pts.mean(axis=0)
-        if width > height * 1.25: orientation = 'landscape'
-        elif height > width * 1.25: orientation = 'portrait'
-        else: orientation = 'square'
+        if width > height * 1.15: orientation = 'landscape'
+        elif height > width * 1.15: orientation = 'portrait'
+        else: 
+            orientation = 'square'
+            # for squares, remove the nearest 90° chunk
+            angle = angle - 90 * round(angle / 90)
         regions.append({
             'width': width,
             'height': height,
@@ -69,9 +72,9 @@ def calculate_orientations(patch_paths: list[str]) -> list[str]:
     for patch_path in patch_paths:
         patch = Image.open(patch_path)
         w, h = patch.size
-        if w > h * 1.25:
+        if w > h * 1.15:
             orientations.append('landscape')
-        elif h > w * 1.25:
+        elif h > w * 1.15:
             orientations.append('portrait')
         else:
             orientations.append('square')
@@ -125,6 +128,8 @@ def fill_transparent_frames(
         print(time.time() - start, f"Processing region with centroid {region['centroid']} and patch")   
         patch = Image.open(patch_path).convert('RGBA')
         patch_rs = patch.resize((region['width'] + pad, region['height'] + pad), Image.LANCZOS)
+
+        # for squares, remove the nearest 90° chunk
         patch_rot = patch_rs.rotate(-region['angle'], expand=True)
 
         px = int(region['centroid']['x'] - patch_rot.width / 2)
