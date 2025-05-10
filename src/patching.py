@@ -33,10 +33,19 @@ def get_region_rect_shapely(labels: np.ndarray, rid: int):
             best_area = area
             best = (width, height, angle_edge)
     w_opt, h_opt, angle_edge = best
-    ang_deg = math.degrees(angle_edge)
-    if ang_deg > 90: ang_deg -= 180
-    elif ang_deg <= -90: ang_deg += 180
-    return int(w_opt+0.5), int(h_opt+0.5), ang_deg
+    angle = math.degrees(angle_edge)
+
+    # normalize angle to be between -90 and 90 degrees
+    if angle > 90: angle -= 180
+    elif angle <= -90: angle += 180
+
+    # remove the nearest 90° chunk and swap width and height if needed
+    if abs(angle) > 45:
+        angle = angle - 90 * round(angle / 90)
+        w_opt, h_opt = h_opt, w_opt
+
+
+    return int(w_opt+0.5), int(h_opt+0.5), angle
 
 def detect_transparent_regions(base_rgba: Image.Image) -> list[dict]:
     if base_rgba.mode != 'RGBA':
@@ -53,10 +62,7 @@ def detect_transparent_regions(base_rgba: Image.Image) -> list[dict]:
         centroid = pts.mean(axis=0)
         if width > height * 1.15: orientation = 'landscape'
         elif height > width * 1.15: orientation = 'portrait'
-        else: 
-            orientation = 'square'
-            # for squares, remove the nearest 90° chunk
-            angle = angle - 90 * round(angle / 90)
+        else: orientation = 'square'
         regions.append({
             'width': width,
             'height': height,
