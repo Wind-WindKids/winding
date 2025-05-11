@@ -11,6 +11,8 @@ from scipy.spatial import ConvexHull
 def get_region_rect_shapely(labels: np.ndarray, rid: int):
     coords = np.column_stack(np.nonzero(labels == rid))
     pts = coords[:, [1, 0]].astype(float)
+    if len(pts) < 32:
+        raise ValueError("Region too small to calculate bounding box")
     hull = ConvexHull(pts)
     hull_pts = np.vstack([pts[hull.vertices], pts[hull.vertices][0]])
     edges = hull_pts[1:] - hull_pts[:-1]
@@ -56,7 +58,11 @@ def detect_transparent_regions(base_rgba: Image.Image) -> list[dict]:
     labels, num = label(mask)
     regions = []
     for rid in range(1, num+1):
-        width, height, angle = get_region_rect_shapely(labels, rid)
+        try:
+            width, height, angle = get_region_rect_shapely(labels, rid)
+        except ValueError:
+            #print(f"Region {rid} too small to calculate bounding box")
+            continue
         coords = np.column_stack(np.nonzero(labels == rid))
         pts = coords[:, [1,0]].astype(float)
         centroid = pts.mean(axis=0)
@@ -127,7 +133,7 @@ def fill_transparent_frames(
         transparent_regions = matched_regions
 
 
-    composite = base_rgba.convert('RGB').copy()
+    composite = Image.new('RGBA', base_rgba.size)
     print(time.time() - start, "Base image converted to RGB for pasting patches")
 
     for region, patch_path in zip(transparent_regions, patch_paths):
@@ -143,6 +149,8 @@ def fill_transparent_frames(
         composite.paste(patch_rot.convert('RGB'), (px, py), patch_rot.split()[-1])
 
         print(time.time() - start, f"Patch pasted at ({px}, {py})")
+
+    composite.paste(base_rgba, (0, 0), base_rgba.split()[-1])
 
     print(time.time() - start, "All patches pasted")
 

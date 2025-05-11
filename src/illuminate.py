@@ -149,10 +149,19 @@ def main():
     with open(args.preview, "w") as f:
         for page in pages:
             outpath  = os.path.join(args.outdir, "pages", f"{page.at}.png")
+            patched_path = os.path.join(args.outdir, "pages", f"{page.at}.patched.png")
+            if os.path.exists(patched_path):
+                outpath = patched_path
+            elif not os.path.exists(outpath):
+                print(f"Warning: {outpath} not found, skipping.")
+
             f.write(f"![{page.at}]({outpath})\n")
             f.write(flatten_winding_to_md(page))
             f.write("\n\n")
-
+    
+    if args.dry_run:
+        print(f"Preview saved to {args.preview}")
+        return
 
 
 
@@ -160,8 +169,14 @@ def main():
     client = OpenAI()
     for page in pages:
         outpath  = os.path.join(args.outdir, "pages", f"{page.at}.png")
+        patched_path = os.path.join(args.outdir, "pages", f"{page.at}.patched.png")
+
         if os.path.exists(outpath):
             print(f"Skipping existing {outpath}")
+            continue
+
+        if os.path.exists(patched_path):
+            print(f"Skipping existing {patched_path}")
             continue
 
 
@@ -209,7 +224,6 @@ def main():
             print(f"Transparent regions detected in '{page.at}.transparent.png' with existing patches: {existing_patch_paths}")
             patched_rgb = fill_transparent_frames(base_rgba, patch_paths)
             if patched_rgb:
-                patched_path = os.path.join(args.outdir, "pages", f"{page.at}.patched.png")
                 patched_rgb.save(patched_path)
                 print(f"Saved filled transparent regions to '{patched_path}'")
             else:
