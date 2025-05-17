@@ -89,6 +89,41 @@ def infer_page_size(args, page: Winding) -> str:
 
     return None
 
+def export(args, pages):
+    """Export the pages as a set of png files."""
+    os.makedirs(os.path.join(args.outdir, "export"), exist_ok=True)
+
+    page_number = 0
+    for page in pages:
+        image_path  = os.path.join(args.outdir, "pages", f"{page.at}.png")
+        patched_path = os.path.join(args.outdir, "pages", f"{page.at}.patched.png")
+        if os.path.exists(patched_path):
+            image_path = patched_path
+        elif not os.path.exists(image_path):
+            print(f"Error: {image_path} not found, skipping.")
+            break
+
+        # Read the image, check if the orientation is portrait
+        # if yes, simpy copy the image to the export folder
+        image = Image.open(image_path).convert("RGB")
+        if image.width < image.height:
+            # Portrait image, save it without the alpha channel
+            image.save(os.path.join(args.outdir, "export", f"{page_number:03d}.png"))
+            page_number += 1
+        else:
+            # Landscape image, split it into two halves and save each half
+            half = image.crop((0, 0, image.width // 2, image.height))
+            half.save(os.path.join(args.outdir, "export", f"{page_number:03d}.png"))
+            page_number += 1
+            half = image.crop((image.width // 2, 0, image.width, image.height))
+            half.save(os.path.join(args.outdir, "export", f"{page_number:03d}.png"))
+            page_number += 1
+    print(f"Exported {page_number} pages to {args.outdir}/export/")
+            
+
+        
+
+
 def main():
     parser = argparse.ArgumentParser(
         description="Illuminate Winding Markdown pages via OpenAI image generation"
@@ -101,10 +136,12 @@ def main():
     parser.add_argument("--portrait", default="1024x1536", help="Portrait image size (e.g., 1024x1536)")
     parser.add_argument("--square", default="1024x1024", help="Square image size (e.g., 1024x1024)")
     parser.add_argument("--trim", default="4x6", help="Physical Trim size in inches (e.g., 4x6)")
-    # parser.add_argument("--bleed", default="0.125", help="Bleed size in inches (e.g., 0.125)")
+    parser.add_argument("--bleed", default="0.125", help="Bleed size in inches (e.g., 0.125)")
+    parser.add_argument("--pad", default=12, type=int, help="Padding for the patches")
     parser.add_argument("--dpi", default=300, type=int, help="DPI for the output pages")
     parser.add_argument("--quality", default="high", help="Image quality setting")
     parser.add_argument("--dry-run", action="store_true", help="Skip image generation, just parse and print")
+    parser.add_argument("--export", action="store_true", help="Export the pages")
     args = parser.parse_args()
 
     # 1. Load and parse
@@ -159,9 +196,14 @@ def main():
             f.write(flatten_winding_to_md(page))
             f.write("\n\n")
     
-    if args.dry_run:
-        print(f"Preview saved to {args.preview}")
+    if args.export:
+        export(args, pages)
         return
+
+
+    #if args.dry_run:
+    #    print(f"Preview saved to {args.preview}")
+    #    return
 
 
 
@@ -221,8 +263,23 @@ def main():
                 print(f"Warning: {len(transparent_regions)} transparent regions detected, but {len(existing_patch_paths)} patches provided for '{page.at}'")
                 continue
 
+            # Determine the target size from the trim, dpi and the page size
+            target_width = int((float(args.trim.split("x")[0]) + float(args.bleed)) * args.dpi + 0.5)
+            target_height = int((float(args.trim.split("x")[1]) + float(args.bleed) * 2) * args.dpi + 0.5)
+
+            # If the image is landscape, assume this is a spread
+            if "spread" in page.attributes:
+                target_width *= 2
+                if base_rgba.width < base_rgba.height:
+                    print(f"Error: '{page.at}.transparent.png' is not in landscape mode. Skipping.")
+                    continue
+            else:
+                if base_rgba.width > base_rgba.height:
+                    print(f"Error: '{page.at}.transparent.png' is not in portrait mode. Skipping.")
+                    continue
+
             print(f"Transparent regions detected in '{page.at}.transparent.png' with existing patches: {existing_patch_paths}")
-            patched_rgb = fill_transparent_frames(base_rgba, patch_paths)
+            patched_rgb = fill_transparent_frames(base_rgba, patch_paths, target_width, target_height, reorder_by_orientation=True, pad=args.pad)
             if patched_rgb:
                 patched_rgb.save(patched_path)
                 print(f"Saved filled transparent regions to '{patched_path}'")

@@ -1,7 +1,6 @@
 from PIL import Image
 import numpy as np
 from scipy.ndimage import label
-from shapely.geometry import MultiPoint
 import math, time
 
 from scipy.spatial import ConvexHull
@@ -27,7 +26,7 @@ def get_region_rect_shapely(labels: np.ndarray, rid: int):
         min_y, max_y = rot[:,1].min(), rot[:,1].max()
         w, h = max_x-min_x, max_y-min_y
         area = w*h
-        if area < best_area:
+        if area <= best_area:
             if w <= h:
                 width, height, angle_edge = w, h, ang
             else:
@@ -54,7 +53,7 @@ def detect_transparent_regions(base_rgba: Image.Image) -> list[dict]:
         raise ValueError("Base image must be in RGBA mode")
 
     alpha = np.array(base_rgba.split()[-1])
-    mask = alpha < 10
+    mask = alpha < 64
     labels, num = label(mask)
     regions = []
     for rid in range(1, num+1):
