@@ -73,8 +73,8 @@ def flatten_winding_to_md(node: Winding) -> str:
             lines.append(text)
     return "".join(lines)
 
-def infer_page_size(args, page: Winding) -> str:
-    """Determine the appropriate page size based on attributes."""
+def infer_winding_size(args, page: Winding) -> str:
+    """Determine the appropriate size based on attributes."""
     if "landscape" in page.attributes or "spread" in page.attributes:
         return args.landscape
     elif "portrait" in page.attributes:
@@ -85,9 +85,33 @@ def infer_page_size(args, page: Winding) -> str:
         return args.portrait
     elif ["landscape-" in a for a in page.attributes]:
         return args.landscape
-
-
     return None
+
+def generate_image(args, winding: Winding, client: OpenAI):
+        prompt_snippet = flatten_winding_to_md(winding)
+        outpath = os.path.join(args.outdir, "images", f"{winding.at}.png")
+
+        print(f"Generating image for winding '{winding.at}' with prompt:\n{prompt_snippet}")
+        if args.dry_run:
+            print(f"Would save to {outpath}")
+            return
+
+        winding_size = infer_winding_size(args, winding)
+        if winding_size is None:
+            raise ValueError(f"Could not infer size for winding '{winding.at}', unable to generate image.")
+            
+
+        # 4. Generate image
+        img = client.images.generate(
+            model=args.model,
+            prompt=prompt_snippet,
+            n=1,
+            size=winding_size,
+            quality=args.quality
+        )
+        save_img(img, outpath)
+        print(f"Saved {outpath}")
+
 
 def export(args, pages):
     """Export the pages as a set of png files."""
@@ -188,6 +212,7 @@ def main():
     parser.add_argument("--dry-run", action="store_true", help="Skip image generation, just parse and print")
     parser.add_argument("--export", action="store_true", help="Export the pages")
     parser.add_argument("--export-pdf", action="store_true", help="Export the pages as a PDF")
+    parser.add_argument("--generate", action="store_true", help="Generate images")
     args = parser.parse_args()
 
     # 1. Load and parse
@@ -227,6 +252,15 @@ def main():
         if isinstance(node, Winding)
         and any(attr in ("page", "spread") for attr in node.attributes)
     ]
+    print(f"Found {len(pages)} pages in the document at the top level.")
+
+    # 2.1 Identify image nodes
+    images = [
+        node for node in ast.content
+        if isinstance(node, Winding)
+        and any(attr in ("image", "png", "jpg", "jpeg") for attr in node.attributes)
+    ]
+    print(f"Found {len(images)} images in the document at the top level.")
 
     # 3.0 Generate preview.md
     with open(args.preview, "w") as f:
@@ -250,6 +284,21 @@ def main():
         export_pdf(args)
         return
 
+    if args.generate:
+        client = OpenAI()
+
+        # 3. Generate images
+        os.makedirs(os.path.join(args.outdir, "images"), exist_ok=True)
+
+        # 3.1 Generate images for each page
+        for image in images:
+            outpath = os.path.join(args.outdir, "images", f"{image.at}.png")
+            if os.path.exists(outpath):
+                print(f"Skipping existing {outpath}")
+                continue
+
+            # Generate the image
+            generate_image(args, image, client)
 
     #if args.dry_run:
     #    print(f"Preview saved to {args.preview}")
@@ -258,7 +307,6 @@ def main():
 
 
     # 3.1 Process each page
-    client = OpenAI()
     for page in pages:
         outpath  = os.path.join(args.outdir, "pages", f"{page.at}.png")
         patched_path = os.path.join(args.outdir, "pages", f"{page.at}.patched.png")
@@ -336,29 +384,9 @@ def main():
             else:
                 print(f"Error: Failed to fill transparent regions for '{page.at}'")
 
-        continue
-
-        prompt_snippet = flatten_winding_to_md(page)
-        print(f"Generating image for page '{page.at}' with prompt:\n{prompt_snippet}")
-        if args.dry_run:
-            print(f"Would save to {outpath}")
-            continue
-
-        page_size = infer_page_size(args, page)
-        if page_size is None:
-            print(f"Warning: No size specified for page '{page.at}'. Skipping for now.")
-            continue
-
-        # 4. Generate image
-        img = client.images.generate(
-            model=args.model,
-            prompt=prompt_snippet,
-            n=1,
-            size=page_size,
-            quality=args.quality
-        )
-        save_img(img, outpath)
-        print(f"Saved {outpath}")
+        if args.generate:
+            # Generate the image for the page
+            generate_image(args, page, client)
 
 if __name__ == "__main__":
     main()
