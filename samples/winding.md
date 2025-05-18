@@ -4,7 +4,7 @@ theme: Spring or summer daytime, Jardin du Luxembourg, watercolor style
 ---
 
 --
-front_cover: page, portrait-oriented
+front_cover: page, portrait-oriented, cover-front
 --
 @title: text, centered, playful, rounded lettering, teal
 Sophie and Wind
@@ -19,7 +19,7 @@ Primarily turquoise blue with peachy-orange ear pads and a yellow-gold accent ri
 muted teal blue, closely matching the color of her headphones. It's a simple, modern smartphone design with clean edges. there's no visible logo or brand name.
 
 --
-authoring: page, image, portrait-oriented
+authoring: page, image, portrait-oriented, cover-front-inside
 --
 Two laptops in the grass, side by side, kite logo on one of the laptops, next to the keyboard. Complex futuristic dragon airplane CAD 3D graphics on the screen of one of the laptops. Code on another side. In the background, Sophie reads a book, slightly smiling, Eiffel Tower in the distance.
 
@@ -234,16 +234,6 @@ Sophie and a boy (Wind) running with a kite. Joyful motion. The palace and garde
 
 
 --
-scenes_spring: page, portrait-oriented
---
-@page: rectangle, cutout, large, square, polaroid
-![Wind and Sophie in a cafe, cute and neat looking, Jardin du Luxembourg background.](snaps/summer_cafe.png)
-
-@page: rectangle, cutout, large, portrait-oriented, polaroid
-![Wind and Sophie, cute and neat looking, white summer dress, riding a wind dragon together, summer, children’s carousel area green Jardin du Luxembourg background.](snaps/carusel_imaginary_dragon.png)
-
-
---
 scenes_winding: page, portrait-oriented
 --
 @page: rectangle, cutout, large, square, polaroid
@@ -267,6 +257,16 @@ scenes_treasures: page, portrait-oriented
 
 @page: rectangle, cutout, large, portrait-oriented, polaroid
 ![A girl, about 6, dragon t-shirt, shorts, smiling and riding fast, riding a pink bike that looks way to big for her, a broken compass on the pavement, Central pond in front of the palace.](snaps/broken_compass.png)
+
+
+--
+scenes_spring: page, portrait-oriented
+--
+@page: rectangle, cutout, large, square, polaroid
+![Wind and Sophie in a cafe, cute and neat looking, Jardin du Luxembourg background.](snaps/summer_cafe.png)
+
+@page: rectangle, cutout, large, portrait-oriented, polaroid
+![Wind and Sophie, cute and neat looking, white summer dress, riding a wind dragon together, summer, children’s carousel area green Jardin du Luxembourg background.](snaps/carusel_imaginary_dragon.png)
 
 
 --
@@ -344,7 +344,7 @@ With deep gratitude to the creators, scientists, engineers, artists, and dreamer
 
 
 --
-author: page, text, portrait-oriented
+author: page, text, portrait-oriented, cover-back-inside
 theme: watercolor style, futuristic, silver, colorful kites
 --
 
@@ -366,7 +366,7 @@ Licensing
 Text and source code components of Sophie and Wind are licensed under CC-BY 4.0. All imagery in Sophie and Wind—with the exception of the front and back covers—is licensed under CC-BY-NC 4.0. The cover illustrations are not included in this license and may not be reproduced, published, or distributed without explicit permission: wind@sophieandwind.com
 
 --
-back_cover_with_map_in_place: page, portrait-oriented
+back_cover_with_map_in_place: page, portrait-oriented, cover-back
 theme: playful, colorful kites, wind patterns
 --
 @page: text, small, centered, playful, rounded lettering, teal

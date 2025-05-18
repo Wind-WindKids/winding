@@ -93,7 +93,7 @@ def export(args, pages):
     """Export the pages as a set of png files."""
     os.makedirs(os.path.join(args.outdir, "export"), exist_ok=True)
 
-    page_number = 0
+    page_number = 1
     for page in pages:
         image_path  = os.path.join(args.outdir, "pages", f"{page.at}.png")
         patched_path = os.path.join(args.outdir, "pages", f"{page.at}.patched.png")
@@ -108,8 +108,12 @@ def export(args, pages):
         image = Image.open(image_path).convert("RGB")
         if image.width < image.height:
             # Portrait image, save it without the alpha channel
-            image.save(os.path.join(args.outdir, "export", f"{page_number:03d}.png"))
-            page_number += 1
+            cover = next((a for a in page.attributes if a.startswith("cover")), None)
+            if cover:
+                image.save(os.path.join(args.outdir, "export", f"{cover}.png"))
+            else:
+                image.save(os.path.join(args.outdir, "export", f"{page_number:03d}.png"))
+                page_number += 1
         else:
             # Landscape image, split it into two halves and save each half
             half = image.crop((0, 0, image.width // 2, image.height))
@@ -122,6 +126,47 @@ def export(args, pages):
             
 
         
+def export_pdf(args):
+    """Combines the exported images into a single PDF file."""
+    import glob
+    from fpdf import FPDF
+    from PIL import Image
+
+    # 0. Get the image paths and check they exist, no skipped images
+    exported_images = sorted(glob.glob(os.path.join(args.outdir, "export", "???.png")))
+    page_number = len(exported_images)
+    for n in range(page_number):
+        if not os.path.exists(exported_images[n]):
+            print(f"Error: {exported_images[n]} not found, unable to export PDF.")
+            return
+
+    # 1. Determine the trim size in inches
+    trim_w, trim_h = map(float, args.trim.split("x"))
+    bleed = float(args.bleed)
+    # 2. Calculate the page size in inches
+    page_w = trim_w + bleed
+    page_h = trim_h + 2 * bleed
+    # 3. Convert to pixels
+    image_w = int(page_w * args.dpi + 0.5)
+    image_h = int(page_h * args.dpi + 0.5)
+
+    pdf = FPDF(unit="in", format=(page_w, page_h))
+    pdf.set_auto_page_break(auto=True, margin=0)
+    
+    for n in range(page_number):
+        image_path = exported_images[n]
+        image = Image.open(image_path)
+        if image.mode != "RGB" or image.width != image_w or image.height != image_h:
+            print(f"Warning: {image_path} is not in RGB mode or does not match the page size.")
+
+        pdf.add_page(orientation="P")
+        pdf.rect(0, 0, page_w, page_h, style="DF")
+        pdf.image(image_path, 0, 0, w=page_w, h=page_h, keep_aspect_ratio=False)
+
+    # Save the PDF
+    pdf_path = os.path.join(args.outdir, "export", "output-32.pdf")
+    pdf.output(pdf_path)
+    print(f"Exported PDF to {pdf_path}")    
 
 
 def main():
@@ -135,13 +180,14 @@ def main():
     parser.add_argument("--landscape", default="1536x1024", help="Landscape image size (e.g., 1536x1024)")
     parser.add_argument("--portrait", default="1024x1536", help="Portrait image size (e.g., 1024x1536)")
     parser.add_argument("--square", default="1024x1024", help="Square image size (e.g., 1024x1024)")
-    parser.add_argument("--trim", default="4x6", help="Physical Trim size in inches (e.g., 4x6)")
+    parser.add_argument("--trim", default="6x9", help="Physical Trim size in inches (e.g., 4x6)")
     parser.add_argument("--bleed", default="0.125", help="Bleed size in inches (e.g., 0.125)")
     parser.add_argument("--pad", default=12, type=int, help="Padding for the patches")
     parser.add_argument("--dpi", default=300, type=int, help="DPI for the output pages")
     parser.add_argument("--quality", default="high", help="Image quality setting")
     parser.add_argument("--dry-run", action="store_true", help="Skip image generation, just parse and print")
     parser.add_argument("--export", action="store_true", help="Export the pages")
+    parser.add_argument("--export-pdf", action="store_true", help="Export the pages as a PDF")
     args = parser.parse_args()
 
     # 1. Load and parse
@@ -198,6 +244,10 @@ def main():
     
     if args.export:
         export(args, pages)
+        return
+
+    if args.export_pdf:
+        export_pdf(args)
         return
 
 
