@@ -1,4 +1,5 @@
 ## Winding Markdown (Draft v0.7)
+[plain text version](https://winding.md/winding.md)
 
 This spec describes Winding Markdown, a lightweight extension of Markdown, designed to describe scenes, layouts or books in an structured way. For example, a scene, described in an Markdown, could be:
 
