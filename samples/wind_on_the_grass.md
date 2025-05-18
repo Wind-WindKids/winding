@@ -2,7 +2,8 @@
 wind_on_the_grass: image, landscape-orientation, png
 style: nwind
 --
-Two laptops. Wind is lying on the grass, completely absorbed by the code on screen.right. Dappled sunlight through a high oak canopy flickers across his back and the keyboards. His tousled blond hair glows gold with soft iridescence, tiny freckles visible at his temples. A sleek smartphone rests nearby, its glass surface reflecting the green of the trees.
+Two laptops. Wind is lying on the grass, completely absorbed by coding. Dappled sunlight through a high oak canopy flickers across his back and the keyboards. His tousled blond hair glows gold with soft iridescence, tiny freckles visible at his temples. A sleek smartphone rests nearby, 
+its glass surface reflecting the green of the trees.
 
 @laptop.left: matte-silver
 A Kite logo to the left of the mouse pad.
@@ -21,7 +22,7 @@ glow bright green — functional HCI, alert despite mechanical constraint.
 @screen.right:
 VSCode in dark mode, split view with terminals at the bottom, logs streaming and editor pane showing dense motion-control code.
 
-@Wind:
+@Wind: description
 boy, around 8 years old, tousled blond hair, bright blue eyes.
 
 @Wind.pose:
@@ -40,4 +41,4 @@ tall oak canopy overhead, leaves filtering light into soft, shifting patterns.
 lush carpet of individual blades, dew lightly beading near the laptops.
 
 @Wind.focus:
-complete, absorbed by the code on screen.right, everything else is background blur.
+complete, absorbed by the code on screen.right, not looking at the dragon.
