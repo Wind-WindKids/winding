@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>markdown-it Identifier-Block Demo</title>
+  <style>
+    /* Sample styles for our classes */
+    .text {
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+    .teal {
+      color: teal;
+    }
+    .centered {
+      text-align: center;
+    }
+    .playful {
+      font-family: "Comic Sans MS", cursive, sans-serif;
+    }
+    .square {
+      width: 200px;
+      aspect-ratio: 1 / 1;
+      border: 2px dashed #aaa;
+      margin: 1em auto;
+      padding: 0.5em;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  </style>
+</head>
+<body>
+  <div id="content"></div>
+
+  <!-- Markdown-it from CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/markdown-it/dist/markdown-it.min.js"></script>
+
+  <script>
+    // --- identifier-block plugin for markdown-it ---
+    function identifierBlockPlugin(md) {
+      md.block.ruler.before('paragraph', 'identifier_block', parseIdentifierBlock, {
+        alt: ['paragraph', 'reference', 'blockquote', 'list']
+      });
+
+      function parseIdentifierBlock(state, startLine, endLine, silent) {
+        const startPos = state.bMarks[startLine] + state.tShift[startLine];
+        const lineText = state.src.slice(startPos, state.eMarks[startLine]);
+        const match = lineText.match(/^@([\w-]+):\s*(.+)$/);
+        if (!match) return false;
+        if (silent) return true;
+
+        const id      = match[1];
+        const classes = match[2]
+          .split(',')
+          .map(s => s.trim())
+          .filter(Boolean)
+          .join(' ');
+
+        let nextLine = startLine + 1;
+        while (nextLine < endLine) {
+          const text = state.src
+            .slice(state.bMarks[nextLine] + state.tShift[nextLine], state.eMarks[nextLine])
+            .trim();
+          if (text === '--' || /^@[\w-]+:/.test(text)) break;
+          nextLine++;
+        }
+
+        // open <div>
+        const open = state.push('div_open', 'div', 1);
+        open.block = true;
+        open.map   = [ startLine, nextLine ];
+        open.attrs = [
+          [ 'id', id ],
+          [ 'class', classes ]
+        ];
+
+        // tokenize inner lines
+        state.md.block.tokenize(state, startLine + 1, nextLine);
+
+        // close </div>
+        const close = state.push('div_close', 'div', -1);
+        close.block = true;
+
+        // advance past the block (and the trailing -- if present)
+        const endMarker = state.src
+          .slice(state.bMarks[nextLine] + state.tShift[nextLine], state.eMarks[nextLine])
+          .trim();
+        state.line = nextLine + (endMarker === '--' ? 1 : 0);
+
+        return true;
+      }
+
+      md.renderer.rules.div_open = (tokens, idx) => {
+        const attrs = tokens[idx].attrs
+          .map(([k, v]) => `${k}="${v}"`)
+          .join(' ');
+        return `<div ${attrs}>\n`;
+      };
+      md.renderer.rules.div_close = () => `</div>\n`;
+    }
+
+    // --- Initialize markdown-it and plugin ---
+    const md = window.markdownit();
+    md.use(identifierBlockPlugin);
+
+    // --- Example input ---
+    const source = `
+@title: text, centered, playful, teal
+# Welcome!
+
+This is **Markdown** inside our title block.
+
+@first_page: square
+Here’s some content that lives in a square container.
+
+- It can have lists  
+- And other Markdown features
+
+--
+And back to *normal* Markdown here.
+`;
+
+    // --- Render into the page ---
+    document.getElementById('content').innerHTML = md.render(source);
+  </script>
+</body>
+</html>

@@ -1,5 +1,6 @@
 build/
 dist/
+samples/__pycache__/
 src/winding.egg-info/
 src/winding/__pycache__/
 src/winding/parser.py

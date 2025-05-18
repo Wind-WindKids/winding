@@ -1,0 +1,7 @@
+title: "Winding"
+remote_theme: pmarsceill/just-the-docs
+plugins:
+  - jekyll-remote-theme
+url: "https://winding.md"
+exclude:
+  - winding.md
