@@ -1,30 +1,54 @@
-## Winding Markdown (Draft v0.7)
+# Winding Markdown (Draft v0.8)
 [plain text version](https://winding.md/winding.md)
 
-This spec describes Winding Markdown, a lightweight extension of Markdown, designed to describe scenes, layouts or books in an structured way. For example, a scene, described in an Markdown, could be:
+> Winding Markdown is a lightweight CommonMark extension for describing layouts through prompting. You address discrete “agents” in a spatial context and prompt them to define structure, style, and content.
+
+## Introduction
+
+In Winding Markdown a scene, an image or a page layout is described in a structured way, with some similarities to Universal Scene Description:
 
 ```markdown
-Two laptops, a dragon on the left screen, some code on the right screen, and a phone nearby. The dragon is alive, and has green eyes. The laptop is modern, lightly used. The screen of the phone is dark.
-```
+--
+laptops: image, file, landscape-orientation, png
+--
+Two laptops, and a phone in the grass. The screen of the phone is dark.
 
-In Winding Markdown, this would be described as:
-
-```markdown
-Two laptops, and a phone nearby. The screen of the phone is dark.
-
-@laptop: modern
+@laptops: modern
 Lightly used
 
 @left.screen: 
 The dragon, alive, and has green eyes.
 
 @right.screen:
-Some code.
+VSCode
 ```
 
-This effectively decomposes the scene into a set of messages, that are sent to the agents. The agents are the objects in the scene, and the messages are the *prompts* to those objects.
+This effectively decomposes the scene description, into a set of messages to the objects in the scene. These messages are the *prompts* to the *agents* that determine the layout, style and visualization for these objects.
 
-## Winding Markdown Syntax
+[Laptops](https://winding.md/samples/gpt-image-1-laptops.jpeg)
+
+
+## Table of Contents
+- [Introduction](#introduction)  
+- [Terminology](#terminology)  
+- [Syntax and Grammar](#syntax)  
+- [Examples](#examples)  
+- [Images](#images)  
+- [Philosophy](#philosophy)  
+- [Spatial Model: Agents & Spaces](#spatial-model-agents--spaces)  
+- [Compatibility](#compatibility)  
+
+## Terminology
+- **Agent**: An object you can send messages to (e.g. `@page`).  
+- **Message**: A prompt or instruction delivered to an agent.  
+- **Space**: The current context or container (e.g. a page, spread, or image block).  
+- **Winding**: The process of composing a document in Winding Markdown.
+- **Illuminating**: The process of rendering and searching for the best render of a winding.
+
+
+## Winding Markdown Syntax and Grammar
+
+[Formal EBNF Grammar](https://winding.md/grammar)
 
 ### `--`
 
@@ -55,10 +79,6 @@ Used for example, for **layout, style, or presentation metadata**. Think CSS-lik
 #### `Free Text Prompting`
 Used to talking to that agent to prompt it. It can be a text to render, an action to perform, a style to apply, or anything else. The agent is free to interpret the message as it sees fit.
 
-
-### Grammar
-
-[Winding Markdown Grammar](https://winding.md/grammar)
 
 ### Examples
 
@@ -148,7 +168,7 @@ You can find the up-to-date spec at [winding.md](https://winding.md).
 
 ### Image Example
 
-[Wind on the Grass](https://winding.md/samples/gpt-image-1-wind_on_the_grass.jpeg
+[Wind on the Grass](https://winding.md/samples/gpt-image-1-wind_on_the_grass.jpeg)
 
 ```markdown
 --
