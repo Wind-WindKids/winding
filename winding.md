@@ -1,11 +1,33 @@
 # Winding Markdown (Draft v0.8)
 [plain text version](https://winding.md/winding.md)
 
-> Winding Markdown is a lightweight CommonMark extension for describing layouts through prompting. You address discrete “agents” in a spatial context and prompt them to define structure, style, and content.
+> A lightweight CommonMark extension for describing layouts, scenes, and images via concise prompts.
 
 ## Introduction
 
-In Winding Markdown a scene, an image or a page layout is described in a structured way, with some similarities to Universal Scene Description:
+Winding Markdown lets you define slides, picture books, or scenes using structured, minimal prompts—no long prose required. If you’ve ever struggled with verbose page or scene descriptions, this is for you.
+
+To see it in action, here’s a slide example:
+
+```markdown
+--
+gpt-image-1-winding_markdown: slide, square, jpeg
+--
+Winding Markdown  
+_A markdown for illuminating documents_
+
+@center: image, orientation-landscape
+Agents, messages, and layout blocks orbiting a markdown core.
+
+@footer.right:
+[https://winding.md](https://winding.md)
+```
+
+If processed with an image generation model, it would create a slide, like the following:
+![Winding Markdown](assets/gpt-image-1-winding_markdown.jpeg)
+
+
+Or a scene, described in a USD-like way, with a hierarchical structure:
 
 ```markdown
 --
@@ -23,9 +45,12 @@ The dragon, alive, and has green eyes.
 VSCode
 ```
 
-This effectively decomposes the scene description, into a set of messages to the objects in the scene. These messages are the *prompts* to the *agents* that determine the layout, style and visualization for these objects.
+will result in a rendered image, like the following:
 
-[Laptops](https://winding.md/samples/gpt-image-1-laptops.jpeg)
+![Laptops](https://winding.md/samples/gpt-image-1-laptops.jpeg)
+
+Winding Markdown effectively decomposes the scene description, into a set of messages to the objects in the scene. These messages are the *prompts* to the *agents* that determine the layout, style and visualization for these objects.
+
 
 
 ## Table of Contents
