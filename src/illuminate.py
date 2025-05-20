@@ -213,6 +213,7 @@ def main():
     parser.add_argument("--export", action="store_true", help="Export the pages")
     parser.add_argument("--export-pdf", action="store_true", help="Export the pages as a PDF")
     parser.add_argument("--generate", action="store_true", help="Generate images")
+    parser.add_argument("--regenerate", type=str, help="Regenerate specific winding by name")
     args = parser.parse_args()
 
     # 1. Load and parse
@@ -284,7 +285,7 @@ def main():
         export_pdf(args)
         return
 
-    if args.generate:
+    if args.generate or args.regenerate:
         client = OpenAI()
 
         # 3. Generate images
@@ -293,9 +294,10 @@ def main():
         # 3.1 Generate images for each page
         for image in images:
             outpath = os.path.join(args.outdir, "images", f"{image.at}.png")
-            if os.path.exists(outpath):
-                print(f"Skipping existing {outpath}")
-                continue
+            if os.path.exists(outpath) and not args.regenerate:
+                if image.at != args.regenerate:
+                    print(f"Skipping existing {outpath}")
+                    continue
 
             # Generate the image
             generate_image(args, image, client)

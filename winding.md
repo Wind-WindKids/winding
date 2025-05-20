@@ -64,8 +64,8 @@ Winding Markdown effectively decomposes the scene description, into a set of mes
 - [Compatibility](#compatibility)  
 
 ## Terminology
-- **Agent**: An object you can send messages to (e.g. `@page`).  
-- **Message**: A prompt or instruction delivered to an agent.  
+- **Agent**: An object you can prompt or send messages to (e.g. `@page`).  
+- **Message**: A prompt, message or attribute delivered to an agent.  
 - **Space**: The current context or container (e.g. a page, spread, or image block).  
 - **Winding**: The process of composing a document in Winding Markdown.
 - **Illuminating**: The process of rendering and searching for the best render of a winding.
@@ -77,17 +77,17 @@ Winding Markdown effectively decomposes the scene description, into a set of mes
 
 ### `--`
 
-A double-dash is a permeable boundary, it starts a new **space** for the text.
+A double-dash is a boundary, it starts a new **space** for the text.
 
 ### `@identifier:`
 Used to **send a message** in the winding to an agent identified by the `@identifier`.
 
-A colon `:` in it is also a permeable boundary, it starts a new **space** for the text and is equivalent `--`.
-An at sign `@` is a decorator, it is not part of the name of the agent, it is used to address the agent.
+A colon `:` in it is also a boundary, it starts a new **space** for the text and is equivalent `--`.
+A sign `@` is a decorator, it is not part of the name of the agent, it is used to address the agent.
 Multiple identifiers can be used in a single line, preceded by `@`, and separated by spaces or commas.
 
 ### `identifiers`
-Are used for targeted addressing. They are **true names**. 
+Are used for targeted prompting, this includes free text, where they act like **true names**. 
 
 ### `identifier.other_identifier`
 Dot notation for precision, used for **targeting** addressing of sub-agents.
