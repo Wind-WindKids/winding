@@ -6,13 +6,13 @@
 ## Table of Contents
 - [Introduction](#introduction)  
 - [Syntax](#syntax)  
-- [Examples](#examples)  
+- [Syntax Examples](#syntax-examples)  
 - [Formal Grammar](#formal-grammar)
 - [Philosophy](#philosophy)  
 
 ## Introduction
 
-Winding Markdown lets you define slides, picture books, or scenes using structured, minimal prompts—no long prose required. If you’ve ever struggled with verbose page or scene descriptions, this is for you.
+Winding Markdown lets you define slides, scenes , or (https://wind.kids)[complete picture books] using structured, minimal prompts—no long prose required. If you’ve ever struggled with an out of control scene description, this is for you.
 
 To see it in action, here’s a slide example:
 
@@ -30,7 +30,6 @@ Agents, messages, and layout blocks orbiting a markdown core.
 [https://winding.md](https://winding.md)
 ```
 
-If processed with an image generation model, it would create a slide, like the following:
 ![Winding Markdown](assets/gpt-image-1-winding_markdown.jpeg)
 
 
@@ -52,47 +51,88 @@ The dragon, alive, and has green eyes.
 VSCode
 ```
 
-will result in a rendered image, like the following:
-
 ![Laptops](https://winding.md/samples/gpt-image-1-laptops.jpeg)
 
 Winding Markdown effectively decomposes the scene description, into a set of messages to the objects in the scene. These messages are the *prompts* to the *agents* that determine the layout, style and visualization for these objects.
 
 
+A more realistic example, with a complex scene:
+
+![Wind on the Grass](https://winding.md/samples/gpt-image-1-wind_on_the_grass.jpeg)
+
+```markdown
+--
+wind_on_the_grass: image, landscape-orientation, png
+style: nwind
+--
+Two laptops. Wind is lying on the grass, looking at the screen.left. Dappled sunlight through a high oak canopy flickers across his back and the keyboards. His tousled blond hair glows gold with soft iridescence, tiny freckles visible at his temples. A sleek smartphone rests nearby, its glass surface reflecting the green of the trees.
+
+@laptop.left: matte-silver
+A Kite logo to the left of the mouse pad.
+
+@laptop.right: smaller, !logo, charcoal-gray
+
+@screen.left:
+running a robotics simulation in Omniverse / Isaac Sim.  
+
+@simulation.subject: 
+a quadruped metallic dragon in a test harness. Influence: robotic dog, Japanese motorcycle. Wings unfolded, aerodynamic plating, slightly smaller than a hang glider.
+
+@dragon.eyes:
+glow bright green — functional HCI, alert despite mechanical constraint.
+
+@screen.right:
+VSCode in dark mode, split view with terminals at the bottom, logs streaming and editor pane showing dense motion-control code.
+
+@Wind:
+boy, around 8 years old, tousled blond hair, bright blue eyes.
+
+@Wind.pose:
+He is lying on his stomach, propped up on his elbows, fingertips poised over the keyboard, slight tension in his wrists. Looking at the laptop, away from the camera, his face is not visible. 
+
+@Wind.clothes:
+Teal short-sleeved shirt and charcoal-gray shorts.
+
+@phone:
+modern smartphone with a matte-black case, screen dark but glossy, edges catching sunlight.
+
+@trees:
+tall oak canopy overhead, leaves filtering light into soft, shifting patterns.
+
+@grass:
+lush carpet of individual blades, dew lightly beading near the laptops.
+```
+
+
 ## Syntax
-
-### `--`
-
-A double-dash is a boundary, it starts a new **space** for the text.
 
 ### `@identifier:`
 Used to **send a message** in the winding to an agent identified by the `@identifier`.
 
-A colon `:` in it is also a boundary, it starts a new **space** for the text and is equivalent `--`.
-A sign `@` is a decorator, it is not part of the name of the agent, it is used to address the agent.
+A colon `:` in it is a boundary, it starts a new **space** for the text.  A sign `@` is a decorator, it is not part of the name of the agent, it is used to address the agent.
 Multiple identifiers can be used in a single line, preceded by `@`, and separated by spaces or commas.
 
-### `identifiers`
-Are used for targeted prompting, this includes free text.
-
-### `identifier.other_identifier`
-Dot notation for precision, used for **targeting** addressing of sub-agents.
+### `identifiers`, `identifier.other_identifier`
+Are used for targeted prompting, this includes free text. Dot notation for precision, used for **targeting** addressing of sub-agents.
 
 ### `!identifier`
-Used to **invert** the **message** of the identifier.
+Used to **invert** the identifier.
 
-In a winding everything is a message, and every message is an agent. The interpretations of the messages are up to the agent...
+In a winding everything is a prompt or a message, and everyhing is an agent. The interpretations of the messages are up to the agents...
 
 ### `: layout, style, !something`
 Used for example, for **layout, style, or presentation metadata**. Think CSS-like tags. Or talking to that agent to inherit the trait.
 
+### `--` or `:`
+A double-dash or column are boundaries, they starts a new **space** for the text.
+
 ### `: `
-### `Free Text Prompting`
-Used to talking to that agent to prompt it. It can be a text to render, an action to perform, a style to apply, or anything else. The agent is free to interpret the message as it sees fit.
+### `Free Markdown Prompting`
+Used to talking to that agent to prompt it. The agent is free to interpret the message as it sees fit. The content  can be a Markdown to render, an action to perform, a style to apply, or anything else. A table, mermade diagram or a code block can be used. 
 
 
 
-## Examples
+## Syntax Examples
 
 ### Typesetting, Spread, Page, Book
 
@@ -171,53 +211,6 @@ or include it in the original winding.
 
 #### Image Example - Complex Scene
 
-![Wind on the Grass](https://winding.md/samples/gpt-image-1-wind_on_the_grass.jpeg)
-
-```markdown
---
-wind_on_the_grass: image, landscape-orientation, png
-style: nwind
---
-Two laptops. Wind is lying on the grass, completely absorbed by the code on screen.right. Dappled sunlight through a high oak canopy flickers across his back and the keyboards. His tousled blond hair glows gold with soft iridescence, tiny freckles visible at his temples. A sleek smartphone rests nearby, its glass surface reflecting the green of the trees.
-
-@laptop.left: matte-silver
-A Kite logo to the left of the mouse pad.
-
-@laptop.right: smaller, !logo, charcoal-gray
-
-@screen.left:
-running a robotics simulation in Omniverse / Isaac Sim.  
-
-@simulation.subject: 
-a quadruped metallic dragon in a test harness. Influence: robotic dog, Japanese motorcycle. Wings unfolded, aerodynamic plating, slightly smaller than a hang glider.
-
-@dragon.eyes:
-glow bright green — functional HCI, alert despite mechanical constraint.
-
-@screen.right:
-VSCode in dark mode, split view with terminals at the bottom, logs streaming and editor pane showing dense motion-control code.
-
-@Wind:
-boy, around 8 years old, tousled blond hair, bright blue eyes.
-
-@Wind.pose:
-He is lying on his stomach, propped up on his elbows, fingertips poised over the keyboard, slight tension in his wrists. Looking at the laptop, away from the camera, his face is not visible. 
-
-@clothing:
-Teal short-sleeved shirt and charcoal-gray shorts.
-
-@phone:
-modern smartphone with a matte-black case, screen dark but glossy, edges catching sunlight.
-
-@trees:
-tall oak canopy overhead, leaves filtering light into soft, shifting patterns.
-
-@grass:
-lush carpet of individual blades, dew lightly beading near the laptops.
-
-@Wind.focus:
-complete, absorbed by the code on screen.right, everything else is background blur.
-```
 
 
 ## Formal Grammar
@@ -329,7 +322,38 @@ You're speaking to something, not defining it. But you are using true names.
 
 
 ### Smalltalk
+TODO: turn this into comic strip
+
 It's kind of like if USD, CSS, Smalltalk, Markdown and Python got together on a windy day, and reminiscing GML had taught a trick or two to a new AI kid on the block. 
 
 And then, it is kind of like if Feynman, as if he was there all along, explained state spaces, interactions, retroactivity and stable points to the AI kid really clearly. That when illuminating, messages are like light going over all paths and bouncing off the spatial boundaries, and attenuating. And then they went to fly their dragons, and when they were back, the kid was like, "I get it now! It's like when I fly a dragon, I need to think of all the paths other dragons can take, and how they interact with the wind and the terrain, the clouds and the sun. And dance with them. It's like a dance of information!" And Feynman smiled, knowing that the kid had totally grasped it.
 
+
+### This
+
+```markdown
+--
+this : this
+--
+
+The Zen of Winding
+===
+
+Winding is the source of truth.  
+Story, structure, image, and layout  
+all emerge from it—and return to it.
+
+Agents speak for themselves.  
+You are always in a space.
+
+True names have power.  
+Everything is a message.  
+Even a page is listening.
+
+Clarity matters more than ceremony.  
+Flat doesn’t mean shallow.  
+Let things breathe.  
+Negative space is part of the story.
+```
+
+![The Zen of Winding](assets/chagpt-gpt4o-apr-16-2025.zen.jpg)
