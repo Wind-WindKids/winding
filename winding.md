@@ -1,7 +1,14 @@
-# Winding Markdown (Draft v0.8)
+# Winding Markdown (Draft v0.9)
 [plain text version](https://winding.md/winding.md)
 
 > A lightweight CommonMark extension for describing layouts, scenes, and images via concise prompts.
+
+## Table of Contents
+- [Introduction](#introduction)  
+- [Syntax](#syntax)  
+- [Examples](#examples)  
+- [Formal Grammar](#formal-grammar)
+- [Philosophy](#philosophy)  
 
 ## Introduction
 
@@ -16,7 +23,7 @@ gpt-image-1-winding_markdown: slide, square, jpeg
 Winding Markdown  
 _A markdown for illuminating documents_
 
-@center: image, orientation-landscape
+@center: image, landscape-orientation
 Agents, messages, and layout blocks orbiting a markdown core.
 
 @footer.right:
@@ -52,28 +59,7 @@ will result in a rendered image, like the following:
 Winding Markdown effectively decomposes the scene description, into a set of messages to the objects in the scene. These messages are the *prompts* to the *agents* that determine the layout, style and visualization for these objects.
 
 
-
-## Table of Contents
-- [Introduction](#introduction)  
-- [Terminology](#terminology)  
-- [Syntax and Grammar](#syntax)  
-- [Examples](#examples)  
-- [Images](#images)  
-- [Philosophy](#philosophy)  
-- [Spatial Model: Agents & Spaces](#spatial-model-agents--spaces)  
-- [Compatibility](#compatibility)  
-
-## Terminology
-- **Agent**: An object you can prompt or send messages to (e.g. `@page`).  
-- **Message**: A prompt, message or attribute delivered to an agent.  
-- **Space**: The current context or container (e.g. a page, spread, or image block).  
-- **Winding**: The process of composing a document in Winding Markdown.
-- **Illuminating**: The process of rendering and searching for the best render of a winding.
-
-
-## Winding Markdown Syntax and Grammar
-
-[Formal EBNF Grammar](https://winding.md/grammar)
+## Syntax
 
 ### `--`
 
@@ -87,7 +73,7 @@ A sign `@` is a decorator, it is not part of the name of the agent, it is used t
 Multiple identifiers can be used in a single line, preceded by `@`, and separated by spaces or commas.
 
 ### `identifiers`
-Are used for targeted prompting, this includes free text, where they act like **true names**. 
+Are used for targeted prompting, this includes free text.
 
 ### `identifier.other_identifier`
 Dot notation for precision, used for **targeting** addressing of sub-agents.
@@ -97,17 +83,18 @@ Used to **invert** the **message** of the identifier.
 
 In a winding everything is a message, and every message is an agent. The interpretations of the messages are up to the agent...
 
-#### `: layout, style, !something`
+### `: layout, style, !something`
 Used for example, for **layout, style, or presentation metadata**. Think CSS-like tags. Or talking to that agent to inherit the trait.
 
-#### `: `
-#### `Free Text Prompting`
+### `: `
+### `Free Text Prompting`
 Used to talking to that agent to prompt it. It can be a text to render, an action to perform, a style to apply, or anything else. The agent is free to interpret the message as it sees fit.
 
 
-### Examples
 
-#### Typesetting, Spread, Page, Book
+## Examples
+
+### Typesetting, Spread, Page, Book
 
 An example to illustrate Winding Markdown syntax.  
 
@@ -119,19 +106,16 @@ A spread is a double page, it is usually landscape oriented and this text is a m
 A page is a single page, it is usually portrait oriented and this text is a message to the `page` agent, that by default will print the text.
 ```
 
-#### Metadata
-```
+### Metadata
+```markdown
 ---
-about_metadata: book, portrait
+about_metadata: book, portrait-orientation
 title: Metadata in Winding Markdown
 ---
 This block is usually present in the beginning of the Winding Markdown file. In this particular case, it is a message to the `about_metadata` agent, that it is a book, and it is portrait oriented. The title is a message to the `title` agent (or more precisely, the `title` agent in the `about_metadata` space, which resolves to `about_metadata.title`), that it is a book about metadata in Winding Markdown.
 ```
 
-@spread: landscape
-Effectively sets the orientation of the current spread to landscape.
-
-#### Object Annotation
+### Object Annotation
 ```markdown
 @laptop:
 Modern laptop, lightly used
@@ -153,10 +137,10 @@ Annotation is:
 - Repeated tags are allowed. Order implies visual/topical grouping.
 
 
-#### `: message`
+### `: message`
 Used for example, for **layout, style, or presentation metadata**. Think CSS-like tags. Or talking to that agent to inherit the trait.
 
-```
+```markdown
 @right: page, cutout, square, medium
 ```
 
@@ -177,8 +161,7 @@ wind_on_the_grass: image, file, square, png
 A one-paragraph summary of the scene. Defaults to camera-level / observer view.
 ```
 
-Note: it is allowed to use `wind_on_the_grass.png`, which would then implicitely define
-`wind_on_the_grass`, by sending a message to its .png agent, but this in not the recommended syntax. The default for the images is currently `png`, to override it, you can send a massage to the `image`, substracting the current default and mixing in the new one:
+Note: it is allowed to use `wind_on_the_grass.png`, which would then implicitly instantiate `wind_on_the_grass`, by sending a message to its .png agent, but this is not the recommended syntax. The default for the images is currently `png`, to override it, you can send a message to the `image`, subtracting the current default and mixing in the new one:
 
 ```markdown
 @image: !png, jpeg
@@ -186,14 +169,9 @@ Note: it is allowed to use `wind_on_the_grass.png`, which would then implicitely
 
 or include it in the original winding.
 
+#### Image Example - Complex Scene
 
-### Up-to-date Spec
-You can find the up-to-date spec at [winding.md](https://winding.md).
-
-
-### Image Example
-
-[Wind on the Grass](https://winding.md/samples/gpt-image-1-wind_on_the_grass.jpeg)
+![Wind on the Grass](https://winding.md/samples/gpt-image-1-wind_on_the_grass.jpeg)
 
 ```markdown
 --
@@ -241,7 +219,38 @@ lush carpet of individual blades, dew lightly beading near the laptops.
 complete, absorbed by the code on screen.right, everything else is background blur.
 ```
 
-# Philosophy
+
+## Formal Grammar
+Formal EBNF Grammar (Lark)
+
+```ebnf
+start: (winding | markdown)+
+
+winding: meta_winding | space_winding | inline_winding
+meta_winding: "---\n" IDENTIFIER ":" attributes header_winding* "\n---\n" content? 
+space_winding: "--\n" IDENTIFIER ":" attributes header_winding* "\n--\n" content?
+header_winding: "\n" IDENTIFIER ":" attributes
+inline_winding: "@" IDENTIFIER ":" attributes "\n" markdown
+
+content: (inline_winding | markdown)+
+
+markdown: (image | TEXT)+
+
+attributes: (IDENTIFIER ("," IDENTIFIER)*)?
+
+image: "![" CAPTION? "]" "(" URI? ")"
+
+IDENTIFIER: /!?[A-Za-z0-9][ A-Za-z0-9_.-]*/
+URI: /[^\)\n]+/
+TEXT: /(?:(?!@\w+:|--|!\[).)*\n+/ 
+CAPTION: /[^\]]+/
+    
+%ignore /[ \t]+/
+%ignore "\r"  
+```
+
+
+## Philosophy
 - No brackets, easy to write by hand, even on a mobile device.
 - No indentation rules, no nesting.
 - Everything is a message and an agent in a space.
@@ -249,14 +258,12 @@ complete, absorbed by the code on screen.right, everything else is background bl
 
 Winding Markdown was designed specifically to describe **sequences of scenes**, **agents**, **messages** and **interactions**. We call it interchangebly **Winding Markdown** and `winding.md`. It makes it easier to **illuminate**, to search for a scene that would fit the story, to deal with retroactivity when writing a story, and to create **stable points** and consistent sequences of scenes. 
 
-And we call the process of writing in it **winding** and a resulting document a **winding**. It combines storytelling and typesetting. It allows both to write a story, page by page, and leave precise layout messages for the scenes, text, image, and transparent regions. It strikes a balance between plain-text readability and structured design. It's kind of like if USD, CSS, Smalltalk, Markdown and Python got together on a windy day, and reminiscing GML had taught a trick or two to a new AI kid on the block. 
+We call the process of writing in it **winding** and a resulting document a **winding**. It combines storytelling and typesetting. It allows both to write a story, page by page, and leave precise layout messages for the scenes, text, image, and transparent regions. It strikes a balance between plain-text readability and structured design. 
 
 We call a process of searching for a stable point in a winding **illuminating**. It combines typesetting, illustration, and storytelling.
 
-And that, is kind of like if Feynman, as if he was there all along, explained **state spaces**, **interactions**, **retroactivity** and **stable points** to the kid really clearly, that when illuminating, messages are like light going over all paths and bouncing off the spatial boundaries, and attenuating. And then they went to fly their dragons, and when they were back, the kid was like, "I get it now! It's like when I fly a dragon, I need to think of all the paths other dragons can take, and how they interact with the wind and the terrain, the clouds and the sun. And dance with them. It's like a dance of information!" And Feynman smiled, knowing that the kid had totally grasped it.
 
-
-## Spatial Model: Agents and Spaces
+### Spatial Model: Agents and Spaces
 
 Note a **shift** from namespace thinking to **message passing**, and it changes how we mentally model `.winding.md`.
 
@@ -286,21 +293,21 @@ All `@agent` lines are **sending messages** to an **agent** or *prompting* it.
 
 #### Single role/trait:
 
-```
+```markdown
 @right: page
 ```
 
 → tells `right` to adopt the trait `page`, to become a `page`.
 
 #### Multiple roles:
-```
+```markdown
 @right: page, text, centered
 ```
 
 → sends 3 messages: “you are a `page`, you are `text`, and you are `centered`”
 
 #### Property setting:
-```
+```markdown
 @dragon.eyes: green
 Alive and functional - HCI.
 ```
@@ -309,7 +316,7 @@ Alive and functional - HCI.
 
 
 ### Image Block Revisited, as an Agent
-```
+```markdown
 @image: wind-on-the-grass.png, cutout, square
 I'm just testing, sorry.
 This is not defining a new image. It’s sending a message to image, saying:
@@ -320,6 +327,9 @@ Everything that follows in the current space is assumed to talk to that now-tran
 You're speaking to something, not defining it. But you are using true names.
 ```
 
----
-### Parser/Tooling Compatibility
-No indentation rules. No nesting.
+
+### Smalltalk
+It's kind of like if USD, CSS, Smalltalk, Markdown and Python got together on a windy day, and reminiscing GML had taught a trick or two to a new AI kid on the block. 
+
+And then, it is kind of like if Feynman, as if he was there all along, explained state spaces, interactions, retroactivity and stable points to the AI kid really clearly. That when illuminating, messages are like light going over all paths and bouncing off the spatial boundaries, and attenuating. And then they went to fly their dragons, and when they were back, the kid was like, "I get it now! It's like when I fly a dragon, I need to think of all the paths other dragons can take, and how they interact with the wind and the terrain, the clouds and the sun. And dance with them. It's like a dance of information!" And Feynman smiled, knowing that the kid had totally grasped it.
+
