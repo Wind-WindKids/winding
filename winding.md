@@ -1,4 +1,4 @@
-# Winding Markdown (Draft v0.9)
+# Winding Markdown (Draft v0.10)
 [plain text version](https://winding.md/winding.md)
 
 > A lightweight CommonMark extension for describing layouts, scenes, and images via concise prompts.
@@ -322,11 +322,215 @@ You're speaking to something, not defining it. But you are using true names.
 
 
 ### Smalltalk
+
 TODO: turn this into comic strip
 
 It's kind of like if USD, CSS, Smalltalk, Markdown and Python got together on a windy day, and reminiscing GML had taught a trick or two to a new AI kid on the block. 
 
 And then, it is kind of like if Feynman, as if he was there all along, explained state spaces, interactions, retroactivity and stable points to the AI kid really clearly. That when illuminating, messages are like light going over all paths and bouncing off the spatial boundaries, and attenuating. And then they went to fly their dragons, and when they were back, the kid was like, "I get it now! It's like when I fly a dragon, I need to think of all the paths other dragons can take, and how they interact with the wind and the terrain, the clouds and the sun. And dance with them. It's like a dance of information!" And Feynman smiled, knowing that the kid had totally grasped it.
+
+```markdown
+--- 
+smalltalk: comic, portrait-orientation
+---
+A comic strip to illuminate retroactive interactions when an author winds a story and changes something in the middle of a text.
+
+@style: nwind, illuminating, hand-drawn, sketchy
+
+--
+characters: recognizable, gentle, personified
+--
+Based on most recognizable photos from Wikipedia main pages. Characters wear their usual clothes.
+
+@Markdown: character, image, anchor  
+Based on ![Aaron Swartz Photo](images/anchors/photos/aaron_swartz.jpg)
+
+@CSS: character, image, anchor  
+Based on ![Håkon Wium Lie Photo](images/anchors/photos/hakon_wium_lie.jpg)
+
+@USD: character, image, anchor  
+Based on ![Steve Jobs Photo](images/anchors/photos/steve_jobs.jpg)
+
+@USD.explanation: !visible  
+The Universal Scene Description (USD) was first used internally by Pixar in the film Brave (2012) as part of their Presto system; that movie was “dedicated with love and gratitude to Steve Jobs.”
+
+@Python: character, image, anchor  
+Based on ![Guido van Rossum Photo](images/anchors/photos/guido_van_rossum.jpg)
+
+@Smalltalk: character, image, anchor  
+Based on ![Alan Kay Photo](images/anchors/photos/alan_kay.jpg)
+
+@Wind: character, image, anchor  
+Based on ![Wind Photo](images/anchors/photos/wind_kid.jpg)
+
+--
+opening: panel, wide, large
+--
+Markdown, CSS, USD, Smalltalk, Python and Wind sit together on a grassy hillside, chatting. GML stands nearby, looking at the ridge.
+
+@background: early-morning mist, soft sunlight on grass, a few dragons flying, distant paraglider silhouettes, low to the ground.
+
+--
+usd_talking: panel, square
+--
+USD leans forward, eyes tracing a blue dragon skimming gravel below.
+
+@bubble: text, small, italic  
+"Look at that blue dragon—she's catching lift right off the gravel streaks."
+
+@detail:  
+Dragon is quite low, barely clearing the hillside tree line. The gravel patch is a mix of light and dark, with some patches glistening in the sunlight.
+
+--
+python_reply: panel, wide
+--
+Python nods thoughtfully, adjusting his scripting gloves.
+
+@bubble:
+"Yeah, I see it. She's timing her turns perfectly. I'm not sure I could do that. I'd probably end up in a tree."
+
+--
+smalltalk_laughs: panel, square
+--
+Smalltalk laughs, coffee cup in hand, turning to GML.
+
+@bubble: 
+"Remember that time?"
+
+@cup: brown, green, paper
+A coffee cup with a kite logo and a travel lid.
+
+--
+smalltalk_anecdote: panel, wide
+--
+@bubble:
+"One misplaced bracket and the whole code tree spiraled. I thought I was going to end up in that tree too!"
+
+@background:
+A misty cloud over the ridge looks suspiciously like a bracket.
+
+
+--
+markdown_reflection: panel, tall
+--
+Markdown gazes toward the ridge, at the whispy clouds suddenly appearing and looking suspiciously like brackets.
+
+@markdown.thoughts: cloud, text, small, handwritten  
+"Brackets always sneak back in. And in the retrospective, they are nearly always a mistake."
+
+--
+smalltalk_points: panel, tall
+--
+Smalltalk points out the ridge, under the misty clouds that look a bit less like brackets now. The early morning thermal starting to lift gently from the hillside, implying conditions may improve soon.
+
+@bubble:
+"Look at those streaks of wind on the grass, on the hillside."
+
+--
+wind_impatient: panel, square
+--
+Wind, clearly anxious to launch, listens impatiently as the adults discuss conditions calmly.
+
+@bubble:
+"Yeah, should we launch now? I think I could have caught that one."
+
+@GML.bubble:
+"Be patient, Wind. It is still too light. See this green dragon?"
+
+--
+green_dragon: panel, wide, large
+--
+A striking, iridescent green dragon swoops dramatically toward the hilltop, startling the group.
+
+@dragon:
+A metallic green dragon, iridescent, with a hint of blue and gold in the sunlight. It's a bit smaller than a hang glider, with a sleek, aerodynamic design. It looks a bit too precise, to be biological, but it is not a drone either. It is a dragon, and it is alive.
+
+--
+green_dragon_arrival: panel, square
+--
+The dragon lands somewhat abruptly, scattering dust and causing slight disarray among gear and group members.
+
+--
+green_dragon_folding_wings: panel, square
+--
+An emerald-green dragon begins folding its wings.
+
+--
+dragon_transformation_starts: panel, square
+--
+An emerald-green dragon begins folding its wings, wingtips contract as the wings pixelate, fragmenting into quads and pixels.
+
+@transformation: detail, !visible, !text
+Human/dragon transforms without menace, casual. Like in Airbender or Luca, but with pixelation. Obviously some advanced nanotech at work there, handling a quick redistribution of matter from an object the size of the hang glider to a human size. But the magic of it is efficient, not flashy and it fades into the background, like good technology should.
+
+--
+dragon_transformation_head: panel, square
+--
+Pixelation and quades cascade from the dragon’s head; a faint human silhouette (Feynman) emerges.
+
+--
+dragon_transformation_body: panel, square
+--
+The body pixelates, flesh and fabric take shape mid-transition. A quad mesh forms the outline of a face.
+
+@transformation: detail, !visible, !text  
+Nanotech weaves pixelated iridescent dragon body into skin and clothes seamlessly.
+
+--
+dragon_transformation_face: panel, square
+--
+Feynman’s face emerges from the pixelated quad mesh, slightly angled and amused.
+
+--
+feynman_arrival: panel, wide, large
+--
+Richard Feynman stands where the dragon once was, dusting pixels off himself casually. The group waves, warmly, but nonchalantly.
+
+
+--
+weather_talk: panel, wide
+--
+Feynman brushes pixel-dust off his jacket, smiling at the group.
+
+@bubble:  
+“Very light lift, a lot of flapping. I've barely made it to top-land.”
+
+--
+wind_frustration: panel, square
+--
+Wind, looking a bit frustrated, glances at the GML.
+@bubble:
+"More waiting?"
+
+--
+feynman_instruction: panel, wide
+--
+@bubble:
+"Wind, pretend you are airborne, scratching the rocks, just above that blue dragon.”
+
+--
+wind_looks: panel, square
+--
+Wind looks at the blue dragon, who is now a lot lower.
+
+--
+feynman_looks: panel, square
+--
+Feynman looks at the blue dragon, as well.
+@bubble:
+"And retrace how you got there."
+```
+
+
+OUTLINE:
+They launch then, each turning into a dragon as they run and launch from the hill, and soar, forming a small gaggle in flight.
+
+A couple of panels there, where they just fly.
+
+They land down the hill, at the landing zone, a panel of the group together, some in dragon form, some turning human.
+
+A panel where the Wind, saying to Feynman, something like:  "You know, I think I get it, what you've been explaining. Information dance when winding and illuminating a story is a little bit like our dragon dance, when we fly together."
+
 
 
 ### This
