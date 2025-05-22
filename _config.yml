@@ -2,4 +2,8 @@ title: "Winding"
 remote_theme: pmarsceill/just-the-docs
 plugins:
   - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-sitemap
 url: "https://winding.md"
+include:
+  - winding.md
