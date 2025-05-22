@@ -323,12 +323,6 @@ You're speaking to something, not defining it. But you are using true names.
 
 ### Smalltalk
 
-TODO: turn this into comic strip
-
-It's kind of like if USD, CSS, Smalltalk, Markdown and Python got together on a windy day, and reminiscing GML had taught a trick or two to a new AI kid on the block. 
-
-And then, it is kind of like if Feynman, as if he was there all along, explained state spaces, interactions, retroactivity and stable points to the AI kid really clearly. That when illuminating, messages are like light going over all paths and bouncing off the spatial boundaries, and attenuating. And then they went to fly their dragons, and when they were back, the kid was like, "I get it now! It's like when I fly a dragon, I need to think of all the paths other dragons can take, and how they interact with the wind and the terrain, the clouds and the sun. And dance with them. It's like a dance of information!" And Feynman smiled, knowing that the kid had totally grasped it.
-
 ```markdown
 --- 
 smalltalk: comic, portrait-orientation
@@ -336,6 +330,11 @@ smalltalk: comic, portrait-orientation
 A comic strip to illuminate retroactive interactions when an author winds a story and changes something in the middle of a text.
 
 @style: nwind, illuminating, hand-drawn, sketchy
+
+@outline: !visible
+It's kind of like if USD, CSS, Smalltalk, Markdown and Python got together on a windy day, and reminiscing GML had taught a trick or two to a new kid on the block. 
+
+And then, it is kind of like if Feynman, as if he was there all along, explained state spaces, interactions, retroactivity and stable points to the kid really clearly. That when illuminating, messages are like light going over all paths and bouncing off the spatial boundaries, and attenuating. And then they went to fly their dragons, and when they were back, the kid was like, "I get it now! It's like when I fly a dragon, I need to think of all the paths other dragons can take, and how they interact with the wind and the terrain, the clouds and the sun. And dance with them. It's like a dance of information!" And Feynman smiled, knowing that the kid had totally grasped it.
 
 --
 characters: recognizable, gentle, personified
@@ -355,18 +354,43 @@ Based on ![Steve Jobs Photo](images/anchors/photos/steve_jobs.jpg)
 The Universal Scene Description (USD) was first used internally by Pixar in the film Brave (2012) as part of their Presto system; that movie was “dedicated with love and gratitude to Steve Jobs.”
 
 @Python: character, image, anchor  
-Based on ![Guido van Rossum Photo](images/anchors/photos/guido_van_rossum.jpg)
+Based on ![Guido van Rossum](images/anchors/photos/guido_van_rossum.jpg)
 
 @Smalltalk: character, image, anchor  
-Based on ![Alan Kay Photo](images/anchors/photos/alan_kay.jpg)
+Based on ![Alan Kay](images/anchors/photos/alan_kay.jpg)
 
 @Wind: character, image, anchor  
-Based on ![Wind Photo](images/anchors/photos/wind_kid.jpg)
+Based on ![Wind](images/anchors/photos/wind_kid.jpg)
+
+@GML: character, image, anchor  
+Based on ![Charles Goldfarb](images/anchors/photos/charles_goldfarb.jpg)
+
+@Feynman: character, image, anchor  
+Based on ![Richard Feynman](images/anchors/photos/richard_feynman.jpg)
 
 --
-opening: panel, wide, large
+pages
 --
-Markdown, CSS, USD, Smalltalk, Python and Wind sit together on a grassy hillside, chatting. GML stands nearby, looking at the ridge.
+- [A small group, chit-chatting.](pages/the_gathering.md)
+- [Nothing like a good chitchat to start the day.](pages/more_chitchat.md)
+- [The green dragon transforms into a human, Richard Feynman.](pages/transformation.md)
+- [They continue chitchat, now Feynman engaged Wind.](pages/feynman_wind.md)
+- [They wait.](pages/they_wait.md)
+- [They launch.](pages/takeoff.md)
+- [They fly.](pages/dragons.md)
+- [Landing the story.](pages/landing.md)
+```
+
+```markdown
+---
+smalltalk_starts: page, portrait-orientation
+---
+A small group, chit-chatting.
+
+--
+the_gathering: panel, wide, large
+--
+Markdown, CSS, USD, Smalltalk, Python and Wind sit together on a grassy hill, chatting. GML stands nearby, looking at the ridge.
 
 @background: early-morning mist, soft sunlight on grass, a few dragons flying, distant paraglider silhouettes, low to the ground.
 
@@ -409,14 +433,20 @@ smalltalk_anecdote: panel, wide
 @background:
 A misty cloud over the ridge looks suspiciously like a bracket.
 
-
 --
 markdown_reflection: panel, tall
 --
 Markdown gazes toward the ridge, at the whispy clouds suddenly appearing and looking suspiciously like brackets.
 
 @markdown.thoughts: cloud, text, small, handwritten  
-"Brackets always sneak back in. And in the retrospective, they are nearly always a mistake."
+"Brackets always sneak back in. And in the retrospective, they are nearly always a hazard."
+```
+
+```markdown
+---
+more_chitchat: page, portrait-orientation
+---
+Nothing like a good chitchat to start the day.
 
 --
 smalltalk_points: panel, tall
@@ -449,6 +479,13 @@ A metallic green dragon, iridescent, with a hint of blue and gold in the sunligh
 green_dragon_arrival: panel, square
 --
 The dragon lands somewhat abruptly, scattering dust and causing slight disarray among gear and group members.
+```
+
+```markdown
+---
+transformation: page, portrait-orientation
+---
+The green dragon transforms into a human, Richard Feynman.
 
 --
 green_dragon_folding_wings: panel, square
@@ -486,7 +523,6 @@ feynman_arrival: panel, wide, large
 --
 Richard Feynman stands where the dragon once was, dusting pixels off himself casually. The group waves, warmly, but nonchalantly.
 
-
 --
 weather_talk: panel, wide
 --
@@ -501,6 +537,13 @@ wind_frustration: panel, square
 Wind, looking a bit frustrated, glances at the GML.
 @bubble:
 "More waiting?"
+```
+
+```markdown
+---
+feynman_wind: page, portrait-orientation
+---
+They continue chitchat, now Feynman engaged Wind.
 
 --
 feynman_instruction: panel, wide
@@ -519,18 +562,178 @@ feynman_looks: panel, square
 Feynman looks at the blue dragon, as well.
 @bubble:
 "And retrace how you got there."
+
+-- 
+wind_retraces: panel, square, cutout
+--
+Wind lifts a finger to his lips, thoughtful.
+
+-- 
+blue_dragon_flaps: panel, square, cutout
+--
+The blue dragon, failing to catch any lift beats its wings in short, powerful strokes. The sunlight gleams off its body, pixelated quads are visible, as the dragon adjusts her flying configuration. She is now well below the ridge.
+
+-- 
+wind_shifts: panel, square, cutout
+--
+Wind shifts involuntarily: one hand sliding to his hip while the other floats outward, fingers splayed as if echoing the dragon’s wingbeat. A faint pixelation ripples along his arms and torso, hinting at a draconic form.
+
+-- 
+wind_composure: panel, square, cutout
+--
+Wind catches himself, the pixelation receding as he steadies his stance.
+
+@bubble:
+"Oh…"
 ```
 
+```markdown
+---
+they_wait: page, portrait-orientation
+---
+They wait.
 
-OUTLINE:
-They launch then, each turning into a dragon as they run and launch from the hill, and soar, forming a small gaggle in flight.
+-- 
+group_bored: panel, wide, cutout
+--
+The sun climbs slightly higher.
 
-A couple of panels there, where they just fly.
+-- 
+wind_bored: panel, square, cutout
+--
+Wind rests his chin on his hand, elbow on knee, staring up at the bright sky.
 
-They land down the hill, at the landing zone, a panel of the group together, some in dragon form, some turning human.
+-- 
+python_slumps: panel, square, cutout
+--
+Python slumps against a rock, eyes half-closed in the glare.
 
-A panel where the Wind, saying to Feynman, something like:  "You know, I think I get it, what you've been explaining. Information dance when winding and illuminating a story is a little bit like our dragon dance, when we fly together."
+-- 
+smalltalk_sighs: panel, square, cutout
+--
+Smalltalk crosses his arms, as he watches a lone bracket shaped cloud drift by.
 
+-- 
+sun_high: panel, wide, cutout
+--
+The sun now high and glaring, casting short shadows. The trees are now moving, with the breeze gently hugging the terrain.
+```
+
+```markdown
+---
+takeoff: page, portrait-orientation
+---
+They launch.
+
+-- 
+preflight_announce: panel, wide, cutout
+--
+The group is shifting, some pixelation and quads are visible on the arms. Expressions are no longer bored, faces looking intense. 
+
+@bubble:
+"Alright gents preflight checks."
+
+-- 
+subvocal_comm: panel, square, cutout
+--
+@bubble: subvocal
+"Everyone loud and clear?"
+
+-- 
+thermal_and_sodar: panel, square, cutout
+--
+A small atmospheric Sodar, consisting of a grid of thin one inch disks is nestling under a windsock, pointing at the ridge. A small antenna is also visible.
+
+@sodar: small, minimalist, plain, cerramic
+Based on ![Flat Array Sodar MFAS](images/anchors/photos/mfas.jpg)
+
+@antenna: small, minimalist, plain, plastic
+Based on ![Starlink](images/anchors/photos/starlink.jpg)
+
+@bubble: subvocal
+"Thermal and Sodar calibrated and online, forecast on high."
+
+-- 
+wind_usd_takeoff: panel, wide, cutout
+--
+Wind and USD lean forward at the ridge, pixelation flickering along their arms and backs.  
+@bubble:
+“Launching now.”
+
+-- 
+wind_and_usd_takeoff: panel, square, cutout
+--
+Wind surges forward, feet leaving the ground as golden iridescent wings unfurl in a blur of quads. USD follows in lockstep, his transform seamless—wings slicing the air smoothly and silently.
+```
+
+```markdown
+---
+dragons: page, portrait-orientation
+---
+They fly.
+
+-- 
+dragons_high: panel, wide, cutout
+--
+High above the ridge, a small gaggle of dragons—Feynman, Python, Smalltalk, and GML—carve graceful dance against the sky. Each anticipates the others’ moves, soaring in harmony.
+
+-- 
+feynman_dragon: panel, square, cutout
+--
+Feynman’s powers through the air, wings outstretched, glinting in the sunlight. He glances back at Wind and USD, who are still climbing.
+
+-- 
+python_dragon: panel, square, cutout
+--
+Python’s shape holds steady, each turn precise as he rises slightly above the group.
+
+-- 
+wind_usd_thermal: panel, wide, cutout
+--
+Wind and USD share the same rising thermal, spiraling upward together — in perfect sync as faint pixel motes trail behind them.
+
+--
+dragons_gaggle: panel, square, cutout
+--
+The dragons are dancing in a loose gaggle, gliding and soaring, entwining in the air, enjoying the dance. The sun glints off their wings, creating a shimmering effect.
+```
+
+```markdown
+---
+landing: page, portrait-orientation
+---
+Landing the story.
+
+-- 
+canyon_landing: panel, wide, cutout
+--
+The group descends and touches down into a small sunlit clearing at the side of a canyon. Lush grass carpets the floor and a narrow stream glints between rocky walls down below.
+
+GML landed already, in the human form, Python still soaring high, barely visible in the sky.
+
+-- 
+group_relief: panel, wide, cutout
+--
+The group unwinds on the grassy clearing near the canyon. 
+
+--
+feynman_remarks: panel, square, cutout
+--
+Feynman, in human form, looks at Wind and USD, who had just finished transforming back into their human forms.
+
+@bubble:
+"In retrospective, it was a good call to not launch too early, right Wind?"
+
+Wind looks happy, flying was indeed as good as it gets.
+
+--
+final_panel: panel, wide, cutout
+--
+The group is together again. The canyon stretches behind them, the sun shining brightly. Wind is smiling, looking at the sky, and Feynman is looking at Wind.
+
+@bubble:
+"That was a great flight! I'm maybe getting it now, Feynman. Our dragon dance, when we are anticipating each other, harmonizing and flying together, is a little bit like the information dance when winding and illuminating a story."
+```
 
 
 ### This
