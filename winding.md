@@ -12,12 +12,7 @@
 
 ## Introduction
 
-Winding Markdown lets you define web sites, images, slides or scenes using structured, minimal prompts—no long prose required. If you’ve ever struggled with an out of control image prompt, this is for you. 
-
-## Key Benefits
-- **Readable**: Plain-text format, easy to write even on a mobile device.
-- **Efficient**: A month of work, like writing and typesetting a full illustrated story, can be [compressed into a few evenings](https://wind.kids).
-**Compatible**: Compatible with any CommonMark processor, works out of the box with ChatGPT.
+Winding Markdown lets you define web sites, images, slides or 3D scenes using structured, minimal prompts—no long prose required. If you’ve ever struggled with an out of control image prompt, this is for you. 
 
 ## Quick Start
 
@@ -25,7 +20,7 @@ To see it in action, here’s your first winding:
 
 ```markdown
 --
-my_first_winding: slide, square, jpeg
+my_first_winding: slide, square, jpg
 --
 Welcome to Winding Markdown  
 _A markdown for illuminating documents_
@@ -36,11 +31,16 @@ A swirl of wind, a flowing text, forming a shape of a dragon.
 @footer:
 Learn more at  https://winding.md
 ```
-![My First Winding](https://winding.md/assets/my_first_winding.jpeg)
+![My First Winding](assets/my_first_winding.jpg)
 
-To start with simple images and slides, you don't need specialized tooling, you can simply drop the markdown into [ChatGPT](https://chatgpt.com). Provide a prompt like this: `Please illuminate this markdown.`
+Initially, with simple images and slides, you don't need specialized tooling. Provide a prompt like this: `Please illuminate this markdown.` and the markdown into [ChatGPT](https://chatgpt.com) or another capapble generative AI.
 
-With winding markdown, context and existing generations are used, this allows for a more concise descriptions. For example: 
+## Key Benefits
+- **Readable**: Plain-text format, easy to write even on a mobile device.
+- **Efficient**: A month of work, like writing and typesetting a full illustrated story, can be [compressed into a few evenings](https://wind.kids).
+**Compatible**: Compatible with any CommonMark processor, works out of the box with ChatGPT.
+
+With winding markdown, context and existing generations are utilized, this allows for a more *concise* descriptions, for example, a single line can be used to make a logo that would match your first winding: 
 
 ```markdown
 --
@@ -49,10 +49,11 @@ winding_logo: logo, square, png, abstract
 A swirl of wind, a flowing text, a galaxy, forming a shape of a dragon.
 ```
 
-![Winding Logo](https://winding.md/assets/winding_logo_abstract.png)
+![Winding Logo](assets/logos/winding_logo_abstract.png)
 
+## Describing a Scene
 
-Or a scene, described in a USD-like way, with a hierarchical structure:
+Scenes can be described, with a level of detail that can rich a USD-like description, but without nesting and readable on a mobile device.
 
 ```markdown
 --
@@ -70,14 +71,13 @@ The dragon, alive, and has green eyes.
 VSCode
 ```
 
-![Laptops](https://winding.md/samples/gpt-image-1-laptops.jpeg)
+![Laptops](samples/gpt-image-1-laptops.jpeg)
 
-Winding Markdown effectively decomposes the scene description, into a set of messages to the objects in the scene. These messages are the *prompts* to the *agents* that determine the layout, style and visualization for these objects.
+Winding Markdown effectively decomposes the scene description, into a set of prompts or *messages* to the *agents* that are responsible for the layout, style and visualization of the objects in the scene.
 
+Here's a more realistic example, with a more specific description:
 
-A more realistic example, with a complex scene:
-
-![Wind on the Grass](https://winding.md/samples/gpt-image-1-wind_on_the_grass.jpeg)
+![Wind on the Grass](samples/gpt-image-1-wind_on_the_grass.jpeg)
 
 ```markdown
 --
@@ -121,6 +121,26 @@ tall oak canopy overhead, leaves filtering light into soft, shifting patterns.
 @grass:
 lush carpet of individual blades, dew lightly beading near the laptops.
 ```
+
+## Describing a Web Page
+
+The same syntax can be used to describe a web page, a page of book, or a slide. The only difference is the message to the responsible agent:
+
+```markdown
+--
+my_first_winding_web_page: jekyll, liquid, file, md
+--
+Welcome to Winding Markdown  
+_A markdown for illuminating documents_
+
+@center: image, square, png, cutout
+![A swirl of wind, a flowing text, a galaxy, forming a shape of a dragon.](assets/logos/winding_logo.png)
+
+@footer:
+Learn more at  https://winding.md
+```
+
+![My First Winding Web Page](my_first_winding_web_page/)
 
 
 ## Syntax
