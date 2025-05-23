@@ -1,4 +1,4 @@
-# Winding Markdown (Draft v0.10)
+# Winding Markdown (Draft v0.11)
 [plain text version](https://winding.md/winding.md)
 
 > A lightweight CommonMark extension for describing layouts, scenes, and images via concise prompts.
@@ -12,25 +12,44 @@
 
 ## Introduction
 
-Winding Markdown lets you define slides, scenes , or (https://wind.kids)[complete picture books] using structured, minimal prompts—no long prose required. If you’ve ever struggled with an out of control scene description, this is for you.
+Winding Markdown lets you define web sites, images, slides or scenes using structured, minimal prompts—no long prose required. If you’ve ever struggled with an out of control image prompt, this is for you. 
 
-To see it in action, here’s a slide example:
+## Key Benefits
+- **Readable**: Plain-text format, easy to write even on a mobile device.
+- **Efficient**: A month of work, like writing and typesetting a full illustrated story, can be [compressed into a few evenings](https://wind.kids).
+**Compatible**: Compatible with any CommonMark processor, works out of the box with ChatGPT.
+
+## Quick Start
+
+To see it in action, here’s your first winding:
 
 ```markdown
 --
-gpt-image-1-winding_markdown: slide, square, jpeg
+my_first_winding: slide, square, jpeg
 --
-Winding Markdown  
+Welcome to Winding Markdown  
 _A markdown for illuminating documents_
 
-@center: image, landscape-orientation
-Agents, messages, and layout blocks orbiting a markdown core.
+@center: image, wide
+A swirl of wind, a flowing text, forming a shape of a dragon.
 
-@footer.right:
-[https://winding.md](https://winding.md)
+@footer:
+Learn more at  https://winding.md
+```
+![My First Winding](https://winding.md/assets/my_first_winding.jpeg)
+
+To start with simple images and slides, you don't need specialized tooling, you can simply drop the markdown into [ChatGPT](https://chatgpt.com). Provide a prompt like this: `Please illuminate this markdown.`
+
+With winding markdown, context and existing generations are used, this allows for a more concise descriptions. For example: 
+
+```markdown
+--
+winding_logo: logo, square, png, abstract
+--
+A swirl of wind, a flowing text, a galaxy, forming a shape of a dragon.
 ```
 
-![Winding Markdown](assets/gpt-image-1-winding_markdown.jpeg)
+![Winding Logo](https://winding.md/assets/winding_logo_abstract.png)
 
 
 Or a scene, described in a USD-like way, with a hierarchical structure:
