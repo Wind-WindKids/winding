@@ -12,7 +12,7 @@
 
 ## Introduction
 
-Winding Markdown lets you define websites, images, slides, or 3D scenes using structured, minimal prompts. If you've ever struggled with an out-of-control image prompt, this is for you.
+Winding Markdown lets you define websites, images, slides, agents, or 3D scenes using structured, minimal prompts. If you've ever struggled with an out-of-control image prompt, this is for you.
 
 ## Quick Start
 
@@ -139,6 +139,35 @@ Learn more at  https://winding.md
 ```
 
 ![My First Winding Web Page](my_first_winding_web_page/)
+
+## Describing another Winding
+You can describe another winding, by creating a winding, illuminating which will result in another winding. 
+
+```markdown
+--
+spelling_errors: winding, file, md
+--
+A winding that contains spelling errors, from the current context, including misspellings inside images.
+```
+
+or even more flexible agent that can modify itself, if needed:
+
+```markdown
+---
+spelling_supervisor: winding, file, md
+---
+A spelling supervisor is a winding that ensures that the spelling is correct in the current context.
+
+--
+spelling_errors: winding, file, md
+--
+A winding that contains spelling errors, from the current context, including misspellings inside images.
+
+--
+flagged_windings: winding, file, md
+--
+A winding that contains flagged winding names with spelling errors.
+```
 
 
 ## Core Concepts
