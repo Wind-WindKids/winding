@@ -33,12 +33,12 @@ Learn more at  https://winding.md
 ```
 ![My First Winding](assets/my_first_winding.jpg)
 
-Initially, with simple images and slides, you don't need specialized tooling. Provide a prompt like this: `Please illuminate this markdown.` and the markdown into [ChatGPT](https://chatgpt.com) or another capapble generative AI.
+Initially, with simple images and slides, you don't need specialized tooling. Provide a prompt like this: `Please illuminate this markdown.` into [ChatGPT](https://chatgpt.com) or another capable generative AI.
 
 ## Key Benefits
 - **Efficient**: Complex projects can be [completed in days instead of months](https://wind.kids)
 - **Compatible**: Works with any Markdown processor and generative AI tools
-- **Readable**: Plain-text format, easy and concise to write even on a mobile
+- **Readable**: Plain-text format, easy to write even on a mobile
 
 Winding Markdown is context-aware, allowing you to be *concise* in your descriptions. For example, you can create a logo that matches your first winding with just two lines:
 
