@@ -16,7 +16,7 @@ image: "![" CAPTION? "]" "(" URI? ")"
 
 IDENTIFIER: /!?[A-Za-z0-9][ A-Za-z0-9_.-]*/
 URI: /[^\)\n]+/
-TEXT: /(?:(?!@\w+:|--|!\[).)*\n+/ 
+TEXT: /(?:(?!@\w+[A-Za-z0-9_.-]*:|--|!\[).)*\n+/ 
 CAPTION: /[^\]]+/
     
 %ignore /[ \t]+/
