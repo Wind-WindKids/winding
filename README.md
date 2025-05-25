@@ -16,7 +16,18 @@ Make it shine.
 @style: pythonic, minimal
 ```
 
-If you run this Winding Markdown, it will produce a Python file that prints "Hello, World!" in a minimalistic style.
+If you run this Winding Markdown, it will produce a Python file that prints "Hello, World!" in a minimalistic style. Like this:
+
+```python
+#!/usr/bin/env python3
+
+def main():
+    # Print a shining Hello, World! with ANSI sparkle
+    print("\033[1;33m✨ Hello, World! ✨\033[0m")
+
+if __name__ == "__main__":
+    main()
+```
 
 You have just evaluated your first Winding expression! You sent a message to the 'hello_world' agent with arguments message ['file', 'py'], followed by a message containing a list of Windings:
 * The Markdown text "Make it shine."
