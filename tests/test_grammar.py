@@ -1,6 +1,8 @@
 import os
 import unittest
 from winding import grammar
+from pprint import pprint, pformat
+
 
 class TestGrammar(unittest.TestCase):
     
@@ -47,7 +49,7 @@ Up with a curl
         try:
             from winding.parser import Lark_StandAlone
             from winding.transformer import WindingTransformer
-            from winding.ast import Winding
+            from winding.ast import Winding, Markdown, Image
         except ImportError:
             self.skipTest("Required modules are not installed")
 
@@ -80,11 +82,70 @@ theme: colorful
 --
 Text
 
+@right.bottom: small, cursive, !black
+
 """
         tree = parser.parse(sample)
         ast = WindingTransformer().transform(tree)
         self.assertIsInstance(ast, Winding)
-        print(ast)
+        pprint(ast)
+
+        expected = Winding(receivers=['this'],
+        arguments=[],
+        windings=[Winding(receivers=['book'],
+                         arguments=['portrait-oriented'],
+                         windings=[Winding(receivers=['filename'],
+                                          arguments=['test.md'],
+                                          windings=[]),
+                                  Markdown(content='The book\n\n')]),
+                 Winding(receivers=['front-cover'],
+                         arguments=['portrait-oriented'],
+                         windings=[Markdown(content='Text\n\n'),
+                                  Winding(receivers=['top'],
+                                          arguments=['large',
+                                                      'landscape-oriented'],
+                                          windings=[Markdown(content=Image(caption='caption',
+                                                                          url='http://url')),
+                                                   Markdown(content='\n\n'),
+                                                   Markdown(content=Image(caption='Another '
+                                                                                  'caption',
+                                                                          url='another.png')),
+                                                   Markdown(content='\n\n'),
+                                                   Markdown(content=Image(caption='Yet '
+                                                                                  'another',
+                                                                          url='')),
+                                                   Markdown(content='\n\n'),
+                                                   Markdown(content=Image(caption='',
+                                                                          url='other.png')),
+                                                   Markdown(content='\n\n'),
+                                                   Markdown(content=Image(caption='',
+                                                                          url='')),
+                                                   Markdown(content='\n\n')])]),
+                 Winding(receivers=['spread'],
+                         arguments=['landscape-oriented'],
+                         windings=[Winding(receivers=['theme'],
+                                          arguments=['colorful'],
+                                          windings=[]),
+                                  Markdown(content='Text\n\n'),
+                                  Winding(receivers=['right.bottom'],
+                                          arguments=['small',
+                                                      'cursive',
+                                                      '!black'],
+                                          windings=[Markdown(content='\n')])])])
+        
+        # Compare the generated AST with the expected structure
+        if ast != expected:
+            # pretty print to a string and find first difference
+            for a,e in zip(pformat(ast, indent=2).splitlines(),
+                           pformat(expected, indent=2).splitlines()):
+                if a != e:
+                    print(f"Difference found:\n{a}\n{e}")
+                    break
+            
+
+        self.assertEqual(ast, expected)
+
+    
 
 if __name__ == '__main__':
     unittest.main()

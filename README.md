@@ -1,13 +1,60 @@
-# Winding Markdown Extension
+# Winding Python Module
+[Winding Markdown Specification](https://winding.md) ([plain text](https://winding.md/winding.md)) | [GitHub](https://github.com/Wind-WindKids/winding)
 
-Winding is a grammar, AST and parser for the Winding Markdown extension. This extension enhances Markdown, allowing to specify scenes, layout and agentic behaviours.
+A Python implementation of Winding Markdown—a lightweight extension to CommonMark for describing code, configurations, and structured content through message-passing to agents.
+
+## Introduction to Evaluating Winding Expressions
+
+Winding lets you write concise programs that can be "illuminated" into full implementations. Instead of verbose templates or complex configurations, you prompt (send messages) to agents:
+
+```markdown
+---
+hello_world: file, py
+---
+Make it shine.
+
+@style: pythonic, minimal
+```
+
+If you run this Winding Markdown, it will produce a Python file that prints "Hello, World!" in a minimalistic style. Like this:
+
+```python
+#!/usr/bin/env python3
+
+def main():
+    # Print a shining Hello, World! with ANSI sparkle
+    print("\033[1;33m✨ Hello, World! ✨\033[0m")
+
+if __name__ == "__main__":
+    main()
+```
+
+You have just evaluated your first Winding expression! You sent a message to the 'hello_world' agent with arguments message ['file', 'py'], followed by a message containing a list of Windings:
+* The Markdown text "Make it shine."
+* A Winding that sends a message to the 'style' agent (in the space of 'hello_world') with arguments ['pythonic', 'minimal']
+
+The hello_world agent, as a receiver, was newly invoked and decided what to do with these messages. It looked up its methods for handling `file` and `py` messages and responded appropriately.
+
+If you run this Winding Markdown, it will produce a Python file that prints "Hello, World!" in a minimalistic style. 
+
+> If you talk to Smalltalkers for a while, you will quickly notice that
+> they generally do not use expressions like “call an operation” or “invoke
+> a method”, but instead they will say “send a message”. This reflects the
+> idea that objects are responsible for their own actions. You never tell an
+> object what to do — instead, you politely ask it to do something by sending
+> it a message. The object, not you, selects the appropriate method for
+> responding to your message ... [Getting Started: Squeak by Example](https://squeak.org/documentation/)
+
+With Winding, it is the same: you send messages to agents, within a context of a space, and they decide how to respond.
+
+
 
 ## Features
 
-- Defines a clear and concise EBNF grammar for the Winding Markdown extension.
+- Provides `illuminate` that executes Winding Markdown files and produces artifacts.
+- Defines EBNF grammar for the Winding Markdown, for use with vLLM, Lark etc.
 - Defines a pure Python parser, based on the Lark standalone parser.
 - Defines AST and WindingTransformer, to facilitate the parsing.
-- No external dependencies required.
 
 ## Installation
 
@@ -16,6 +63,8 @@ You can install the Winding module from PyPI using pip:
 ```bash
 pip install winding
 ```
+
+
 
 ## Usage
 
@@ -30,26 +79,26 @@ Here is a simple example of printing the grammar:
 start: (winding | markdown)+
 
 winding: meta_winding | space_winding | inline_winding
-meta_winding: "---\n" IDENTIFIER ":" attributes header_winding* "\n---\n" content? 
-space_winding: "--\n" IDENTIFIER ":" attributes header_winding* "\n--\n" content?
-header_winding: "\n" IDENTIFIER ":" attributes
-inline_winding: "@" IDENTIFIER ":" attributes "\n" content?
+meta_winding: "---\n" receivers ":" arguments header_winding* "\n---\n" windings? 
+space_winding: "--\n" receivers ":" arguments header_winding* "\n--\n" windings?
+header_winding: "\n" receivers ":" arguments
+inline_winding: "@" receivers ":" arguments "\n" markdown
 
-content: (winding | markdown)+
-
+windings: (inline_winding | markdown)+
 markdown: (image | TEXT)+
-
-attributes: (IDENTIFIER ("," IDENTIFIER)*)?
-
 image: "![" CAPTION? "]" "(" URI? ")"
 
-IDENTIFIER: /!?[A-Za-z][A-Za-z0-9_.-]*/
+receivers: IDENTIFIER ("," IDENTIFIER)*
+arguments: (IDENTIFIER ("," IDENTIFIER)*)?
+
+
+IDENTIFIER: /!?[A-Za-z0-9][ A-Za-z0-9_.-]*/
 URI: /[^\)\n]+/
-TEXT: /(?:(?!@\w+:|--|!\[).)*\n+/ 
+TEXT: /(?:(?!@\w+[A-Za-z0-9_.,-]*:|--|!\[).)*\n+/ 
 CAPTION: /[^\]]+/
     
 %ignore /[ \t]+/
-%ignore "\r" 
+%ignore "\r"  
 ```
 
 ## Example of parsing a Winding Markdown file
@@ -83,27 +132,30 @@ pprint(ast, indent=2)
 ```
 
 This will output the following AST:
+```python
+Winding(receivers=['this'],
+        arguments=[],
+        windings=[ Winding(receivers=['dragons'],
+                           arguments=['portrait-oriented'],
+                           windings=[ Markdown(content='A book about dragons\n'
+                                                       '\n')]),
+                   Winding(receivers=['front-cover'],
+                           arguments=['portrait-oriented'],
+                           windings=[ Markdown(content='Dragons\n\n'),
+                                      Winding(receivers=['center'],
+                                              arguments=[ 'large',
+                                                          'landscape-oriented'],
+                                              windings=[ Markdown(content=Image(caption='Flying '
+                                                                                        'Wind '
+                                                                                        'Dragon',
+                                                                                url='dragon.png')),
+                                                         Markdown(content='\n')])])])
 ```
-Winding(at='this',
-    attributes=[],
-    content=[ 
-        Winding(at='dragons',
-            attributes=['portrait-oriented'],
-            content=[ 
-                Markdown(content='A book about dragons\n\n'),
-                Winding(at='front-cover', attributes=['portrait-oriented'],
-                    content=[ 
-                        Markdown(content='Dragons\n\n'),
-                        Winding(at='center', attributes=['large', 'landscape-oriented'],
-                            content=[Markdown(content=Image(caption='Flying Wind Dragon',
-                                               url='dragon.png')),
-                                     Markdown(content='\n')]
-                                )])])])
-```
+
+
 
 ## Contributing
-
-Contributions are welcome! Please feel free to submit a pull request or open an issue for any enhancements or bug fixes.
+We welcome contributions to the Winding project! If you have suggestions, bug reports, or would like to contribute code, please open an issue or a pull request on our GitHub repository [winding](https://github.com/Wind-WindKids/winding).
 
 ## License
 
