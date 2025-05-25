@@ -26,3 +26,8 @@ class Winding:
         default_factory=list,
         metadata={"description": "Windings: messages with free text or windings."}
     )
+
+    @property
+    def at(self) -> List[str]:
+        """Returns comma-separated list of receivers."""
+        return ",".join(self.receivers)

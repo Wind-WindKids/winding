@@ -52,13 +52,13 @@ def flatten_winding_to_md(node: Winding) -> str:
     """
     lines = []
     # header fence
-    header = "--\n" + f"{node.at}: {', '.join(node.attributes)}" + "\n--\n"
+    header = "--\n" + f"{node.at}: {', '.join(node.arguments)}" + "\n--\n"
     lines.append(header)
     # content: serialize Markdown and nested windings
-    for item in node.content:
+    for item in node.windings:
         if isinstance(item, Winding):
             # nested directive: inline form
-            lines.append(f"@{item.at}: {', '.join(item.attributes)}\n")
+            lines.append(f"@{item.at}: {', '.join(item.arguments)}\n")
             # flatten its content recursively (only text/images)
             lines.append(flatten_winding_to_md(item).split("--\n")[-1])
         else:
@@ -74,16 +74,16 @@ def flatten_winding_to_md(node: Winding) -> str:
     return "".join(lines)
 
 def infer_winding_size(args, page: Winding) -> str:
-    """Determine the appropriate size based on attributes."""
-    if "landscape" in page.attributes or "spread" in page.attributes:
+    """Determine the appropriate size based on arguments."""
+    if "landscape" in page.arguments or "spread" in page.arguments:
         return args.landscape
-    elif "portrait" in page.attributes:
+    elif "portrait" in page.arguments:
         return args.portrait
-    elif "square" in page.attributes:
+    elif "square" in page.arguments:
         return args.square
-    elif ["portrait-" in a for a in page.attributes]:
+    elif ["portrait-" in a for a in page.arguments]:
         return args.portrait
-    elif ["landscape-" in a for a in page.attributes]:
+    elif ["landscape-" in a for a in page.arguments]:
         return args.landscape
     return None
 
@@ -132,7 +132,7 @@ def export(args, pages):
         image = Image.open(image_path).convert("RGB")
         if image.width < image.height:
             # Portrait image, save it without the alpha channel
-            cover = next((a for a in page.attributes if a.startswith("cover")), None)
+            cover = next((a for a in page.arguments if a.startswith("cover")), None)
             if cover:
                 image.save(os.path.join(args.outdir, "export", f"{cover}.png"))
             else:
@@ -236,7 +236,7 @@ def main():
         if isinstance(node, Winding):
             yield depth, node.at
             # chain.from_iterable to flatten child iterators
-            child_iters = (walk(child, depth + 1) for child in node.content)
+            child_iters = (walk(child, depth + 1) for child in node.windings)
             yield from chain.from_iterable(child_iters)
 
     #print("Parsed Winding AST:")
@@ -249,17 +249,17 @@ def main():
 
     # 2. Identify page/spread nodes
     pages = [
-        node for node in ast.content
+        node for node in ast.windings
         if isinstance(node, Winding)
-        and any(attr in ("page", "spread") for attr in node.attributes)
+        and any(attr in ("page", "spread") for attr in node.arguments)
     ]
     print(f"Found {len(pages)} pages in the document at the top level.")
 
     # 2.1 Identify image nodes
     images = [
-        node for node in ast.content
+        node for node in ast.windings
         if isinstance(node, Winding)
-        and any(attr in ("image", "png", "jpg", "jpeg") for attr in node.attributes)
+        and any(attr in ("image", "png", "jpg", "jpeg") for attr in node.arguments)
     ]
     print(f"Found {len(images)} images in the document at the top level.")
 
@@ -323,7 +323,7 @@ def main():
 
 
         # Check if there are any cutouts windings
-        cutouts = [child for child in page.content if isinstance(child, Winding) and "cutout" in child.attributes]
+        cutouts = [child for child in page.windings if isinstance(child, Winding) and "cutout" in child.arguments]
         if cutouts:
             print(f"Found cutouts in page '{page.at}': {cutouts}")
             transparent_path = os.path.join(args.outdir, "pages", f"{page.at}.transparent.png")
@@ -334,13 +334,13 @@ def main():
 
             # Get the patch paths
             for cutout in cutouts:
-                print(f"Cutout '{cutout.at}' with content: {cutout.content[0].content.url}")
-                patch_path = os.path.join(args.outdir, "cutouts", cutout.content[0].content.url)
+                print(f"Cutout '{cutout.at}' with content: {cutout.windings[0].content.url}")
+                patch_path = os.path.join(args.outdir, "cutouts", cutout.windings[0].content.url)
                 if not os.path.exists(patch_path):
                     print(f"Patch {patch_path} not found, skipping '{cutout.at}'")
 
             
-            patch_paths = [os.path.join(args.outdir, "cutouts", cutout.content[0].content.url) for cutout in cutouts]
+            patch_paths = [os.path.join(args.outdir, "cutouts", cutout.windings[0].content.url) for cutout in cutouts]
             existing_patch_paths = [path for path in patch_paths if os.path.exists(path)]
 
             if len(existing_patch_paths) != len(patch_paths):
@@ -368,7 +368,7 @@ def main():
             target_height = int((float(args.trim.split("x")[1]) + float(args.bleed) * 2) * args.dpi + 0.5)
 
             # If the image is landscape, assume this is a spread
-            if "spread" in page.attributes:
+            if "spread" in page.arguments:
                 target_width *= 2
                 if base_rgba.width < base_rgba.height:
                     print(f"Error: '{page.at}.transparent.png' is not in landscape mode. Skipping.")
