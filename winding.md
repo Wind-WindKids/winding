@@ -1,4 +1,4 @@
-# Winding Markdown (Draft v0.12)
+# Winding Markdown (Draft v0.13)
 [plain text version](https://winding.md/winding.md) | [pypi module](https://pypi.org/project/winding/) | [GitHub](https://github.com/Wind-WindKids/winding)
 
 > A lightweight CommonMark extension for describing layouts, scenes, and images via concise prompts.
