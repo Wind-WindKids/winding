@@ -1,7 +1,7 @@
 # Winding Python Module
 [Winding Markdown Specification](https://winding.md) ([plain text](https://winding.md/winding.md)) | [GitHub](https://github.com/Wind-WindKids/winding)
 
-A Python implementation of Winding Markdown—a lightweight extension to CommonMark for describing code, configurations, and structured content through message-passing to agents.
+A Python implementation of Winding Markdown - a lightweight CommonMark extension for creating artifacts via concise prompts.
 
 ## Introduction to Evaluating Winding Expressions
 
@@ -43,7 +43,7 @@ The hello_world agent, as a receiver, was newly invoked and decided what to do w
 > it a message. The object, not you, selects the appropriate method for
 > responding to your message ... [Getting Started: Squeak by Example](https://squeak.org/documentation/)
 
-With Winding, it is the same: you send messages to agents, within a context of a space, and they decide how to respond.
+With Winding, it is the same: you send messages to agents within the context of a space, and they decide how to produce artifacts.
 
 
 
