@@ -35,8 +35,6 @@ You have just evaluated your first Winding expression! You sent a message to the
 
 The hello_world agent, as a receiver, was newly invoked and decided what to do with these messages. It looked up its methods for handling `file` and `py` messages and responded appropriately.
 
-If you run this Winding Markdown, it will produce a Python file that prints "Hello, World!" in a minimalistic style. 
-
 > If you talk to Smalltalkers for a while, you will quickly notice that
 > they generally do not use expressions like “call an operation” or “invoke
 > a method”, but instead they will say “send a message”. This reflects the
