@@ -1,7 +1,7 @@
 # Winding Python Module
 [Winding Markdown Specification](https://winding.md) ([plain text](https://winding.md/winding.md)) | [GitHub](https://github.com/Wind-WindKids/winding)
 
-A Python implementation of Winding Markdown—a lightweight extension to CommonMark for describing code, configurations, and structured content through message-passing to agents.
+A Python implementation of Winding Markdown - a lightweight CommonMark extension for creating artifacts via concise prompts.
 
 ## Introduction to Evaluating Winding Expressions
 
@@ -35,8 +35,6 @@ You have just evaluated your first Winding expression! You sent a message to the
 
 The hello_world agent, as a receiver, was newly invoked and decided what to do with these messages. It looked up its methods for handling `file` and `py` messages and responded appropriately.
 
-If you run this Winding Markdown, it will produce a Python file that prints "Hello, World!" in a minimalistic style. 
-
 > If you talk to Smalltalkers for a while, you will quickly notice that
 > they generally do not use expressions like “call an operation” or “invoke
 > a method”, but instead they will say “send a message”. This reflects the
@@ -45,7 +43,7 @@ If you run this Winding Markdown, it will produce a Python file that prints "Hel
 > it a message. The object, not you, selects the appropriate method for
 > responding to your message ... [Getting Started: Squeak by Example](https://squeak.org/documentation/)
 
-With Winding, it is the same: you send messages to agents, within a context of a space, and they decide how to respond.
+With Winding, it is the same: you send messages to agents within the context of a space, and they decide how to produce artifacts.
 
 
 
