@@ -1,7 +1,7 @@
 import os
 import unittest
 from winding import grammar
-from pprint import pprint
+from pprint import pprint, pformat
 
 
 class TestGrammar(unittest.TestCase):
@@ -90,21 +90,21 @@ Text
         self.assertIsInstance(ast, Winding)
         pprint(ast)
 
-        expected = Winding(at='this',
-        attributes=[],
-        content=[Winding(at='book',
-                         attributes=['portrait-oriented'],
-                         content=[Winding(at='filename',
-                                          attributes=['test.md'],
-                                          content=[]),
+        expected = Winding(receivers=['this'],
+        arguments=[],
+        windings=[Winding(receivers=['book'],
+                         arguments=['portrait-oriented'],
+                         windings=[Winding(receivers=['filename'],
+                                          arguments=['test.md'],
+                                          windings=[]),
                                   Markdown(content='The book\n\n')]),
-                 Winding(at='front-cover',
-                         attributes=['portrait-oriented'],
-                         content=[Markdown(content='Text\n\n'),
-                                  Winding(at='top',
-                                          attributes=['large',
+                 Winding(receivers=['front-cover'],
+                         arguments=['portrait-oriented'],
+                         windings=[Markdown(content='Text\n\n'),
+                                  Winding(receivers=['top'],
+                                          arguments=['large',
                                                       'landscape-oriented'],
-                                          content=[Markdown(content=Image(caption='caption',
+                                          windings=[Markdown(content=Image(caption='caption',
                                                                           url='http://url')),
                                                    Markdown(content='\n\n'),
                                                    Markdown(content=Image(caption='Another '
@@ -121,18 +121,28 @@ Text
                                                    Markdown(content=Image(caption='',
                                                                           url='')),
                                                    Markdown(content='\n\n')])]),
-                 Winding(at='spread',
-                         attributes=['landscape-oriented'],
-                         content=[Winding(at='theme',
-                                          attributes=['colorful'],
-                                          content=[]),
+                 Winding(receivers=['spread'],
+                         arguments=['landscape-oriented'],
+                         windings=[Winding(receivers=['theme'],
+                                          arguments=['colorful'],
+                                          windings=[]),
                                   Markdown(content='Text\n\n'),
-                                  Winding(at='right.bottom',
-                                          attributes=['small',
+                                  Winding(receivers=['right.bottom'],
+                                          arguments=['small',
                                                       'cursive',
                                                       '!black'],
-                                          content=[Markdown(content='\n')])])])
+                                          windings=[Markdown(content='\n')])])])
         
+        # Compare the generated AST with the expected structure
+        if ast != expected:
+            # pretty print to a string and find first difference
+            for a,e in zip(pformat(ast, indent=2).splitlines(),
+                           pformat(expected, indent=2).splitlines()):
+                if a != e:
+                    print(f"Difference found:\n{a}\n{e}")
+                    break
+            
+
         self.assertEqual(ast, expected)
 
     

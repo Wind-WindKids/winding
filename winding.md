@@ -33,7 +33,8 @@ Learn more at  https://winding.md
 ```
 ![My First Winding](assets/my_first_winding.jpg)
 
-Initially, with simple images and slides, you don't need specialized tooling. Provide a prompt like this: `Please illuminate this markdown.` into [ChatGPT](https://chatgpt.com) or another capable generative AI.
+Initially, with simple images and slides, you don't need specialized tooling. Provide a prompt like this: `Please, illuminate this markdown.` into [ChatGPT](https://chatgpt.com) or another capable generative AI. With larger projects, you can use projects, copilots and the `illuminate` command from the [Winding Python module](https://pypi.org/project/winding/).
+
 
 ## Key Benefits
 - **Efficient**: Complex projects can be [completed in days instead of months](https://wind.kids)
@@ -107,6 +108,8 @@ boy, around 8 years old, tousled blond hair, bright blue eyes.
 @Wind.pose:
 He is lying on his stomach, propped up on his elbows, fingertips poised over the keyboard, slight tension in his wrists. Looking at the laptop, away from the camera, his face is not visible. 
 
+@Wind,dragon: eye-contact
+
 @Wind.clothes:
 Teal short-sleeved shirt and charcoal-gray shorts.
 
@@ -120,9 +123,9 @@ tall oak canopy overhead, leaves filtering light into soft, shifting patterns.
 lush carpet of individual blades, dew lightly beading near the laptops.
 ```
 
-## Describing a Web Page
+## Creating a Web Page
 
-The same syntax can be used to describe a web page, a page of book, or a slide. The only difference is the message to the responsible agent:
+The same syntax can be used to create a web page, a page of book, or a slide. The only difference is the message to the receiving agent:
 
 ```markdown
 --
@@ -140,8 +143,8 @@ Learn more at  https://winding.md
 
 ![My First Winding Web Page](my_first_winding_web_page/)
 
-## Describing another Winding
-You can describe another winding, by creating a winding, illuminating which will result in another winding. 
+## Creating a Winding from a Winding
+By illuminating a winding that outputs a winding, you can create a new winding. This is useful for creating a new winding based on the current context:
 
 ```markdown
 --
@@ -150,7 +153,7 @@ spelling_errors: winding, file, md
 A winding that contains spelling errors, from the current context, including misspellings inside images.
 ```
 
-or even more flexible agent that can modify itself, if needed:
+or even creating an agent that can modify itself, if needed:
 
 ```markdown
 ---
@@ -204,31 +207,30 @@ Spaces are bounded contexts. They determine:
 
 | Syntax | Purpose | Example |
 |---|---|---|
-| `@identifier:` | Send message to agent | `@header: bold, centered` |
-| `identifier.sub` | Target sub-agent | `@laptop.screen: bright` |
-| `!identifier` | Negate/remove trait | `@screen: !dark, bright` |
+| `@receivers:` | Send message to agent | `@header: bold,centered` |
+| `identifier.sub` | Sub-agent | `@laptop.screen: bright` |
+| `!identifier` | Negate/remove trait | `@screen: !dark,bright` |
 | `:` | Lightweight boundary | `@section:` |
 | `--` | Medium boundary | `-- scene: outdoor --` |
 | `---` | Strong boundary | `--- document: report ---` |
-| `, ` | Multiple traits | `@text: bold, italic, large` |
+| `,` | Multiple traits | `@text: bold,italic,large` |
 
 ### Agent Addressing
 
 ```markdown
 @agent:              # Direct message to agent
 @agent.sub:          # Message to sub-agent
-@agent1, @agent2:    # Same message to multiple agents
+@agent1, agent2:     # Same message to multiple agents
 @*:                  # Message to all agents in the current space
-@:                   # Message to the current space (this)
 ```
 
-### Trait Assignment Messages
+### Argument Messages
 
 ```markdown
-@agent: trait1, trait2, !trait3
+@agent: argument1, argument2, !argument3
 ```
-- Adds `trait1` and `trait2`, for example, `@text: bold, illuminated`
-- Subtracts `trait3`, for example, `@text: !italic`
+- For example, `@text: bold, illuminated`
+- Or to subtract traits, `@text: !italic`
 
 ## Boundaries and Context
 
@@ -279,14 +281,14 @@ Market conditions were favorable.
 
 ## Syntax
 
-### `@identifier:`
-Used to **send a message** in the winding to an agent identified by the `@identifier`.
+### `@receivers:`
+Used to **send a message** in the winding to agents identified by the `@identifier,[identifier]:` list.
 
-A colon `:` in it is a boundary, it starts a new **space** for the text.  A sign `@` is a decorator, it is not part of the name of the agent, it is used to address the agent.
-Multiple identifiers can be used in a single line, preceded by `@`, and separated by spaces or commas.
+A colon `:` in it is a boundary, it starts a new **space** for the text.  A sign `@` is a decorator, it is not part of the name of the agent, it is used to address the agents.
+Multiple identifiers can be used in a single line, preceded by `@`, and separated by commas.
 
-### `identifiers`, `identifier.other_identifier`
-Are used for targeted prompting, this includes free text. Dot notation for precision, used for **targeting** addressing of sub-agents.
+### `identifier.other_identifier`
+Dot notation for precision, used for **targeting** addressing of sub-agents.
 
 ### `!identifier`
 Used to **invert** the identifier.
@@ -294,14 +296,13 @@ Used to **invert** the identifier.
 In a winding everything is a prompt or a message, and everyhing is an agent. The interpretations of the messages are up to the agents...
 
 ### `: layout, style, !something`
-Used for example, for **layout, style, or presentation metadata**. Think CSS-like tags. Or talking to that agent to inherit the trait.
+Used for example, for **layout, style, or presentation metadata**. Think Smalltalk arguments or CSS-like tags. Or talking to that agent to inherit the trait.
 
-### `--` or `:`
-A double-dash or column are boundaries, they starts a new **space** for the text.
+### `---` or `--` or `:`
+A triple-dash, double-dash or column are boundaries, they start a new **space** for the text.
 
-### `: `
 ### `Free Markdown Prompting`
-Used to talking to that agent to prompt it. The agent is free to interpret the message as it sees fit. The content  can be a Markdown to render, an action to perform, a style to apply, or anything else. A table, mermade diagram or a code block can be used. 
+Used to talk to that agent to prompt it. The agent is free to interpret the message as it sees fit. The content can be a Markdown to render, an action to perform, a style to apply, or anything else. A table, mermade diagram or a code block can be used. 
 
 
 
@@ -391,32 +392,33 @@ or include it in the original winding.
 start: (winding | markdown)+
 
 winding: meta_winding | space_winding | inline_winding
-meta_winding: "---\n" agent ":" messages header_winding* "\n---\n" message? 
-space_winding: "--\n" agent ":" messages header_winding* "\n--\n" message?
-header_winding: "\n" agent ":" messages
-inline_winding: "@" agent ":" messages "\n" markdown
+meta_winding: "---\n" receivers ":" arguments header_winding* "\n---\n" windings? 
+space_winding: "--\n" receivers ":" arguments header_winding* "\n--\n" windings?
+header_winding: "\n" receivers ":" arguments
+inline_winding: "@" receivers ":" arguments "\n" markdown
 
-agent: IDENTIFIER
-
-message: (inline_winding | markdown)+
-
+windings: (inline_winding | markdown)+
 markdown: (image | TEXT)+
-
-messages: (IDENTIFIER ("," IDENTIFIER)*)?
-
 image: "![" CAPTION? "]" "(" URI? ")"
+
+receivers: IDENTIFIER ("," IDENTIFIER)*
+arguments: (IDENTIFIER ("," IDENTIFIER)*)?
+
 
 IDENTIFIER: /!?[A-Za-z0-9][ A-Za-z0-9_.-]*/
 URI: /[^\)\n]+/
-TEXT: /(?:(?!@\w+:|--|!\[).)*\n+/ 
+TEXT: /(?:(?!@\w+[A-Za-z0-9_.,-]*:|--|!\[).)*\n+/ 
 CAPTION: /[^\]]+/
     
 %ignore /[ \t]+/
-%ignore "\r"
+%ignore "\r"  
 ```
 
 ### AST
 ```python
+from dataclasses import dataclass, field
+from typing import List, Union
+
 @dataclass
 class Image:
     caption: str = field(metadata={"description": "Image caption."})
@@ -430,17 +432,17 @@ class Markdown:
 
 @dataclass
 class Winding:
-    at:         str                 = field(
-        default="this",
-        metadata={"description": "The @at recipient, a valid identifier."}
+    receivers: List[str] = field(
+        default_factory=lambda: ["this"],
+        metadata={"description": "The @at receivers list, identifies recipient agents."}
     )
-    messages: List[str]           = field(
+    arguments: List[str] = field(
         default_factory=list,
-        metadata={"description": "Prompts or messages (e.g., size, orientation, !negation)."}
+        metadata={"description": "Arguments: messages like size, orientation, !negation."}
     )
-    message:    List[Union[Markdown, 'Winding']] = field(
+    windings:    List[Union[Markdown, 'Winding']] = field(
         default_factory=list,
-        metadata={"description": "Prompts or messages (e.g. free text, windings)."}
+        metadata={"description": "Windings: messages with free text or windings."}
     )
 ```
 
@@ -452,13 +454,17 @@ quality: high
 ---
 Wise eyes.
 ```
+
 turns into:  
+
 ```python
-Winding(at='this', messages=[],
-        message=[   Winding(at='dragon.portrait',
-                          messages=['image', 'character_art', 'jpg', 'wide'],
-                          message=[ Winding(at='quality', messages=['high'], message=[]),                                        
-                    Markdown(content='Wise eyes.\n')])])
+Winding(receivers=['this'], arguments=[], windings=[
+    Winding(receivers=['dragon.portrait'],
+            arguments=['image', 'character_art', 'jpg', 'wide'],
+            windings=[
+                Winding(receivers=['quality'], arguments=['high']),                                        
+                Markdown(content='Wise eyes.\n')
+                ])])
 ```
 
 

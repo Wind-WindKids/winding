@@ -12,7 +12,10 @@ class WindingTransformer(Transformer):
     def TEXT(self, tk):
         return tk.value
 
-    def attributes(self, *ids):
+    def arguments(self, *ids):
+        return list(ids)
+    
+    def receivers(self, *ids):
         return list(ids)
 
     def image(self, caption="", url=Token("URI", "")):
@@ -29,23 +32,23 @@ class WindingTransformer(Transformer):
                 nodes.append(Markdown(content=it))
         return nodes if len(nodes) > 1 else nodes[0]
 
-    def inline_winding(self, at, attrs, *children):
-        body = []
+    def inline_winding(self, receivers, arguments, *children):
+        windings = []
         for c in children:
             if isinstance(c, list):
-                body.extend(c)
+                windings.extend(c)
             else:
-                body.append(c)
-        return Winding(at=at, attributes=attrs, content=body)
+                windings.append(c)
+        return Winding(receivers=receivers, arguments=arguments, windings=windings)
 
-    def meta_winding(self, at, attrs, *children):
-        return self.inline_winding(at, attrs, *children)
+    def meta_winding(self, receivers, arguments, *children):
+        return self.inline_winding(receivers, arguments, *children)
 
-    def space_winding(self, at, attrs, *children):
-        return self.inline_winding(at, attrs, *children)
+    def space_winding(self, receivers, arguments, *children):
+        return self.inline_winding(receivers, arguments, *children)
 
-    def header_winding(self, at, attrs, *children):
-        return Winding(at=at, attributes=attrs, content=[])
+    def header_winding(self, receivers, arguments, *children):
+        return Winding(receivers=receivers, arguments=arguments, windings=[])
 
 
     def content(self, *items):
@@ -60,7 +63,7 @@ class WindingTransformer(Transformer):
 
     def start(self, *items):
         # top-level wrapper
-        return Winding(at="this", attributes=[], content=list(items))
+        return Winding(windings=list(items))
 
     def __default__(self, data, children, meta):
         # catch-all: flatten nested lists or return sole child
