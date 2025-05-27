@@ -1,5 +1,5 @@
 ---
-organization
+organization: web
 ---
 wind.kids - Youth portal (primary focus) 
 wind.dev - Main landing/docs (developer-focused) 

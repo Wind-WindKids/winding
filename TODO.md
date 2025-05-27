@@ -1,6 +1,4 @@
----
-todo
----
+# TODO
 
 5 fronts:
 * User acquisition [focus on science fairs, edu, kids, AIs] 
