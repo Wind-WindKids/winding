@@ -1,5 +1,7 @@
-# Winding Markdown (Draft v0.14)
-[plain text version](https://winding.md/winding.md) | [pypi module](https://pypi.org/project/winding/) | [GitHub](https://github.com/Wind-WindKids/winding)
+# Winding Markdown (Draft v0.15)
+[plain text version](https://winding.md/winding.md) | [pypi module](https://pypi.org/project/winding/) | [Wind for Developers](https://wind.dev) | [Wind for Kids](https://wind.kids) | [GitHub](https://github.com/Wind-WindKids/winding)
+<!-- | [Wind Language Foundation](https://wind-lang.org) -->
+
 
 > A lightweight CommonMark extension for creating artifacts via concise prompts.
 
@@ -38,13 +40,14 @@ Learn more at  https://winding.md
 ```
 ![My First Winding](assets/my_first_winding.jpg)
 
-Initially, with simple images and slides, you don't need specialized tooling. Provide a prompt like this: `Please, illuminate this markdown.` into [ChatGPT](https://chatgpt.com) or another capable generative AI. With larger projects, you can use projects, copilots and the `illuminate` command from the [Winding Python module](https://pypi.org/project/winding/).
+Initially, with simple images and slides, you don't need specialized tooling. Provide a prompt like this: `Please, illuminate this markdown.` into [ChatGPT](https://chatgpt.com) or another capable generative AI. With larger projects, you can use projects, copilots and the [wind](#wind), [illuminate](#illuminate), [unwind](#unwind) tools from the [Winding Python module](https://pypi.org/project/winding/).
 
 
 ## Key Benefits
 - **Efficient**: Projects can be [completed in days instead of months](https://wind.kids)
 - **Compatible**: Works with any Markdown processor and generative AI tools
 - **Readable**: Plain-text format, easy to write even on a mobile
+- **Powerful**: Includes [capable](reference/omniverse/big_bang) intent-oriented programming language
 
 ## Examples of Creating Artifacts
 
@@ -289,6 +292,58 @@ Spaces are bounded contexts. They determine:
 | `---` | Strong boundary | `--- document: report ---` |
 | `,` | Multiple traits | `@text: bold,italic,large` |
 
+Here are some concise good/poor examples to illustrate naming best practices:
+
+### Naming
+
+#### Poor Naming:
+```markdown
+---
+page1: intro, file, png
+---
+```
+❌ Names the agent after its position (`page1`) rather than purpose
+
+```markdown
+--
+img3: dragon, landscape
+--
+```
+❌ Generic numbering provides no semantic meaning
+
+```markdown
+@obj1: red
+@obj2: blue
+```
+❌ Like naming variables `i1`, `i2` - unclear what these represent
+
+#### Good Naming:
+```markdown
+---
+intro: page, file, png
+---
+```
+✓ Agent name describes what it is
+
+```markdown
+--
+dragon_flight: image, landscape
+--
+```
+✓ Descriptive name tells you exactly what the image contains
+
+```markdown
+@chair: red
+@table: blue
+```
+✓ Clear, semantic names create mental model
+
+#### The Pattern:
+- **Poor**: `a1`, `page2`, `img3`, `obj4` (position/order-based)
+- **Good**: `intro`, `hello_world`, `front_cover` (purpose/content-based)
+
+Name agents for what they are, not where they appear.
+
 ### Syntax
 
 #### `@receivers:`
@@ -477,6 +532,33 @@ In Winding's spatial model:
 - Boundaries control how much context flows between spaces
 
 This matches how we naturally think about scenes and layouts—as spaces where things happen, not as nested containers.
+
+### Intent-Oriented Programming
+
+Winding represents a shift from **imperative** (how to do it) to **declarative intent** (what should exist):
+
+**Traditional Programming**: Describe the steps
+```javascript
+// 500 lines of boilerplate code
+function init() {
+    // Initialize grid, set up event listeners, etc.
+    // ...
+}
+```
+
+**Winding Markdown**: Describe the intent
+
+```markdown
+---
+game_of_life: web, file, html, css, js
+---
+Conway's classic, but make it beautiful.
+
+@grid: 50x50, wraparound
+@cells: organic, bioluminescent
+@controls: play, pause, step, clear, random
+@style: dark-mode, neon-accent
+```
 
 ### Designed for Art
 Winding was designed specifically to create art. It makes it easier to:
