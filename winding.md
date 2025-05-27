@@ -1,5 +1,7 @@
-# Winding Markdown (Draft v0.14)
-[plain text version](https://winding.md/winding.md) | [pypi module](https://pypi.org/project/winding/) | [GitHub](https://github.com/Wind-WindKids/winding)
+# Winding Markdown (Draft v0.15)
+[plain text version](https://winding.md/winding.md) | [pypi module](https://pypi.org/project/winding/) | [Wind for Developers](https://wind.dev) | [Wind for Kids](https://wind.kids) | [GitHub](https://github.com/Wind-WindKids/winding)
+<!-- | [Wind Language Foundation](https://wind-lang.org) -->
+
 
 > A lightweight CommonMark extension for creating artifacts via concise prompts.
 

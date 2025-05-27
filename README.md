@@ -1,4 +1,8 @@
 # Winding Python Module
+
+[Wind for Kids](https://wind.kids) | [Wind for Developers](https://wind.dev) | [Winding Markdown Spec](https://winding.md) ([plain text](https://winding.md/winding.md)) | [GitHub](https://github.com/Wind-WindKids/winding)
+<!-- | [Wind Language Foundation](https://wind-lang.org) -->
+
 [Winding Markdown Specification](https://winding.md) ([plain text](https://winding.md/winding.md)) | [GitHub](https://github.com/Wind-WindKids/winding)
 
 A Python implementation of Winding Markdown - a lightweight CommonMark extension for creating artifacts via concise prompts.
