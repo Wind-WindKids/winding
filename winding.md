@@ -1,4 +1,4 @@
-# Winding Markdown (Draft v0.15)
+# Winding Markdown (Draft v0.16)
 [plain text version](https://winding.md/winding.md) | [pypi module](https://pypi.org/project/winding/) | [Wind for Developers](https://wind.dev) | [Wind for Kids](https://wind.kids) | [GitHub](https://github.com/Wind-WindKids/winding)
 <!-- | [Wind Language Foundation](https://wind-lang.org) -->
 
@@ -170,6 +170,37 @@ Files in Winding Markdown
 intro: page
 --
 This is a typical Winding Markdown file, with a meta winding at the beginning, followed by a series of space windings. This particular example is a message to the `files_in_winding_markdown` agent to adopt the traits `book`, `portrait-orientation`, and `file`, which means it will be rendered as a book in portrait orientation, and saved as a PDF file. Further messages will be sent to the space of the `files_in_winding_markdown` agent, which would resolve to `files_in_winding_markdown.cover` and `files_in_winding_markdown.intro` agents. Forming a single page book, with a cover and an introduction.
+```
+
+### Creating a CLI
+```markdown
+---
+winding: cli, tools
+---
+Winding Markdown CLI suite
+
+@messages.vm:  
+illuminate, wind, unwind, deluminate
+
+@arguments:  
+files, intent, pipes, include, exclude, context
+
+@messages:  
+fresh, freshen, draft, dry, wet, kiss, brush, lift, cool, heat, safe
+
+@messages.dev:  
+aloha, whisper, whine, lull, towel, wing, kite, kid, boy, girl, Wind, Sophie, please, help
+
+@messages.experimental:  
+venturi, whirl, whirling, whirlwind, reilluminate, rewind
+
+@kid:  
+I’m a kid, ELI5.
+
+--
+examples
+--
+aloha | illuminate "Hello World!"
 ```
 
 ### Creating 3D Objects

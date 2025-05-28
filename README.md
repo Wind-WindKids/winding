@@ -67,8 +67,41 @@ pip install winding
 ```
 
 
-
 ## Usage
+
+```markdown
+---
+winding: cli, tools
+---
+Winding Markdown CLI suite
+
+@messages.vm:  
+illuminate, wind, unwind, deluminate
+
+@arguments:  
+files, intent, pipes, include, exclude, context
+
+@messages:  
+fresh, freshen, draft, dry, wet, kiss, brush, lift, cool, heat, safe
+
+@messages.dev:  
+aloha, whisper, whine, lull, towel, wing, kite, kid, boy, girl, Wind, Sophie, please, help
+
+@messages.experimental:  
+venturi, whirl, whirling, whirlwind, reilluminate, rewind
+
+@kid:  
+I’m a kid, ELI5.
+
+--
+examples
+--
+aloha | illuminate "Hello World!"
+```
+
+
+
+## Development
 
 You can find runnable examples in the `samples/` directory.
 
