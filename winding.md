@@ -1,4 +1,4 @@
-# Winding Markdown (Draft v0.16)
+# Winding Markdown (Draft v0.17)
 [plain text version](https://winding.md/winding.md) | [pypi module](https://pypi.org/project/winding/) | [Wind for Developers](https://wind.dev) | [Wind for Kids](https://wind.kids) | [GitHub](https://github.com/Wind-WindKids/winding)
 <!-- | [Wind Language Foundation](https://wind-lang.org) -->
 
