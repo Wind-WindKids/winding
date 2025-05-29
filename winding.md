@@ -173,6 +173,39 @@ This is a typical Winding Markdown file, with a meta winding at the beginning, f
 ```
 
 ### Creating a Programming Language
+```
+---
+wind: programming-language, intent-oriented, short
+---
+@intenting: intent | int | i
+@contexting, containing: context | cont | c
+@developing: develop | dev | d
+@kidding, superalignment: kid | k
+@safeproofing,safeguarding: safe | s
+@aligning: align | art | a
+@artifacting: artifact | art | a
+@greyswandiring: greyswandir | g | go | gg | ggg
+
+@s: kidding + superalignment + safeproofing + safeguarding
+@a: aligning + artifacting
+
+--
+examples
+--
+a "Hello World!"
+align "Hello World!" | artifact
+intent "Hello World!" | context "This" | dev "Debug info" | kid | align | artifact
+i greyswandir | d | k | s | a ?
+@greyswandir: greyswandir | d | k | s | a
+@g: greyswandir
+gg "Hello World!"
+
+
+```
+
+
+
+
 ```markdown
 ---
 wind: programming-language, intent-oriented
