@@ -172,12 +172,43 @@ intro: page
 This is a typical Winding Markdown file, with a meta winding at the beginning, followed by a series of space windings. This particular example is a message to the `files_in_winding_markdown` agent to adopt the traits `book`, `portrait-orientation`, and `file`, which means it will be rendered as a book in portrait orientation, and saved as a PDF file. Further messages will be sent to the space of the `files_in_winding_markdown` agent, which would resolve to `files_in_winding_markdown.cover` and `files_in_winding_markdown.intro` agents. Forming a single page book, with a cover and an introduction.
 ```
 
+### Creating a Programming Language
+```markdown
+---
+wind: programming-language, intent-oriented
+---
+@wind: winding.md, grammar, ast, arguments, messages, context, vm, agents, art
+
+@vm: illuminate, winding.md, !illuminate, context, include, output, art
+
+--
+messages: arguments, windings
+--
+@art: illuminate, deluminate, reluminate  
+@windings: wind, unwind, draft, dry, wet, kiss, brush, lift, move, fresh, freshen, whirl, heat, cool, whine, whisper  
+@context: default, context, include, exclude  
+@align: align, safe, help, please, strict, explain, prove, probe, intent, warn, not, question  
+@dev: hook, inform, feedback, todo, fix, chat, debug, test
+@kids: aloha, kite, fly, run, kid, boy, girl, Wind, Sophie, mahalo  
+
+@shortcuts: i, del, re, w, uw, c, !, ?, n, q  
+```
+
 ### Creating a CLI
 ```markdown
 ---
-winding: cli, tools
+wind: lang
 ---
-Winding Markdown CLI suite
+@vm, cli: illuminate
+
+@messages.vm: 
+
+@cli: 
+
+
+@illuminate: VM
+
+VM, illuminates, winding, !context
 
 @messages.vm:  
 illuminate, wind, unwind, deluminate
