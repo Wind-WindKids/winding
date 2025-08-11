@@ -32,7 +32,7 @@ A small alethiometer, its hands pointing toward the symbol of the sun.
 opening_scene: page, text, centered
 --
 Sundays had always been the same.  
-Sophie’s grandmother would take her to the tall stone church at the end of the street.  
+Sophie’s mother would take her to the tall stone church at the end of the street.  
 There were candles and echoes and long rows of people sitting very still.
 
 --
@@ -44,13 +44,26 @@ Sophie standing halfway up the church steps, summer dress catching the wind, sun
 --
 sophie_turns: page, text, centered
 --
+“Come inside, Sophie,” her mother called.
+
 Sophie shook her head.  
 “I want to be where the light is. And I love to play with wind,” she said.  
 
-“Do you know it’s the sun that makes the wind?  
-And today is Sun Day.”  
+Sophie shook her head. “I want to be where the light is. And I love to play with wind.”
 
-And she walked toward the park instead.
+Her mother paused. Sophie grinned. “I think Sundays are windier than other days, because it’s sun that makes the wind.”
+
+“Can I go to the park instead of going to the Mess?”
+
+“Sophie, it is Mass, not mess — and it is important to go. All your friends are going to be there.”
+
+“Please? I really want to go, while it’s still sunny.”
+
+“All right.”
+
+“Thank you, Mom.”
+
+Sophie turned and walked toward the park.
 
 --
 kite_in_trouble: spread, landscape-oriented
