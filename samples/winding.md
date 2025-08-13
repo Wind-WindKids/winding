@@ -104,13 +104,77 @@ fassv_camp: page, portrait-oriented, image
 The courtyard of the French-American School of Silicon Valley. Children play in mixed groups, some calling out in French, some in English. Sophie and Wind sit together on a low wall, laughing.
 
 --
-the_rule: page, text, centered
+the_airport: spread, landscape-oriented
 --
-One afternoon, Wind led Sophie past the hangars at Reid-Hillview Airport.  
-On the tarmac stood a small silver-and-white airplane with swept wings.  
+@left: page, text
+One afternoon, Wind led Sophie past the hangars at Reid–Hillview Airport.  
+The air smelled of sun-warmed asphalt and avgas.  
 
-“This is my eGull,” Wind said. “It’s my dragon.”  
-“No passengers allowed. If you want to fly with me, you have to learn yourself.”
+@right: page, image
+Rows of small airplanes on the ramp. Wind walking ahead, Sophie following, both in light jackets. Beyond them, red-and-white windsock against a bright California winter sky.
+
+--
+the_secret: spread, landscape-oriented
+--
+@left: page, text
+“There’s something I can do here that I can’t do in Paris,” Wind said.  
+
+“In Paris, to fly solo, you need to be fifteen years old.  
+But here…”  
+
+@right: page, text, italic
+Part 103 — No Age Restrictions:  
+The FAA does not impose minimum age requirements for operating ultralight vehicles under Part 103.
+
+--
+the_dragon: page, portrait-oriented, image
+--
+@image:
+His eGull, sleek and small, tied down on the ramp. Its wingtips glint in the light.  
+On the panel, the AI co-pilot’s avatar shimmers into view — a dragon outlined in flowing lines of gold and silver.
+
+--
+you_can_fly: spread, landscape-oriented
+--
+@left: page, text
+“Wait — you can fly an airplane?” Sophie stared at him.  
+
+“Yeah. I’ve been flying since I was eight,” Wind said. “Here, I can.”  
+
+She looked at the little silver eGull. “It’s so small. Where do I sit?”  
+
+Wind grinned. “You don’t. It’s only got one seat.”  
+
+“One seat? That’s not fair. You can't take me?”
+
+
+the_rule: spread, landscape-oriented
+--
+@left: page, text
+“No passengers,” Wind said.  
+“If you want to fly with me, you have to learn.”  
+
+--
+@right: page, image
+Close view of the eGull’s open cockpit, a single seat with harness straps. Sophie leaning in to look, her reflection faintly visible in the polished panel, Wind resting a hand on the fuselage.
+
+
+--
+the_dragon: spread, portrait-oriented, image
+--
+@left: page, text
+"Can I fly it?” Sophie asked, eyes bright. 
+"Can I get in?"
+
+@right: page, image
+View from inside the eGull, tied down on the ramp. Its wingtips glint in the light. Inside the eGull’s cockpit, both Sophie and Wind sitting side by side in the single seat, grinning. Wind flips a switch; screens come alive. On the center display, the AI co-pilot’s avatar shimmers into view — a dragon traced in flowing gold and silver lines. Its eyes brighten, tilting toward Sophie as if already measuring her.  
+
+“It’s looking at me.”  
+
+Wind smiles. “It’s a dragon. Here, put on the headset.”
+
+Through the soft hiss of the headset, a warm, deliberate voice:  
+*"Hello. I know Wind. But what is your name?"* 
 
 --
 sim_setup: page, portrait-oriented, image
@@ -152,15 +216,57 @@ Today is for learning to fly straight and level, at a constant airspeed, constan
 taxi_training: spread, landscape-oriented
 --
 @left: page, text
-The next afternoon, Sophie sat in the real eGull, headset on.  
-Wind’s voice came over the radio from the grass beside the taxiway.  
-The dragon’s voice followed: “Taxi to the hold short line. Use gentle pedal pressure.”  
+The next afternoon, Sophie sat in the real eGull, headset snug over her ears.  
+Wind’s voice crackled over the radio from the grass beside the taxiway:  
+“Nice and slow, okay?”  
+
+The dragon’s voice followed, warm and deliberate:  
+“Today we will learn to taxi. Use gentle pedal pressure.”  
+
+Sophie felt the sunlight on her shoulder and the gentle rumble of the wheels beneath her feet.
 
 @right: page, image
-The eGull rolling slowly along a sunlit taxiway, Sophie’s hands steady on the controls.
+The eGull rolling slowly along a sunlit taxiway.  
+Wind stands off to the side with a handheld radio, hills in the background.
+
 
 --
-solo_flight: page, text, centered
+closing_reflection: spread, landscape-oriented
+--
+@left: page, text
+On her last night, the clubhouse glowed with string lights.  
+A few camp friends came to say goodbye.  
+There was music, paper lanterns, and a table piled high with cupcakes and cookies.  
+
+Sophie and Wind sat on the low deck steps, kissing on the lips, unabashed. 
+They knew she would be flying home the next day.
+
+--
+@right: page, image
+The next morning at the airport, they sat side by side, watching planes taxi past.  
+
+Two weeks of winter holidays with Wind had flown by like two years… or like one day.  
+And then it was time to go back, into the winter in Paris, without Wind.  
+
+“You can come any time, you know,” Wind said.  
+
+“Just say the word.”  
+
+Sophie smiled through the tears. “You’ll hear it.”
+
+
+--
+epilogue: page, text, centered
+--
+Somewhere over the ocean, Sophie closed her eyes.  
+The airplane hummed, the seatbelt pressed warm against her.  
+And in the quiet, she could almost hear the headset again—  
+
+The dragon’s voice, calm and deliberate:  
+“You’ll be back. And next time, you’ll have your own wings.”
+
+--
+scenes_solo_flight: page, text, centered
 --
 Sophie in the eGull, solo*.  
 The familiar dragon’s voice crackled in:  
@@ -173,16 +279,12 @@ The familiar dragon’s voice crackled in:
 * Except for Bashful Lamb, who doesn’t count.
 
 --
-two_dragons_in_sky: page, portrait-oriented, image
+scenes_two_dragons_in_sky: page, portrait-oriented, image
 --
 @image:
 Two small eGulls, one silver-and-white and one pale blue, soaring over the Santa Clara Valley. Redwoods below, mountains on the horizon, winter light clear and high.
 
---
-closing_reflection: page, text, centered
---
-Sophie banked gently, keeping her airspeed, altitude, and balance—  
-flying not just in Wind’s world, but in her own.
+
 
 --
 acknowledgments: page, text, portrait-oriented
