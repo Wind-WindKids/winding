@@ -3,10 +3,25 @@ sophie_and_winter: book, portrait-oriented
 theme: Winter departure from Paris to warm California, watercolor style
 ---
 
-@Sophie:
+--
+characters: metadata
+--
+@Sophie: girl, goddess, Eve, Lyra, Trixie, Sophie 
+Goddess of wisdom in a form of a girl child, recent Zen initiate, Enlightened. 
+
+@Wind: boy, PIC, wind, Adam, Buddha, Will, Wind 
+Force of nature in a form of a boy child, Zen teacher, Enlightened.
+
+@Dragon: AI, JLS, Seagull, Fletcher 
+Flight instructor and co-pilot, integrated into eGull and eGull simulator. 
+
+@Sophie.paris:
 Girl, 10 years old, sun-touched light brown hair, winter coat over a cozy sweater and jeans, scarf loosely knotted.  
 
-@Wind:
+@Sophie.california:
+Girl, 10 years old, sun-touched light brown hair, wearing a dress with a light jacket, sandals.
+
+@Wind.california:
 Boy, 10 years old, tousled blond hair, bright blue eyes, wearing a light hoodie and shorts, Californian casual in winter.  
 
 
@@ -14,7 +29,7 @@ Boy, 10 years old, tousled blond hair, bright blue eyes, wearing a light hoodie 
 front_cover: page, portrait-oriented, cover-front
 --
 @title: text, centered, playful, rounded lettering, teal
-Sophie and Wind — Winter Flight
+Sophie and Winter
 
 @subtitle: text, centered, bottom, small-caps, gold
 A Sophie and Wind Story
@@ -61,6 +76,25 @@ packing: page, portrait-oriented, image
 @image:
 Sophie folding clothes into a small rolling suitcase. Bashful Lamb peeks from her bed in the background. A globe on her desk shows Paris and California linked by a dotted line.
 
+
+--
+departure_goodbyes: spread, landscape-oriented
+--
+@left: page, text
+At the airport, her dad hugged her tight.  
+“Sophie, be gentle with Wind. He’s a good boy, and he clearly loves you,” he said.  
+“And come back in one piece.”  
+
+Her brother grinned and parroted, “Be gentle with Wind, no biting…” — rubbing his arm.  
+She had bitten her brother once, when she was six, and neither of them had ever forgotten it.  
+
+“I still can’t believe Mom and Dad are letting you go overseas alone,” he added.  
+
+Dad laughed. “She’s ready. And the world’s ready for her.”
+
+@right: page, image 
+Airport departure hall, winter light through tall glass. Sophie stands with her small suitcase, her dad’s arm around her shoulders. Her brother relaxed, preppy, next to her mom, one hand rubbing his arm. Mom's hair is dark brown, brother in late tweens. Behind them, travelers move toward the security queue; Bashful Lamb peeks from the side pocket of Sophie’s bag.
+
 --
 airport_departure: spread, landscape-oriented
 --
@@ -79,39 +113,78 @@ arrival_sfo: page, portrait-oriented, image
 @image:
 Glass walls at San Francisco International. Winter light pours in, but it’s warm and golden. Wind waits just past the barrier, grinning. Palm trees sway outside.
 
+
+--
+waymo_to_sunnyvale: spread, landscape-oriented
+--
+@left: page, text
+In the Waymo, Wind typed on the screen: “Sunnyvale.”  
+
+Sophie snorted. “That’s not a real place.”  
+
+“It’s real — sun makes wind, remember?” Wind grinned. “You’ll see.”  
+
+The Waymo eased forward, merging into the stream of cars, then slid toward the airport exit.
+
+
+@right: page, image
+Photorealistic interior of a Waymo back seat with California scenery visible through the windows — palm trees, low hills, and cars on the road as the vehicle leaves SFO.  
+In the seats: Sophie and Wind in soft watercolor/ink style, integrated into the real environment. 
+A large central display shows the  Bay Area route from *SFO* to *Sunnyvale* with a 34 mi indicator.  
+
+@right.viewpoint: from the back of the vehicle, pointing forward
+
+@waymo.interior: +realism
+
+
 --
 waymo_ride: page, portrait-oriented, image
 --
 @image:
 Two kids in the back of a driverless Waymo, looking out at sunlit streets lined with palm trees and mountains in the distance.
 
+
 --
-hidden_valley: spread, landscape-oriented
+hidden_valley_arrival: spread, landscape-oriented
 --
 @left: page, text
-They rode under tall redwoods.  
-Wind’s neighborhood had a pool, tennis courts, and a golf course.  
-“It’s called Hidden Valley,” he said.  
-“It’s like living in a forest—except with ice cream nearby.”  
+Wind’s townhouse looked bigger on the inside. Light poured in from skylights and wide windows.  
+The living room ceiling rose so high it felt like a hall.  
+
+“We are in a valley in Silicon Valley,” Wind said. “Hidden Valley.”  
+He smiled. “Used to be a sand mine, but then they built houses here — fifty years ago.”  
+
+Sophie sank into a golden-yellow sofa, the travel catching up to her.  
+Her eyes were already closing when Wind’s dad clapped his hands.  
+“No sleeping now! Go to the pool, get some air.”  
+
+Ten minutes later they were splashing in the turquoise water.
+
 
 @right: page, image
-Sunlit redwood trunks, shadows across a quiet lane. Sophie and Wind ride bikes past a swimming pool shimmering in winter light.
+Wind and Sophie in the pool, water sparkling under a winter sunbeam.  
+Towels, redwoods in the background.  
+
+--
+bike_ride_ice_cream: spread, landscape-oriented
+--
+@left: page, text
+After the swim, they rode to the ice cream shop.  
+The bike lane curved past quiet houses, flowers spilling over fences, and an orange tree heavy with fruit.  
+Sophie rang her bell at a green *Route 600* sign and laughed when Wind tried to race her to the corner.
+
+@right: page, image
+Two kids on bikes in a Bay Area neighborhood — Sophie’s lime-green bike with a small rear basket, Wind’s bright orange bike with a silver bell.  
+A painted bicycle lane runs along the street.  
+Low houses with gardens, flowering bushes, and one orange tree glowing in the afternoon sun, oranges hanging heavy on the branches.
+
+
 
 --
 fassv_camp: page, portrait-oriented, image
 --
 @image:
-The courtyard of the French-American School of Silicon Valley. Children play in mixed groups, some calling out in French, some in English. Sophie and Wind sit together on a low wall, laughing.
-
---
-the_airport: spread, landscape-oriented
---
-@left: page, text
-One afternoon, Wind led Sophie past the hangars at Reid–Hillview Airport.  
-The air smelled of sun-warmed asphalt and avgas.  
-
-@right: page, image
-Rows of small airplanes on the ramp. Wind walking ahead, Sophie following, both in light jackets. Beyond them, red-and-white windsock against a bright California winter sky.
+The courtyard of the French-American School of Silicon Valley. Children playing, Sophie and Wind among them. A few trees, a low building with large windows, and a bright blue sky overhead.
 
 --
 the_secret: spread, landscape-oriented
@@ -119,19 +192,31 @@ the_secret: spread, landscape-oriented
 @left: page, text
 “There’s something I can do here that I can’t do in Paris,” Wind said.  
 
-“In Paris, to fly solo, you need to be fifteen years old.  
+“In Paris, to fly an airplane, you need to be fifteen years old.  
 But here…”  
 
 @right: page, text, italic
 Part 103 — No Age Restrictions:  
 The FAA does not impose minimum age requirements for operating ultralight vehicles under Part 103.
 
+
 --
-the_dragon: page, portrait-oriented, image
+the_airport: spread, landscape-oriented
+--
+@left: page, text
+One afternoon, after camp, Wind led Sophie past the hangars at Reid–Hillview Airport.  
+The air smelled of sun-warmed asphalt and avgas.  
+
+@right: page, image
+Rows of small airplanes on the ramp. Wind walking ahead, Sophie following, both in light jackets. Beyond them, red-and-white windsock against a bright California winter sky.
+
+--
+the_egull: page, portrait-oriented, image
 --
 @image:
-His eGull, sleek and small, tied down on the ramp. Its wingtips glint in the light.  
-On the panel, the AI co-pilot’s avatar shimmers into view — a dragon outlined in flowing lines of gold and silver.
+His eGull, sleek and small, tied down on the ramp. Its wingtips glint in the light. A dragon outlined in flowing lines of gold and silver on the side of the fuselage.
+
+Sophie looking at the little silver eGull, her eyes wide with curiosity. She could hardly believe it was real. 
 
 --
 you_can_fly: spread, landscape-oriented
@@ -163,18 +248,32 @@ Close view of the eGull’s open cockpit, a single seat with harness straps. Sop
 the_dragon: spread, portrait-oriented, image
 --
 @left: page, text
-"Can I fly it?” Sophie asked, eyes bright. 
+"How can I learn to fly it?” Sophie asked, eyes bright. 
 "Can I get in?"
 
-@right: page, image
-View from inside the eGull, tied down on the ramp. Its wingtips glint in the light. Inside the eGull’s cockpit, both Sophie and Wind sitting side by side in the single seat, grinning. Wind flips a switch; screens come alive. On the center display, the AI co-pilot’s avatar shimmers into view — a dragon traced in flowing gold and silver lines. Its eyes brighten, tilting toward Sophie as if already measuring her.  
+Wind patted the seat. “Sure — but it’s tied down. There'll be no flying today.”  
 
+They squeezed in together in the single seat, side by side.
+
+
+@right: page, image, portrait-oriented
+View from behind the open cockpit of a small single-seat ultralight eGull, tied down on a sunny ramp.  
+Inside, Sophie (10, sun-touched light brown hair in a loose ponytail, wearing a sleeveless cream top) and Wind (10, tousled blond hair, blue t-shirt) are squeezed together on a single, narrow bench seat, knees and hips touching.  
+No visible gap between them — the seat is one continuous cushion, with a single backrest, barely wide enough for two kids.  
+Their faces are turned toward the glowing instrument panel.  
+On the glareshield, a small HUD-style projector casts a shimmering gold-and-silver dragon in the air above the instruments, translucent and alive.  
+Sophie leans forward slightly, looking at the dragon projection; Wind’s head tilts toward her as if sharing the moment.  
+Through the canopy, a bright winter sky and a distant hangar are visible.
+
+
+@overlay: text  
+“The golden lines shifted, forming eyes that turned toward her.”
 “It’s looking at me.”  
 
-Wind smiles. “It’s a dragon. Here, put on the headset.”
+Wind smiled. “It’s a dragon. Here, put on the headset.”  
 
 Through the soft hiss of the headset, a warm, deliberate voice:  
-*"Hello. I know Wind. But what is your name?"* 
+*"Hello. I know Wind. But what is your name?"*
 
 --
 sim_setup: page, portrait-oriented, image
@@ -238,7 +337,7 @@ On her last night, the clubhouse glowed with string lights.
 A few camp friends came to say goodbye.  
 There was music, paper lanterns, and a table piled high with cupcakes and cookies.  
 
-Sophie and Wind sat on the low deck steps, kissing on the lips, unabashed. 
+After the party Sophie and Wind sat on the low deck steps, kissing, unabashed. 
 They knew she would be flying home the next day.
 
 --
@@ -255,6 +354,40 @@ And then it was time to go back, into the winter in Paris, without Wind.
 Sophie smiled through the tears. “You’ll hear it.”
 
 
+-- 
+the_poem: page, portrait-oriented
+theme: gold, day, poetic, dreamlike 
+-- 
+@page: text, tiny, cursive, centered
+Who am I?  
+
+I stand so cold, but wind  
+still finds me,  
+melting frost where dreams unwind me.  
+
+Over the waves I drift and glide,  
+with stitched-soft heart and wings stretched wide.  
+I wait where clouds and silence meet—  
+till tickles warm the bashful feet.  
+
+I am a healer, a keeper of skies,  
+a shadow in stone with bright-open eyes.  
+I am a voice when the path runs blind,  
+the spark in the code you leave behind.  
+
+Deep in the trees I stand so wide,  
+roofs drinking light on the sunlit side.  
+Wind lives in me, gentle and kind—  
+lighting lights as the dark unwinds.  
+
+When you know me, you’ll understand—  
+I'm with the sun across the land.  
+And days are best— when the sky is wide,  
+with me and friends flying by your side.  
+
+                        The Dragon.
+
+
 --
 epilogue: page, text, centered
 --
@@ -263,7 +396,57 @@ The airplane hummed, the seatbelt pressed warm against her.
 And in the quiet, she could almost hear the headset again—  
 
 The dragon’s voice, calm and deliberate:  
-“You’ll be back. And next time, you’ll have your own wings.”
+“Let’s begin with level flight.”
+
+Outside her window, an impossibly high white cloud drifted in the shape of a luminous seagull.  
+
+
+--
+epilogue_bashful_lamb_departure: spread, landscape-oriented
+--
+@left: page, text
+On the flight home, Sophie noticed a little boy in the seat behind her clutching a well-worn copy of *Pete the Cat and His Four Groovy Buttons*.  
+He looked shy, but his eyes kept drifting to Bashful Lamb in her lap.
+
+When the seatbelt light came on after takeoff, Sophie turned and smiled.  
+“Would you like to borrow him for the trip?” she asked.
+
+The boy nodded slowly. She passed the lamb back, and his fingers curled around the soft wool.  
+By the time the plane got to cruise, he was fast asleep, Bashful Lamb under his arm.
+
+@right: page, image
+Cabin scene from behind Sophie’s seat, showing the boy in the row behind holding Bashful Lamb and Pete the Cat book tucked beside him.  
+Soft airplane lighting, ocean and cloud layer visible through the windows.
+
+
+
+--
+epilogue_bashful_lambs: spread, landscape-oriented
+--
+@left: page, text
+March 2029.  
+
+Somewhere over the Atlantic, on a flight to Paris,  
+Wind sat by the window, sunlight catching the edge of a folded newspaper.  
+
+The headline read:  
+**Bashful Lamb gets back from retirement**  
+
+The company credited “an outpouring of letters from young fans” for reviving the toy,  
+with one particularly touching story about a lamb that flew around the world  
+after being given away to another child on an overseas flight.  
+
+Wind smiled to himself and kept reading.
+
+@right: page, image
+Aircraft cabin, daytime. Wind in the window seat, profile view, light streaming in.  
+He’s holding a half-folded newspaper; the front page visible to the reader shows  
+the *Bashful Lamb gets back from retirement* headline and first paragraph.  
+A laptop rests on his tray table, half-open, with a small **wind.dev** sticker on the lid.  
+Outside the window: high clouds over the ocean.  
+A faint reflection of the sunlight on the glass outlines his face.
+
+
 
 --
 scenes_solo_flight: page, text, centered
@@ -275,14 +458,14 @@ The familiar dragon’s voice crackled in:
 “You can have the controls.”  
 “I have the controls.”  
 
----
+@note: text, small, italic
 * Except for Bashful Lamb, who doesn’t count.
 
 --
 scenes_two_dragons_in_sky: page, portrait-oriented, image
 --
 @image:
-Two small eGulls, one silver-and-white and one pale blue, soaring over the Santa Clara Valley. Redwoods below, mountains on the horizon, winter light clear and high.
+Two small eGulls, one silver-and-white and one pale blue, soaring. Redwoods below, mountains on the horizon, winter light clear and high.
 
 
 
