@@ -4,10 +4,10 @@ theme: Spring or summer daytime, Jardin du Luxembourg, watercolor style
 ---
 
 @Sophie:
-Girl, around 9 years old, sun-touched light brown hair, wearing a cute, sleeveless summer dress in pale cream with a thin sash tied at the waist.  
+Girl, around 11 years old, sun-touched light brown hair, wearing a cute, sleeveless summer dress in pale cream with a thin sash tied at the waist.  
 
 @Wind:
-Boy, around 9 years old, tousled blond hair, bright blue eyes, wearing a teal short-sleeved shirt and light khaki shorts.  
+Boy, around 11 years old, tousled blond hair, bright blue eyes, wearing a teal short-sleeved shirt and light khaki shorts.  
 
 
 
@@ -190,6 +190,9 @@ scenes_meanwhile_inside: page, portrait-oriented
 @page: rectangle, cutout, large, portrait-oriented, polaroid
 ![Wind sitting in a pew, his normally bright hair dulled to grayish in the church darkness, but shadows around are placed as if Wind is a light source. He's hunched over a missalette, secretly drawing on it. The map he's creating is the only vibrant thing in the frame - bright greens of park paths, golden yellow suns, blue sky, colorful kites. One of the crosses got turned into a kite in a drawing. His pencils hidden under the pew. ](snaps/wind_drawing_in_darkness.png)
 
+@comment: author, hidden
+Religions are clearly shortcuts to happiness, but at the same time they use models that yield sub-optimal local maximums and are applied 2000 years out of distribution. Opsie.
+
 --
 scenes_sunset_picnic: page, portrait-oriented
 --
@@ -204,6 +207,42 @@ birthday_candles: page, portrait-oriented
 
 @page: rectangle, cutout, large, portrait-oriented, polaroid
 ![Same scene, moments later. Sophie's eyes open, looking directly at Wind while blowing out candles. He's smiling. The smoke from the candles makes swirls in the air between them.](snaps/birthday_wish.png)
+
+
+
+--
+wind_and_dragon_ai: spread, landscape-oriented, image
+--
+@image:
+Wind sits relaxed at a flight desk wearing a headset. A joystick, keyboard, and mouse sit within easy reach; cable runs are tidy. Two flat monitors glow with cockpit instruments only. On the wall behind them, a short-throw projector paints sunny terrain.
+
+@wall:
+A bright sky with a few clouds, a sunlit landscape below. A river winds through the green fields.
+
+@hud:
+A cellphone-sized 3D holographic HUD attached just above the monitors, centered. A sleek golden dragon avatar perches there, head turned toward Wind; faint HUD tick marks ripple across its translucent wings.
+
+@monitors:
+eGull flight simulator in instruments-only view: attitude, airspeed, VSI, slip/skid, and engine/solar systems strip. No terrain on monitors—only on the wall projection.
+
+@text: dialogue
+Dragon: “Your candela is close, but you’re bleeding too much airspeed on entry. Smooth it—JLS style. Let it rise, then hold the stillness.”
+Wind: “Yeah… candles should last longer.”
+Dragon: “Thought you didn’t like candles that last. Or at least not in churches?”
+Wind: “I love candles that last. On a birthday cake!”
+Dragon: “So you don’t like churches?”
+Wind: “Churches are fine—it’s only three things I don’t like. Anger. Darkness. Fear. And lead contamination.”
+Dragon: “Lead contamination?”
+Wind: “Nasty stuff. Especially in the wind. You’d think Clair Patterson was clear, but no, they still build churches with it. And burn for fun.”
+Dragon: “At least our eGull flies on sunlight, not avgas. By the way, there are birthday candles that reignite.”
+Wind: “Oh, cool. Can we get twelve by next Sunday? It’s Sophie’s birthday party.”
+Dragon: “Purchase confirmed. Delivery scheduled for Thursday, one day before your flight to Paris on Friday.”
+Wind: “Ah, right. My calendar’s a mess—all these Masses on Sundays.”
+Dragon: “Noted. Would you like me to replace them with kites or cake?”
+
+
+@comment: author, hidden
+That’s the key: it’s not a blanket rejection of faith, it’s understanding it and then context-specific decision: “for us, here, it’s unnecessary — we already have what we need.”
 
 --
 scenes_bike_to_market: page, portrait-oriented
@@ -272,7 +311,7 @@ Special thanks to the many magnificent ones—large and small—who have opened 
 
 What began as a bike is now almost a fusion-powered flying dragon for the mind. With deep gratitude to the creators, scientists, engineers, artists, and dreamers who share their knowledge and imagination with the world. 
 
-And this story was shaped by those who darken paths and close doors and hearts for others. 
+And this story was shaped by those who see, with clear eyes, that the truest republic is already here: in friendship, in learning, in love, and in sunlight.
   - Wind
 
 
