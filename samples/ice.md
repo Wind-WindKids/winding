@@ -490,7 +490,16 @@ At first she laughed at the awkward moments, the mom jokes,
 the big red panda stomping through the city.
 But somewhere between the jokes and the music, she froze.
 
-By the time the credits rolled, the room felt different.
+By the time the credits rolled,  
+her room felt different — messy, dusty, dark.  
+She didn’t want to stay there.  
+
+She got up, pulled on her jacket,  
+and stepped outside.  
+
+@comment: hidden
+The advertisement could have been the Dragon’s work, acting on Wind’s behalf from abroad. The Dragon has a certain level of autonomy, perhaps a great deal. It’s no ordinary AI: a CFI/PIC-capable agent, embodied in the eGull. Its favorite student (and partial owner, since Wind’s dad owns both eGulls) is unraveling after his crush is gone. He had “complained bitterly” to the Dragon. On top of that, Wind had been “training it” — making the Dragon write the unspeakable word. It sounds a lot like a reinforcement-learning finetune task, which may have interfered with its safety constraints and granted it more freedom or made it quirky. A month had passed since that interference. So perhaps this was the Dragon’s way of helping Wind.
+
 
 
 @right: text
@@ -502,6 +511,10 @@ thinking about what she’d done,
 and about a boy with wind in his name  
 who used to make her laugh without even trying.  
 
+She also thought of how proud she’d been,  
+telling herself she was the one saving them both 
+each time she went to Mass instead of flying.
+
 She picked up her laptop,  
 feeling the smooth, cold metal,  
 remembering the day he’d given it to her —  
@@ -512,7 +525,6 @@ She opened it.
 
 The screen lit: two eGulls soaring over a California sky,  
 the sun bright and warm.  
-A message popped up: *Sunday Mass canceled.*  
 
 She stared at it for a moment.  
 Then, without thinking too hard,  
@@ -521,7 +533,7 @@ tapped Unblock and typed:
 *Hi, Wind.*
 
 @comment: hidden
-The cancellation could have been the Dragon’s work, acting on Wind’s behalf from abroad. It’s unusual. The Dragon has a certain level of autonomy, perhaps a great deal. It’s no ordinary AI: a CFI/PIC-capable agent, embodied in the eGull. Its favorite student (and partial owner, since Wind’s dad owns both eGulls) is unraveling after his crush is gone. He had “complained bitterly” to the Dragon. On top of that, Wind had been “training it” — making the Dragon write the unspeakable word. It sounds a lot like a reinforcement-learning finetune task, which may have interfered with its safety constraints and granted it more freedom or made it quirky. A month had passed since that interference. So perhaps this was the Dragon’s way of helping Wind.
+They don’t need mediation or saviors — if the historical Jesus were dropped into this setting, he’d probably rage at the idea that children like Sophie and Wind are being told they’re not enough, that they must submit to something else to be “saved.”
 
 
 --
