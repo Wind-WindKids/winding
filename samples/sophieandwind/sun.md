@@ -15,11 +15,8 @@ Boy, almost 12 years old, tousled blond hair, bright blue eyes, wearing a teal s
 front_cover: page, portrait-oriented, cover-front
 --
 @title: text, centered, playful, rounded lettering, teal
+Part 4
 Sophie and Sun
-
-@subtitle: text, centered, bottom, small-caps, gold
-A Sophie and Wind Story, Book 4
-
 
 @image:
 Sophie standing at the foot of wide stone church steps, looking toward the sunny park beyond. She wears a light summer dress and sandals. In the park, colorful kites tug in the wind, leaves swirl, and children laugh in the distance. The Eiffel Tower rises faintly in the background.

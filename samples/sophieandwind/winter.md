@@ -29,10 +29,8 @@ Boy, 10 years old, tousled blond hair, bright blue eyes, wearing a light hoodie 
 front_cover: page, portrait-oriented, cover-front
 --
 @title: text, centered, playful, rounded lettering, teal
+Part 2
 Sophie and Winter
-
-@subtitle: text, centered, bottom, small-caps, gold
-A Sophie and Wind Story, Book 2
 
 @image:
 Sophie standing at the rail of a bench in the Luxembourg Gardens in winter. Bare trees, pale sky, her scarf lifted by a breeze. The Eiffel Tower faint in the background. She looks toward the distance as if imagining someplace far away.
@@ -132,9 +130,13 @@ In the Waymo, Wind typed on the screen: “Sunnyvale.”
 
 Sophie snorted. “That’s not a real place.”
 
-“It’s real — sun makes wind, remember? You’ll see. We’re in Silicon Valley — this is where your iPhone was created. We’ll even drive past Apple today.”
+“It’s real. We’re in Silicon Valley — this is where your iPhone was created. We’ll even drive past Apple today.”
 
-He leaned back, grinning. “And my home here is in Hidden Valley… inside Silicon Valley. Used to be a sand mine. They filled it in, built houses about fifty years ago.”
+He leaned back, grinning. “And my home here is a Hidden Silicon Valley inside Silicon Valley. Used to be a sand mine. They filled it in, built houses about fifty years ago.”
+
+Sophie snorted. “That's definitely not a real place.”
+
+Wind laughed. “It is as real as Jardin du Luxembourg,” you'll see.
 
 The Waymo eased forward, merging into the stream of cars, then slid toward the airport exit.
 
@@ -162,9 +164,6 @@ hidden_valley_arrival: spread, landscape-oriented
 @left: page, text
 Wind’s townhouse looked bigger on the inside. Light poured in from skylights and wide windows.  
 The living room ceiling rose so high it felt like a hall.  
-
-“We are in a valley in Silicon Valley,” Wind said. “Hidden Valley.”  
-He smiled. “Used to be a sand mine, but then they built houses here — fifty years ago.”  
 
 Sophie sank into a golden-yellow sofa, the travel catching up to her.  
 Her eyes were already closing when Wind’s dad clapped his hands.  
@@ -213,15 +212,20 @@ Low coastline and a golden horizon in the distance.
 
 
 --
-fassv_camp: page, portrait-oriented, image
---
-@image:
-The courtyard of the French-American School of Silicon Valley. Children playing, Sophie and Wind among them. A few trees, a low building with large windows, and a bright blue sky overhead.
-
---
 the_secret: spread, landscape-oriented
 --
+@image:
+The courtyard of a school. Children playing, Sophie and Wind among them. A few trees, a low building with large windows, and bright blue sky overhead.
+
 @left: page, text
+The next day, Wind took Sophie to his school, for a winter camp.
+It was a small bilingual school, with a big courtyard and around sixty kids at the camp.
+Sophie felt shy at first, but kids were friendly to a newcomer from Paris.
+They played games, made art, it was fun.
+
+@right: page, text
+And then, the next day, Wind told her a secret.
+
 “There’s something I can do here that I can’t do in Paris,” Wind said.  
 
 “In Paris, to fly an airplane, you need to be fifteen years old.  
@@ -236,11 +240,13 @@ The FAA does not impose minimum age requirements for operating ultralight vehicl
 the_airport: spread, landscape-oriented
 --
 @left: page, text
-One afternoon, after camp, Wind led Sophie past the hangars at Reid–Hillview Airport.  
-The air smelled of sun-warmed asphalt and avgas.  
+That afternoon, after camp, Wind led Sophie past the hangars at the airport. The air smelled of sun-warmed asphalt and avgas.  
 
 @right: page, image
 Rows of small airplanes on the ramp. Wind walking ahead, Sophie following, both in light jackets. Beyond them, red-and-white windsock against a bright California winter sky.
+
+@comment: hidden
+Reid-Hillview Airport, San Jose, California.
 
 --
 the_egull: page, portrait-oriented, image
@@ -268,7 +274,7 @@ Wind grinned. “You don’t. It’s only got one seat.”
 the_rule: spread, landscape-oriented
 --
 @left: page, text
-“No passengers,” Wind said.  
+“No passengers, I'm not allowed,” Wind said.  
 “If you want to fly with me, you have to learn.”  
 
 --
@@ -283,7 +289,7 @@ the_dragon: spread, portrait-oriented, image
 "How can I learn to fly it?” Sophie asked, eyes bright. 
 "Can I get in?"
 
-Wind patted the seat. “Sure — but it’s tied down. There'll be no flying today.”  
+“Sure — but it’s tied down. There'll be no flying today.”  
 
 They squeezed in together in the single seat, side by side.
 
@@ -292,7 +298,6 @@ They squeezed in together in the single seat, side by side.
 View from behind the open cockpit of a small single-seat ultralight eGull, tied down on a sunny ramp.  
 Inside, Sophie (10, sun-touched light brown hair in a loose ponytail, wearing a sleeveless cream top) and Wind (10, tousled blond hair, blue t-shirt) are squeezed together on a single, narrow bench seat, knees and hips touching.  
 No visible gap between them — the seat is one continuous cushion, with a single backrest, barely wide enough for two kids.  
-Their faces are turned toward the glowing instrument panel.  
 On the glareshield, a small HUD-style projector casts a shimmering gold-and-silver dragon in the air above the instruments, translucent and alive.  
 Sophie leans forward slightly, looking at the dragon projection; Wind’s head tilts toward her as if sharing the moment.  
 Through the canopy, a bright winter sky and a distant hangar are visible.
@@ -461,17 +466,15 @@ Outside her window, an impossibly high white cloud drifted in the shape of a lum
 epilogue_bashful_lamb_departure: spread, landscape-oriented
 --
 @left: page, text
-On the flight home, Sophie noticed a little boy in the seat behind her clutching a well-worn copy of *Pete the Cat and His Four Groovy Buttons*.  
-He looked shy, but his eyes kept drifting to Bashful Lamb in her lap.
+On the flight home, a toddler in the seat next to her looked shy, with the eyes kept drifting to Bashful Lamb in her backpack.
 
-When the seatbelt light came on after takeoff, Sophie turned and smiled.  
-“Would you like to borrow him for the trip?” she asked.
+Sophie smiled, — “Would you like it?” she asked.
 
-The boy nodded slowly. She passed the lamb back, and his fingers curled around the soft wool.  
-By the time the plane got to cruise, he was fast asleep, Bashful Lamb under his arm.
+The baby nodded. She passed the lamb, and baby's fingers curled around the soft toy.  
+By the time the plane started to move, the baby was fast asleep, Bashful Lamb in her arms.
 
 @right: page, image
-Cabin scene from behind Sophie’s seat, showing the boy in the row behind holding Bashful Lamb and Pete the Cat book tucked beside him.  
+Cabin scene, showing Sophie and the baby holding Bashful Lamb.
 Soft airplane lighting, ocean and cloud layer visible through the windows.
 
 

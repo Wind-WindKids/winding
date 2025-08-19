@@ -31,10 +31,9 @@ Boy, 11 years old, tousled blond hair, bright blue eyes, wearing a thick light t
 front_cover: page, portrait-oriented, cover-front
 --
 @title: text, centered, playful, rounded lettering, teal  
+Part 3
 Sophie and Ice
 
-@subtitle: text, centered, bottom, small-caps, gold  
-A Sophie and Wind Story, Book 3
 
 @image: 
 Sophie standing in the Luxembourg Gardens in winter. Bare trees covered with ice, pale sky, no wind. The Eiffel Tower faint, ice in the background.  
