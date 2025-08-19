@@ -4,10 +4,10 @@ theme: Spring or summer daytime, Jardin du Luxembourg, watercolor style
 ---
 
 @Sophie:
-Girl, around 11 years old, sun-touched light brown hair, wearing a cute, sleeveless summer dress in pale cream with a thin sash tied at the waist.  
+Girl, almost 12 years old, sun-touched light brown hair, wearing a cute, sleeveless summer dress in pale cream with a thin sash tied at the waist.  
 
 @Wind:
-Boy, around 11 years old, tousled blond hair, bright blue eyes, wearing a teal short-sleeved shirt and light khaki shorts.  
+Boy, almost 12 years old, tousled blond hair, bright blue eyes, wearing a teal short-sleeved shirt and light khaki shorts.  
 
 
 
@@ -18,7 +18,7 @@ front_cover: page, portrait-oriented, cover-front
 Sophie and Sun
 
 @subtitle: text, centered, bottom, small-caps, gold
-A Sophie and Wind Story
+A Sophie and Wind Story, Book 4
 
 
 @image:
@@ -29,16 +29,19 @@ authoring: page, image, portrait-oriented, cover-front-inside
 --
 Two laptops in the grass, side by side, kite logo on one of the laptops, next to the keyboard. Complex futuristic dragon airplane CAD 3D graphics on the screen of one of the laptops. Code on another side.
 
+
 --
 dedication: page, portrait-oriented
 --
 @text: centered, cursive, golden
-To Lyra Belacqua,  
-who taught us that the sky is wide,  
-and the world is enough.
+To Sophie, 
+she can fly. 
+Just like me.
+       Wind.
 
 @image: centered, logo, small, golden
-A small alethiometer, its hands pointing toward the symbol of the sun.
+Two birds, facing each other, with a heart between them. The birds are inside the shape of a heart, with the tails forming the top of the heart. 
+
 
 --
 opening_scene: page, text, centered
@@ -178,9 +181,6 @@ Sophie watched the kite’s tail flicker against the wide sky, took Wind’s han
 Wind grinned. “Unless it’s on a birthday cake.”
 
 
-
-
-
 --
 scenes_meanwhile_inside: page, portrait-oriented
 --
@@ -191,22 +191,14 @@ scenes_meanwhile_inside: page, portrait-oriented
 ![Wind sitting in a pew, his normally bright hair dulled to grayish in the church darkness, but shadows around are placed as if Wind is a light source. He's hunched over a missalette, secretly drawing on it. The map he's creating is the only vibrant thing in the frame - bright greens of park paths, golden yellow suns, blue sky, colorful kites. One of the crosses got turned into a kite in a drawing. His pencils hidden under the pew. ](snaps/wind_drawing_in_darkness.png)
 
 @comment: author, hidden
-Religions are clearly shortcuts to happiness, but at the same time they use models that yield sub-optimal local maximums and are applied 2000 years out of distribution. Opsie.
+Religions are clearly shortcuts to happiness, but at the same time they use models that yield sub-optimal local maximums and are applied 2000 years out of distribution. Opsie. They don’t need mediation or saviors — if the historical Jesus were dropped into this setting, he’d probably rage at the idea that children like Sophie and Wind are being told they’re not enough, that they must submit to something else to be “saved.”
+
 
 --
 scenes_sunset_picnic: page, portrait-oriented
 --
 @page: rectangle, cutout, large, landscape-oriented, polaroid
 ![Golden hour in the park. Sophie and Wind on their tree branch, sharing a baguette. ](snaps/sunset_picnic.png)
-
---
-birthday_candles: page, portrait-oriented
---
-@page: rectangle, cutout, large, square, polaroid
-![Sophie's birthday, evening, her apartment. A chocolate cake with 10 candles glowing. Sophie closing her eyes to make a wish. Wind watching her, his face lit by candlelight. Other kids around the table but slightly blurred. The only light in the dimmed room comes from the candles.](snaps/birthday_candles.png)
-
-@page: rectangle, cutout, large, portrait-oriented, polaroid
-![Same scene, moments later. Sophie's eyes open, looking directly at Wind while blowing out candles. He's smiling. The smoke from the candles makes swirls in the air between them.](snaps/birthday_wish.png)
 
 
 
@@ -218,9 +210,6 @@ Wind sits relaxed at a flight desk wearing a headset. A joystick, keyboard, and 
 
 @wall:
 A bright sky with a few clouds, a sunlit landscape below. A river winds through the green fields.
-
-@hud:
-A cellphone-sized 3D holographic HUD attached just above the monitors, centered. A sleek golden dragon avatar perches there, head turned toward Wind; faint HUD tick marks ripple across its translucent wings.
 
 @monitors:
 eGull flight simulator in instruments-only view: attitude, airspeed, VSI, slip/skid, and engine/solar systems strip. No terrain on monitors—only on the wall projection.
@@ -242,7 +231,19 @@ Dragon: “Noted. Would you like me to replace them with kites or cake?”
 
 
 @comment: author, hidden
-That’s the key: it’s not a blanket rejection of faith, it’s understanding it and then context-specific decision: “for us, here, it’s unnecessary — we already have what we need.”
+That’s the key: it’s not a blanket rejection of faith, it’s understanding it and then context-specific decision: “for us, here, it’s unnecessary — we already have what we need." For Sophie and Wind, the context is that they are already in the republic of heaven, they don't need a savior. For someone else, a kingdom of heaven might be a step forward, but for them, it'd be a step back. What they do need is less darkness, less fear, more sunlight and no lead contamination. And more cake, of course.
+
+
+--
+birthday_candles: page, portrait-oriented
+--
+@page: rectangle, cutout, large, square, polaroid
+![Sophie's birthday, evening, her apartment. A chocolate cake with 12 candles glowing. Sophie closing her eyes to make a wish. Wind watching her, his face lit by candlelight. Other kids around the table but slightly blurred. The only light in the dimmed room comes from the candles.](snaps/birthday_candles.png)
+
+@page: rectangle, cutout, large, portrait-oriented, polaroid
+![Same scene, moments later. Sophie's eyes open, looking directly at Wind while blowing out candles. He's smiling. The smoke from the candles makes swirls in the air between them.](snaps/birthday_wish.png)
+
+
 
 --
 scenes_bike_to_market: page, portrait-oriented
@@ -256,6 +257,136 @@ A sunlit park path lined with green lawns and flowerbeds, early-summer flowers i
 @light:
 Warm morning tones, golden light filtering through tall chestnut trees. Long, soft shadows falling across the path.  
 
+
+
+--
+epilogue_kite_quiz: spread, landscape-oriented
+--
+Epilogue — The Unfair Quiz with Kites
+
+@left: page, text
+At the kite workshop, Sophie handed out papers.  
+On each was a drawing of diverse kites, some light, 
+some heavy, some with torn sails.
+
+She explained the quiz:
+
+Circle the kites that will fly the best, 
+Cross out the ones that will not. 
+Use aspect ratio, balance, and weight.
+Two minutes to solve it all.  
+
+One kid squinted at the page, hand shooting up.  
+“This isn’t fair! We’ve never covered aspect ratio.”  
+
+“It’s in the syllabus.”  
+
+Wind, observing the workshop from the back, almost laughed.  
+He’d heard that line before.  
+
+@right: page, image
+Sophie’s handout.
+
+@image:  
+A spread with a watercolor illustration of a park scene,
+on the grass there are six kites, numbered 1 to 6.
+
+1. A light carbon fiber cross shaped kite, aspect ratio 1:2.
+2. A light carbon fiber diamond shaped kite, aspect ratio 1:1.
+3. A light carbon fiber square shaped kite, aspect ratio 1:1.
+4. A heavy cross shaped kite, aspect ratio 1:2, with a thick wooden frame.
+5. A heavy diamond shaped kite, aspect ratio 1:1, with a thick wooden frame.
+6. A heavy square shaped kite, aspect ratio 1:1, with a thick wooden frame.
+
+A few other kites are scattered around, not numbered, some with a torn sail, some with missing tails.
+
+--
+epilogue_kite_quiz_answer: spread, landscape-oriented
+--
+@left: page, image, portrait-oriented
+Same handout as before, but with #4 crossed out.
+
+@text: big, red, mark
+17%
+
+@text: margin, note, small, red, handwritten
+Review aspect ratio, weight and balance.
+
+@comment: hidden
+The kite that will fly the best is #2, the light carbon fiber diamond kite with an aspect ratio of 1:1.
+The rest will not fly the best or will not fly at all, due to their suboptimal weight and balance or aspect ratio.
+The correct answer is to circle #2, cross out #1, #3, #4, #5, and #6. The student crossed out #4.
+One correct, 1/6 = 0.166666… ≈ 16.67%. Rounded up to 17%. 
+
+
+@right: page, image, portrait-oriented
+A drawing on a whiteboard, with six kites sketched in a grid.
+
+@text: handwritten
+
+| Shape | cross | diamond | square |
+|-------|-------|---------|--------|
+| Light |  1    |   2     |   3    |
+| Heavy |  4    |   5     |   6    |
+
+The top row: light frames — they would fly.
+The diamond kite would fly best, balanced and right aspect ratio for the kite.
+Correct answer is to circle #2, cross out #1, #3, #4, #5, and #6.
+
+
+--
+epilogue: page, text, centered
+--
+Epilogue — The Dragon
+
+@left: page, text
+Sophie: “Not the dragon again, Wind. He’s scary.”
+Wind: "I've been training him, he is better, come see —
+We’ve scared her enough times. Now show her you can sing.”  
+Dragon: “I am an instructor, not a troubadour.”  
+Wind: “Dragon. Play.”  
+
+Dragon awkwardly holding a conductor’s baton, 
+glowing musical notes spilling into the air.  
+A virtual orchestra rises behind him — violins, cello, horn —
+
+The simulator darkens. The eGull fades into night.  
+A lone violin begins to play, its sound painting the shape of a single eGull across the stars.  
+Another violin joins — another eGull appears, flying in harmony.  
+And then another, and another.
+One by one they gather, then clouds swell, mountains shimmer, the orchestra building.  
+
+At the peak, two eGulls lift above the cloudtops,  
+soaring serenely to the twin voices of violins.  
+The others fall back, then rejoin, the orchestra
+soaring with the violins leading, reaching a crescendo.
+The sky brightens with sunrise.
+
+Gradually, the sound softens.
+
+@right: page, portrait-oriented, image
+
+@page: rectangle, cutout, large, landscape-oriented
+![Sophie and Wind sitting in the eGull simulator, close together, Sophie is hugging Wind.](snaps/sophie_and_wind_in_eGull.png)
+
+@text:
+“It’s beautiful…”, Sophie whispered.
+Wind smiled — “Good Dragon.”
+“Can my eGull have a unicorn horn?”
+“Yes, Princess Sophie,” replied the Dragon, 
+forming its shape out of the stars and bowing slightly.
+
+--
+epilogue_sophie_and_wind: spread, image, landscape-oriented
+--
+@image:
+![Sophie and Wind sitting in the eGull simulator, close together, Sophie is hugging Wind.](snaps/sophie_and_wind_in_eGull.png)
+
+
+--
+the_end: spread, text, landscape-oriented
+--
+The End
 
 
 

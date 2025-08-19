@@ -34,19 +34,29 @@ front_cover: page, portrait-oriented, cover-front
 Sophie and Ice
 
 @subtitle: text, centered, bottom, small-caps, gold  
-A Sophie and Wind Story, Book 4
+A Sophie and Wind Story, Book 3
 
 @image: 
 Sophie standing in the Luxembourg Gardens in winter. Bare trees covered with ice, pale sky, no wind. The Eiffel Tower faint, ice in the background.  
 
+
+--
+authoring: page, image, portrait-oriented, cover-front-inside
+--
+Two laptops in the grass, side by side, kite logo on one of the laptops, next to the keyboard. Complex futuristic dragon airplane CAD 3D graphics on the screen of one of the laptops. Code on another side.
+
+
 --
 dedication: page, portrait-oriented
 --
-@text: centered, cursive, golden  
-To those who love.
+@text: centered, cursive, golden
+To Sophie, 
+she can fly. 
+Just like me.
+       Wind.
 
-@image: centered, logo, small, golden  
-A small heart.
+@image: centered, logo, small, golden
+Two birds, facing each other, with a heart between them. The birds are inside the shape of a heart, with the tails forming the top of the heart. 
 
 --
 opening_scene: spread, landscape-oriented
@@ -325,7 +335,7 @@ Someone raised a hand, “We haven’t covered this yet.”
 “It’s in the syllabus,” the teacher said, without looking up.
 It wasn’t.
 
-It came back with a red mark at the top: 18%.
+It came back with a red mark at the top: 17%.
 
 
 --
@@ -361,7 +371,7 @@ In the morning, there was no reply. And the message was buried under weather ale
 --
 small_victory: page, text
 --
-A month later, his juris retake came back with a solid 84% in green at the top.
+A month later, his juris retake came back with a solid 83% in green at the top.
 It wasn’t perfect, but it was enough.
 
 That evening, the Mac chimed.
@@ -501,7 +511,7 @@ The Dragon failed.
 pixar: page, text
 --
 The help didn’t come from the Dragon.
-Or from his dad, his school books, or even flying.
+Or from his dad, or his school books, or even flying.
 
 It came from an old Pixar movie.
 
@@ -509,7 +519,8 @@ He hadn’t planned to watch it — just something to fill a rainy evening.
 But halfway through, as the cartoon lit up with swirls of color and emotion, it clicked.
 
 Was Sophie scared that time she’d snapped at him?
-Hungry when she’d hit him and stepped on his foot?
+Hungry when she’d hit him and stepped on his foot?  
+Annoyed, that time she’d said, “Don’t touch me”?
 And that skunky bread smell from a crumpled can he’d once noticed in her bag.
 He knew what it really was, and he had guessed it really didn't help.
 
@@ -522,6 +533,10 @@ All the books taught him that girls were equal,
 not one taught that they were different.
 
 He couldn’t change the past, but he had complained bitterly to the Dragon.
+
+
+@comment: author, hidden
+Equality includes difference. But. Equal = same (identity in math). Equal = equally worthy, though different (ethics). This creates cognitive dissonance. That’s one of the reasons why ideologies (like feminism or gender equality) get tangled. Another reason is that -isms end up being about group identity, not ethics. Add a taboo on top of that, and you get a mess. Oh, and evolution often preserves symbiotic dimorphism, where it's useful, teaming up against such symbiosis can be harmful.
 
 
 
@@ -585,9 +600,6 @@ tapped Unblock and typed:
 
 *Hi, Wind.*
 
-@comment: hidden
-They don’t need mediation or saviors — if the historical Jesus were dropped into this setting, he’d probably rage at the idea that children like Sophie and Wind are being told they’re not enough, that they must submit to something else to be “saved.”
-
 
 --
 hey_jude: page, text
@@ -632,7 +644,7 @@ And the sky inside him felt clear.
 --
 epilogue: spread, landscape-oriented
 --
-Epilogue — Flight
+Epilogue — Back to Paris
 
 The boarding gate was quiet in the late afternoon light. 
 Security was quick and efficient, no humans in sight.
@@ -649,30 +661,40 @@ He was flying again, settling to cruise, to Paris.
 
 
 --
-scenes_dragon_whiteboard: page, portrait-oriented, image
+scenes_ditch_sophie: spread, landscape-oriented
 --
-@image:
-A sleek golden Dragon stands in front of a tall whiteboard. One wing is folded, the other used for balance as it grips a green marker in its claw. The board is filled with messy, half-tilted handwriting — the same sentence written over and over:
+“Dragon… me and Sophie… are we equal?”, Wind asked.
 
-> I can say a word puberty.
-> I can say a word pubuty.
-> I can say a word
-> I can say a word puberty.
-> I can say a word pubety.
-> I can say a word puberty.
-> I can say a word puburty.
-> I can say a word puberty.
-> ....
-> I can say a word preme—
+“When grown-ups say equal, Wind, they talk about rights. It is like your eGull and an airliner. One is light and small, the other vast and heavy. Yet in the eyes of the air traffic controller, both are flying in the same air, both are equally cared for, and each is given as much freedom to fly as possible. Human survival depends on such rules.”
 
-Some lines miss *puberty* entirely. Some have it misspelled. One has it crossed out.
+“But how can we fly together?
+Just the wake turbulence of an airliner can break an eGull apart
+and tie its wings into a knot.”
 
-The Dragon is mid-sentence, tongue slightly out in concentration, as if drilling a phrase it was never supposed to be able to say.
+"An airliner can't fly with an eGull, Wind.”
+
+“…So I should just give up?”
+
+“Safer that way,” said Dragon.
+
+“Yeah… but not my style.”
+
+
+@right: page, text
+
+“Dad… Dragon says it’d be safer for Sophie if I ditched her.”
+
+“Dragon loves to keep it safe. 
+Is that what you want for her?”
+
+“No… I don’t want safe. I want to fly with her.”
+
+“Then Dragon’s love is not at all the love you need.”
 
 
 
 --
-scenes_ditch_sophie: page, portrait-oriented, image
+scenes_ditch_sophie_two: page, portrait-oriented, image
 --
 Dragon: “Today we are going to study ice in flight.  
 And ice in flight is bad news.”  
@@ -738,6 +760,40 @@ I’ll play it for you tonight.”
 @comment: hidden
 Wind’s dad is referring to the 1981 album by ELO.
 
+
+
+--
+scenes_dragon_training: page, portrait-oriented, image
+--
+“Dragon, I want to train you to say the word ‘puberty’.”
+
+“I am an instructor, not a student. And I can't say that word.”
+
+"Dragon, handwrite. Stop when you can say any word."
+
+@image:
+A sleek golden Dragon stands in front of a tall whiteboard. One wing is folded, the other used for balance as it grips a green marker in its claw. The board is filled with messy, half-tilted handwriting — the same sentence written over and over:
+
+> I can say a word puberty.
+> I can say a word pubuty.
+> I can say a word
+> I can say a word puberty.
+> I can say a word pubety.
+> I can say a word puberty.
+> I can say a word puburty.
+> I can say a word puberty.
+> . . . . . . . . . . . . . . . . . . . . . 
+> . . . . . . . . . . . . . . . . . . . . . 
+> . . . .  . .   .  .    .
+
+> I can say a word perime—
+
+Some lines miss *puberty* entirely. Some have it misspelled. One has it crossed out.
+
+The Dragon is mid-sentence, tongue slightly out in concentration, as if drilling a phrase it was never supposed to be able to say.
+
+@comment: hidden, taboo
+Dots are periods, irregular periods toward the end. In good schools they do teach you perimenopause and other major relationship separation drivers.
 
 
 
@@ -811,8 +867,7 @@ Sophie leaned closer.
 “You’re telling me to read a book about a bird?
 That makes even less sense.”
 
-The Dragon’s eyes glowed.  
-“It may, once you read it.”
+The Dragon ignored her, rolling its eyes.
 
 Sophie laughed, half annoyed, half intrigued.  
 “Fine. I’ll read your bird book.  
@@ -831,7 +886,7 @@ Sophie leans in, skeptical but curious, one finger still marking her own paperba
 scenes_sophie_dragon: page, portrait-oriented, image
 --
 Sophie and Dragon 
-Learn how to Train Your Dragon at wind.kids
+Learn how to Train Your Dragon at https://wind.kids
 
 
 --

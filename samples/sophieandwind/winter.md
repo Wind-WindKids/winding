@@ -32,20 +32,30 @@ front_cover: page, portrait-oriented, cover-front
 Sophie and Winter
 
 @subtitle: text, centered, bottom, small-caps, gold
-A Sophie and Wind Story
+A Sophie and Wind Story, Book 2
 
 @image:
 Sophie standing at the rail of a bench in the Luxembourg Gardens in winter. Bare trees, pale sky, her scarf lifted by a breeze. The Eiffel Tower faint in the background. She looks toward the distance as if imagining someplace far away.
+
+
+--
+authoring: page, image, portrait-oriented, cover-front-inside
+--
+Two laptops in the grass, side by side, kite logo on one of the laptops, next to the keyboard. Complex futuristic dragon airplane CAD 3D graphics on the screen of one of the laptops. Code on another side.
+
 
 --
 dedication: page, portrait-oriented
 --
 @text: centered, cursive, golden
-To those who know two skies—  
-and still find one more to fly.
+To Sophie, 
+she can fly. 
+Just like me.
+       Wind.
 
 @image: centered, logo, small, golden
-A small compass rose, its needle pointing west.
+Two birds, facing each other, with a heart between them. The birds are inside the shape of a heart, with the tails forming the top of the heart. 
+
 
 --
 opening_scene: page, text, centered
@@ -82,8 +92,8 @@ departure_goodbyes: spread, landscape-oriented
 --
 @left: page, text
 At the airport, her dad hugged her tight.  
-“Sophie, be gentle with Wind. He’s a good boy, and he clearly loves you,” he said.  
-“And come back in one piece.”  
+“Sophie, be gentle with Wind, he loves you,” he said. 
+“And come back in one piece.”
 
 Her brother grinned and parroted, “Be gentle with Wind, no biting…” — rubbing his arm.  
 She had bitten her brother once, when she was six, and neither of them had ever forgotten it.  
@@ -120,9 +130,11 @@ waymo_to_sunnyvale: spread, landscape-oriented
 @left: page, text
 In the Waymo, Wind typed on the screen: “Sunnyvale.”  
 
-Sophie snorted. “That’s not a real place.”  
+Sophie snorted. “That’s not a real place.”
 
-“It’s real — sun makes wind, remember?” Wind grinned. “You’ll see.”  
+“It’s real — sun makes wind, remember? You’ll see. We’re in Silicon Valley — this is where your iPhone was created. We’ll even drive past Apple today.”
+
+He leaned back, grinning. “And my home here is in Hidden Valley… inside Silicon Valley. Used to be a sand mine. They filled it in, built houses about fifty years ago.”
 
 The Waymo eased forward, merging into the stream of cars, then slid toward the airport exit.
 
@@ -313,23 +325,47 @@ A low, textured hum answered.
 --
 sim_level_flight: page, portrait-oriented, image
 --
-@image:
-Sophie in the pilot chair. Two monitors show the eGull’s panel instruments; a projection on the wall glows with a sunny valley.  
-The dragon’s voice fills the headset, warm and deliberate: “Let’s begin with level flight.”  
+Sophie in the pilot chair. Two monitors show the eGull's panel instruments; a projection on the wall glows with a sunny valley.
+The dragon's voice fills the headset, warm and deliberate:
+"Let's begin with level flight."
+
 Wind sits beside her, watching.
 
 --
+sim_crash: page, text, centered
+--
+The next evening, dragon's voice now familiar: "Let's practice turns at minimum airspeed."
+She trimmed the eGull and entered a slow turn to the left, her lips tight, trying to fly as slow as she could.
+"Sophie, you are flying too slow."
+The horizon tilted. The stall warning beeped.
+The dragon's voice, calm but firm: "I have control."
+But Sophie's hands stayed frozen on the stick, knuckles white.
+"Let go!" Wind said urgently. "Dragon needs to fly!"
+The beeping grew louder. The horizon spun. Sophie pulled harder, trying to fix it.
+Everything was rotating backwards now, faster and faster.
+The dragon's voice, still calm but urgent: "Sophie, push the stick forward. Now."
+But her hands wouldn't move. The little eGull spiraled down, spinning, until—
+The screen went black.
+Silence.
+The scene on the screen changed to eGull, now broken stuck, on top of the trees of a steep hill.
+"What have you done to my dragon?", Wind teased.
+"Sophie, we are going to learn stalls, but not today," Dragon said. "Today is for learning to turn level, at minimum airspeed, constant bank, and in balance."
+--
 sim_dragon_save: page, text, centered
 --
-“Sophie, you are flying too slow.”  
-— The horizon tilts, stall warning beeps.  
-The dragon’s voice is calm but firm: “I have control.”  
-
-On the screen, ghostly dragon wings overlay the eGull, leveling it out.  
-A beat later: “You have control.”  
-
-“Sophie, we are going to learn stalls, but not today.  
-Today is for learning to fly straight and level, at a constant airspeed, constant altitude, in a constant direction, and in balance.”
+Next attempt. Same slow flight turn to the left. Same warning beep.
+"Sophie, you are flying too slow."
+The dragon's voice: "I have control."
+This time, Sophie's hand relaxed on the stick, "You have the control".
+On the screen, ghostly dragon wings overlaid the eGull. The horizon steadied. The beeping stopped.
+The valley returned, peaceful and level.
+"Good," Dragon said. "We are at the level flight again. You can have the control."
+Sophie took the stick again, lighter this time.
+"What if I mess up again?"
+"Then you will say three words: 'You have control.' And I will fly."
+"Always?"
+"Almost always. Sometimes I may need your help."  Dragon said.
+Wind smiled.
 
 --
 taxi_training: spread, landscape-oriented
@@ -357,8 +393,8 @@ On her last night, the clubhouse glowed with string lights.
 A few camp friends came to say goodbye.  
 There was music, paper lanterns, and a table piled high with cupcakes and cookies.  
 
-After the party Sophie and Wind sat on the low deck steps, kissing, unabashed. 
-They knew she would be flying home the next day.
+After the party, Sophie and Wind sat on the low deck steps.
+They kissed, unabashed and certain, knowing tomorrow won't be here.
 
 --
 @right: page, image
