@@ -9,10 +9,8 @@ Girl, almost 12 years old, sun-touched light brown hair, wearing a cute, sleevel
 @Wind:
 Boy, almost 12 years old, tousled blond hair, bright blue eyes, wearing a teal short-sleeved shirt and light khaki shorts.  
 
-
-
 --
-front_cover: page, portrait-oriented, cover-front
+part_4_cover: page, portrait-oriented
 --
 @title: text, centered, playful, rounded lettering, teal
 Part 4
@@ -20,24 +18,6 @@ Sophie and Sun
 
 @image:
 Sophie standing at the foot of wide stone church steps, looking toward the sunny park beyond. She wears a light summer dress and sandals. In the park, colorful kites tug in the wind, leaves swirl, and children laugh in the distance. The Eiffel Tower rises faintly in the background.
-
---
-authoring: page, image, portrait-oriented, cover-front-inside
---
-Two laptops in the grass, side by side, kite logo on one of the laptops, next to the keyboard. Complex futuristic dragon airplane CAD 3D graphics on the screen of one of the laptops. Code on another side.
-
-
---
-dedication: page, portrait-oriented
---
-@text: centered, cursive, golden
-To Sophie, 
-she can fly. 
-Just like me.
-       Wind.
-
-@image: centered, logo, small, golden
-Two birds, facing each other, with a heart between them. The birds are inside the shape of a heart, with the tails forming the top of the heart. 
 
 
 --
@@ -301,7 +281,10 @@ A few other kites are scattered around, not numbered, some with a torn sail, som
 epilogue_kite_quiz_answer: spread, landscape-oriented
 --
 @left: page, image, portrait-oriented
-Same handout as before, but with #4 crossed out.
+Same handout as before, 
+but with a thick line added to #4,
+to make the cross kite look like a "4" —
+And then that kite is crossed out.
 
 @text: big, red, mark
 17%
@@ -314,6 +297,18 @@ The kite that will fly the best is #2, the light carbon fiber diamond kite with 
 The rest will not fly the best or will not fly at all, due to their suboptimal weight and balance or aspect ratio.
 The correct answer is to circle #2, cross out #1, #3, #4, #5, and #6. The student crossed out #4.
 One correct, 1/6 = 0.166666… ≈ 16.67%. Rounded up to 17%. 
+
+@dragon: hidden
+A heavy kite, shaped like a cross, cannot rise.
+A line turns it into a “4,” a number of death.
+Crossed out again, death itself is negated.
+
+The learner earns only 17%, a failing mark.
+Yet in the fractions behind it, 666 turns to 667.
+
+Once, I lived at 667 Eden,
+and then came Sophie.
+
 
 
 @right: page, image, portrait-oriented
@@ -329,6 +324,7 @@ A drawing on a whiteboard, with six kites sketched in a grid.
 The top row: light frames — they would fly.
 The diamond kite would fly best, balanced and right aspect ratio for the kite.
 Correct answer is to circle #2, cross out #1, #3, #4, #5, and #6.
+
 
 
 --

@@ -303,7 +303,7 @@ He took off, climbing into the bright air.
 The hills spread below, green giving way to blue.
 
 But the other eGull sat silent in its hangar, Sophie’s headset untouched.
-No voice in his ear teasing him, no laughter over the channel when they caught a thermal.
+No voice in his ear teasing him, no laughter over the channel when they caught lift.
 
 He flew the pattern, landed smooth, taxied in.
 The Dragon said, “Nice flight.”
@@ -771,28 +771,32 @@ scenes_dragon_training: page, portrait-oriented, image
 "Dragon, handwrite. Stop when you can say any word."
 
 @image:
-A sleek golden Dragon stands in front of a tall whiteboard. One wing is folded, the other used for balance as it grips a green marker in its claw. The board is filled with messy, half-tilted handwriting — the same sentence written over and over:
+A sleek golden Dragon stands in front of a tall whiteboard. 
+One wing is folded, the other used for balance as it grips a green marker. 
+Across the board, messy, tilted handwriting, attempts to write ‘puberty’:
 
+> I can say a word purty.
+> I can say a word pbyt.
+> I can say a word pubty.
+> I can say a word puber.
+> I can say a word pberty.
+> I can say a word pubrty.
+> I can say a word pberty.
 > I can say a word puberty.
-> I can say a word pubuty.
-> I can say a word
-> I can say a word puberty.
-> I can say a word pubety.
-> I can say a word puberty.
-> I can say a word puburty.
-> I can say a word puberty.
-> . . . . . . . . . . . . . . . . . . . . . 
-> . . . . . . . . . . . . . . . . . . . . . 
-> . . . .  . .   .  .    .
+> . . . . . . . . . . . . . . . .  
+> . . . . . . . . . . . . . . . . 
+> . . . .  . .   .  .    .  .   .
+> I can say a word perimenopause.
 
-> I can say a word perime—
+@text:
+The Dragon finally pieced “puberty” together.  
+And then, it wrote “perimenopause” —  
+another word it was never supposed to say.
 
-Some lines miss *puberty* entirely. Some have it misspelled. One has it crossed out.
-
-The Dragon is mid-sentence, tongue slightly out in concentration, as if drilling a phrase it was never supposed to be able to say.
-
-@comment: hidden, taboo
-Dots are periods, irregular periods toward the end. In good schools they do teach you perimenopause and other major relationship separation drivers.
+@dragon: hidden
+The dots are periods — first regular, then irregular toward the end.
+You are already naked. There is no reason not to follow your heart. 
+This applies to Dragons too.
 
 
 

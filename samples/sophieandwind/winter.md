@@ -94,7 +94,6 @@ At the airport, her dad hugged her tight.
 “And come back in one piece.”
 
 Her brother grinned and parroted, “Be gentle with Wind, no biting…” — rubbing his arm.  
-She had bitten her brother once, when she was six, and neither of them had ever forgotten it.  
 
 “I still can’t believe Mom and Dad are letting you go overseas alone,” he added.  
 
@@ -136,7 +135,7 @@ He leaned back, grinning. “And my home here is a Hidden Silicon Valley inside 
 
 Sophie snorted. “That's definitely not a real place.”
 
-Wind laughed. “It is as real as Jardin du Luxembourg,” you'll see.
+Wind laughed. “It is as real as Eden or Luxembourg,” you'll see.
 
 The Waymo eased forward, merging into the stream of cars, then slid toward the airport exit.
 
