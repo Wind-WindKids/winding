@@ -179,14 +179,17 @@ The eGull rolled, lifted, and the horizon dropped away.
 On the parallel runway, Sophie climbed alongside.
 
 
-@right: image
+@right: image, portrait-oriented
 Two white eGulls taking off in parallel, 
 the sun breaking through the morning fog, hills
+
+@eGull: aircraft, electric, white 
+A sleek ultralight electric aircraft, high-wing monoplane, tricycle landing gear. A bubble canopy for a single pilot. Engine is small, sleek and aerodynamic. High T-tail. The fuselage is short and smooth, tapering to the tail, giving it a light, glider-like look.
 
 --
 not_level: spread, landscape-oriented
 --
-@left: page, text
+@left: page, text, portrait-oriented
 They cleared the hills, free of the tower.
 
 “Shall we begin with level flight?” 
@@ -200,36 +203,39 @@ The Dragon spoke softly, as if to itself: “Copy that.”
 Wind pretended to check his airspeed,  
 but the knot in his stomach had nothing to do with flying.
 
-@right: image  
-Sophie’s eGull flying alongside Wind’s, the sun bright.
-Cockpit view, Sophie in a headset, piloting her eGull.
-Heads-up display on the eGull’s canopy, showing altitude, speed bar, a flight track, airspace boundaries.
-
-
+@right: image, portrait-oriented
+Cockpit view, Sophie in a headset, piloting her eGull, 
+holding the control stick with her right hand. 
+Small heads-up display on the eGull’s canopy, showing altitude, speed bar, horizon, autopilot. 
+Wind’s eGull flying in a distance, the sun bright.
 
 --
-egull_spin: spread, landscape-oriented
+egull_rolling: spread, landscape-oriented
 --
-@left: page, text
+@left: page, text, portrait-oriented
+Next day, they've been taking off together, again - “This is a tricky one," — Wind said, but you can do it."
 
-Wind watched Sophie strap in across the tarmac.
-She didn’t ask for help, didn’t look over — just lowered her canopy and started her checklist.
+She lowered her canopy and started her checklist.
 
 “Crosswind from your right, twelve knots, gusting to sixteen,” her Dragon advised, calm and clear.
 “I’ve got it,” Sophie replied, eyes fixed ahead.
 
-Wind’s own Dragon murmured in his ear: “This is a tricky one. She should wait.”
-
 Sophie’s eGull began its takeoff roll, nosewheel jittering against the gusts.
-Quater waydown the runway a gust hit, hard. The eGull veered left, overcorrected right.
+A gust hit, hard. The eGull veered left, overcorrected right.
 
 “Abort the takeoff—Abort now—” her Dragon’s voice was quick now, firm.
-But Sophie kept chasing the centerline. Another gust — stronger, the right wing lifted high.
-Nose yawed, the eGull, still on the ground started to spin, 
+But Sophie kept chasing the centerline. Another gust — stronger, the right wing lifted.
+Nose yawed, the eGull, still on the ground started to roll on one wheel.
 
-Her Dragon’s voice cut in, calm but absolute.  
-Full rudder, full aileron — the eGull rolled on one wheel, wings balancing, then steadied.  
-It straightened, slowed, and rolled to a stop in the middle of the runway, dead straight.
+@right: image, portrait-oriented
+Sophie’s eGull, high-wing monoplane, on a runway, roll before take off, view from behind — the eGull is rolling away, right wing slightly higher than left, right wheel off the ground. It is not dramatic.
+
+--
+dragon_takeover: spread, landscape-oriented
+--
+@left: page, text, portrait-oriented
+Her Dragon’s voice cut in, calm but absolute, "I’m taking control now.”
+Full rudder, full aileron — the eGull steadied, straightened, slowed, and rolled to a stop in the middle of the runway, dead straight.
 
 Wind was already shutting down, getting unstrapped.
 
@@ -237,10 +243,14 @@ Sophie sat rigid, her hand locked on the stick.
 She clicked the transmit.  
 “I’m fine,” she said through clenched teeth. 
 
-She got really scared.
+She got really scared. And she didn’t want Dragon in control.
 
-@right: image  
-Sophie’s eGull stopped in the middle of the runway, Wind’s eGull parked nearby. Sophie’s hand still on the stick, face tense. She is looking white and shaken. 
+@right: image, portrait-oriented 
+Cockpit view, Sophie in a headset, sitting in her eGull, 
+holding the control stick with her right hand. 
+Small heads-up display on the eGull’s canopy, 
+showing 133 ft as altitude, zero speed bar, horizon, autopilot. 
+Sophie’s face tense.
 
 --
 ice: spread, landscape-oriented

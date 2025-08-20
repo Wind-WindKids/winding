@@ -264,6 +264,12 @@ He’d heard that line before.
 @right: page, image
 Sophie’s handout.
 
+Circle the kites that will fly the best, 
+Cross out the ones that will not. 
+Use aspect ratio, balance, and weight.
+Two minutes to solve it all.  
+
+
 @image:  
 A spread with a watercolor illustration of a park scene,
 on the grass there are six kites, numbered 1 to 6.
