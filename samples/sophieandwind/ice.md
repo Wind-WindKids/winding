@@ -206,7 +206,9 @@ but the knot in his stomach had nothing to do with flying.
 @right: image, portrait-oriented
 Cockpit view, Sophie in a headset, piloting her eGull, 
 holding the control stick with her right hand. 
-Small heads-up display on the eGull’s canopy, showing altitude, speed bar, horizon, autopilot. 
+Small heads-up display on the eGull’s canopy, 
+almost full battery bar on the left side,
+showing altitude, horizon, autopilot. 
 Wind’s eGull flying in a distance, the sun bright.
 
 --
@@ -237,19 +239,20 @@ dragon_takeover: spread, landscape-oriented
 Her Dragon’s voice cut in, calm but absolute, "I’m taking control now.”
 Full rudder, full aileron — the eGull steadied, straightened, slowed, and rolled to a stop in the middle of the runway, dead straight.
 
-Wind was already shutting down, getting unstrapped.
+Wind was already in the air, circling above, watching.
 
 Sophie sat rigid, her hand locked on the stick.  
 She clicked the transmit.  
 “I’m fine,” she said through clenched teeth. 
 
-She got really scared. And she didn’t want Dragon in control.
+The Dragon taking control — she got really scared.
 
 @right: image, portrait-oriented 
 Cockpit view, Sophie in a headset, sitting in her eGull, 
 holding the control stick with her right hand. 
 Small heads-up display on the eGull’s canopy, 
-showing 133 ft as altitude, zero speed bar, horizon, autopilot. 
+showing completely full battery bar on the left side, 
+rest of the indicators off, autopilot still on. 
 Sophie’s face tense.
 
 --

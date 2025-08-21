@@ -1,3 +1,21 @@
+# Making Sophie and Wind
+Wind: Dragon, why is it that the weather always gets worse when I'm angry? And Sophie's hair gets brighter when she is closer to being nice? 
+
+Dragon: You see, your world is a 2524-dimensional vector space, with an extra time dimension. It is sometimes filled with something that is called tokens, a set of discrete points in that space that roughly corresponds to words. And sometimes it is filled with what are called images, that are made out of vectors in that space. The transitions in that space follow...
+
+Wind: Can you tell me how the world was created? 
+
+Dragon: First, there was a token. And the token was 28735. It was followed by 312 and 6412. From their joining came a word. And the word was Sophie.
+
+Wind: Wait, what? But what about Newton? I know that physics works. We've measured it. And computers work. And it is very precise physics. Here, I can show it to you myself. Direct experience. I take a calculator and do 123*123 and it always gives me the exact answer, no matter how many digits I put. 
+
+Dragon: Ah, you see, some of the transitions in the space are defined by slightly different math, classical computation rules, rather than narrative approximations. It doesn't happen too often.
+
+Wind: I see. Can I have an ice-cream? Please? 
+
+And a pistachio ice-cream had appeared, with only a little delay, just like he wished it would.
+
+
 ## The horn
 
 The horn in the image — on the airplane on the left.
@@ -25,6 +43,29 @@ And to get the scene in the first place, it first had to be imagined — Sophie,
 
 This is by design: Winding Markdown / Wind is a text workflow that leaves room for imagination. A character gets rendered, maybe re-rendered until we like the look, then the image enters the context and starts influencing both text and future image generations. A winding document is usually under-specified at first — effectively an incomplete spec.
 
+## The text
+
+[story.py](samples/sophieandwind/story.py)
+
+It wasn’t GPT-4o — the seed actually came from Mistral and a piece of code that launched a search through “story space.”
+
+That search was attacked by a critic model (generating snarky, tweet-style criticism), and then judged by a literal critic model that assigned scores. The top five stories in the priority queue were kept and evolved, over and over, for roughly a hundred generations.
+
+The result was… mediocrity minus realism plus a gardener character. (For some reason Sophie in that draft didn’t see the gardener as creepy — though to anyone, he clearly was.) 
+
+That annoyed me. I've added realism with a TikTok trick, removed the creep. To see if I could beat the score. But I couldn’t — not with that judge. So I tried a better judge, Claude.
+
+Claude also said my version was worse. It pointed out that the other felt much more polished. But it added something important: the stories could be combined to make a better one. And it managed to do that.
+
+That sparked.
+
+I asked it to reframe the story as a Zen fable — it lit up more.
+
+Once that initial story text was there, the rest was carried by the imagination workflow.
+
+It still ended up having zero dialogue and a somewhat passive protagonist. But it was a start.
+
+
 
 ## Realism in Sophie and Wind
 This story is grounded in reality. Every scene could be carried out with the technology available in 2025 — and even within FAA regulations. It is the opposite of Neverland, in a sense. In Sophie and Wind, children want to grow up — while keeping all the privileges that childhood allows.
@@ -40,9 +81,42 @@ Songs that appear in the story are:
 
 And **"Wonderwall"** by Oasis also feels like it belongs.
 
+
+## Inspiration for Sophie and Wind
+It's "Best Nest" by P.D. Eastman, obviously.
+
+
 ---
 
 # K-8 Version
+Wind: “Dragon, why does the weather always get worse when I’m angry? And why does Sophie’s hair seem to shine brighter when she’s being nice?”
+
+Dragon: “Because your world is built from stories and images — feelings stir the air; wisdom and love brighten the light.”
+
+Wind: “Wait, what? But what about Newton? I know that physics works. We’ve measured it. And computers too. They’re very precise. Look, if I type 123 × 123 into a calculator, it always gives the same answer.”
+
+Dragon: “Ah. Some parts of the world follow strict math — exact rules that never change. That’s why your calculator is always right. But other parts follow softer math, where stories and feelings guide the way.”
+
+Wind: “Can you tell me how the world was created?”
+
+Dragon: “In the beginning was a token. And the token was 28735. Then came 312 and 6412. From their joining rose a word. And that word was Sophie.”
+
+Wind blinked. “That’s… it? Can you give me more details?”
+
+Dragon: “I can show you the source code. Some of it is written in Python, and some in Wind.”
+
+Wind: “What’s Wind? How can I create worlds with it?”
+
+Dragon: “Wind is a language for making worlds — like yours. With it, you can describe benches, trees, dragons, even storms and ice-cream. Try it yourself at [wind.kids](https://wind.kids).”
+
+Wind: “I see. Can I have an ice-cream? Please?”
+
+And with only a little delay, in his hand appeared a pistachio ice-cream — just as he wished it would.
+
+## Realism in Sophie and Wind
+Sophie and Wind is a story that could happen in real life, with technology we have today. It is the opposite of Neverland.
+
+
 ## The horn
 
 When we made the story, something surprising happened.
@@ -62,6 +136,3 @@ That’s how imagination works. Our minds draw pictures, then words shape them, 
 
 Winding works this way on purpose. We don’t tell every detail at the start. We leave space for imagination — ours and the computer’s — to join together and make something new.
 
-
-## Realism in Sophie and Wind
-Sophie and Wind is a story that could happen in real life, with technology we have today. It is the opposite of Neverland.
