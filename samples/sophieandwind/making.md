@@ -51,6 +51,8 @@ It wasn’t GPT-4o — the seed actually came from Mistral and a piece of code t
 
 That search was attacked by a critic model (generating snarky, tweet-style criticism), and then judged by a literal critic model that assigned scores. The top five stories in the priority queue were kept and evolved, over and over, for roughly a hundred generations.
 
+In this world, natural selection had indeed happened. 
+
 The result was… mediocrity minus realism plus a gardener character. (For some reason Sophie in that draft didn’t see the gardener as creepy — though to anyone, he clearly was.) 
 
 That annoyed me. I've added realism with a TikTok trick, removed the creep. To see if I could beat the score. But I couldn’t — not with that judge. So I tried a better judge, Claude.
