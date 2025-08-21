@@ -83,7 +83,7 @@ And **"Wonderwall"** by Oasis also feels like it belongs.
 
 
 ## Inspiration for Sophie and Wind
-It's "Best Nest" by P.D. Eastman, obviously.
+It's ["The Republic of Heaven" by Philip Pullman](https://www.hbook.com/story/the-republic-of-heaven), obviously.
 
 
 ---
@@ -136,3 +136,15 @@ That’s how imagination works. Our minds draw pictures, then words shape them, 
 
 Winding works this way on purpose. We don’t tell every detail at the start. We leave space for imagination — ours and the computer’s — to join together and make something new.
 
+## Music of Sophie and Wind
+Songs that appear in the story are:
+- **"Hey Jude"** by The Beatles
+- **"Hold On Tight"** by Electric Light Orchestra
+- **"Romantic Flight"** by John Powell (from *How to Train Your Dragon*)
+
+And **"Wonderwall"** by Oasis also feels like it belongs.
+
+
+## Inspiration for Sophie and Wind
+
+It's "Best Nest" by P.D. Eastman, obviously.
