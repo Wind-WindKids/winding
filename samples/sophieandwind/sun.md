@@ -336,24 +336,29 @@ Correct answer is to circle #2, cross out #1, #3, #4, #5, and #6.
 --
 epilogue: page, text, centered
 --
-Epilogue — The Dragon
+Epilogue — The Quartet
 
 @left: page, text
-Sophie: “Not the dragon again, Wind. He’s scary.”
-Wind: "I've been training him, he is better, come see —
-We’ve scared her enough times. Now show her you can sing.”  
-Dragon: “I am an instructor, not a troubadour.”  
-Wind: “Dragon. Play.”  
+“Not the Dragon again, Wind. He’s scary.”, Sophie said.
 
-Dragon awkwardly holding a conductor’s baton, 
-glowing musical notes spilling into the air.  
-A virtual orchestra rises behind him — violins, cello, horn —
+“I’ve been training him — Dad helped too. Come see.  
+We’ve scared her enough times. Now show her you can sing.”  
+
+“I am an instructor, not a troubadour,” the Dragon replied.  
+
+“Dragon. Play.”  
+
+The Dragon bowed slightly. Its silhouette brightened, shimmering, 
+breaking apart into sparks — into a golden constellation in the sky.
+
 
 The simulator darkens. The eGull fades into night.  
 A lone violin begins to play, its sound painting the shape of a single eGull across the stars.  
 Another violin joins — another eGull appears, flying in harmony.  
 And then another, and another.
-One by one they gather, then clouds swell, mountains shimmer, the orchestra building.  
+One by one they gather, lines of light weaving harmony across the night.
+
+Then music swells, mountains shimmer, the orchestra builds.  
 
 At the peak, two eGulls lift above the cloudtops,  
 soaring serenely to the twin voices of violins.  
@@ -366,20 +371,25 @@ Gradually, the sound softens.
 @right: page, portrait-oriented, image
 
 @page: rectangle, cutout, large, landscape-oriented
-![Sophie and Wind sitting in the eGull simulator, close together, Sophie is hugging Wind.](snaps/sophie_and_wind_in_eGull.png)
+![Sophie and Wind sitting in the eGull simulator, close together, Sophie is hugging Wind. Orchestra in the sky.](snaps/sophie_and_wind_in_eGull.png)
 
 @text:
 “It’s beautiful…”, Sophie whispered.
 Wind smiled — “Good Dragon.”
-“Can my eGull have a unicorn horn?”
+
+“Can my eGull have a unicorn horn? Please?”`
+
 “Yes, Princess Sophie,” replied the Dragon, 
-forming its shape out of the stars and bowing slightly.
+forming its shape out of the stars,
+with only a little delay, and bowing slightly.
+
+“Thank you,”  — and both of them smiled.
 
 --
 epilogue_sophie_and_wind: spread, image, landscape-oriented
 --
 @image:
-![Sophie and Wind sitting in the eGull simulator, close together, Sophie is hugging Wind.](snaps/sophie_and_wind_in_eGull.png)
+![Sophie and Wind, close together, Sophie is hugging Wind.](snaps/sophie_and_wind_hug.png)
 
 
 --
@@ -459,9 +469,9 @@ The author works at one of the labs where pieces of modern-day magic quietly com
 (transparent PNG region, Wind’s photo)
 
 Credits
-Illumination: GPT5 and Opus4
-Illustration: Ariane Windkid  
-Story, code, editing and publishing: Wind  
+Illumination: GPT4o, GPT5 and Opus4
+Code, editing and publishing: Wind  
+Story by Wind and Ariane Windkid
 
 @page: text, small
 Licensing
