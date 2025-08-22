@@ -161,90 +161,12 @@ Sophie watched the kite’s tail flicker against the wide sky, took Wind’s han
 Wind grinned. “Unless it’s on a birthday cake.”
 
 
---
-scenes_meanwhile_inside: page, portrait-oriented
---
-@page: rectangle, cutout, large, square, polaroid
-![Inside the church during Mass. Rows and rows of people seen from a point above, somewhere in the air. Darkness and rows of gray or dark heads in foreground, background blurred. Dim light filtering through stained glass, colorful but with mostly reds and blues, no natural colors. Candles giving unnatural LED candle light. Doors closed. Windows closed, except for a single square of blue in a window high up.](snaps/church_from_above.png)
-
-@page: rectangle, cutout, large, portrait-oriented, polaroid
-![Wind sitting in a pew, his normally bright hair dulled to grayish in the church darkness, but shadows around are placed as if Wind is a light source. He's hunched over a missalette, secretly drawing on it. The map he's creating is the only vibrant thing in the frame - bright greens of park paths, golden yellow suns, blue sky, colorful kites. One of the crosses got turned into a kite in a drawing. His pencils hidden under the pew. ](snaps/wind_drawing_in_darkness.png)
-
-@comment: author, hidden
-Religions are clearly shortcuts to happiness, but at the same time they use models that yield sub-optimal local maximums and are applied 2000 years out of distribution. Opsie. They don’t need mediation or saviors — if the historical Jesus were dropped into this setting, he’d probably rage at the idea that children like Sophie and Wind are being told they’re not enough, that they must submit to something else to be “saved.”
-
 
 --
-scenes_sunset_picnic: page, portrait-oriented
+unfair_kite_quiz: spread, landscape-oriented
 --
-@page: rectangle, cutout, large, landscape-oriented, polaroid
-![Golden hour in the park. Sophie and Wind on their tree branch, sharing a baguette. ](snaps/sunset_picnic.png)
-
-
-
---
-wind_and_dragon_ai: spread, landscape-oriented, image
---
-@image:
-Wind sits relaxed at a flight desk wearing a headset. A joystick, keyboard, and mouse sit within easy reach; cable runs are tidy. Two flat monitors glow with cockpit instruments only. On the wall behind them, a short-throw projector paints sunny terrain.
-
-@wall:
-A bright sky with a few clouds, a sunlit landscape below. A river winds through the green fields.
-
-@monitors:
-eGull flight simulator in instruments-only view: attitude, airspeed, VSI, slip/skid, and engine/solar systems strip. No terrain on monitors—only on the wall projection.
-
-@text: dialogue
-Dragon: “Your candela is close, but you’re bleeding too much airspeed on entry. Smooth it—JLS style. Let it rise, then hold the stillness.”
-Wind: “Yeah… candles should last longer.”
-Dragon: “Thought you didn’t like candles that last. Or at least not in churches?”
-Wind: “I love candles that last. On a birthday cake!”
-Dragon: “So you don’t like churches?”
-Wind: “Churches are fine—it’s only three things I don’t like. Anger. Darkness. Fear. And lead contamination.”
-Dragon: “Lead contamination?”
-Wind: “Nasty stuff. Especially in the wind. You’d think Clair Patterson was clear, but no, they still build churches with it. And burn for fun.”
-Dragon: “At least our eGull flies on sunlight, not avgas. By the way, there are birthday candles that reignite.”
-Wind: “Oh, cool. Can we get twelve by next Sunday? It’s Sophie’s birthday party.”
-Dragon: “Purchase confirmed. Delivery scheduled for Thursday, one day before your flight to Paris on Friday.”
-Wind: “Ah, right. My calendar’s a mess—all these Masses on Sundays.”
-Dragon: “Noted. Would you like me to replace them with kites or cake?”
-
-
-@comment: author, hidden
-That’s the key: it’s not a blanket rejection of faith, it’s understanding it and then context-specific decision: “for us, here, it’s unnecessary — we already have what we need." For Sophie and Wind, the context is that they are already in the republic of heaven, they don't need a savior. For someone else, a kingdom of heaven might be a step forward, but for them, it'd be a step back. What they do need is less darkness, less fear, more sunlight and no lead contamination. And more cake, of course.
-
-
---
-birthday_candles: page, portrait-oriented
---
-@page: rectangle, cutout, large, square, polaroid
-![Sophie's birthday, evening, her apartment. A chocolate cake with 12 candles glowing. Sophie closing her eyes to make a wish. Wind watching her, his face lit by candlelight. Other kids around the table but slightly blurred. The only light in the dimmed room comes from the candles.](snaps/birthday_candles.png)
-
-@page: rectangle, cutout, large, portrait-oriented, polaroid
-![Same scene, moments later. Sophie's eyes open, looking directly at Wind while blowing out candles. He's smiling. The smoke from the candles makes swirls in the air between them.](snaps/birthday_wish.png)
-
-
-
---
-scenes_bike_to_market: page, portrait-oriented
---
-@image:
-Sophie and Wind riding side-by-side through the Jardin du Luxembourg on bright bicycles. Wind’s bicycle is a vivid orange with a polished silver bell on the handlebar; Sophie’s is a bright lime green with a black rear basket. Sophie’s basket holds a fresh baguette and a bundle of lavender and wildflowers, petals catching the breeze.  
-
-@background:
-A sunlit park path lined with green lawns and flowerbeds, early-summer flowers in bloom. Behind them, a green-painted bus stop bench and shelter; on the shelter’s glass is a faded travel poster reading: *Lyra’s Oxford – Daily Service from London*. The poster’s edges are sun-faded, colors muted, but the gold lettering still catches the light.  
-
-@light:
-Warm morning tones, golden light filtering through tall chestnut trees. Long, soft shadows falling across the path.  
-
-
-
---
-epilogue_kite_quiz: spread, landscape-oriented
---
-Epilogue — The Unfair Quiz with Kites
-
 @left: page, text
+The next week at the kite workshop, Sophie handed out papers.
 At the kite workshop, Sophie handed out papers.  
 On each was a drawing of diverse kites, some light, 
 some heavy, some with torn sails.
