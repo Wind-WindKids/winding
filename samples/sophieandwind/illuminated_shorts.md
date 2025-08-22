@@ -1,3 +1,65 @@
+--
+scenes_winding: page, portrait-oriented
+--
+@page: rectangle, cutout, large, square, polaroid
+![Wind, lying in the grass, making that little brown book, sketching the garden's map in it. Colorful markers/pencils in the grass. It is in the green Jardin du Luxembourg background.](snaps/winding_the_book.png)
+
+@page: rectangle, cutout, large, portrait-oriented, polaroid, anchor
+![A gnarled, beautiful old tree. Wind, climbing, Golden afternoon light. Slight tension. It is in the green Jardin du Luxembourg background.](snaps/wind_in_the_tree.png)
+
+@page: rectangle, cutout, large, landscape-oriented, polaroid
+![Two laptops in the grass, side by side, kite logo on one of the laptops, next to the keyboard. Complex futuristic dragon airplane CAD 3D graphics on the screen of one of the laptops. Futuristic CAD 3D wireframe model of what looks like a miniature fusion reactor design on the side of screen of another, bits of code on another side. Wind, facing away from the camera, lying in the grass, working on one of the laptops. It is in the green Jardin du Luxembourg background. ](snaps/winding_the_dragon.png)
+
+
+--
+scenes_treasures: page, portrait-oriented
+--
+@page: rectangle, cutout, large, square, polaroid
+![A group of kids in the beehives, with a teacher, a box of glass marbles, some of the kids holding a marble like the one that Sophie found. Flower garden / bee hives. Fruit garden or flowerbeds near Royer-Collard entrance](snaps/flowers_in_glass.png)
+
+@page: rectangle, cutout, large, portrait-oriented, polaroid
+![An empty stroller with a toddler girl pushing it, the shiny locket that the toddler is holding in one hand, her dad walking. at the Médicis Fountain](snaps/the_shiny_locket.png)
+
+@page: rectangle, cutout, large, portrait-oriented, polaroid
+![A girl, about 6, dragon t-shirt, shorts, smiling and riding fast, riding a pink bike that looks way to big for her, a broken compass on the pavement, Central pond in front of the palace.](snaps/broken_compass.png)
+
+
+--
+scenes_spring: page, portrait-oriented
+--
+@page: rectangle, cutout, large, square, polaroid
+![Wind and Sophie in a cafe, cute and neat looking, Jardin du Luxembourg background.](snaps/summer_cafe.png)
+
+@page: rectangle, cutout, large, portrait-oriented, polaroid
+![Wind and Sophie, cute and neat looking, white summer dress, riding a wind dragon together, summer, children’s carousel area green Jardin du Luxembourg background.](snaps/carusel_imaginary_dragon.png)
+
+
+--
+scenes_summer: page, portrait-oriented
+--
+@page: rectangle, cutout, large, landscape-oriented, polaroid
+![Sophie and Wind, neat looking, summer dress, morning, Sophie blushing slightly, morning sun touching her hair, both looking at the flowers, Flower garden / bee hives, Fruit garden or flowerbeds near Royer-Collard entrance, people](snaps/looking_at_the_flowers.png)
+
+@page: rectangle, cutout, large, portrait-oriented, polaroid
+![A gnarled, beautiful old tree. Wind, climbing, Sophie and Wind, neat looking, summer dress, both on the tree.](snaps/sophie_and_wind_in_the_tree.png)
+
+@page: rectangle, cutout, large, portrait-oriented, polaroid
+![Wind and Sophie, summer dress, barefeet, under the tree, looking at the clouds.](snaps/sophie_and_wind_on_the_grass.png)
+
+
+--
+scenes_good_night: page, portrait-oriented
+--
+@left: rectangle, cutout, large, portrait-oriented, polaroid
+![Sophie and Wind in their pajamas, pillow fight, a book on the floor, curtains on the window half open, night time, stars.](snaps/pillow_fight.png)
+
+@right: rectangle, cutout, large, square, polaroid
+![Sophie and Wind in their pajamas, for a sleepover, Sophie's bedroom, curtains on the window half open, reading, smiling, night time. Wind-themed posters. the Golden Gate Bridge poster. a poster with a glider flying. a poster with a wind dragon.](snaps/nightime_reading.png)
+
+@right: rectangle, cutout, large, square, polaroid
+![Sophie and Wind in their pajamas, Sophie resting her head in Wind’s lap, hugging a small unicorn plush, Wind gently stroking her hair. Posters on the wall show the Golden Gate Bridge, a dragon, and a glider. Curtains open, moonlit night sky.](snaps/head_on_lap_unicorn.png)
+
+
 
 --
 scenes_bashful_lamb_departure: spread, landscape-oriented
@@ -328,6 +390,19 @@ scenes_sunset_picnic: page, portrait-oriented
 ![Golden hour in the park. Sophie and Wind on their tree branch, sharing a baguette. ](snaps/sunset_picnic.png)
 
 
+--
+scenes_bike_to_market: page, portrait-oriented
+--
+@image:
+Sophie and Wind riding side-by-side through the Jardin du Luxembourg on bright bicycles. Wind’s bicycle is a vivid orange with a polished silver bell on the handlebar; Sophie’s is a bright lime green with a black rear basket. Sophie’s basket holds a fresh baguette and a bundle of lavender and wildflowers, petals catching the breeze.  
+
+@background:
+A sunlit park path lined with green lawns and flowerbeds, early-summer flowers in bloom. Behind them, a green-painted bus stop bench and shelter; on the shelter’s glass is a faded travel poster reading: *Lyra’s Oxford – Daily Service from London*. The poster’s edges are sun-faded, colors muted, but the gold lettering still catches the light.  
+
+@light:
+Warm morning tones, golden light filtering through tall chestnut trees. Long, soft shadows falling across the path.  
+
+
 
 --
 wind_and_dragon_ai: spread, landscape-oriented, image
@@ -370,17 +445,4 @@ birthday_candles: page, portrait-oriented
 @page: rectangle, cutout, large, portrait-oriented, polaroid
 ![Same scene, moments later. Sophie's eyes open, looking directly at Wind while blowing out candles. He's smiling. The smoke from the candles makes swirls in the air between them.](snaps/birthday_wish.png)
 
-
-
---
-scenes_bike_to_market: page, portrait-oriented
---
-@image:
-Sophie and Wind riding side-by-side through the Jardin du Luxembourg on bright bicycles. Wind’s bicycle is a vivid orange with a polished silver bell on the handlebar; Sophie’s is a bright lime green with a black rear basket. Sophie’s basket holds a fresh baguette and a bundle of lavender and wildflowers, petals catching the breeze.  
-
-@background:
-A sunlit park path lined with green lawns and flowerbeds, early-summer flowers in bloom. Behind them, a green-painted bus stop bench and shelter; on the shelter’s glass is a faded travel poster reading: *Lyra’s Oxford – Daily Service from London*. The poster’s edges are sun-faded, colors muted, but the gold lettering still catches the light.  
-
-@light:
-Warm morning tones, golden light filtering through tall chestnut trees. Long, soft shadows falling across the path.  
 
