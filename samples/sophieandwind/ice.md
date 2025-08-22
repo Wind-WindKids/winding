@@ -215,7 +215,7 @@ Wind’s eGull flying in a distance, the sun bright.
 egull_rolling: spread, landscape-oriented
 --
 @left: page, text, portrait-oriented
-Next day, they've been taking off together, again - “This is a tricky one," — Wind said, but you can do it."
+The next day, they lined up on the parallel runways again — “This is a tricky one,” — Wind said, “but you can do it.”
 
 She lowered her canopy and started her checklist.
 
@@ -247,6 +247,8 @@ She clicked the transmit.
 
 The Dragon taking control — she got really scared.
 
+Wind landed, taxied over and came to hug her.
+
 @right: image, portrait-oriented 
 Cockpit view, Sophie in a headset, sitting in her eGull, 
 holding the control stick with her right hand. 
@@ -254,6 +256,32 @@ Small heads-up display on the eGull’s canopy,
 showing completely full battery bar on the left side, 
 rest of the indicators off, autopilot still on. 
 Sophie’s face tense.
+
+
+--
+relationship_work: spread, landscape-oriented
+--
+@left: page, text, portrait-oriented
+That night, Sophie took out her journal.  
+Her mother had taught her to keep notes,  
+to work on her relationships,  
+and to pray to the Savior for help and support.  
+
+She wrote:  
+“Today we went flying and I almost died.  
+The Dragon never even said sorry. 
+And Wind told me it was my own mistake.”
+
+She prayed a little,  
+then flipped back through a few pages.  
+They were filled with her worst memories —  
+arguments, accidents, hurts.  
+
+It never occurred to her  
+to write down any of the best ones.  
+Or that the Dragon had given her the freedom  
+to learn and make mistakes while it was still safe.  
+
 
 --
 ice: spread, landscape-oriented
