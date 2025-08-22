@@ -273,25 +273,17 @@ We’ve scared her enough times. Now show her you can sing.”
 
 “Dragon. Play.”  
 
-The Dragon bowed slightly. Its silhouette brightened, shimmering, 
+The Dragon bowed slightly. Its silhouette brightened,
 breaking apart into sparks — into a golden constellation in the sky.
 
+The simulator darkened. The eGull faded into night.
+A violin rose, drawing the shape of a single eGull across the stars.
+Another joined, then another —
+lines of light weaving harmony in the sky.
 
-The simulator darkens. The eGull fades into night.  
-A lone violin begins to play, its sound painting the shape of a single eGull across the stars.  
-Another violin joins — another eGull appears, flying in harmony.  
-And then another, and another.
-One by one they gather, lines of light weaving harmony across the night.
+At the peak, two eGulls lifted above the cloudtops.
+The horizon glowed with sunrise.
 
-Then music swells, mountains shimmer, the orchestra builds.  
-
-At the peak, two eGulls lift above the cloudtops,  
-soaring serenely to the twin voices of violins.  
-The others fall back, then rejoin, the orchestra
-soaring with the violins leading, reaching a crescendo.
-The sky brightens with sunrise.
-
-Gradually, the sound softens.
 
 @right: page, portrait-oriented, image
 
