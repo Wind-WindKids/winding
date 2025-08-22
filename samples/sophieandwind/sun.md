@@ -3,11 +3,14 @@ sophie_and_sun: book, portrait-oriented
 theme: Spring or summer daytime, Jardin du Luxembourg, watercolor style
 ---
 
+--
+characters: metadata, hidden
+--
 @Sophie:
-Girl, almost 12 years old, sun-touched light brown hair, wearing a cute, sleeveless summer dress in pale cream with a thin sash tied at the waist.  
+Girl, looks almost 12 years old, sun-touched light brown hair, wearing a cute, sleeveless summer dress in pale cream with a thin sash tied at the waist.  
 
 @Wind:
-Boy, almost 12 years old, tousled blond hair, bright blue eyes, wearing a teal short-sleeved shirt and light khaki shorts.  
+Boy, looks almost 12 years old, tousled blond hair, bright blue eyes, wearing a teal short-sleeved shirt and light khaki shorts.  
 
 --
 part_4_cover: page, portrait-oriented

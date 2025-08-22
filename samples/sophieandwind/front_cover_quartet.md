@@ -3,6 +3,21 @@ sophie_and_wind_the_quartet: book, portrait-oriented
 theme: Spring or summer daytime, Jardin du Luxembourg, watercolor style
 ---
 
+
+--
+front_cover_quartet: page, portrait-oriented, cover-front
+--
+@title: text, centered, playful, rounded lettering, gold
+Sophie  
+and Wind  
+— THE QUARTET
+
+@image:
+Sophie and Wind seated together in a eGull, open cockpit, flying through a early morning sunrise sky.  
+Blue/azure sky, only hint of sunrise, hinting at wonder, love, and flight.
+
+
+
 --
 front_cover: page, portrait-oriented, cover-front
 --
