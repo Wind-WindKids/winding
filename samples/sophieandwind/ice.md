@@ -282,6 +282,7 @@ to write down any of the best ones.
 Or that the Dragon had given her the freedom  
 to learn and make mistakes while it was still safe.  
 
+By morning she’d decided: she was done with Wind.
 
 --
 ice: spread, landscape-oriented
