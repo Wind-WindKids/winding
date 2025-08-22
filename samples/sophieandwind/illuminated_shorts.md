@@ -66,6 +66,11 @@ Two small eGulls, one silver-and-white and one pale blue, soaring. Redwoods belo
 
 
 
+
+@comment: author, hidden
+Equality includes difference. But. Equal = same (identity in math). Equal = equally worthy, though different (ethics). This creates cognitive dissonance. That’s one of the reasons why ideologies (like feminism or gender equality) get tangled. Another reason is that -isms end up being about group identity, not ethics. Add a taboo on top of that, and you get a mess. Oh, and evolution often preserves symbiotic dimorphism, where it's useful, teaming up against such symbiosis can be harmful.
+
+
 --
 scenes_ditch_sophie: spread, landscape-oriented
 --

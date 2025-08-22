@@ -557,12 +557,6 @@ not one taught that they were different.
 
 He couldn’t change the past, but he had complained bitterly to the Dragon.
 
-
-@comment: author, hidden
-Equality includes difference. But. Equal = same (identity in math). Equal = equally worthy, though different (ethics). This creates cognitive dissonance. That’s one of the reasons why ideologies (like feminism or gender equality) get tangled. Another reason is that -isms end up being about group identity, not ethics. Add a taboo on top of that, and you get a mess. Oh, and evolution often preserves symbiotic dimorphism, where it's useful, teaming up against such symbiosis can be harmful.
-
-
-
 --
 dragon_abroad: spread, landscape-oriented
 --
