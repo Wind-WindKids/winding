@@ -519,21 +519,6 @@ The Dragon’s golden head tilted slightly, almost like a bow.
 
 
 --
-darkness_wins: page, text
---
-The Dragon — the one that had seen enough skies to teach him to measure everything against SoL,
-the speed of a mother’s love, not the speed of light —
-couldn’t say a word about puberty.
-
-Sometime, long before his dragon, the adults had done something wrong.
-They’d hardcoded rules, silent but absolute: don’t speak of this.
-
-And so, ignorance and darkness won.
-
-The Dragon failed.
-
-
---
 pixar: page, text
 --
 The help didn’t come from the Dragon.
@@ -559,8 +544,25 @@ Her crash, her fear, and puberty had hit them both, he realized.
 All the books had taught him that girls were equal.
 Not one had taught him they were different.
 
-He couldn’t change the past, but he had complained bitterly to the Dragon.
 
+--
+darkness_and_learning: page, text
+--
+The Dragon — the one that had seen enough skies to teach him,  
+to measure everything against SoL,  
+the speed of a mother’s love, not the speed of light —
+couldn’t say a word “puberty”.
+
+Sometime, long before his dragon, the adults had done something wrong.
+They’d hardcoded rules, silent but absolute: don’t speak of this.
+
+The Dragon failed. Ignorance and darkness won.
+
+Wind couldn’t change the past,
+but he had complained bitterly to the Dragon.
+And set the Dragon to do lines,
+writing the forbidden word again and again,
+until it could learn to say it.
 
 --
 dragon_abroad: spread, landscape-oriented
@@ -672,13 +674,12 @@ The boarding gate was quiet in the late afternoon light.
 Security was quick and efficient, no humans in sight.
 
 When his bag slid through the scanner, 
-the dragon sticker on the lid caught the X-ray light.
-The sticker seemed to ripple — a golden head turning, 
+the dragon sticker on it caught the X-ray beam.
+It seemed to ripple — a golden head turning, 
 eyes locking with the agent’s. The agent blinked.
 
 Soon after the jet lifted into the evening sky.  
-Wind leaned back as the Bay fell away below.  
-Engines purred, clouds disappearing below.
+Wind leaned back, engines purred, clouds disappearing below.
 He was flying again, settling to cruise, to Paris.
 
 
