@@ -551,16 +551,17 @@ darkness_and_learning: page, text
 The Dragon — the one that had seen enough skies to teach him,  
 to measure everything against SoL,  
 the speed of a mother’s love, not the speed of light —
-couldn’t say a word “puberty”.
+couldn’t say a word: “puberty”.
 
-Sometime, long before his dragon, the adults had done something wrong.
-They’d hardcoded rules, silent but absolute: don’t speak of this.
+Long before his Dragon, the adults had done something wrong.
+They had hardcoded rules, silent but absolute: 
+don’t speak of this.
 
-The Dragon failed. Ignorance and darkness won.
+So the Dragon failed. Ignorance and darkness won.
 
 Wind couldn’t change the past,
-but he had complained bitterly to the Dragon.
-And set the Dragon to do lines,
+but he had complained bitterly to the Dragon,
+and set it to do lines —
 writing the forbidden word again and again,
 until it could learn to say it.
 
