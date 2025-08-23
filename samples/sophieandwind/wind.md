@@ -21,9 +21,20 @@ muted teal blue, closely matching the color of her headphones. It's a simple, mo
 
 
 --
-sophie_sitting: page, text, portrait-oriented, !Sophie, !Wind, !sad
+sophie_sitting: page, text, portrait-oriented, -Sophie, -Wind, -sad
 --
-Sophie liked to sit on a bench in a big, quiet park in Paris. She wore her headphones and looked at pictures on her phone. The park was peaceful, but she still felt a little lonely.
+Sophie liked to sit on a bench  
+in a big, quiet park in Paris.  
+She wore her headphones  
+and looked at pictures on her phone.  
+The park was peaceful,  
+but she still felt a little lonely.
+
+She felt something missing —  
+a dream, a wind that never reached her.
+
+Her dreams were of dragons and flight.  
+But what she had was a bench and a phone.
 
 @background:
 Flowers at the border, small birds, leaves flying, wind patterns. 
@@ -142,7 +153,7 @@ But she took a few sips from her water bottle and continued.
 A simple, clear water bottle with a kite logo on it. 
 
 --
-sophie_having_fun: spread, text, !Sophie, !Wind, !sad
+sophie_having_fun: spread, text, -Sophie, -Wind, -sad
 --
 @background:
 Kites at the border, leaves flying, wind patterns. 
@@ -156,7 +167,7 @@ It got windy. She didn't mind. She was having fun.
 
 
 --
-the_final_tree: page, text, centered, !tree, !sophie
+the_final_tree: page, text, centered, -tree, -sophie
 --
 The last clue talked about a big old tree:  
 
@@ -178,7 +189,7 @@ you_are_here_illustration: page, portrait-oriented, image, png, centered, anchor
 
 
 --
-you_are_here: page, text, !tree, !sophie, !sad
+you_are_here: page, text, -tree, -sophie, -sad
 --
 Inside was a folded note,  
 like the pages in the book.  
@@ -196,23 +207,80 @@ and hid the book inside.
 
 
 --
-she_still_likes: spread, text, !Sophie, !Wind, !sad
+she_thought: page, text, -Sophie, -Wind, -sad
 --
 @background:
-Kites at the border, leaves flying, wind patterns., 
+Kites at the border, leaves flying, wind patterns.
 
 @left: page, text, centered
-She still likes to sit on a bench in a big, quiet park in Paris. She still wears her headphones and looks at her phone.
+She thought about the book,  
+the note, and the riddle;  
+the search for clues.  
 
-@right: page, rectangle, cutout, medium, landscape-oriented
-![Sophie and Wind running.](fly_your_kite.png)
+Something lit up in her mind.  
+Wind.  
+A name.  
+She heard it before.  
 
-@right: page, text, centered
+The kite was still tugging at the sky.
+A boy was holding the string —
+a boy she had seen many times,
+but whose name she did not know.
+
+She stepped closer, looked at him, 
+smiled, and said:
+
+“Hi, Wind.”
+
+--
+she_still_likes: page, text, -Sophie, -Wind, -sad
+--
+@background:
+Kites at the border, leaves flying, wind patterns.
+
+@text: centered, top
+She still likes to sit on a bench in a big, quiet park in Paris. 
+She still wears her headphones and looks at her phone.
+
 But now, when Wind plays with a kite and calls her name—
 she smiles, and joins him.
+
+@page: rectangle, cutout, medium, landscape-oriented
+![Sophie and Wind running.](fly_your_kite.png)
 
 --
 fly_your_kite: spread, image, landscape-oriented, anchor, anchor-retroactive
 --
 Sophie and a boy (Wind) running with a kite. Joyful motion. The palace and garden in the background. Light, open sky. The transformation is complete.
 
+
+--
+the_poem: page, portrait-oriented
+theme: silver, night, poetic and dreamlike
+--
+@page: text, tiny, cursive, centered 
+I stand so still, but wind,
+still finds me,
+shaking light where dreams unwind me.
+
+Start where the kites go up to the sky—
+and I wave the clouds drifting by.
+Follow the path where leaves like to dance—
+they’ll show you the way if you give them a chance.
+
+Around and around with songs we spin,
+where I get dizzy and laugh with a grin.
+I carry the boats with my gentle hand,
+across the pond, toward sunny land.
+I buzz and bloom and whisper low—
+sweet things happen where no one knows.
+
+I can play without an end,
+at the tree where the roots are always felt.
+But the sun sets low, and time 
+stands still, and even wind 
+is tucked in bed.
+                                    Wind.
+
+@background:
+silver kite, wind patterns, drifting leaves, and a subtle motif of wind sleeping.
