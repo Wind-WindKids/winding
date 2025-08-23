@@ -304,7 +304,8 @@ Her eye stayed on the page.
 It wasn’t angry, just cold.
 She stood and walked to the far side of the park without looking back.
 
-Wind sat there, his mind blank, the echo of her words hanging in the air.
+Her book was still open, face-down where she’d left it.
+The echo of her words stayed in the air.
 
 --
 sunday_flight: spread, landscape-oriented
@@ -372,15 +373,19 @@ His dad looked at him, "It was a fair test. You have a very good teacher, Wind."
 
 The eGull wasn’t just grounded — the Dragon access was gone too.
 
+@comment: hidden
+Ability to generalize gets tested by such "unfair" quizzes. And flying solo, after a breakup, is not a good idea. The system around him is as fair as it can be, given the circumstances.
 
 --
 working: page, text
 --
 Wind cried. Then he sat at his desk and opened his French textbook.
+
 The essay was due the next day.
  *“My day at school.”* 
+He hadn’t even started. 
 
-And he hadn’t even started. He worked for two hours. He got it done. 
+He worked for two hours. He got it done. 
 He worked another hour.
 
 Before bed, he opened the message app on his laptop, found Sophie’s dad:
@@ -407,7 +412,7 @@ It wasn’t flying — not yet — but at least it was a start.
 --
 i_scream: page, text
 --
-On Saturday, he biked to his favorite ice cream shop,
+On Sunday, he biked to his favorite ice cream shop,
 the one where he and Sophie had once traded bites,
 arguing over which flavor was best.
 
@@ -459,11 +464,13 @@ Big leaves, brittle from winter, lifted suddenly from the ground,
 whipping in sharp arcs, snapping against the faces of kids in the playground.
 
 By evening, the sky cracked open with thunder.
-A rare spring storm slammed the city, and an unheard-of whirlwind tore down a side street,
-shattering windows and ripping a chunk from the roof of an old building.
+A rare spring storm slammed the city, 
+and a whirlwind tore down a side street.
 
-Later, Wind found in the news that the only other time a tornado had hit Sunnyvale
-was thirty-three years earlier, in May 1998 — tearing the roof off a church and damaging sixty homes.
+Later, Wind saw in the news that the only other time a tornado 
+had hit Sunnyvale was thirty-three years earlier.
+It had torn off a roof of a church, among sixty other buildings.
+
 
 @comment: hidden
 No magic is required to explain this sequence:
@@ -476,8 +483,8 @@ No magic is required to explain this sequence:
 --
 doomscroll: page, text
 --
-That evening, he lay on his bed, phone in hand,
-thumb drifting past weather reports into headlines from half a world away.
+That night, he lay on his bed, sim screen glowing,
+scrolling past the weather into news from half a world away.
 A peace negotiation had failed again.
 Drone footage showed a shopping center ablaze,
 its glass and steel skeleton lit orange against the smoke.
@@ -486,16 +493,15 @@ Four people were dead.
 One of them was an eleven-year-old girl.
 
 The Dragon’s voice cut in, firm but not unkind:
-“Stop procrastinating. This will not get Sophie back.
-Get to work.”
+“Stop. This won’t get Sophie back. Work.”
 
-Wind set the phone down and opened his projects folder.
+Wind closed the news and opened his projects folder.
 
 
 --
 dragon_fails: page, text
 --
-He tried to solve it with the Dragon's help. But something was off.
+He tried to get Sophie back with the Dragon's help. But something was off.
 
 “Public sim challenge. She might see your name on the leaderboard and—”
 
@@ -533,26 +539,28 @@ pixar: page, text
 The help didn’t come from the Dragon.
 Or from his dad, or his school books, or even flying.
 
-It came from an old Pixar movie.
+It came from an old Pixar cartoon.
 
-He hadn’t planned to watch it — just something to fill a rainy evening.
-But halfway through, as the cartoon lit up with swirls of color and emotion, it clicked.
+He hadn’t planned to watch it — just clicked play at random.
+But halfway through, as the cartoon lit up 
+with ice hockey and emotions, it clicked.
 
-Was Sophie scared that time she’d snapped at him?
-Hungry when she’d hit him and stepped on his foot?  
-Annoyed, that time she’d said, “Don’t touch me”?
-And that skunky bread smell from a crumpled can he’d once noticed in her bag.
-He knew what it really was, and he had guessed it really didn't help.
+Was Sophie scared that time she snapped and bit him?
+Hungry, when she kicked him and stomped on his foot?
+Annoyed, when she said, “Don’t touch me”?
+And that skunky bread smell from a crumpled can in her bag —
+he knew what it really was, and guessed it hadn’t helped.
 
 She wasn’t just cold.
 She was changing — like the girl in Pixar.
 
-Her crash, getting scared, and puberty hit them, he realized.
+Her crash, her fear, and puberty had hit them both, he realized.
 
-All the books taught him that girls were equal, 
-not one taught that they were different.
+All the books had taught him that girls were equal.
+Not one had taught him they were different.
 
 He couldn’t change the past, but he had complained bitterly to the Dragon.
+
 
 --
 dragon_abroad: spread, landscape-oriented
