@@ -101,46 +101,41 @@ A snowy mountain village, Wind and Sophie walking side by side,
 departure_to_california: spread, landscape-oriented
 --
 @left: portrait-oriented, text
-He had to come back to school, holidays were over. 
-But they agreed to meet in California soon,
-where she'd be staying with his family for a while.
-
-But he felt something was wrong.
-It would be months before he understood  
+He felt something was wrong.
+But it would be months before he understood  
 that something else had been hurt that day,  
 something no one could protect.
+
+This time they were flying to California together.
+Sophie wanted to study at Wind’s school,
+and arrangements had been made for her to spend a semester there.
+She thought she could be like Wind,
+who spent half the year in France with his mom
+and the winter in California with his dad.
 
 @left.background: image
 A plane taking off, gray winter, CDG, Wind looking out the window.
 
+
+--
+arrival_to_california: spread, landscape-oriented
+--
+
 @right: page, text
-It was a cold day when he arrived in California that winter.  
-Rare snow dusted the hills,  
+It was a cold day when they landed in California.
+Rare snow dusted the hills,
 and the air carried a bite it almost never had.
 
-Somehow, it felt like a touch of ice  
+Somehow, it felt like a touch of ice
 from that day in Paris.
 
-@right.background: image
-SFO airport, bright day, no hills or snow visible.
+“I thought it was supposed to be sunny here,”
+Sophie said the moment they stepped outside.
 
-
---
-sophie_arrival: spread, landscape-oriented
---
-@left: page, text
-And that cold spell came back a few weeks later.
-
-“I thought it was supposed to be sunny here,”  
-Sophie said the moment she saw him at the airport.
-
-Wind laughed, pulling her into a hug.  
-But the chill stayed,  
-as if it had followed her  
+Wind laughed, pulling her into a hug.
+But the chill stayed,
+as if it had followed her
 all the way from Paris.
-
-They came back to the usual routine. 
-School, homework, flying adventures.
 
 @background: image
 Fog
@@ -350,7 +345,7 @@ He tried again. Nothing.
 --
 unfair_quiz: page, text
 --
-Two days later, a juris quiz came at the end of class.
+A week later, a juris quiz came at the end of class.
 
 Wind stared at the questions — half were on statutes and cases the class hadn’t even touched.
 
@@ -382,9 +377,11 @@ The eGull wasn’t just grounded — the Dragon access was gone too.
 working: page, text
 --
 Wind cried. Then he sat at his desk and opened his French textbook.
-Essay on "my day at school" was due the next day, and he hadn’t even started.
+The essay was due the next day.
+ *“My day at school.”* 
 
-He worked for two hours. He got it done. He worked another hour.
+And he hadn’t even started. He worked for two hours. He got it done. 
+He worked another hour.
 
 Before bed, he opened the message app on his laptop, found Sophie’s dad:
 "Please, tell if Sophie is okay."
