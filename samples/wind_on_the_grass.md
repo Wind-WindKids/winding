@@ -1,11 +1,11 @@
 --
 wind_on_the_grass: image, landscape-orientation, png
-style: nwind
+style: nwind, aquarelle, soft-lighting
 --
 Two laptops. Wind is lying on the grass, completely absorbed by coding. Dappled sunlight through a high oak canopy flickers across his back and the keyboards. His tousled blond hair glows gold with soft iridescence, tiny freckles visible at his temples. A sleek smartphone rests nearby, 
 its glass surface reflecting the green of the trees.
 
-@laptop.left: matte-silver
+@laptop.left: matte-silver  
 A Kite logo to the left of the mouse pad.
 
 @laptop.right: smaller, !logo, charcoal-gray

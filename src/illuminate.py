@@ -299,6 +299,7 @@ def main():
 
             # Generate the image
             generate_image(args, image, client)
+        return
 
     #if args.dry_run:
     #    print(f"Preview saved to {args.preview}")
