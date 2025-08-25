@@ -417,7 +417,7 @@ A few camp friends came to say goodbye.
 There was music, paper lanterns, and a table piled high with cupcakes and cookies.  
 
 After the party, Sophie and Wind sat on the low deck steps.
-They kissed, unabashed and certain, knowing tomorrow won't be here.
+They kissed, knowing tomorrow won't be here.
 
 @image:
 Sophie and Wind at a distance, sitting on the steps of the clubhouse, the glow of string lights around them. Wind’s arm around Sophie, her head on his shoulder.

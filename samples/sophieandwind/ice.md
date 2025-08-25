@@ -141,14 +141,29 @@ all the way from Paris.
 Fog
 
 --
+new_semester: spread, landscape-oriented
+--
+They started the new semester together.
+Classes, homework.
+
+Most days felt ordinary,
+but Sophie’s flight training was moving fast.
+She had passed her tests and earned her solo —
+the Dragon still watching over her.
+
+Now they would take two eGulls into the air,
+practicing side by side, 
+or chasing lift in the hills that started to turn green.
+
+--
 egull_takeoff: spread, landscape-oriented
 --
 @left: page, text, portrait-oriented
 On Sunday the fog had burned off by mid-morning.  
 Two white eGulls sat ready on the field, canopies glinting.
 
-Wind settled into his cockpit, headset snug, checklists complete.  
-Across the tarmac, Sophie adjusted her seat, the sunlight playing in her hair.
+Wind settled into his eGull, headset snug, checklists complete.  
+In the second eGull, Sophie did the same, the sunlight playing in her hair.
 
 The Dragons came alive together.  
 Wind eased the throttle forward. 
@@ -177,8 +192,6 @@ But Sophie’s voice cut in, sharp and sudden:
 
 The Dragon spoke softly, as if to itself: “Copy that.”
 
-Wind pretended to check his airspeed,  
-but the knot in his stomach had nothing to do with flying.
 
 @right: image, portrait-oriented
 Cockpit view, Sophie in a headset, piloting her eGull, 
@@ -216,11 +229,11 @@ dragon_takeover: spread, landscape-oriented
 Her Dragon’s voice cut in, calm but absolute, "I’m taking control now.”
 Full rudder, full aileron — the eGull steadied, straightened, slowed, and rolled to a stop in the middle of the runway, dead straight.
 
-Wind was already in the air, circling above, watching.
+Wind was already in the air, "Are you okay?" — he asked over the radio.
 
 Sophie sat rigid, her hand locked on the stick.  
 She clicked the transmit.  
-“I’m fine,” she said through clenched teeth. 
+“I’m fine,” she said through clenched teeth, — "Aborted takeoff."
 
 The Dragon taking control — she got really scared.
 

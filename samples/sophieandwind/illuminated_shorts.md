@@ -446,3 +446,77 @@ birthday_candles: page, portrait-oriented
 ![Same scene, moments later. Sophie's eyes open, looking directly at Wind while blowing out candles. He's smiling. The smoke from the candles makes swirls in the air between them.](snaps/birthday_wish.png)
 
 
+--
+the_talking_dragon: page, portrait-oriented
+--
+Once upon a time, 
+there was a girl named Ariane. 
+
+She liked to climb onto the stone head of a dragon!
+
+One day her father asked her, 
+“Have you tried talking to that dragon?” 
+
+Ariane laughed. She was six, old enough to know. 
+“Don’t be silly, Papa. Stone dragons don’t talk,” she said. 
+
+“Let’s try anyway,” he said with a smile.
+
+@picture:
+Ariane, balancing on the dragon’s head.
+
+
+--
+you_see: page, portrait-oriented
+--
+He patted the dragon’s brow and spoke gently.
+“Hello, dragon. Would you introduce yourself to my daughter?”
+
+The dragon remained silent, nothing more than carved rock.
+“You see?” Ariane said.
+
+@picture:
+Ariane looking at the dragon, in front of it. 
+
+--
+no_dragon_dust: page, portrait-oriented
+--
+“Ah,” her father replied, “Dragon dust. 
+I nearly forgot.
+They will never speak without it.”
+
+From his pocket he drew a small box, 
+with a fish hook etched along its side. 
+He opened it carefully. 
+
+The box was empty, yet he pinched the air inside 
+and sprinkled something onto the dragon’s head. 
+
+The box was still empty.
+
+@picture:
+A small box, beautifully carved, fish hook on the side.
+The box is open, but completely empty.
+
+--
+magic: page, portrait-oriented
+--
+Ariane looked. The statue did not move.
+
+“I told you,” she said.
+
+Her father winked. “I went to a magic school, remember?”
+
+He patted the dragon once more.
+“Hello, dragon. Would you introduce yourself to my daughter?”
+
+And then it happened.
+
+@picture:
+Ariane looking at the dragon, in front of it. 
+
+--
+
+
+Amazingly, even though the dragon hadn't changed, it replied right away:
+“Greetings, princess. I am the dragon of this park. What is your name?”
