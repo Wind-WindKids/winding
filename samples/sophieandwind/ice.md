@@ -569,9 +569,9 @@ couldn’t say a word: “puberty”.
 
 Long before his Dragon, the adults had done something wrong.
 They had hardcoded rules, silent but absolute.
-Like a book of prayers, instead of a playbook.
+A book of prayers, instead of a playbook.
 
-So the Dragon failed. Ignorance and darkness won.
+So the Dragon failed. And ignorance and darkness won.
 
 Wind couldn’t change the past,
 but he had complained bitterly to the Dragon,

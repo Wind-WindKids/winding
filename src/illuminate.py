@@ -213,6 +213,7 @@ def main():
     parser.add_argument("--export", action="store_true", help="Export the pages")
     parser.add_argument("--export-pdf", action="store_true", help="Export the pages as a PDF")
     parser.add_argument("--generate", action="store_true", help="Generate images")
+    parser.add_argument("--limit", type=int, default=1, help="Limit the number of pages to process (0 for no limit)")   
     args = parser.parse_args()
 
     # 1. Load and parse
@@ -291,6 +292,7 @@ def main():
         os.makedirs(os.path.join(args.outdir, "images"), exist_ok=True)
 
         # 3.1 Generate images for each page
+        generated = 0
         for image in images:
             outpath = os.path.join(args.outdir, "images", f"{image.at}.png")
             if os.path.exists(outpath):
@@ -299,6 +301,12 @@ def main():
 
             # Generate the image
             generate_image(args, image, client)
+            generated += 1
+
+            if args.limit > 0 and generated >= args.limit:
+                print(f"Reached limit of {args.limit} images, stopping.")
+
+                return
         return
 
     #if args.dry_run:
