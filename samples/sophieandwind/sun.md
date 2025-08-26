@@ -144,32 +144,32 @@ wind_returns: page, text, centered
 
 “It’s nice that you’re here now, in sunlight. Did you escape through a window?”
 
-“Almost!” Wind smiled. “You know I don’t do well with all that... darkness.”
-
-“But you went anyway.”  
-
-“Well, yeah. You were going.”  
-He touched her hair, watching the sun play in it.  
-“Worth it though. That color... it’s really my favorite.”  
-
-“You didn't go?
-They’re probably sharing crisps now.  
+“Almost!” Wind smiled. 
+“They’re sharing wine and crisps.  
 But I was always told not to take one.”  
 
 Sophie laughed softly.  
 “Then let’s go and share an ice cream instead.”  
 
-"Yay!" Wind grinned. "Ice cream is way better than crisps."
+"Yay!" Wind grinned. 
+"Ice cream is way better than crisps."
 
 --
 closing_reflection: page, text, centered
 --
+They ate ice cream.
+Sunlight caught in Sophie’s hair, turned it bright, iridescent gold.
+
+“That color… it’s really my favorite,” Wind said, playing with it.
+
+
 Sophie watched the kite’s tail flicker against the wide sky, took Wind’s hand and smiled—  
 
-“Sundays are for sun and friends,” Sophie said. “And for flying stuff. Not burning candles.”  
+“Sundays are for sun and friends,” Sophie said.  
+“And for flying stuff. Not burning candles.”  
 
-Wind grinned. “Unless it’s on a birthday cake.”
-
+Wind grinned.  
+“Unless it’s on a birthday cake.” 
 
 
 --

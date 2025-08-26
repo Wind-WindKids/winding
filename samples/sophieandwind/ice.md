@@ -547,8 +547,7 @@ with ice hockey and emotions, it clicked.
 Was Sophie scared that time she snapped and bit him?
 Hungry, when she kicked him and stomped on his foot?
 Annoyed, when she said, “Don’t touch me”?
-And that skunky bread smell from a crumpled can in her bag —
-he knew what it really was, and guessed it hadn’t helped.
+And he remembered her tasting wine — he guessed it hadn’t helped.  
 
 She wasn’t just cold.
 She was changing — like the girl in Pixar.
