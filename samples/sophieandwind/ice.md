@@ -235,7 +235,8 @@ Sophie sat rigid, her hand locked on the stick.
 She clicked the transmit.  
 “I’m fine,” she said through clenched teeth, — "Aborted takeoff."
 
-The Dragon taking control — she got really scared.
+It wasn’t the gusts that had scared her most — 
+it was the Dragon taking control.
 
 Wind landed, taxied over and came to hug her.
 
@@ -608,7 +609,9 @@ The advertisement could have been the Dragon’s work, acting on Wind’s behalf
 
 
 
-@right: text
+--
+the_next_morning: page, text
+--
 The next morning her sharp words came back to her —  
 the foot-stomp, the courtyard, the “Don’t touch me.”  
 
@@ -617,9 +620,18 @@ thinking about what she’d done,
 and about a boy with wind in his name  
 who used to make her laugh without even trying.  
 
-She also thought of how proud she’d been,  
-telling herself she was the one saving them both 
+She remembered how proud she’d been,
+telling herself she was saving them both
 each time she went to Mass instead of flying.
+
+But now it was plain: she hadn’t saved anyone.
+If she’d spent those hours training,
+that aborted takeoff might have been a clean, perfect flight.
+
+
+--
+hi_wind: page, text
+--
 
 She picked up her laptop,  
 feeling the smooth, cold metal,  
@@ -644,20 +656,24 @@ hey_jude: page, text
 --
 Wind didn’t see the message right away.
 
-That morning, his dad had called from the doorway,
+That morning, his dad called from the doorway:
 “Come on, let’s head to the coast — catch some wind the old way.”
 
-He picked him up, like he used to and gently tossed him into the back seat of the car.
-They rolled out of town, climbing into the hills where the winter grass shimmered silver in the sunlight.
+He scooped him up the way he had when Wind was little,
+and together they drove off.
 
-Hey Jude filled the car.
+They left the freeway, climbing into the hills.
+*Hey Jude* filled the car.
 
 “Don’t make it bad,” his dad sang, off-key but certain.
-Wind grinned and joined in, the chorus swelling as they crested the ridge,
-the ocean opening wide below them.
+Wind grinned and joined in.
+As they crested the ridge, the ocean opened wide below.
 
-By the time they reached the harbor, the catamaran was ready,
+By the time they reached the harbor,
+a catamaran was waiting,
 her sails bright in the late-morning sun.
+
+
 
 --
 salt_and_ice: spread, landscape-oriented

@@ -103,16 +103,17 @@ Sophie at Charles de Gaulle airport, holding her small rolling suitcase, wearing
 --
 arrival_sfo: page, portrait-oriented, image
 --
-The flight was the longest and most boring she had ever taken.
-But she had a chat with a lady sitting next to her, who was very nice.
-And she watched cartoons, read, and slept a little.
+The flight was the 
+longest 
+and 
+most 
+boring 
+she had ever taken.
 
 She texted Wind as soon as she landed:
 *I’m here!*
 
-She felt a little nervous, but also excited.
-
-And she got a reply almost right away:
+And she got a reply right away:
 *I’m here too!*  
 *See you soon!*
 
@@ -180,8 +181,10 @@ they drove over the hills to the ocean.
 The air smelled of salt and sunlight, 
 and soon they were aboard a white catamaran.
 
-Sophie and Wind leaned on the forward rail, 
-hair flying in the wind, spray on their cheeks.
+On Sundays in winter Paris, Sophie would be in church — 
+decorations, candles, and hymns the highlight of the season. 
+But here, she leaned on the forward rail beside Wind, 
+hair flying, spray on her cheeks.
 
 Wind’s dad smiled. “You kids are right in your elements,” he called.
 “I’ve always loved the water and the wind. That’s how Wind got his name.”
@@ -201,7 +204,7 @@ the_secret: spread, landscape-oriented
 --
 @left: page, text
 The next day, Wind took Sophie to his school, for a winter camp.
-It was a small bilingual school, with a big courtyard and around sixty kids at the camp.
+It was a bilingual school, with a big courtyard and around sixty kids at the camp.
 Sophie felt shy at first, but kids were friendly to a newcomer from Paris.
 They played games, made art, it was fun.
 
@@ -216,7 +219,7 @@ And then, the next day, Wind told her a secret.
 
 Sophie looked at him, puzzled. “What do you mean? How can you have an airplane?”
 
-"It's not possible in Paris, but here, in California, rules are not the same," he said, grinning,  “It’s an ultralight, an eGull, and there’s no restrictions for kids to fly it, rules are this way."
+"It's not possible in Paris, but here, in California, rules are not the same," he said, grinning,  “It’s an ultralight, an eGull, and there are no restrictions for kids to fly it, rules are this way."
 
 @image:
 The courtyard of a school. Children playing  A few trees, a low building with large windows, and bright blue sky overhead. Sophie and Wind crouched together, Wind animatedly explaining something, his hands gesturing. Sophie listens intently, her eyes wide with curiosity.
@@ -341,6 +344,10 @@ Wind sat beside her, watching.
 @image:
 Sophie in the chair, the headset on. Two monitors show the eGull's panel instruments; a projection on the wall glows with a sunny valley.
 
+
+
+
+
 --
 sim_crash: page, text, centered
 --
@@ -390,18 +397,60 @@ Sophie took the stick again, lighter this time.
 Wind smiled.
 
 --
+saviour_flight: spread, portrait-oriented, image
+--
+They were getting the hang of it and practicing landings. One time, on a glide to final, Sophie closed her eyes for just a moment — the way she always did before an important test at school, a quick prayer to the Savior.
+
+Somehow the Dragon noticed. Its voice cut in, calm but firm:
+“I have control. Aborting the approach.”
+
+The engine surged, the nose lifted, and the eGull climbed away.
+
+Sophie opened her eyes. “What’s wrong?”
+
+“Your eyes were closed. You were not flying the airplane.
+Can you explain why?”
+
+Sophie flushed. “I was… praying. Just for a moment.”
+
+“Next time, keep your eyes open on final.”
+
+
+--
+christmas_day_mess: page, text, centered
+--
+The winter camp parties were fun, with music and dancing, Christmas lights and decorations. The camp friends were nice, and Sophie felt happy.
+
+But Christmas Day was not the same. The sun had just risen in California when she called her family — but in Paris, daylight was already fading. They went to mass that day, her mom insisted. The church was all wrong. It was supposed to be the same everywhere. It wasn't. The litany in English was incomprehensible; they stayed politely to the end, relieved to step back into the sun.
+
+Wind didn’t like the church. He only remembered faintly that it had caused arguments between his parents. And then there were stories.  
+
+They had planned flying, but by the time they reached the airfield, the weather had turned restless. Gusts picked up, lessons were canceled, and they went home disappointed.  
+
+@comment: hidden, stories, fixme  
+circumcision, etc.
+
+--
+new_year: page, text, centered
+--
+
+The New Year came, and camp started again after the Christmas break. During the holidays she had flown several times in a real airplane, with an instructor. Her training progressed. She kept her eyes open, steady on the controls, flying with precision.
+
+And one morning, Wind told her she was ready.
+Ready for the real eGull.
+
+--
 taxi_training: spread, landscape-oriented
 --
 @left: page, text
-The next afternoon, Sophie sat in the real eGull, headset snug over her ears.  
+That afternoon, Sophie sat in the real eGull, headset snug over her ears.  
 Wind’s voice crackled over the radio from the grass beside the taxiway:  
 “Nice and slow, okay?”  
 
 The dragon’s voice followed, warm and deliberate:  
 “Today we will learn to taxi. Use gentle pedal pressure.”  
 
-Sophie felt the sunlight on her shoulder and the gentle rumble of the wheels.
-She didn't get to fly, but she was allowed to control a real airplane.
+She didn't get to fly, but she got to control a real airplane.
 
 @right: page, image
 The eGull rolling slowly along a sunlit taxiway.  
@@ -414,10 +463,7 @@ closing_reflection: spread, landscape-oriented
 @left: page, text
 On her last night, the clubhouse glowed with string lights.  
 A few camp friends came to say goodbye.  
-There was music, paper lanterns, and a table piled high with cupcakes and cookies.  
-
-After the party, Sophie and Wind sat on the low deck steps.
-They kissed, knowing tomorrow won't be here.
+There was music, paper lanterns, and a few kisses — completely unabashed, the night warm around them.
 
 @image:
 Sophie and Wind at a distance, sitting on the steps of the clubhouse, the glow of string lights around them. Wind’s arm around Sophie, her head on his shoulder.
