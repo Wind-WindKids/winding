@@ -612,30 +612,35 @@ The advertisement could have been the Dragon’s work, acting on Wind’s behalf
 --
 the_next_morning: page, text
 --
-The next morning her sharp words came back to her —  
+The next morning her sharp words came back —  
 the foot-stomp, the courtyard, the “Don’t touch me.”  
 
-She sat there a long time,  
+She sat a long time,  
 thinking about what she’d done,  
 and about a boy with wind in his name  
 who used to make her laugh without even trying.  
 
-She remembered how proud she’d been,
-telling herself she was saving them both
-each time she went to Mass instead of flying.
+She remembered how proud she’d been,  
+telling herself she was saving them both  
+each time she went to Mass instead of flying.  
 
-But now it was plain: she hadn’t saved anyone.
-If she’d spent those hours training,
-that aborted takeoff might have been a clean, perfect flight.
+But it was plain now: she hadn’t saved anyone.  
+If she’d spent those hours training,  
+that aborted takeoff might have been a clean flight.  
 
+Playing and caring with eyes open  
+was more than praying with eyes closed —  
+on the ground or in the sky.  
+
+And that thought stayed with her.  
 
 --
 hi_wind: page, text
 --
-
-She picked up her laptop,  
+It was probably too late to fix things.
+But she picked up her laptop,  
 feeling the smooth, cold metal,  
-remembering the day he’d given it to her —  
+remembering the day Wind gifted it to her —  
 the grin, the way he’d said,  
 “We’re always here, even if we’re not right there.”  
 
