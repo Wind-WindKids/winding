@@ -428,7 +428,7 @@ i_scream: page, text
 --
 On Sunday, he biked to his favorite ice cream shop,
 the one where he and Sophie had once traded bites,
-arguing over which flavor was best.
+arguing if ice cream was better than chocolate crisps. 
 
 The windows were dark.
 A sign in the door: Closed for Winter.
@@ -568,8 +568,8 @@ the speed of a mother’s love, not the speed of light —
 couldn’t say a word: “puberty”.
 
 Long before his Dragon, the adults had done something wrong.
-They had hardcoded rules, silent but absolute: 
-don’t speak of this.
+They had hardcoded rules, silent but absolute.
+Like a book of prayers, instead of a playbook.
 
 So the Dragon failed. Ignorance and darkness won.
 

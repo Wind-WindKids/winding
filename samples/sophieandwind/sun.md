@@ -146,10 +146,20 @@ wind_returns: page, text, centered
 
 “Almost!” Wind smiled. “You know I don’t do well with all that... darkness.”
 
-“But you went anyway.”
+“But you went anyway.”  
 
-“Well, yeah. You were going.” He touched her hair, watching the sun play in it. “Worth it though. That color... it’s really my favorite.”
+“Well, yeah. You were going.”  
+He touched her hair, watching the sun play in it.  
+“Worth it though. That color... it’s really my favorite.”  
 
+“You didn't go?
+They’re probably sharing crisps now.  
+But I was always told not to take one.”  
+
+Sophie laughed softly.  
+“Then let’s go and share an ice cream instead.”  
+
+"Yay!" Wind grinned. "Ice cream is way better than crisps."
 
 --
 closing_reflection: page, text, centered
@@ -256,6 +266,23 @@ The top row: light frames — they would fly.
 The diamond kite would fly best, balanced and right aspect ratio for the kite.
 Correct answer is to circle #2, cross out #1, #3, #4, #5, and #6.
 
+
+--
+weight_of_cross: page, text, centered
+--
+"Imagine you fly a kite with Wind.  
+ But instead of a kite,  
+ it is a wooden cross.
+
+Would it fly?”, Sophie asked.  
+
+Students looked at her, confused, 
+then laughed. “No, of course not.”  
+
+“In the sky it is the same.  
+A cross too heavy cannot rise.  
+But if it is light, it flies.  
+A kite is more than a cross.”
 
 
 --
