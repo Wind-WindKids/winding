@@ -26,9 +26,13 @@ Sophie standing at the foot of wide stone church steps, looking toward the sunny
 --
 opening_scene: page, text, centered
 --
-Sundays had always been the same.  
+undays had always been the same.  
 Sophie’s mother would take her to the tall stone church at the end of the street.  
-There were candles and echoes and long rows of people sitting very still.
+
+Sophie didn’t like going.  
+Wind didn’t like it much either.  
+There were candles and echoes and long rows of people sitting still.  
+And then there were stories.  
 
 --
 sophie_on_steps: page, portrait-oriented, image
@@ -43,7 +47,7 @@ sophie_turns: page, text, centered
 
 Sophie shook her head.  
 
-“But Mom, it’s so sunny out! And I love to play with wind.”
+“But Mom, it’s so sunny out! And I love to play with Wind.”
 
 Her mother paused. Sophie grinned. “I think Sundays are windier than other days, because it’s sun that makes the wind.”
 
@@ -57,14 +61,14 @@ Her mother paused. Sophie grinned. “I think Sundays are windier than other day
 
 “Thank you, Mom.”
 
-Sophie turned and walked toward the park.
+Sophie turned and ran toward the park.
 
 --
 kite_in_trouble: spread, landscape-oriented
 --
 @left: page, text
 In the wide grass, three younger children were trying to get a kite into the air.  
-It flopped and spun in the wind, a jagged tear in its bright paper skin.  
+It flopped and spun in the wind, a jagged tear in its bright plastic sail.  
 
 “We can fix it,” Sophie said.  
 But when she checked her pockets, all she found was two pencils, a paper square, and a phone.  
