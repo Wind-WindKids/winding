@@ -42,7 +42,7 @@ and Notre-Dame glimmers in a whimsical, castle silhouette — soft turrets, warm
 ## The horn
 
 The horn in the image — on the airplane on the left.
-Yes, the dragon’s romantic scene worked out for Wind, it seems. Or was it the dragon? It could have been something pre-cooked by Wind. But the dragon is certainly playing along: the horn appears, he calls her “Princess.” And we end on a playful note, with an ambiguous request for a unicorn horn on her eGull — rofl.
+Yes, the dragon’s romantic scene worked out for Wind, it seems. Or was it the dragon? It could have been something pre-cooked by Wind. But the dragon is certainly playing along: the horn appears, he calls her “Princess.” And we end on a playful note, with an ambiguous request for a unicorn horn on "her eGull" — rofl.
 
 Funny thing: here’s how it happened.
 I had ChatGPT / GPT-5 synthesizing an image, and the unicorn horn got added by the image generator tool, probably influenced by the romantic atmosphere. (Or maybe ChatGPT added it, without telling me. I couldn’t see the actual prompt it sent to the tool.)
@@ -94,6 +94,8 @@ It still ended up having zero dialogue and a somewhat passive protagonist. But i
 
 ## Realism in Sophie and Wind
 This story is grounded in reality. Every scene could be carried out with the technology available in 2025 — and even within FAA regulations. It is the opposite of Neverland, in a sense. In Sophie and Wind, children want to grow up — while keeping all the privileges that childhood allows.
+
+In a few cases wishes are seemingly granted. But they are granted "with only a little delay", and for example the ice-cream could have been simply bought at a nearby café. The castle renewal, there are no physical laws that say that in time, Notre-Dame Cathedral grounds can't be turned from a crowded tourist trap with long lines, crying kids, selfies and crypts, into a green family-friendly park, with a new paint job for the castle and a few blue dunce caps. Wouldn't that be nice?
 
 The only touch of magic is the weather: a rare storm that rises when Wind is angry. But even that can be read as coincidence — perhaps he was angry many times, and once, when a storm also came, it became a story. It also reflects that Wind’s world is within a world model where such weather magic *is* possible.
 
