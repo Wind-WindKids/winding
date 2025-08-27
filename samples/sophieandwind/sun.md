@@ -176,7 +176,9 @@ Sophie watched the kite’s tail flicker against the wide sky, took Wind’s han
 Wind grinned.  
 “Unless it’s on a birthday cake.” 
 
-@image:
+--
+renewed_notre_dame: page, image, portrait-oriented
+--
 Sophie and Wind at a small café table in a green Paris square, each with a pistachio ice-cream cone; two mugs on the table. Behind them, Notre-Dame is gently “renewed” into a friendly,  castle silhouette: soft turrets, blue roofs, small banners. Kites drift overhead; a playground and strolling families dot the lawn. Watercolor light, bright and kind.
 
 
