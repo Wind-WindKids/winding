@@ -399,11 +399,14 @@ Wind smiled.
 --
 savior_flight: spread, portrait-oriented, image
 --
-They were getting the hang of it and practicing landings. One time, on a glide to final, Sophie closed her eyes for a moment — 
-to give a quick prayer — 
+They were getting the hang of it and practicing landings. 
+One time, on a glide to final, 
+Sophie closed her eyes for a moment — 
+a quick wish for luck — 
 like many people do when landing.
 
-Somehow the Dragon noticed. Its voice cut in, calm but firm:
+The plane drifted off the centerline, 
+and she heard, calm but firm:
 “I have control. Aborting the approach.”
 
 The engine surged, the nose lifted, and the eGull climbed away.
@@ -413,7 +416,7 @@ Sophie opened her eyes. “What’s wrong?”
 “Your eyes were closed. You were not flying the airplane.
 Can you explain why?”
 
-Sophie flushed. “I was… praying. Just for a moment.”
+Sophie flushed. “I was… Just for a moment.”
 
 --
 playing_and_care_is_more: page, text, centered
@@ -425,16 +428,13 @@ The Dragon leveled the wings, then spoke gently:
 Imagine you play catch with Wind.  
 You throw the ball—  
 and instead of playing,  
-he closes his eyes  
-and starts praying.  
+he closes his eyes
+and hopes it will land in his hands.  
 
 Would he catch the ball?”  
 
 Sophie laughed. “No, of course not.”  
 
-“In the sky, it is the same.  
-Caring and playing with eyes open  
-is more than praying with eyes closed.”  
 
 
 --
