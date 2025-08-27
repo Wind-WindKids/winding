@@ -42,7 +42,7 @@ and Notre-Dame glimmers in a whimsical, castle silhouette — soft turrets, warm
 ## The horn
 
 The horn in the image — on the airplane on the left.
-Yes, the dragon’s romantic scene worked out for Wind, it seems. Or was it the dragon? It could have been something pre-cooked by Wind. But the dragon is certainly playing along: the horn appears, he calls her “Princess.” And we end on a playful note, with an ambiguous request for a unicorn horn on "her eGull" — rofl.
+Yes, the dragon’s romantic scene worked out for Wind, it seems. Or was it the dragon? It could have been something pre-cooked by Wind. But the dragon is certainly playing along: the horn appears, he calls her “Princess.”
 
 Funny thing: here’s how it happened.
 I had ChatGPT / GPT-5 synthesizing an image, and the unicorn horn got added by the image generator tool, probably influenced by the romantic atmosphere. (Or maybe ChatGPT added it, without telling me. I couldn’t see the actual prompt it sent to the tool.)

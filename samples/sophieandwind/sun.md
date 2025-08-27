@@ -149,15 +149,11 @@ wind_returns: page, text, centered
 
 “It’s nice that you’re here now, in sunlight. Did you escape through a window?”
 
-“Almost!” Wind smiled. 
-“They’re sharing wine and crisps.  
-But I was always told not to take one.”  
+“Almost!” Wind smiled. “Rituals. They don't force you to stay, but it feels rude to leave.”
 
-Sophie laughed softly.  
-“Then let’s go and share an ice cream instead.”  
+Sophie looked worried and nodded. “I know.”
 
-"Yay!" Wind grinned. 
-"Ice cream is way better than crisps."
+"Let's go share an ice cream," Wind said. "There's a new place, they have pistachio."
 
 --
 closing_reflection: page, text, centered

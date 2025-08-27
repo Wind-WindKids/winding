@@ -397,10 +397,11 @@ Sophie took the stick again, lighter this time.
 Wind smiled.
 
 --
-saviour_flight: spread, portrait-oriented, image
+savior_flight: spread, portrait-oriented, image
 --
 They were getting the hang of it and practicing landings. One time, on a glide to final, Sophie closed her eyes for a moment — 
-to give a quick prayer to the Savior — like many people do when landing in an airplane.
+to give a quick prayer — 
+like many people do when landing.
 
 Somehow the Dragon noticed. Its voice cut in, calm but firm:
 “I have control. Aborting the approach.”

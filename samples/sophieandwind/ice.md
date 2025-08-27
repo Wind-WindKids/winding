@@ -255,8 +255,7 @@ relationship_work: spread, landscape-oriented
 @left: page, text, portrait-oriented
 That night, Sophie took out her journal.  
 She had an idea that she should work  
-on relationships and pray to the Savior
-for help and support.
+on relationships and pray for help and support.
 
 She wrote:  
 “Today we went flying and I almost died.  
