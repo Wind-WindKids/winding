@@ -147,13 +147,21 @@ wind_returns: page, text, centered
 
 “Sorry I got stuck in church.”
 
-“It’s nice that you’re here now, in sunlight. Did you escape through a window?”
+“It’s nice that you’re here now, in sunlight. 
+Did you escape through a window?”
 
-“Almost!” Wind smiled. “Rituals. They don't force you to stay, but it feels rude to leave.”
+“Almost!” Wind smiled. 
+“Rituals. 
+They don't force you to stay, 
+but it feels rude to leave.”
 
-Sophie looked worried and nodded. “I know.”
+Sophie nodded, a little worried. 
+“I know.”
 
-"Let's go share an ice cream," Wind said. "There's a new place, they have pistachio."
+“Come on,” Wind said.
+"Let's go share an ice cream.
+There's a new place, 
+they have pistachio."
 
 --
 closing_reflection: page, text, centered
