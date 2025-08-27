@@ -422,14 +422,14 @@ Wind: “Yeah… candles should last longer.”
 Dragon: “Thought you didn’t like candles that last. Or at least not in churches?”
 Wind: “I love candles that last. On a birthday cake!”
 Dragon: “So you don’t like churches?”
-Wind: “Churches are fine—it’s only three things I don’t like. Anger. Darkness. Fear. And lead contamination.”
+Wind: “It’s only three things I don’t like. Anger. Darkness. Fear. And lead contamination.”
 Dragon: “Lead contamination?”
-Wind: “Nasty stuff. Especially in the wind. You’d think Clair Patterson was clear, but no, they still build churches with it. And burn for fun.”
+Wind: “Nasty stuff. Especially in the wind. You’d think Clair Patterson was clear, but no, they still build with it. And burn for fun.”
 Dragon: “At least our eGull flies on sunlight, not avgas. By the way, there are birthday candles that reignite.”
 Wind: “Oh, cool. Can we get twelve by next Sunday? It’s Sophie’s birthday party.”
 Dragon: “Purchase confirmed. Delivery scheduled for Thursday, one day before your flight to Paris on Friday.”
-Wind: “Ah, right. My calendar’s a mess—all these Masses on Sundays.”
-Dragon: “Noted. Would you like me to replace them with kites or cake?”
+Wind: “Ah, right. My Sundays calendar’s a mess—all these Masses are interfering.”
+Dragon: “Noted. Would you like me to replace ithem with kites or cake?”
 
 
 @comment: author, hidden

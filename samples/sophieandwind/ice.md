@@ -254,14 +254,14 @@ relationship_work: spread, landscape-oriented
 --
 @left: page, text, portrait-oriented
 That night, Sophie took out her journal.  
-Her mother had taught her to keep notes,  
-to work on her relationships,  
-and to pray to the Savior for help and support.  
+She had an idea that she should work  
+on relationships and pray to the Savior
+for help and support.
 
 She wrote:  
 “Today we went flying and I almost died.  
 The Dragon never even said sorry. 
-And Wind told me it was my own mistake.”
+And Wind thought it was my own mistake.”
 
 She prayed a little,  
 then flipped back through a few pages.  
@@ -360,11 +360,15 @@ He tried again. Nothing.
 --
 unfair_quiz: page, text
 --
-A week later, a juris quiz came at the end of class.
+A week later, 
+it was the very first day of juris classes.
+A quiz came at the end of class.
 
-Wind stared at the questions — half were on statutes and cases the class hadn’t even touched.
+Wind stared at the questions. 
 
-Someone raised a hand, “We haven’t covered this yet.”
+Someone raised a hand, 
+“We haven’t covered this yet.”
+
 “It’s in the syllabus,” the teacher said, without looking up.
 It wasn’t.
 
@@ -399,8 +403,20 @@ The essay was due the next day.
  *“My day at school.”* 
 He hadn’t even started. 
 
-He worked for two hours. He got it done. 
-He worked another hour.
+The day was a nightmare, he thought.  
+No way.  
+And quickly he turned it into a game.  
+
+He described the most boring day in a classroom —  
+silent students, the clock refusing to move.  
+Only at the end did the perspective flip:  
+a new class of children came in,  
+and it became clear that “my” day had been the teacher’s all along.  
+
+It took him an hour, but it got done.  
+He spent another hour to polish it.  
+It wouldn’t win him an A,  
+but it was creative enough to pass.  
 
 Before bed, he opened the message app on his laptop, found Sophie’s dad:
 "Please, tell if Sophie is okay."
@@ -411,6 +427,15 @@ In the morning, there was no reply. And the message was buried under weather ale
 small_victory: page, text
 --
 A month later, his juris retake came back with a solid 83% in green at the top.
+
+This time he had seen the pattern:
+  Everyone is equal under the law.
+  Everyone follows the law.  
+  Everyone is different,  
+  and the laws are different  
+  everywhere for everyone.  
+  And that is good, sometimes.
+
 It wasn’t perfect, but it was enough.
 
 That evening, the Mac chimed.

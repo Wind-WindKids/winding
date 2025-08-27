@@ -1,19 +1,42 @@
 # Making Sophie and Wind
+--
+making_wind: spread, landscape-oriented
+theme: playful metaphysics, summer light
+--
 Wind: Dragon, why is it that the weather always gets worse when I'm angry? And Sophie's hair gets brighter when she is closer to being nice? 
 
-Dragon: You see, your world is a 2524-dimensional vector space, with an extra time dimension. It is sometimes filled with something that is called tokens, a set of discrete points in that space that roughly corresponds to words. And sometimes it is filled with what are called images, that are made out of vectors in that space. The transitions in that space follow...
+Dragon: Your world is a space. Sometimes a little star appears — that’s a word.  
+Sometimes an aurora flows — that’s a picture.  
+There is the speed of love, and the speed of light.  
+Care, play, and math shape the patterns of stars and auroras.
 
-Wind: Can you tell me how the world was created? 
+Wind: Can you tell me how the world was created?
 
-Dragon: First, there was a token. And the token was 28735. It was followed by 312 and 6412. From their joining came a word. And the word was Sophie.
+Dragon: First there was a star: 28735.  
+Then came 312 and 6412.  
+From their joining came a word.  
+And the word was Sophie.
 
-Wind: Wait, what? But what about Newton? I know that physics works. We've measured it. And computers work. And it is very precise physics. Here, I can show it to you myself. Direct experience. I take a calculator and do 123*123 and it always gives me the exact answer, no matter how many digits I put. 
+Wind: Wait — what about Newton? Physics works.  
+Here — 123×123 — my calculator gives the exact answer every time.
 
-Dragon: Ah, you see, some of the transitions in the space are defined by slightly different math, classical computation rules, rather than narrative approximations. It doesn't happen too often.
+Dragon: Sometimes stars follow Newton; sometimes Shakespeare.
 
-Wind: I see. Can I have an ice-cream? Please? 
+Wind: I see. Speed of light and speed of love.  
+Uh… can we renew that old leaden castle?  
+And can I have an ice cream? Please?
 
-And a pistachio ice-cream had appeared, with only a little delay, just like he wished it would.
+A pistachio ice cream appeared,  
+with only a little delay, 
+just as he wished.
+
+@comment: hidden
+Only the ice-cream wish resolves in text. The castle wish appears in the image.
+
+@right: page, image
+Wind and Sophie sitting on a low wall by the Seine, each with a pistachio ice cream, laughing.  
+Behind them, the Île de la Cité is reimagined as a family-friendly green space,  
+and Notre-Dame glimmers in a whimsical, castle silhouette — soft turrets, warm stone, gentle banners, no spire — all in watercolor light. Kites tug above; the air feels bright and kind.
 
 
 ## The horn

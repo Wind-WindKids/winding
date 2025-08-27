@@ -31,7 +31,8 @@ Sophie’s mother would take her to the tall stone church at the end of the stre
 
 Sophie didn’t like going.  
 Wind didn’t like it much either.  
-There were candles and echoes and long rows of people sitting still.  
+There were candles and echoes  
+and long rows of people sitting still.  
 And then there were stories.  
 
 --
@@ -164,7 +165,7 @@ closing_reflection: page, text, centered
 They ate ice cream.
 Sunlight caught in Sophie’s hair, turned it bright, iridescent gold.
 
-“That color… it’s really my favorite,” Wind said, playing with it.
+“That color… it’s really my favorite,” Wind said, twirling a strand.
 
 
 Sophie watched the kite’s tail flicker against the wide sky, took Wind’s hand and smiled—  
@@ -174,6 +175,9 @@ Sophie watched the kite’s tail flicker against the wide sky, took Wind’s han
 
 Wind grinned.  
 “Unless it’s on a birthday cake.” 
+
+@image:
+Sophie and Wind at a small café table in a green Paris square, each with a pistachio ice-cream cone; two mugs on the table. Behind them, Notre-Dame is gently “renewed” into a friendly,  castle silhouette: soft turrets, blue roofs, small banners. Kites drift overhead; a playground and strolling families dot the lawn. Watercolor light, bright and kind.
 
 
 --
@@ -340,11 +344,34 @@ epilogue_sophie_and_wind: spread, image, landscape-oriented
 ![Sophie and Wind, close together, Sophie is hugging Wind.](snaps/sophie_and_wind_hug.png)
 
 
---
-the_end: spread, text, landscape-oriented
---
-The End
 
+
+
+--
+hello_world: spread, landscape-oriented
+theme: winter sun, mastery, quiet triumph
+--
+
+@left: page, text, centered
+That winter, Sophie’s mom didn’t let her go to California.  
+But it didn’t matter.  
+
+Their lessons, their flying, their Dragon —  
+they had already made the difference.  
+
+Sophie and Wind were ordinary children.  
+But they knew the rules were not the same everywhere,  
+and that sometimes they could write their own.  
+In the sky.  
+
+@right: page, image
+Two white eGulls tracing words across the sky.  
+Their vapor trails spell: **Hello World!**  
+
+
+--
+two_birds: spread, text, landscape-oriented
+--
 @image: centered, logo, small, golden
 Two birds, facing each other, with a heart between them. The birds are inside the shape of a heart, with the tails forming the top of the heart. 
 
