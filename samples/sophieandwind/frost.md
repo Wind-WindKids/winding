@@ -110,7 +110,7 @@ from that day in Paris.
 “I thought it was supposed to be sunny here,”
 Sophie said the moment they stepped outside.
 
-Wind laughed. Sophie smiled too and they hugged.
+Wind laughed. She did too and they hugged.
 
 But the chill stayed,
 as if it had followed her
@@ -343,8 +343,6 @@ He tried again.
 "Sophie, are you okay?" he typed, hoping for a response.
 Nothing.
 
-
-
 --
 epilogue: spread, landscape-oriented
 --
@@ -353,10 +351,13 @@ Epilogue — Back to Paris
 When Sophie got back to Paris, 
 her parents were waiting.
 
-They hugged her, relieved.
-She felt safe, and warm again.
+They hugged her, 
+but she didn’t feel anything.
 
-But something had changed.
-She dreamed of flying, and of Wind.
-And sometimes she woke up crying,
-like a seagull trapped in ice.
+Something had happened to her.
+Something no one could see.
+Not Wind. Not her. Not even the Dragon.
+
+That night she dreamed of a frozen sea, 
+and a seagull trapped in ice.
+
