@@ -205,6 +205,9 @@ Sophie looked at him, puzzled. “What do you mean? How can you have an airplane
 and there are no restrictions for kids to fly it, 
 rules are this way. It is called Part 103.”
 
+“No license. Daytime only. Away from crowds. And no passengers,” Wind added,
+like he’d said it a hundred times.
+
 @image:
 The courtyard of a school. Children playing. A few trees, a low building with large windows, and bright blue sky overhead. Sophie and Wind crouched together, Wind animatedly explaining something, his hands gesturing. Sophie listens intently, her eyes wide with curiosity.
 

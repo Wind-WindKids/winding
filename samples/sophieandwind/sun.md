@@ -352,7 +352,7 @@ In the sky.
 
 @right: page, image
 Two white eGulls tracing words across the sky.  
-Their vapor trails spell: **Hello World!**  
+Their trails spell: **Hello World!**  
 
 
 --

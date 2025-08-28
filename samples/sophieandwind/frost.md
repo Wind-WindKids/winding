@@ -187,7 +187,7 @@ The next day, they lined up on the parallel runways again — “This is a trick
 
 She lowered her canopy and started her checklist.
 
-“Crosswind from your right, twelve knots, gusting to sixteen,” her Dragon advised, calm and clear.
+“Crosswind from your right, seven knots, gusting to ten,” her Dragon advised, calm and clear.
 “I’ve got it,” Sophie replied, eyes fixed ahead.
 
 Sophie’s eGull began its takeoff roll, nosewheel jittering against the gusts.

@@ -18,7 +18,7 @@ Two eGulls, at the empty airfield in California, winter, low sun, long shadows, 
 unfair_quiz: page, text
 --
 A week later, 
-it was the very first day of juris classes.
+it was the very first day of civics classes.
 A quiz came at the end of class.
 
 Wind stared at the questions. 
@@ -35,7 +35,7 @@ It came back with a red mark at the top: 17%.
 --
 grounded: page, text
 --
-Somehow, word of the failing grade made its way to the Young Eagles chapter.
+Somehow, word of the failing grade made its way to the flying club chapter.
 By the weekend, the coordinator had sent a polite but stiff message:
 
 Given your current academic standing, we recommend focusing on schoolwork for now. Flying privileges will be paused until improvement is demonstrated.
@@ -231,7 +231,7 @@ Annoyed, when she said, “Don’t touch me”?
 And he remembered her tasting wine — he guessed it hadn’t helped.  
 
 She wasn’t just cold.
-She was changing — like the girl in Pixar.
+She was changing — like the girl in the movie.
 
 Her crash, her fear, and puberty had hit them both, he realized.
 
