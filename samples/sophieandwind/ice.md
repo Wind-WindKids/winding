@@ -11,7 +11,7 @@ Part 3
 Sophie and Ice
 
 @image: 
-Two eGulls, at the empty airfield in Californ, winter, low sun, long shadows, frost on the ground, clear sky.
+Two eGulls, at the empty airfield in California, winter, low sun, long shadows, frost on the ground, clear sky.
 
 
 --
@@ -208,7 +208,7 @@ He tried to get Sophie back with the Dragon's help. But something was off.
 
 “I can route you a message through her school. Low risk.”
 
-“No. It would't help.”
+“No. It wouldn't help.”
 
 The Dragon’s golden head tilted slightly, almost like a bow.
 

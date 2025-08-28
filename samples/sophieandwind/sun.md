@@ -4,7 +4,7 @@ theme: Spring or summer daytime, Jardin du Luxembourg, watercolor style
 --- 
 
 --
-part_4_cover: page, portrait-oriented
+front_cover: page, portrait-oriented
 --
 @title: text, centered, playful, rounded lettering, golden
 Part 4
@@ -188,9 +188,9 @@ Sophie and Wind at a small café table in a green Paris square, each with a pist
 unfair_kite_quiz: spread, landscape-oriented
 --
 @left: page, text
-The next week at the kite workshop, Sophie handed out papers.
-At the kite workshop, Sophie handed out papers.  
-On each was a drawing of diverse kites, some light, 
+The next week at the kite workshop, 
+Sophie handed out papers.
+On each was a drawing of kites, some light, 
 some heavy, some with torn sails.
 
 She explained the quiz:

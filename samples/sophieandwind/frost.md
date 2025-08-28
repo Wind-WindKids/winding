@@ -1,5 +1,5 @@
 ---
-sophie_and_ice: book, portrait-oriented
+sophie_and_frost: book, portrait-oriented
 theme: Winter, Jardin du Luxembourg, watercolor style
 ---
 

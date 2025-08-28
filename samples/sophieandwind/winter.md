@@ -4,7 +4,7 @@ theme: Winter departure from Paris to warm California, watercolor style
 ---
 
 --
-part_one_cover: page, portrait-oriented
+front_cover: page, portrait-oriented
 --
 @title: text, centered, playful, rounded lettering, teal
 Part 1
@@ -159,8 +159,8 @@ they drove over the hills to the ocean.
 The air smelled of salt and sunlight, 
 and soon they were aboard a white catamaran.
 
-On Sundays in winter Paris, Sophie would be in church — 
-decorations, candles, and hymns the highlight of the season. 
+On Sundays in winter Paris, decorations, candles, and  
+hymns were the highlight of the season. 
 But here, she leaned on the forward rail beside Wind, 
 hair flying, spray on her cheeks.
 
@@ -197,10 +197,16 @@ And then, the next day, Wind told her a secret.
 
 Sophie looked at him, puzzled. “What do you mean? How can you have an airplane?”
 
-"It's not possible in Paris, but here, in California, rules are not the same," he said, grinning,  “It’s an ultralight, an eGull, and there are no restrictions for kids to fly it, rules are this way."
+
+
+“It's not possible in Paris, but here, in California, rules are not the same," he said, grinning,  
+
+“It's an ultralight, an eGull, 
+and there are no restrictions for kids to fly it, 
+rules are this way. It is called Part 103.”
 
 @image:
-The courtyard of a school. Children playing  A few trees, a low building with large windows, and bright blue sky overhead. Sophie and Wind crouched together, Wind animatedly explaining something, his hands gesturing. Sophie listens intently, her eyes wide with curiosity.
+The courtyard of a school. Children playing. A few trees, a low building with large windows, and bright blue sky overhead. Sophie and Wind crouched together, Wind animatedly explaining something, his hands gesturing. Sophie listens intently, her eyes wide with curiosity.
 
 @comment: hidden
 The FAA does not impose minimum age requirements for operating ultralight vehicles under Part 103.
