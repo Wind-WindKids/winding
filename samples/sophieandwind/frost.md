@@ -110,7 +110,8 @@ from that day in Paris.
 “I thought it was supposed to be sunny here,”
 Sophie said the moment they stepped outside.
 
-Wind laughed, pulling her into a hug.
+Wind laughed. Sophie smiled too and they hugged.
+
 But the chill stayed,
 as if it had followed her
 all the way from Paris.

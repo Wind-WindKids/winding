@@ -96,7 +96,7 @@ And she got a reply right away:
 *See you soon!*
 
 When she stepped out of the plane, the air smelled different, warm. 
-And in another half an hour, there was Wind, grinning at her.
+And in another half an hour, there was Wind, and they were hugging tight.
 
 @image:
 Glass walls at San Francisco International. Winter light pours in, but it’s warm and golden. Wind waits just past the barrier, grinning. Palm trees sway outside.
