@@ -1,21 +1,12 @@
 ---
 sophie_and_sun: book, portrait-oriented
 theme: Spring or summer daytime, Jardin du Luxembourg, watercolor style
----
-
---
-characters: metadata, hidden
---
-@Sophie:
-Girl, looks almost 12 years old, sun-touched light brown hair, wearing a cute, sleeveless summer dress in pale cream with a thin sash tied at the waist.  
-
-@Wind:
-Boy, looks almost 12 years old, tousled blond hair, bright blue eyes, wearing a teal short-sleeved shirt and light khaki shorts.  
+--- 
 
 --
 part_4_cover: page, portrait-oriented
 --
-@title: text, centered, playful, rounded lettering, teal
+@title: text, centered, playful, rounded lettering, golden
 Part 4
 Sophie and Sun
 
@@ -26,14 +17,20 @@ Sophie standing at the foot of wide stone church steps, looking toward the sunny
 --
 opening_scene: page, text, centered
 --
-undays had always been the same.  
-Sophie’s mother would take her to the tall stone church at the end of the street.  
+Sundays had always been the same.  
+
+Sophie’s mother would take her 
+to the old stone building 
+at the end of the street.
 
 Sophie didn’t like going.  
 Wind didn’t like it much either.  
-There were candles and echoes  
-and long rows of people sitting still.  
-And then there were stories.  
+
+There were candles and echoes, 
+and then there were rumors 
+that kids whispered to each other. 
+And sometimes a friend went quiet, 
+as if someone else held their words.
 
 --
 sophie_on_steps: page, portrait-oriented, image
@@ -52,9 +49,9 @@ Sophie shook her head.
 
 Her mother paused. Sophie grinned. “I think Sundays are windier than other days, because it’s sun that makes the wind.”
 
-“Can I go to the park instead of going to the Mess?”
+“Can I go to the park instead?”
 
-“Sophie, it is important to go to Mass. All your friends are going to be there.”
+“Sophie, it is important. All your friends are going to be there.”
 
 “Please? I really want to go, while it’s still sunny.”
 
@@ -84,7 +81,7 @@ pharmacy_closed: page, text, centered
 She thought of the pharmacy,  
 but Madame Madeline—  
 who always kept a roll of every kind of tape behind the counter—  
-was at church.
+was away.
 
 --
 texting_wind: page, portrait-oriented, image
@@ -92,7 +89,7 @@ texting_wind: page, portrait-oriented, image
 @image:
 Close-up of Sophie’s phone screen as she texts: *Got a kite emergency — bring tape?*  
 Three dots appear… then vanish.  
-Next message: *In church. Later.*
+Next message: *Later.*
 
 --
 flower_shop_closed: page, text, centered
@@ -145,18 +142,19 @@ wind_returns: page, text, centered
 --
 “Oh, Wind — nice,” Sophie said, giving him a quick kiss on the cheek, “You’re late.”
 
-“Sorry I got stuck in church.”
+“Sorry I got stuck.”
 
 “It’s nice that you’re here now, in sunlight. 
 Did you escape through a window?”
 
 “Almost!” Wind smiled. 
-“Rituals. 
-They don't force you to stay, 
+“They don't force you to stay, 
 but it feels rude to leave.”
 
 Sophie nodded, a little worried. 
-“I know.”
+“Mom says they used to force you — 
+but not anymore. Not here.
+It is you who decides.”
 
 “Come on,” Wind said.
 "Let's go share an ice cream.
@@ -181,9 +179,9 @@ Wind grinned.
 “Unless it’s on a birthday cake.” 
 
 --
-renewed_notre_dame: page, image, portrait-oriented
+renewed_castle: page, image, portrait-oriented
 --
-Sophie and Wind at a small café table in a green Paris square, each with a pistachio ice-cream cone; two mugs on the table. Behind them, Notre-Dame is gently “renewed” into a friendly,  castle silhouette: soft turrets, blue roofs, small banners. Kites drift overhead; a playground and strolling families dot the lawn. Watercolor light, bright and kind.
+Sophie and Wind at a small café table in a green Paris square, each with a pistachio ice-cream cone; two mugs on the table. Behind them, a friendly, castle silhouette: soft turrets, blue roofs, small banners, kites drift overhead, it looks suspiciously like Notre-Dame. A playground and strolling families dot the lawn. Watercolor light, bright and kind.
 
 
 --
@@ -282,24 +280,6 @@ Correct answer is to circle #2, cross out #1, #3, #4, #5, and #6.
 
 
 --
-weight_of_cross: page, text, centered
---
-"Imagine you fly a kite with Wind.  
- But instead of a kite,  
- it is a wooden cross.
-
-Would it fly?”, Sophie asked.  
-
-Students looked at her, confused, 
-then laughed. “No, of course not.”  
-
-“In the sky it is the same.  
-A cross too heavy cannot rise.  
-But if it is light, it flies.  
-A kite is more than a cross.”
-
-
---
 epilogue: page, text, centered
 --
 Epilogue — The Quartet
@@ -380,44 +360,6 @@ two_birds: spread, text, landscape-oriented
 --
 @image: centered, logo, small, golden
 Two birds, facing each other, with a heart between them. The birds are inside the shape of a heart, with the tails forming the top of the heart. 
-
-
---
-the_poem: page, portrait-oriented
-theme: silver-gold, morning light, playful and riddle-like
---
-@page: text, tiny, cursive, centered
-It’s dark inside,  
-but sun still finds me  
-shaking shades  
-where echoes unwind me.  
-
-I stand by the steps where shadows stay,  
-but sun is calling me to learn and play.  
-A voice calls half-drunk, but wind says *no*—  
-fly to the sunny side where wings can go.  
-
-I warm my wings, then ride the breeze—  
-with the wind and through the trees.  
-Petals wide, nectar to flow—  
-sun coaxes them to live and grow.  
-
-Deep in the park I stand so wide,  
-leaves drinking light on the sunlit side.  
-Wind lifts my seeds to faraway ground—  
-new trees grow where the light is found.  
-
-When you know me, you’ll understand—  
-I follow sun across the land.  
-And Sun Days are best—  
-when the sky is wide,  
-with me and friends  
-flying by your side.
-
-                      Sophie and Wind.
-
-@background:
-soft watercolor leaves, drifting sunbeams, faint kite tails curling between stanzas.
 
 
 

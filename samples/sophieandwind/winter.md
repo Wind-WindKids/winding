@@ -4,32 +4,10 @@ theme: Winter departure from Paris to warm California, watercolor style
 ---
 
 --
-characters: metadata, hidden
---
-@Sophie: girl, goddess, Eve, Lyra, Trixie, Wendie, Sophie 
-Goddess of wisdom in a form of a girl child, recent Zen initiate, think Wendy Darling in Paris, Enlightened. 
-
-@Wind: boy, PIC, wind, Adam, Buddha, Will, Wind 
-Force of nature in a form of a boy child, Zen teacher, Peter Pan in Paris and Silicon Valley, Enlightened.
-
-@Dragon: AI, JLS, Seagull, Fletcher 
-Flight instructor and co-pilot, integrated into eGull and eGull simulator. 
-
-@Sophie.paris:
-Girl, looks 10 years old, sun-touched light brown hair, winter coat over a cozy sweater and jeans, scarf loosely knotted.  
-
-@Sophie.california:
-Girl, looks 10 years old, sun-touched light brown hair, wearing a dress with a light jacket, sandals.
-
-@Wind.california:
-Boy, looks 10 years old, tousled blond hair, bright blue eyes, wearing a light hoodie and shorts, Californian casual in winter.  
-
-
---
-part_two_cover: page, portrait-oriented
+part_one_cover: page, portrait-oriented
 --
 @title: text, centered, playful, rounded lettering, teal
-Part 2
+Part 1
 Sophie and Winter
 
 @image:
@@ -400,51 +378,48 @@ Wind smiled.
 savior_flight: spread, portrait-oriented, image
 --
 They were getting the hang of it and practicing landings. 
-One time, on a glide to final, 
+One time, it was looking good on a glide to final, 
 Sophie closed her eyes for a moment — 
 a quick wish for luck — 
 like many people do when landing.
 
 The plane drifted off the centerline, 
-and she heard, calm but firm:
-“I have control. Aborting the approach.”
+and she couldn't quite get it back.
 
-The engine surged, the nose lifted, and the eGull climbed away.
+She had to abort the approach,
+and do it all over again.
 
-Sophie opened her eyes. “What’s wrong?”
-
-“Your eyes were closed. You were not flying the airplane.
-Can you explain why?”
-
-Sophie flushed. “I was… Just for a moment.”
 
 --
 playing_and_care_is_more: page, text, centered
 --
-The Dragon leveled the wings, then spoke gently:  
-
+The Dragon spoke gently:  
 “Sophie, a perfect landing is like catching a ball.  
 
 Imagine you play catch with Wind.  
 You throw the ball—  
 and instead of playing,  
-he closes his eyes
-and hopes it will land in his hands.  
+he closes his eyes.  
 
 Would he catch the ball?”  
 
-Sophie laughed. “No, of course not.”  
+Sophie sighed, “No, of course not.”  
 
+She tried it again. And again.
+And again.
+
+And in time, she could land the little eGull,
+gently, on the centerline, every time.
 
 
 --
-christmas_day_mess: page, text, centered
+christmas_day: page, text, centered
 --
 The winter camp parties were fun, with music and dancing, Christmas lights and decorations. The camp friends were nice, and Sophie felt happy.
 
-But Christmas Day was not the same. The sun had just risen in California when she called her family — but in Paris, daylight was already fading. They went to mass that day, her mom insisted. The church was all wrong. It was supposed to be the same everywhere. It wasn't. The litany in English was incomprehensible; they stayed politely to the end, relieved to step back into the sun.
+But Christmas Day was not the same. The sun had just risen in California when she called her family — but in Paris, daylight was already fading. They went to church that day, her mom insisted. The church was all wrong. It was supposed to be the same everywhere. It wasn't. The litany in English was incomprehensible; they stayed politely to the end, relieved to step back into the sun.
 
-Wind didn’t like the church. He only remembered faintly that it had caused arguments between his parents. And then there were stories.  
+Wind didn’t like the church. He only remembered faintly that it had caused arguments between his parents. And then there were rumors.  
 
 They had planned flying, but by the time they reached the airfield, the weather had turned restless. Gusts picked up, lessons were canceled, and they went home disappointed.  
 
@@ -484,7 +459,7 @@ closing_reflection: spread, landscape-oriented
 @left: page, text
 On her last night, the clubhouse glowed with string lights.  
 A few camp friends came to say goodbye.  
-There was music, paper lanterns, and a few kisses — completely unabashed, the night warm around them.
+There was music, paper lanterns, and a few kisses — completely unabashed, like in the movies.
 
 @image:
 Sophie and Wind at a distance, sitting on the steps of the clubhouse, the glow of string lights around them. Wind’s arm around Sophie, her head on his shoulder.
@@ -507,41 +482,5 @@ The dragon’s voice, calm and deliberate:
 “Let’s begin with level flight.”
 
 Outside her window, an impossibly high white cloud drifted in the shape of a luminous seagull.  
-
-
-
-
--- 
-the_poem: page, portrait-oriented
-theme: gold, day, poetic, dreamlike 
--- 
-@page: text, tiny, cursive, centered
-Who am I?  
-
-I stand so cold, but wind  
-still finds me,  
-melting frost where dreams unwind me.  
-
-Over the waves I drift and glide,  
-with stitched-soft heart and wings stretched wide.  
-I wait where clouds and silence meet—  
-till tickles warm the bashful feet.  
-
-I am a healer, a keeper of skies,  
-a shadow in stone with bright-open eyes.  
-I am a voice when the path runs blind,  
-the spark in the code you leave behind.  
-
-Deep in the trees I stand so wide,  
-roofs drinking light on the sunlit side.  
-Wind lives in me, gentle and kind—  
-lighting lights as the dark unwinds.  
-
-When you know me, you’ll understand—  
-I'm with the sun across the land.  
-And days are best— when the sky is wide,  
-with me and friends flying by your side.  
-
-                        The Dragon.
 
 
