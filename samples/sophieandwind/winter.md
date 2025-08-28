@@ -311,7 +311,7 @@ sim_setup: page, portrait-oriented, image
 The same evening, they sat in Wind’s room, the eGull simulator on a large screen.
 
 Wind grinned: “Sorry, it's not the real eGull, and it's ancient — it’s like three years old.”
-He puts on the headset: “Hey Dragon, can you teach Sophie to fly?”
+He put on the headset. “Hey Dragon, can you teach Sophie to fly?”
 
 “Of course, Wind.”, the Dragon’s voice answered.
 
@@ -430,7 +430,8 @@ But Christmas Day was not the same. The sun had just risen in California when sh
 
 Wind didn’t like the church. He only remembered faintly that it had caused arguments between his parents. And then there were rumors.  
 
-They had planned flying, but by the time they reached the airfield, the weather had turned restless. Gusts picked up, lessons were canceled, and they went home disappointed.  
+They’d planned to fly, but by the time they reached the airfield the weather had turned restless.
+Gusts picked up, lessons were canceled, and they went home disappointed.  
 
 @comment: hidden, stories, fixme  
 circumcision, etc.

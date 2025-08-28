@@ -83,7 +83,7 @@ In the morning, there was no reply. And the message was buried under weather ale
 --
 small_victory: page, text
 --
-A month later, his juris retake came back with a solid 83% in green at the top.
+A month later, his civics retake came back with a solid 83% in green at the top.
 
 This time he had seen the pattern:
   Everyone is equal under the law.
@@ -340,8 +340,7 @@ and together they drove off.
 They left the freeway, climbing into the hills.
 *Hey Jude* filled the car.
 
-“Don’t make it bad,” his dad sang, off-key but certain.
-Wind grinned and joined in.
+His dad sang, off-key but certain. Wind grinned and joined in.
 As they crested the ridge, the ocean opened wide below.
 
 By the time they reached the harbor,

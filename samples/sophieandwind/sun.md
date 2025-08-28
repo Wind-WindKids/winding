@@ -65,7 +65,7 @@ Sophie turned and ran toward the park.
 kite_in_trouble: spread, landscape-oriented
 --
 @left: page, text
-In the wide grass, three younger children were trying to get a kite into the air.  
+In the wide grass, three younger kids were trying to get a kite into the air.  
 It flopped and spun in the wind, a jagged tear in its bright plastic sail.  
 
 “We can fix it,” Sophie said.  
@@ -315,7 +315,7 @@ The horizon glowed with sunrise.
 “It’s beautiful…”, Sophie whispered.
 Wind smiled — “Good Dragon.”
 
-“Can my eGull have a unicorn horn? Please?”`
+“Can my eGull have a unicorn horn? Please?”
 
 “Yes, Princess Sophie,” replied the Dragon, 
 forming its shape out of the stars,

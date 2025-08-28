@@ -276,29 +276,33 @@ Wind tried to understand, but he couldn’t.
 --
 sunday: spread, landscape-oriented
 --    
-One bright Sunday, Wind found her in the park, sitting on a low bench with a book in her lap.
+One bright Sunday, Wind found her in the park, sitting on a stone bench with a book in her lap.
 
-“Hey,” Wind said, dropping his bike against the bench.
+“Hey,” Wind said, dropping his bike beside the bench.
 “Forecast’s perfect. No wind, clear skies. Let’s take the eGulls out.”
 
 Sophie didn’t look up. She turned a page, eyes scanning the text.
 “I’m busy.”
 
-“You can read after, no?  The eGulls are ready. We can fly together.”
+“You can read after, no? The eGulls are ready. We can fly together.”
 
 “I said I’m busy, Wind.”
 Her voice was flat, without the old teasing edge.
 
-“Hey,” he said, sitting down beside her, "It'll be fun", and pulled her into a hug.
+“Hey,” he said, sitting down beside her  
+and pulling her into a hug.
 
-Her eye stayed on the page.
-“Don’t touch me.”
+Her eyes stayed on the page.
+ *“Don’t touch me.”*
 
-It wasn’t angry, just cold.
+Her voice wasn’t angry — just cold.
 She stood and walked to the far side of the park without looking back.
 
-Her book was still open, face-down where she’d left it.
-The echo of her words stayed in the air.
+Her book was still open, face down where she’d left it.
+The echo of her words stayed in the air —  
+like a touch of frost to his heart.
+He tried to breathe and couldn’t.
+
 
 --
 sunday_flight: spread, landscape-oriented
