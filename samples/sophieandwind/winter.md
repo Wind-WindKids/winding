@@ -42,7 +42,7 @@ packing: page, portrait-oriented, image
 The next month, Sophie packed her small suitcase.
 She was going to San Francisco, to see Wind.
 She folded her clothes neatly, took a few books, a few chocolate bars,
-and her favorite toy that she had since she was a baby — Bashful Lamb.
+and her favorite toy that she had since she was a baby.
 
 @image:
 Sophie folding clothes into a small rolling suitcase. Bashful Lamb peeks from her bed in the background. A globe on her desk.
@@ -468,7 +468,8 @@ closing_reflection: spread, landscape-oriented
 @left: page, text
 On her last night, the clubhouse glowed with string lights.  
 A few camp friends came to say goodbye.  
-There was music, paper lanterns, and a few kisses — completely unabashed, like in the movies.
+There was music, paper lanterns, 
+and a few unabashed kids — like in the movies.
 
 @image:
 Sophie and Wind at a distance, sitting on the steps of the clubhouse, the glow of string lights around them. Wind’s arm around Sophie, her head on his shoulder.
