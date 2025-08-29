@@ -1,5 +1,5 @@
 ---
-sophie_and_ice: book, portrait-oriented
+wind_and_ice: book, portrait-oriented
 theme: Winter, Jardin du Luxembourg, watercolor style
 ---
 
@@ -8,7 +8,7 @@ front_cover: page, portrait-oriented, cover-front
 --
 @title: text, centered, playful, rounded lettering, teal  
 Part 3
-Sophie and Ice
+Wind and Ice
 
 @image: 
 Two eGulls, at the empty airfield in California, winter, low sun, long shadows, frost on the ground, clear sky.
@@ -17,8 +17,7 @@ Two eGulls, at the empty airfield in California, winter, low sun, long shadows, 
 --
 unfair_quiz: page, text
 --
-A week later, 
-it was the very first day of civics classes.
+A week later, it was the very first day of civics classes.
 A quiz came at the end of class.
 
 Wind stared at the questions. 
@@ -108,21 +107,19 @@ It wasn’t flying — not yet — but at least it was a start.
 --
 i_scream: page, text
 --
-On Sunday, he biked to his favorite ice cream shop,
-the one where he and Sophie had once traded bites,
-arguing if ice cream was better than chocolate crisps. 
+On Sunday, he biked to his 
+favorite ice cream shop,
 
 The windows were dark.
-A sign in the door: Closed for Winter.
+A sign in the door: 
+*Closed for Winter.*
 
-He stood there a long time, staring at the closed shop.
+He stood there a long time, 
+staring at the closed shop.
 
-Sophie had left, but she was still under his skin.
-He’d let her in on every little thing he loved in his life —
-from flying, to ice cream, to the secret corners of his world.
-
-And now, one by one, 
-everything he’d loved before felt frozen solid,
+He let Sophie in on everything he loved.
+And now, one by one, everything he’d loved
+felt frozen solid,
 tearing his heart with ice.
 
 
@@ -142,36 +139,32 @@ The bike pitched forward;
 he jumped, clearing the handlebars,
 landing with a jolt.
 
-He stood there, staring.
-Black skid marks from bike tires ran straight into the curb.
-Stains — ice-cream, maybe — marked where others had spilled.
-
 His jaw tightened.
-He kicked a nearby bench, the solid wood not budging.
-A sudden gust of wind caught a paper cup, sent it tumbling into the air.
-A seagull shrieked above, its cry sharp enough to sting.
+He kicked a nearby bench, 
+the solid wood not budging.
+
+A sudden gust of wind caught a paper cup, 
+sent it tumbling into the air.
+A seagull shrieked above.
 
 --
 a_cut_though_the_park: page, text
 --
-He cut through the park where they’d once played.
+He cut through the park.
 The air felt heavier.
-Big leaves, brittle from winter, lifted suddenly from the ground,
-whipping in sharp arcs, snapping against the faces of kids in the playground.
+
+Big leaves, brittle from winter, 
+lifted suddenly from the ground,
+whipping in sharp arcs, snapping 
+against the faces of kids in the playground.
 
 By evening, the sky cracked open with thunder.
 A rare spring storm slammed the city, 
 and a whirlwind tore down a side street.
 
-Later, Wind saw in the news that the only other time a tornado 
-had hit Sunnyvale was thirty-three years earlier.
-
-
 @comment: hidden
 No magic is required to explain this sequence:
-- Doomscroll algorithm likely inferred the user’s age.
-- Story could have been generated on the spot as clickbait.
-- Wind’s “storm” could be perception bias or coincidence; notable because it happened to coincide with his anger.
+- Wind’s “storm” could be perception bias or coincidence.
 - Storm → memory worthy; other angry days without storms → forgotten.
 
 
@@ -181,11 +174,7 @@ doomscroll: page, text
 That night, he lay on his bed, sim screen glowing,
 scrolling past the weather into news from half a world away.
 A peace negotiation had failed again.
-Drone footage showed a shopping center ablaze,
-its glass and steel skeleton lit orange against the smoke.
-
-Four people were dead.
-One of them was an eleven-year-old girl.
+Drone footage showed a school ablaze.
 
 The Dragon’s voice cut in, firm but not unkind:
 “Stop. This won’t get Sophie back. Work.”
@@ -193,20 +182,22 @@ The Dragon’s voice cut in, firm but not unkind:
 Wind closed the news and opened his projects folder.
 
 
+
 --
 dragon_fails: page, text
 --
-He tried to get Sophie back with the Dragon's help. But something was off.
+He tried to get Sophie back with the Dragon's help. 
+But something was off.
 
-“Public sim challenge. She might see your name on the leaderboard and—”
-
-“No.”
-
-“A postcard to her family’s address? Handwritten. Warm tone. A sketch of the eGull.”
+“Public sim challenge. Your name on the leaderboard and—”
 
 “No.”
 
-“I can route you a message through her school. Low risk.”
+“A postcard to her family’s address?”
+
+“No.”
+
+“I can route you a message through her school.”
 
 “No. It wouldn't help.”
 
@@ -221,22 +212,23 @@ Or from his dad, or his school books, or even flying.
 
 It came from an old Pixar cartoon.
 
-He hadn’t planned to watch it — just clicked play at random.
+He hadn’t planned to watch it — clicked at random.
 But halfway through, as the cartoon lit up 
 with ice hockey and emotions, it clicked.
 
-Was Sophie scared that time she snapped and bit him?
-Hungry, when she kicked him and stomped on his foot?
-Annoyed, when she said, “Don’t touch me”?
-And he remembered her tasting wine — he guessed it hadn’t helped.  
+Was Sophie scared that time she snapped at him?
+Hungry, when she stomped on his foot?
+Busy, when she said, “Don’t touch me”?
+And he remembered her tasting wine — 
+he guessed it hadn’t helped.  
 
 She wasn’t just cold.
 She was changing — like the girl in the movie.
 
-Her crash, her fear, and puberty had hit them both, he realized.
+Her crash, her fears, and puberty had hit them both, he realized.
 
-All the books had taught him that girls were equal.
-Not one had taught him they were different.
+All the books taught that girls were equal.
+Not one taught him they were different.
 
 
 --

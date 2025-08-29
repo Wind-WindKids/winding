@@ -25,16 +25,16 @@ and the world went sideways.
 It tilted, handlebars wrenched.
 Then—ice, sky, asphalt—flashed in a cold whirl.
 
-Wind was there. He dropped his bike, ran to her—  
-both their phones already calling for help,  
-sending location, vitals, and alerts into the air.
+Wind was there. He dropped his bike, ran to her —  
+called the emergency number.
 
-A bright, slick machine dropped from the sky.  
-rotors whining, buffeting the air.  
+A bright, vehicle came quickly,
+as if dropped from the sky.  
+
 Blood on her helmet.  
 Hands lifted her away.  
-Wind helped—  
-and the machine rose, carrying her off.  
+Wind helped —  
+and the vehicle left, carrying her off.  
 Without him.
 
 @right: portrait-oriented, image, dark, icy, winter Sophie, on the ground, Wind holding her, icy asphalt in a Parisian street in winter, bike on the road, a few bystanders in the background down the street looking worried.
@@ -104,13 +104,13 @@ It was a cold day when they landed in California.
 Rare snow dusted the hills,
 and the air carried a bite it almost never had.
 
-Somehow, it felt like a touch of ice
+Somehow it felt like a touch of ice
 from that day in Paris.
 
 “I thought it was supposed to be sunny here,”
 Sophie said the moment they stepped outside.
 
-Wind laughed. She did too and they hugged.
+Wind laughed. She did too, and they hugged.
 
 But the chill stayed,
 as if it had followed her
@@ -205,17 +205,18 @@ Sophie’s eGull, high-wing monoplane, on a runway, roll before take off, view f
 dragon_takeover: spread, landscape-oriented
 --
 @left: page, text, portrait-oriented
-Her Dragon’s voice cut in, calm but absolute, "I’m taking control now.”
-Full rudder, full aileron — the eGull steadied, straightened, slowed, and rolled to a stop in the middle of the runway, dead straight.
+Her Dragon’s voice cut in, calm but firm: "I have the controls.”
+The pedals moved, the stick shifted — the eGull steadied, straightened, 
+slowed, exited the runway and rolled to a stop, dead straight.
 
 Wind was already in the air, "Are you okay?" — he asked over the radio.
 
-Sophie sat rigid, her hand locked on the stick.  
-She clicked the transmit.  
+Sophie sat rigid, she clicked the transmit.  
 “I’m fine,” she said through clenched teeth, — "Aborted takeoff."
 
 It wasn’t the gusts that had scared her most — 
 it was the Dragon taking control.
+It felt like that day in Paris.
 
 Wind landed, taxied over and came to hug her.
 
@@ -229,14 +230,14 @@ Sophie’s face tense.
 
 
 --
-relationship_work: spread, landscape-oriented
+relationships_work: spread, landscape-oriented
 --
 @left: page, text, portrait-oriented
-She was not sure what came over her.
+Sophie wasn’t sure what had come over her.
 
-That night, she took out her journal.  
-Sophie had an idea that she should work  
-on relationships and ask for help and support.
+That night, she took out her journal —  
+she was taught that she should work on  
+relationships and ask for help and support.
 
 She wrote:  
 “Today we went flying and I almost died.  
@@ -244,16 +245,17 @@ The Dragon never even said sorry.
 And Wind thought it was my own mistake.”
 
 She prayed a little, for help and support.
-Then flipped back through a few pages.  
-They were filled with her worst memories —  
-arguments, accidents, hurts.  
-
-She had never thought  
-to write down any of the best ones.  
-Or that the Dragon had given her the freedom  
-to learn and make mistakes while it was still safe.  
+Then flipped back through the journal. 
+The pages were filled with her worst memories —  
+arguments, accidents, hurts.
+  
+She never thought to write down the best ones.  
 
 By morning she’d decided: *she was done with Wind*.
+
+@comment: hidden
+Empathy, self-awareness, attention, care, play, compatibility, common interests and external factors. "work" comes way down the list and easily can be negative.
+
 
 --
 ice: spread, landscape-oriented
@@ -293,42 +295,68 @@ Her voice was flat, without the old teasing edge.
 “Hey,” he said, sitting down beside her  
 and pulling her into a hug.
 
-Her eyes stayed on the page.
+Her voice wasn’t angry — just cold —  
  *“Don’t touch me.”*
 
-Her voice wasn’t angry — just cold.
+He looked stunned — as if hit by a car.
+Like a bird that flew into glass.
+
 She stood and walked to the far side of the park without looking back.
 
 Her book was still open, face down where she’d left it.
-The echo of her words stayed in the air —  
-like a touch of frost to his heart.
+The echo of her words stayed in the air.
 He tried to breathe and couldn’t.
 
+@comment: hidden
+Sophie is parroting what she was taught, without understanding the impact. Words were drilled into her head, and empathy was not a part of that lesson. 
 
 --
 sunday_flight: spread, landscape-oriented
 --
-He went to the airfield anyway,
+He went to the airfield anyway.
 
-The sky was clear, air crisp and still, the kind of day they used to race for.
-Wind rolled the eGull out alone, the hangar echoing in a way it never had before.
+The sky was clear, the air still.
+Wind rolled the eGull out alone.
 
 His Dragon ran the preflight in calm, familiar tones.
-Everything was in the green. The wings caught the sunlight just right.
-Perfect conditions.
+Everything was in the green. Perfect conditions.
 
 He took off, climbing into the bright air.
 The hills spread below, green giving way to blue.
 
-But the other eGull sat silent in its hangar, Sophie’s headset untouched.
-No voice in his ear teasing him, no laughter over the channel when they caught lift.
-
+But the other eGull sat silent in its hangar.
+No laughter over the channel when they caught lift.
 He flew the pattern, landed smooth, taxied in.
-The Dragon said, “Nice flight.”
 
-Wind nodded, but didn’t answer.
 Without Sophie, it wasn’t flying.
 It was just… being in the air.
+
+
+--
+closed_door: spread, landscape-oriented
+--
+@left: page, text
+Their easy trust, nothing between them, was gone. 
+Wind still tried — tea, a note, her rose mug warm, a flower.
+
+“Don’t move my stuff,” Sophie said, pointing to the bag.
+
+“It's in the door,” he said. “I put it back.”
+
+She stepped into the doorway. “Leave it.”
+
+“I’m doing our chores,” he said, edging past her.
+
+He went through. She looked at him, eyes hard. 
+He left, and the door closed softly between them. The latch clicked.
+
+They were like two young seagulls in a gust — 
+stalling, tumbling, feathers up — dropping toward the ocean. 
+The water hit like ice.
+
+
+@right: page, image
+Narrow hallway: the bag on its hook, a doorway, Wind turning sideways with a trash bag; Sophie’s hand still lifted.
 
 --
 departure: page, text
@@ -356,7 +384,7 @@ but she didn’t feel anything.
 
 Something had happened to her.
 Something no one could see.
-Not Wind. Not her. Not even the Dragon.
+Not Wind. Not her.
 
 That night she dreamed of a frozen sea, 
 and a seagull trapped in ice.
