@@ -106,11 +106,12 @@ Glass walls at San Francisco International. Winter light pours in, but it’s wa
 waymo_to_sunnyvale: spread, landscape-oriented
 --
 @left: page, text
-Wind called a car from his phone and inside typed on the screen: “Sunnyvale.”  
+Wind called a car from his phone and typed: “Sunnyvale.”  
 
 Sophie snorted. “That’s not a real place.”
 
-Wind laughed. “It is as real as Eden, or Luxembourg,” you'll see.
+Wind laughed. “It is as real as Eden — 
+or the Jardin du Luxembourg,” you'll see.
 
 The car eased forward, merging into the stream of cars, then slid toward the airport exit.
 

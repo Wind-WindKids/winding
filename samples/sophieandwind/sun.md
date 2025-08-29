@@ -193,8 +193,8 @@ Epilogue — The Quartet
 @left: page, text
 “Not the Dragon again, Wind. He’s scary.”, Sophie said.
 
-“I’ve been training him — Dad helped too. Come see.  
-We’ve scared her enough times. Now show her you can sing.”  
+“I’ve been training him — Dad helped too. Come see,” — 
+and “show her you can sing.”, Wind said to the Dragon.
 
 “I am an instructor, not a troubadour,” the Dragon replied.  
 

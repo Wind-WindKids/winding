@@ -6,7 +6,7 @@ theme: Winter, Jardin du Luxembourg, watercolor style
 --
 front_cover: page, portrait-oriented, cover-front
 --
-@title: text, centered, playful, rounded lettering, teal  
+@title: text, centered, playful, rounded lettering, ice blue  
 Part 3
 Wind and Ice
 
@@ -42,7 +42,7 @@ Given your current academic standing, we recommend focusing on schoolwork for no
 At home, his dad closed the laptop slowly.
 “Wind… they’re saying no access to the eGull until your grades come up.”
 
-Wind stared at his dad, "It was not a fair test. And both eGuls are ours, not theirs."
+Wind stared at his dad, "It was not a fair test. And both eGulls are ours, not theirs."
 His dad looked at him, "It was a fair test. You have a very good teacher, Wind."
 
 The eGull wasn’t just grounded — the Dragon access was gone too.

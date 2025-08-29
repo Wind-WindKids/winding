@@ -6,7 +6,7 @@ theme: Winter, Jardin du Luxembourg, watercolor style
 --
 front_cover: page, portrait-oriented, cover-front
 --
-@title: text, centered, playful, rounded lettering, teal  
+@title: text, centered, playful, rounded lettering, frosty white
 Part 2
 Sophie and Frost
 
@@ -184,19 +184,24 @@ Wind’s eGull flying in a distance, the sun bright.
 egull_rolling: spread, landscape-oriented
 --
 @left: page, text, portrait-oriented
-The next day, they lined up on the parallel runways again — “This is a tricky one,” — Wind said, “but you can do it.”
+The next day, they lined up on the parallel runways again — 
+“This is a tricky one,” — Wind said, “but you can do it.”
 
 She lowered her canopy and started her checklist.
 
-“Crosswind from your right, seven knots, gusting to ten,” her Dragon advised, calm and clear.
+“Crosswind from your right, seven knots, gusting to ten,” 
+her Dragon advised, calm and clear.
 “I’ve got it,” Sophie replied, eyes fixed ahead.
 
-Sophie’s eGull began its takeoff roll, nosewheel jittering against the gusts.
-A gust hit, hard. The eGull veered left, overcorrected right.
+Sophie’s eGull began its takeoff roll, 
+A gust hit, hard. The eGull veered left, then right.
 
 “Abort the takeoff—Abort now—” her Dragon’s voice was quick now, firm.
-But Sophie kept chasing the centerline. Another gust — stronger, the right wing lifted.
-Nose yawed, the eGull, still on the ground started to roll on one wheel.
+But Sophie kept chasing the centerline. 
+
+Another gust — stronger, the right wing lifted.
+Still on the ground, the eGull started to roll on one wheel.
+
 
 @right: image, portrait-oriented
 Sophie’s eGull, high-wing monoplane, on a runway, roll before take off, view from behind — the eGull is rolling away, right wing slightly higher than left, right wheel off the ground. It is not dramatic.
