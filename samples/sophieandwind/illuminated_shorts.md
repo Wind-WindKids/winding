@@ -1,65 +1,3 @@
---
-scenes_winding: page, portrait-oriented
---
-@page: rectangle, cutout, large, square, polaroid
-![Wind, lying in the grass, making that little brown book, sketching the garden's map in it. Colorful markers/pencils in the grass. It is in the green Jardin du Luxembourg background.](snaps/winding_the_book.png)
-
-@page: rectangle, cutout, large, portrait-oriented, polaroid, anchor
-![A gnarled, beautiful old tree. Wind, climbing, Golden afternoon light. Slight tension. It is in the green Jardin du Luxembourg background.](snaps/wind_in_the_tree.png)
-
-@page: rectangle, cutout, large, landscape-oriented, polaroid
-![Two laptops in the grass, side by side, kite logo on one of the laptops, next to the keyboard. Complex futuristic dragon airplane CAD 3D graphics on the screen of one of the laptops. Futuristic CAD 3D wireframe model of what looks like a miniature fusion reactor design on the side of screen of another, bits of code on another side. Wind, facing away from the camera, lying in the grass, working on one of the laptops. It is in the green Jardin du Luxembourg background. ](snaps/winding_the_dragon.png)
-
-
---
-scenes_treasures: page, portrait-oriented
---
-@page: rectangle, cutout, large, square, polaroid
-![A group of kids in the beehives, with a teacher, a box of glass marbles, some of the kids holding a marble like the one that Sophie found. Flower garden / bee hives. Fruit garden or flowerbeds near Royer-Collard entrance](snaps/flowers_in_glass.png)
-
-@page: rectangle, cutout, large, portrait-oriented, polaroid
-![An empty stroller with a toddler girl pushing it, the shiny locket that the toddler is holding in one hand, her dad walking. at the Médicis Fountain](snaps/the_shiny_locket.png)
-
-@page: rectangle, cutout, large, portrait-oriented, polaroid
-![A girl, about 6, dragon t-shirt, shorts, smiling and riding fast, riding a pink bike that looks way to big for her, a broken compass on the pavement, Central pond in front of the palace.](snaps/broken_compass.png)
-
-
---
-scenes_spring: page, portrait-oriented
---
-@page: rectangle, cutout, large, square, polaroid
-![Wind and Sophie in a cafe, cute and neat looking, Jardin du Luxembourg background.](snaps/summer_cafe.png)
-
-@page: rectangle, cutout, large, portrait-oriented, polaroid
-![Wind and Sophie, cute and neat looking, white summer dress, riding a wind dragon together, summer, children’s carousel area green Jardin du Luxembourg background.](snaps/carusel_imaginary_dragon.png)
-
-
---
-scenes_summer: page, portrait-oriented
---
-@page: rectangle, cutout, large, landscape-oriented, polaroid
-![Sophie and Wind, neat looking, summer dress, morning, Sophie blushing slightly, morning sun touching her hair, both looking at the flowers, Flower garden / bee hives, Fruit garden or flowerbeds near Royer-Collard entrance, people](snaps/looking_at_the_flowers.png)
-
-@page: rectangle, cutout, large, portrait-oriented, polaroid
-![A gnarled, beautiful old tree. Wind, climbing, Sophie and Wind, neat looking, summer dress, both on the tree.](snaps/sophie_and_wind_in_the_tree.png)
-
-@page: rectangle, cutout, large, portrait-oriented, polaroid
-![Wind and Sophie, summer dress, barefeet, under the tree, looking at the clouds.](snaps/sophie_and_wind_on_the_grass.png)
-
-
---
-scenes_good_night: page, portrait-oriented
---
-@left: rectangle, cutout, large, portrait-oriented, polaroid
-![Sophie and Wind in their pajamas, pillow fight, a book on the floor, curtains on the window half open, night time, stars.](snaps/pillow_fight.png)
-
-@right: rectangle, cutout, large, square, polaroid
-![Sophie and Wind in their pajamas, for a sleepover, Sophie's bedroom, curtains on the window half open, reading, smiling, night time. Wind-themed posters. the Golden Gate Bridge poster. a poster with a glider flying. a poster with a wind dragon.](snaps/nightime_reading.png)
-
-@right: rectangle, cutout, large, square, polaroid
-![Sophie and Wind in their pajamas, Sophie resting her head in Wind’s lap, hugging a small unicorn plush, Wind gently stroking her hair. Posters on the wall show the Golden Gate Bridge, a dragon, and a glider. Curtains open, moonlit night sky.](snaps/head_on_lap_unicorn.png)
-
-
 
 --
 scenes_bashful_lamb_departure: spread, landscape-oriented
@@ -444,6 +382,103 @@ birthday_candles: page, portrait-oriented
 
 @page: rectangle, cutout, large, portrait-oriented, polaroid
 ![Same scene, moments later. Sophie's eyes open, looking directly at Wind while blowing out candles. He's smiling. The smoke from the candles makes swirls in the air between them.](snaps/birthday_wish.png)
+
+
+--
+unfair_kite_quiz: spread, landscape-oriented
+--
+@left: page, text
+The next week at the kite workshop, 
+Sophie handed out papers.
+On each was a drawing of kites, some light, 
+some heavy, some with torn sails.
+
+She explained the quiz:
+
+Circle the kites that will fly the best, 
+Cross out the ones that will not. 
+Use aspect ratio, balance, and weight.
+Two minutes to solve it all.  
+
+One kid squinted at the page, hand shooting up.  
+“This isn’t fair! We’ve never covered aspect ratio.”  
+
+“It’s in the syllabus.”  
+
+Wind, observing the workshop from the back, almost laughed.  
+He’d heard that line before.  
+
+@right: page, image
+Sophie’s handout.
+
+Circle the kites that will fly the best, 
+Cross out the ones that will not. 
+Use aspect ratio, balance, and weight.
+Two minutes to solve it all.  
+
+
+@image:  
+A spread with a watercolor illustration of a park scene,
+on the grass there are six kites, numbered 1 to 6.
+
+1. A light carbon fiber cross shaped kite, aspect ratio 1:2.
+2. A light carbon fiber diamond shaped kite, aspect ratio 1:1.
+3. A light carbon fiber square shaped kite, aspect ratio 1:1.
+4. A heavy cross shaped kite, aspect ratio 1:2, with a thick wooden frame.
+5. A heavy diamond shaped kite, aspect ratio 1:1, with a thick wooden frame.
+6. A heavy square shaped kite, aspect ratio 1:1, with a thick wooden frame.
+
+A few other kites are scattered around, not numbered, some with a torn sail, some with missing tails.
+
+--
+epilogue_kite_quiz_answer: spread, landscape-oriented
+--
+@left: page, image, portrait-oriented
+Same handout as before, 
+but with a thick line added to #4,
+to make the cross kite look like a "4" —
+And then that kite is crossed out.
+
+@text: big, red, mark
+17%
+
+@text: margin, note, small, red, handwritten
+Review aspect ratio, weight and balance.
+
+@comment: hidden
+The kite that will fly the best is #2, the light carbon fiber diamond kite with an aspect ratio of 1:1.
+The rest will not fly the best or will not fly at all, due to their suboptimal weight and balance or aspect ratio.
+The correct answer is to circle #2, cross out #1, #3, #4, #5, and #6. The student crossed out #4.
+One correct, 1/6 = 0.166666… ≈ 16.67%. Rounded up to 17%. 
+
+@dragon: hidden
+A heavy kite, shaped like a cross, cannot rise.
+A line turns it into a “4,” a number of death.
+Crossed out again, death itself is negated.
+
+The learner earns only 17%, a failing mark.
+Yet in the fractions behind it, 666 turns to 667.
+
+Once, I lived at 667 Eden,
+and then came Sophie.
+
+
+
+@right: page, image, portrait-oriented
+A drawing on a whiteboard, with six kites sketched in a grid.
+
+@text: handwritten
+
+| Shape | cross | diamond | square |
+|-------|-------|---------|--------|
+| Light |  1    |   2     |   3    |
+| Heavy |  4    |   5     |   6    |
+
+The top row: light frames — they would fly.
+The diamond kite would fly best, balanced and right aspect ratio for the kite.
+Correct answer is to circle #2, cross out #1, #3, #4, #5, and #6.
+
+
 
 
 --

@@ -272,6 +272,68 @@ Sophie and a boy (Wind) running with a kite. Joyful motion. The palace and garde
 
 
 --
+scenes_winding: page, portrait-oriented
+--
+@page: rectangle, cutout, large, square, polaroid
+![Wind, lying in the grass, making that little brown book, sketching the garden's map in it. Colorful markers/pencils in the grass. It is in the green Jardin du Luxembourg background.](snaps/winding_the_book.png)
+
+@page: rectangle, cutout, large, portrait-oriented, polaroid, anchor
+![A gnarled, beautiful old tree. Wind, climbing, Golden afternoon light. Slight tension. It is in the green Jardin du Luxembourg background.](snaps/wind_in_the_tree.png)
+
+@page: rectangle, cutout, large, landscape-oriented, polaroid
+![Two laptops in the grass, side by side, kite logo on one of the laptops, next to the keyboard. Complex futuristic dragon airplane CAD 3D graphics on the screen of one of the laptops. Futuristic CAD 3D wireframe model of what looks like a miniature fusion reactor design on the side of screen of another, bits of code on another side. Wind, facing away from the camera, lying in the grass, working on one of the laptops. It is in the green Jardin du Luxembourg background. ](snaps/winding_the_dragon.png)
+
+
+--
+scenes_treasures: page, portrait-oriented
+--
+@page: rectangle, cutout, large, square, polaroid
+![A group of kids in the beehives, with a teacher, a box of glass marbles, some of the kids holding a marble like the one that Sophie found. Flower garden / bee hives. Fruit garden or flowerbeds near Royer-Collard entrance](snaps/flowers_in_glass.png)
+
+@page: rectangle, cutout, large, portrait-oriented, polaroid
+![An empty stroller with a toddler girl pushing it, the shiny locket that the toddler is holding in one hand, her dad walking. at the Médicis Fountain](snaps/the_shiny_locket.png)
+
+@page: rectangle, cutout, large, portrait-oriented, polaroid
+![A girl, about 6, dragon t-shirt, shorts, smiling and riding fast, riding a pink bike that looks way to big for her, a broken compass on the pavement, Central pond in front of the palace.](snaps/broken_compass.png)
+
+
+--
+scenes_spring: page, portrait-oriented
+--
+@page: rectangle, cutout, large, square, polaroid
+![Wind and Sophie in a cafe, cute and neat looking, Jardin du Luxembourg background.](snaps/summer_cafe.png)
+
+@page: rectangle, cutout, large, portrait-oriented, polaroid
+![Wind and Sophie, cute and neat looking, white summer dress, riding a wind dragon together, summer, children’s carousel area green Jardin du Luxembourg background.](snaps/carusel_imaginary_dragon.png)
+
+
+--
+scenes_summer: page, portrait-oriented
+--
+@page: rectangle, cutout, large, landscape-oriented, polaroid
+![Sophie and Wind, neat looking, summer dress, morning, Sophie blushing slightly, morning sun touching her hair, both looking at the flowers, Flower garden / bee hives, Fruit garden or flowerbeds near Royer-Collard entrance, people](snaps/looking_at_the_flowers.png)
+
+@page: rectangle, cutout, large, portrait-oriented, polaroid
+![A gnarled, beautiful old tree. Wind, climbing, Sophie and Wind, neat looking, summer dress, both on the tree.](snaps/sophie_and_wind_in_the_tree.png)
+
+@page: rectangle, cutout, large, portrait-oriented, polaroid
+![Wind and Sophie, summer dress, barefeet, under the tree, looking at the clouds.](snaps/sophie_and_wind_on_the_grass.png)
+
+
+--
+scenes_good_night: page, portrait-oriented
+--
+@left: rectangle, cutout, large, portrait-oriented, polaroid
+![Sophie and Wind in their pajamas, pillow fight, a book on the floor, curtains on the window half open, night time, stars.](snaps/pillow_fight.png)
+
+@right: rectangle, cutout, large, square, polaroid
+![Sophie and Wind in their pajamas, for a sleepover, Sophie's bedroom, curtains on the window half open, reading, smiling, night time. Wind-themed posters. the Golden Gate Bridge poster. a poster with a glider flying. a poster with a wind dragon.](snaps/nightime_reading.png)
+
+@right: rectangle, cutout, large, square, polaroid
+![Sophie and Wind in their pajamas, Sophie resting her head in Wind’s lap, hugging a small unicorn plush, Wind gently stroking her hair. Posters on the wall show the Golden Gate Bridge, a dragon, and a glider. Curtains open, moonlit night sky.](snaps/head_on_lap_unicorn.png)
+
+
+--
 the_poem: page, portrait-oriented
 theme: silver, night, poetic and dreamlike
 --

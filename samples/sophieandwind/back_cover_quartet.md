@@ -75,8 +75,8 @@ It is a realistic story about children already living in one.
 
 In *Sophie and Wind*, a girl in a Paris garden stumbles into a treasure hunt that awakens her.  
 In *Sophie and Winter*, she learns to master flight beside a boy who is equal parts friend, teacher, and force of nature.  
-*Sophie and Ice* darkens the arc: an accident, even Dragons cannot prevent loss, and Wind learns the bitter edges of loyalty.  
-Finally, *Sophie and Sun* she steps out of a narrative she had outgrown, and into a freedom as bright as the sky.  
+*Sophie and Frost* darkens the arc: an accident, even Dragons cannot prevent loss, and Wind learns the bitter edges of loyalty in *Wind and Ice*.
+Finally, *Sophie and Sun*, she steps out of a narrative she had outgrown, and into a freedom as bright as the sky.  
 
 It is a story with a permissive license, and change is easier than you think.  
 Swap the order — put *Sun* before *Ice* — to get the old classic arc,  
