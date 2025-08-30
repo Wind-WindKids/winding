@@ -214,16 +214,26 @@ Her Dragon’s voice cut in, calm but firm: "I have the controls.”
 The pedals moved, the stick shifted — the eGull steadied, straightened, 
 slowed, exited the runway and rolled to a stop, dead straight.
 
+“Sophie, flight instruction is over for today. 
+Taxi to the ramp, when ready, please.” — 
+the Dragon voice came in soft, but formal.
+
 Wind was already in the air, "Are you okay?" — he asked over the radio.
 
 Sophie sat rigid, she clicked the transmit.  
 “I’m fine,” she said through clenched teeth, — "Aborted takeoff."
 
+
+--
+scared: spread, landscape-oriented
+--
 It wasn’t the gusts that had scared her most — 
 it was the Dragon taking control.
 It felt like that day in Paris.
 
-Wind landed, taxied over and came to hug her.
+Wind thought she’d had a rough time. 
+He landed, came to comfort her.
+“I’m fine,” she said again.
 
 @right: image, portrait-oriented 
 Cockpit view, Sophie in a headset, sitting in her eGull, 
@@ -232,6 +242,37 @@ Small heads-up display on the eGull’s canopy,
 showing completely full battery bar on the left side, 
 rest of the indicators off, autopilot still on. 
 Sophie’s face tense.
+
+
+
+--
+closed_door: spread, landscape-oriented
+--
+@left: page, text
+That evening, their easy trust — 
+nothing between them, was gone 
+
+Wind still tried — warm tea, 
+her rose mug with “kindness” on it.
+
+“Don’t move my stuff,” Sophie said, pointing to the bag.
+
+“It's in the doorway,” he said. “I put it back.”
+
+She stepped into the doorway. “Leave it.”
+
+She looked at him, eyes hard. He left. 
+And the door closed softly between them. 
+The latch clicked.
+
+They were like two young seagulls in a gust — 
+stalling, tumbling, feathers up — 
+dropping toward the ocean. 
+The water hit like ice.
+
+
+@right: page, image
+The bag in the doorway, the door slightly ajar.
 
 
 --
@@ -310,7 +351,7 @@ She stood and walked to the far side of the park without looking back.
 
 Her book was still open, face down where she’d left it.
 The echo of her words stayed in the air.
-He tried to breathe and couldn’t.
+Wind tried to breathe and couldn’t.
 
 @comment: hidden
 Sophie is parroting what she was taught, without understanding the impact. Words were drilled into her head, and empathy was not a part of that lesson. 
@@ -338,32 +379,6 @@ It was just… being in the air.
 
 
 --
-closed_door: spread, landscape-oriented
---
-@left: page, text
-Their easy trust, nothing between them, was gone. 
-Wind still tried — tea, a note, her rose mug warm, a flower.
-
-“Don’t move my stuff,” Sophie said, pointing to the bag.
-
-“It's in the door,” he said. “I put it back.”
-
-She stepped into the doorway. “Leave it.”
-
-“I’m doing our chores,” he said, edging past her.
-
-He went through. She looked at him, eyes hard. 
-He left, and the door closed softly between them. The latch clicked.
-
-They were like two young seagulls in a gust — 
-stalling, tumbling, feathers up — dropping toward the ocean. 
-The water hit like ice.
-
-
-@right: page, image
-Narrow hallway: the bag on its hook, a doorway, Wind turning sideways with a trash bag; Sophie’s hand still lifted.
-
---
 departure: page, text
 --
 Sophie didn’t come to the airfield again.
@@ -384,13 +399,14 @@ Epilogue — Back to Paris
 When Sophie got back to Paris, 
 her parents were waiting.
 
-They hugged her, 
-but she didn’t feel anything.
+They hugged her.
+She didn’t feel anything.
 
-Something had happened to her.
-Something no one could see.
-Not Wind. Not her.
+Her dad looked tired.
+Her brother was not there.
 
 That night she dreamed of a frozen sea, 
-and a seagull trapped in ice.
+a seagull trapped in ice.
 
+@background: image
+A hall, no faces, slumped shoulders, winter coats, gray.

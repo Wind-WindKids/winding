@@ -19,17 +19,19 @@ opening_scene: page, text, centered
 --
 Sundays had always been the same.  
 
-Sophie’s mother would take her 
-to the old stone building 
+Sophie’s mother would take her  
+to the old stone building  
+with a leaden roof  
 at the end of the street.
 
 Sophie didn’t like going.  
 Wind didn’t like it much either.  
 
-There were candles and echoes, 
-and then there were rumors 
-that kids whispered to each other. 
-And sometimes a friend went quiet, 
+There were candles and echoes,  
+and then there were rumors  
+that kids whispered to each other.
+
+And sometimes a friend went quiet,  
 as if someone else held their words.
 
 --
@@ -154,7 +156,7 @@ but it feels rude to leave.”
 Sophie nodded, a little worried. 
 “Mom says they used to force you — 
 but not anymore. Not here.
-It is you who decides.”
+It's you who decide.”
 
 “Come on,” Wind said.
 "Let's go share an ice cream.
@@ -173,7 +175,7 @@ Sunlight caught in Sophie’s hair, turned it bright, iridescent gold.
 Sophie watched the kite’s tail flicker against the wide sky, took Wind’s hand and smiled—  
 
 “Sundays are for sun and friends,” Sophie said.  
-“And for flying stuff. Not burning candles.”  
+“Not sitting under leaden roofs. Or burning candles.”  
 
 Wind grinned.  
 “Unless it’s on a birthday cake.” 
@@ -215,7 +217,7 @@ The horizon glowed with sunrise.
 @right: page, portrait-oriented, image
 
 @page: rectangle, cutout, large, landscape-oriented
-![Sophie and Wind sitting in the eGull simulator, close together, Sophie is hugging Wind. Orchestra in the sky.](snaps/sophie_and_wind_in_eGull.png)
+![Sophie and Wind sitting in the eGull simulator, close together, Sophie is hugging Wind. Orchestra in the sky.](epilogue_sophie_and_wind.png)
 
 @text:
 “It’s beautiful…”, Sophie whispered.
@@ -232,8 +234,7 @@ with only a little delay, and bowing slightly.
 --
 epilogue_sophie_and_wind: spread, image, landscape-oriented
 --
-@image:
-![Sophie and Wind, close together, Sophie is hugging Wind.](snaps/sophie_and_wind_hug.png)
+Sophie and Wind sitting in the eGull simulator, close together, Sophie is hugging Wind. Orchestra in the sky.
 
 
 
@@ -262,7 +263,7 @@ Their trails spell: **Hello World!**
 
 
 --
-two_birds: spread, text, landscape-oriented
+two_birds: page, portrait-oriented
 --
 @image: centered, logo, small, golden
 Two birds, facing each other, with a heart between them. The birds are inside the shape of a heart, with the tails forming the top of the heart. 
