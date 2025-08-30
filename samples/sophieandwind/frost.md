@@ -28,7 +28,7 @@ Then—ice, sky, asphalt—flashed in a cold whirl.
 Wind was there. He dropped his bike, ran to her —  
 called the emergency number.
 
-A bright, vehicle came quickly,
+A bright vehicle came quickly,
 as if dropped from the sky.  
 
 Blood on her helmet.  
@@ -37,7 +37,8 @@ Wind helped —
 and the vehicle left, carrying her off.  
 Without him.
 
-@right: portrait-oriented, image, dark, icy, winter Sophie, on the ground, Wind holding her, icy asphalt in a Parisian street in winter, bike on the road, a few bystanders in the background down the street looking worried.
+@right: portrait-oriented, image, dark, icy, winter, anchor
+Sophie, on the ground, Wind holding her, icy asphalt in a Parisian street in winter, bike on the road, a few bystanders in the background down the street looking worried.
 
 
 --
@@ -204,7 +205,7 @@ Still on the ground, the eGull started to roll on one wheel.
 
 
 @right: image, portrait-oriented
-Sophie’s eGull, high-wing monoplane, on a runway, roll before take off, view from behind — the eGull is rolling away, right wing slightly higher than left, right wheel off the ground. It is not dramatic.
+Sophie’s eGull, high-wing monoplane, on a runway, roll before takeoff, view from behind — the eGull is rolling away, right wing slightly higher than left, right wheel off the ground. It is not dramatic.
 
 --
 dragon_takeover: spread, landscape-oriented

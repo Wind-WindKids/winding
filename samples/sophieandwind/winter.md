@@ -17,7 +17,8 @@ Sophie standing at the rail of a bench in the Luxembourg Gardens in winter. Bare
 opening_scene: page, text, centered
 --
 It was winter, and Wind was away.  
-Every winter, he left Paris for the other side of the world.
+Every winter, he left Paris 
+for the other side of the world.
 
 --
 lonely_garden: page, portrait-oriented, image
@@ -28,7 +29,8 @@ Sophie on a bench in the Luxembourg Gardens, bundled in coat and scarf. The park
 --
 news_from_mom: page, text, centered
 --
-One gray afternoon, Sophie’s mother smiled at her over the kitchen table.  
+One gray afternoon, 
+Sophie’s mother smiled at her over the kitchen table.  
 “How would you like to go to Winter Camp in California?  
 It’s at Wind’s school.”  
 
@@ -41,8 +43,8 @@ packing: page, portrait-oriented, image
 --
 The next month, Sophie packed her small suitcase.
 She was going to San Francisco, to see Wind.
-She folded her clothes neatly, took a few books, a few chocolate bars,
-and her favorite toy that she had since she was a baby.
+She took her clothes, books, a few chocolate bars,
+and her favorite toy she’d had since she was a baby.
 
 @image:
 Sophie folding clothes into a small rolling suitcase. Bashful Lamb peeks from her bed in the background. A globe on her desk.
@@ -58,11 +60,14 @@ At the airport, her dad hugged her tight.
 “Sophie, be gentle with Wind, he loves you,” he said. 
 “And come back in one piece.”
 
-Her brother grinned and parroted, “Be gentle with Wind, no biting…” — rubbing his arm.  
+Her brother grinned and parroted, 
+“Be gentle with Wind, no biting,” — 
+he said, rubbing his arm.  
 
-“I still can’t believe Mom and Dad are letting you go overseas alone,” he added.  
+“I still can’t believe Mom and Dad are 
+letting you fly overseas alone,” he added.  
 
-Dad laughed. “She’s ready. And the world’s ready for her.”
+“Dad laughed. “She’s ready. And the world’s ready for her.”
 
 @right: page, image 
 Airport departure hall, winter light through tall glass. Sophie stands with her small rolling suitcase, her dad’s arm around her shoulders. Her brother relaxed, preppy, next to her mom, one hand rubbing his arm. Mom's hair is dark brown, brother in late tweens. Behind them, travelers move toward the security queue; Bashful Lamb peeks from the side pocket of Sophie’s bag.
@@ -81,12 +86,8 @@ Sophie at Charles de Gaulle airport, holding her small rolling suitcase, wearing
 --
 arrival_sfo: page, portrait-oriented, image
 --
-The flight was the 
-longest 
-and 
-most 
-boring 
-she had ever taken.
+The flight was the longest and 
+most boring she had ever taken.
 
 She texted Wind as soon as she landed:
 *I’m here!*
@@ -95,8 +96,11 @@ And she got a reply right away:
 *I’m here too!*  
 *See you soon!*
 
-When she stepped out of the plane, the air smelled different, warm. 
-And in another half an hour, there was Wind, and they were hugging tight.
+When she stepped out of the plane, 
+the air smelled different, warm. 
+And in another half an hour, 
+there was Wind, 
+and they were hugging tight.
 
 @image:
 Glass walls at San Francisco International. Winter light pours in, but it’s warm and golden. Wind waits just past the barrier, grinning. Palm trees sway outside.
@@ -119,16 +123,12 @@ The car eased forward, merging into the stream of cars, then slid toward the air
 @right: page, image
 Interior of a Waymo, California scenery visible through the windows — palm trees, low hills, and cars on the road as the vehicle leaves SFO. A large central display shows the  Bay Area route from *SFO* to *Sunnyvale* with a 34 mi indicator.  
 
+Two kids in the back of a driverless car, looking out at sunlit streets lined with palm trees and mountains in the distance.
+
 @right.viewpoint: from the back of the vehicle, pointing forward
 
 @waymo.interior: +realism
 
-
---
-waymo_ride: page, portrait-oriented, image
---
-@image:
-Two kids in the back of a driverless car, looking out at sunlit streets lined with palm trees and mountains in the distance.
 
 
 --
@@ -202,8 +202,7 @@ Sophie looked at him, puzzled. “What do you mean? How can you have an airplane
 
 “It's not possible in Paris, but here, in California, rules are not the same," he said, grinning,  
 
-“It's an ultralight, an eGull, 
-and there are no restrictions for kids to fly it, 
+“It's an ultralight, an eGull, and here kids can fly it, 
 rules are this way. It is called Part 103.”
 
 “No license. Daytime only. Away from crowds. And no passengers,” Wind added,
@@ -355,7 +354,7 @@ But Sophie's hands stayed frozen on the stick, knuckles white.
 
 The beeping grew louder. The horizon spun. Sophie pulled harder, trying to fix it.
 
-Everything was rotating backwards now, faster and faster.
+Everything rotated backwards now, faster and faster.
 The dragon's voice, still calm but urgent: "Sophie, push the stick forward. Now."
 But her hands wouldn't move. The little eGull spiraled down, spinning, until—
 The screen went black.
@@ -385,7 +384,7 @@ Sophie took the stick again, lighter this time.
 Wind smiled.
 
 --
-savior_flight: spread, portrait-oriented, image
+prayer_in_flight: spread, portrait-oriented, image
 --
 They were getting the hang of it and practicing landings. 
 One time, it was looking good on a glide to final, 
@@ -425,14 +424,33 @@ gently, on the centerline, every time.
 --
 christmas_day: page, text, centered
 --
-The winter camp parties were fun, with music and dancing, Christmas lights and decorations. The camp friends were nice, and Sophie felt happy.
+The winter camp parties were fun, with music 
+and dancing, Christmas lights and decorations. 
+The camp friends were nice, and Sophie felt happy.
 
-But Christmas Day was not the same. The sun had just risen in California when she called her family — but in Paris, daylight was already fading. They went to church that day, her mom insisted. The church was all wrong. It was supposed to be the same everywhere. It wasn't. The litany in English was incomprehensible; they stayed politely to the end, relieved to step back into the sun.
+But Christmas Day was not the same. The sun had just 
+risen in California when she called her family — 
+but in Paris, daylight was already fading. 
 
-Wind didn’t like the church. He only remembered faintly that it had caused arguments between his parents. And then there were rumors.  
+They went to church that day, her mom told her to go.
+The church was all wrong. It was supposed to be 
+the same everywhere. It wasn't. 
 
-They’d planned to fly, but by the time they reached the airfield the weather had turned restless.
-Gusts picked up, lessons were canceled, and they went home disappointed.  
+
+--
+missed_flight: spread, landscape-oriented
+--
+The litany in English was incomprehensible; 
+they stayed politely to the end, 
+relieved to step back into the sun.
+
+Wind didn’t like churches. He remembered faintly 
+that church had caused arguments between his parents. 
+And then there were rumors.  
+
+They’d planned to fly, that day, but they came late,
+the weather had turned restless. Gusts picked up, 
+lessons were canceled, and they went home disappointed.  
 
 @comment: hidden, stories, fixme  
 circumcision, etc.

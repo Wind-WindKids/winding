@@ -81,7 +81,7 @@ Three kids holding a sagging kite, Sophie kneeling beside them, examining the te
 pharmacy_closed: page, text, centered
 --
 She thought of the pharmacy,  
-but Madame Madeline—  
+but Madame Madeleine—  
 who always kept a roll of every kind of tape behind the counter—  
 was away.
 
@@ -186,14 +186,43 @@ renewed_castle: page, image, portrait-oriented
 Sophie and Wind at a small café table in a green Paris square, each with a pistachio ice-cream cone; two mugs on the table. Behind them, a friendly, castle silhouette: soft turrets, blue roofs, small banners, kites drift overhead, it looks suspiciously like Notre-Dame. A playground and strolling families dot the lawn. Watercolor light, bright and kind.
 
 
+--
+hello_world: spread, landscape-oriented
+theme: winter sun, mastery, quiet triumph
+--
+
+@left: page, text, centered
+The next winter, Sophie’s mom didn’t let her  
+go to California. But it didn’t matter.  
+
+Their lessons, their flying, their Dragon —  
+they had already made the difference.  
+
+Sophie and Wind were ordinary children.  
+
+But they knew the rules were not the same everywhere,  
+and that sometimes they could write their own.  
+In the sky.  
+
+@right: page, image
+Two white eGulls tracing words across the sky.  
+Their trails spell: **Hello World!**  
+
 
 --
-epilogue: page, text, centered
+the_end_two_birds: page, portrait-oriented
+--
+@image: centered, logo, small, golden
+Two birds, facing each other, with a heart between them. The birds are inside the shape of a heart, with the tails forming the top of the heart. 
+
+
+--
+epilogue_the_quartet: page, text, centered
 --
 Epilogue — The Quartet
 
 @left: page, text
-“Not the Dragon again, Wind. He’s scary.”, Sophie said.
+“Not the Dragon again, Wind. He’s scary,” Sophie said.
 
 “I’ve been training him — Dad helped too. Come see,” — 
 and “show her you can sing.”, Wind said to the Dragon.
@@ -237,36 +266,6 @@ epilogue_sophie_and_wind: spread, image, landscape-oriented
 Sophie and Wind sitting in the eGull simulator, close together, Sophie is hugging Wind. Orchestra in the sky.
 
 
-
-
-
---
-hello_world: spread, landscape-oriented
-theme: winter sun, mastery, quiet triumph
---
-
-@left: page, text, centered
-That winter, Sophie’s mom didn’t let her go to California.  
-But it didn’t matter.  
-
-Their lessons, their flying, their Dragon —  
-they had already made the difference.  
-
-Sophie and Wind were ordinary children.  
-But they knew the rules were not the same everywhere,  
-and that sometimes they could write their own.  
-In the sky.  
-
-@right: page, image
-Two white eGulls tracing words across the sky.  
-Their trails spell: **Hello World!**  
-
-
---
-two_birds: page, portrait-oriented
---
-@image: centered, logo, small, golden
-Two birds, facing each other, with a heart between them. The birds are inside the shape of a heart, with the tails forming the top of the heart. 
 
 
 
