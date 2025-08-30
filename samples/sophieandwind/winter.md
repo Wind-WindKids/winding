@@ -249,6 +249,7 @@ Wind grinned. “You don’t. It’s only got one seat.”
 “One seat? That’s not fair. You can't take me?”
 
 
+--
 the_rule: spread, landscape-oriented
 --
 @left: page, text
@@ -256,7 +257,6 @@ the_rule: spread, landscape-oriented
 “So if you want to fly with me, you have to learn.”  
 “Okay, I want to learn!” Sophie replied eagerly.  
 
---
 @right: page, image
 Close view of the eGull’s open cockpit, a single seat with harness straps. Sophie leaning in to look, her reflection faintly visible in the polished panel, Wind resting a hand on the fuselage.
 
@@ -494,8 +494,8 @@ and a few unabashed kids — like in the movies.
 @image:
 Sophie and Wind at a distance, sitting on the steps of the clubhouse, the glow of string lights around them. Wind’s arm around Sophie, her head on his shoulder.
 
---
-@right: page, image
+
+@right: page, text
 The next morning at the airport, they had to say goodbye.
 
 Two weeks of winter holidays with Wind had flown by like two years… or like one day.  

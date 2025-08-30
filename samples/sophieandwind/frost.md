@@ -224,17 +224,18 @@ Wind was already in the air, "Are you okay?" — he asked over the radio.
 Sophie sat rigid, she clicked the transmit.  
 “I’m fine,” she said through clenched teeth, — "Aborted takeoff."
 
+Wind thought she’d had a rough time. 
+He landed, came to comfort her.
+“I’m fine,” she said again.
+
+
 
 --
 scared: spread, landscape-oriented
 --
 It wasn’t the gusts that had scared her most — 
 it was the Dragon taking control.
-It felt like that day in Paris.
-
-Wind thought she’d had a rough time. 
-He landed, came to comfort her.
-“I’m fine,” she said again.
+She felt like that day in Paris.
 
 @right: image, portrait-oriented 
 Cockpit view, Sophie in a headset, sitting in her eGull, 
@@ -250,10 +251,10 @@ Sophie’s face tense.
 closed_door: spread, landscape-oriented
 --
 @left: page, text
-That evening, their easy trust — 
-nothing between them, was gone 
+Wind felt helpless. Their easy trust — 
+nothing between them — was gone. 
 
-Wind still tried — warm tea, 
+He tried — warm tea with a flower smell,
 her rose mug with “kindness” on it.
 
 “Don’t move my stuff,” Sophie said, pointing to the bag.
@@ -267,13 +268,13 @@ And the door closed softly between them.
 The latch clicked.
 
 They were like two young seagulls in a gust — 
-stalling, tumbling, feathers up — 
+stalling, tumbling, feathers ruffled — 
 dropping toward the ocean. 
 The water hit like ice.
 
 
 @right: page, image
-The bag in the doorway, the door slightly ajar.
+The bag in the doorway, the door is closed.
 
 
 --
