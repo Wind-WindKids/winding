@@ -14,15 +14,20 @@ class Markdown:
 
 @dataclass
 class Winding:
-    at:         str                 = field(
-        default="this",
-        metadata={"description": "The @at recipient, a valid identifier."}
+    receivers: List[str] = field(
+        default_factory=lambda: ["this"],
+        metadata={"description": "The @at receivers list, identifies recipient agents."}
     )
-    attributes: List[str]           = field(
+    arguments: List[str] = field(
         default_factory=list,
-        metadata={"description": "Modifiers (e.g., size, orientation, !negation)."}
+        metadata={"description": "Arguments: messages like size, orientation, !negation."}
     )
-    content:    List[Union[Markdown, 'Winding']] = field(
+    windings:    List[Union[Markdown, 'Winding']] = field(
         default_factory=list,
-        metadata={"description": "Child nodes: text (Markdown), or nested directives (Winding)."}
+        metadata={"description": "Windings: messages with free text or windings."}
     )
+
+    @property
+    def at(self) -> List[str]:
+        """Returns comma-separated list of receivers."""
+        return ",".join(self.receivers)

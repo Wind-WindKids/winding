@@ -1,0 +1,9 @@
+title: "Winding"
+remote_theme: just-the-docs/just-the-docs
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-sitemap
+url: "https://winding.md"
+include:
+  - winding.md
