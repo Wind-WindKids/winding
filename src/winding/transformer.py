@@ -17,6 +17,9 @@ class WindingTransformer(Transformer):
     
     def receivers(self, *ids):
         return list(ids)
+    
+    def text(self, *items):
+        return ''.join(items)
 
     def image(self, caption="", url=Token("URI", "")):
         if isinstance(caption, Token):

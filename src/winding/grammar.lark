@@ -7,14 +7,15 @@ header_winding: "\n" receivers ":" arguments
 inline_winding: "@" receivers ":" arguments "\n" markdown
 
 windings: (inline_winding | markdown)+
-markdown: (image | TEXT)+
+markdown: (image | text)+
 image: "![" CAPTION? "]" "(" URI? ")"
+text: TEXT+
 
 receivers: IDENTIFIER ("," IDENTIFIER)*
 arguments: (IDENTIFIER ("," IDENTIFIER)*)?
 
 
-IDENTIFIER: /!?[A-Za-z0-9][ A-Za-z0-9_.-]*/
+IDENTIFIER: /[!-+]?[A-Za-z0-9][ A-Za-z0-9_.-]*/
 URI: /[^\)\n]+/
 TEXT: /(?:(?!@\w+[A-Za-z0-9_.,-]*:|--|!\[).)*\n+/ 
 CAPTION: /[^\]]+/
