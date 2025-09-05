@@ -25,7 +25,9 @@ Wind stared at the questions.
 Someone raised a hand, 
 “We haven’t covered this yet.”
 
-“It’s in the syllabus,” the teacher said, without looking up.
+“It’s in the syllabus, between lines twelve and thirteen,” 
+the teacher said, without looking up.
+
 It wasn’t.
 
 It came back with a red mark at the top: 17%.
@@ -258,11 +260,10 @@ A month later, Sophie was curled up on her couch in Paris,
 scrolling without really watching.  
 
 An old Pixar movie kept popping out on her phone —  
-the one about a red panda in San Francisco.  
+the one about a red panda in Chinatown.  
 
-She took out her MacBook that Wind had gifted her at Apple Park,
-and with it came that old artful wind from California,  
-filling the screen with light. 
+She took out her Mac, and with it came that old artful wind 
+from California, filling the screen with color and emotions.
 
 At first she laughed at the awkward moments, the mom jokes,  
 the big red panda stomping through the city.
@@ -301,9 +302,10 @@ hi_wind: page, text
 --
 It was too late to fix things.
 But she picked up her laptop,  
-feeling the smooth, cold metal,  
-remembering the day Wind gifted it to her —  
-the grin, the way he’d said,  
+feeling the smooth, cold metal.
+
+Wind had gifted it to her,
+she remembered, the grin, the way Wind had said —  
 “We’re always here, even if we’re not right there.”  
 
 She opened it.  

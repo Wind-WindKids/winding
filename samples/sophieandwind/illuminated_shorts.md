@@ -403,10 +403,11 @@ Two minutes to solve it all.
 One kid squinted at the page, hand shooting up.  
 “This isn’t fair! We’ve never covered aspect ratio.”  
 
-“It’s in the syllabus.”  
+“It’s in the syllabus, between lines six and seven,”
+she replied, not looking up.
 
-Wind, observing the workshop from the back, almost laughed.  
-He’d heard that line before.  
+Wind, helping with the workshop, 
+almost laughed. He’d heard that line before.  
 
 @right: page, image
 Sophie’s handout.

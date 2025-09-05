@@ -70,17 +70,12 @@ Sophie and Wind!
 
 @text: small, justified
 Sophie and Wind — The Quartet
-This is not a story about kingdoms waiting beyond the world.  
-It is a realistic story about children already living in one.  
+Two ordinary kids. A real Dragon. And the orchestra in the sky.
 
-In *Sophie and Wind*, a girl in a Paris garden stumbles into a treasure hunt that awakens her.  
-In *Sophie and Winter*, she learns to master flight beside a boy who is equal parts friend, teacher, and force of nature.  
-*Sophie and Frost* darkens the arc: an accident, even Dragons cannot prevent loss, and Wind learns the bitter edges of loyalty in *Wind and Ice*.
-Finally, *Sophie and Sun*, she steps out of a narrative she had outgrown, and into a freedom as bright as the sky.  
+When a Dragon teaches Sophie and Wind to fly ultralight eGulls in California, flying turns out to be the easy part. A bicycle accident in Paris changes everything—and ice creeps between them. They navigate the turbulence of growing up, the rules and kingdoms that try to claim them, and learn that sometimes a simple *Hi* is enough to find their way back to each other.
 
-It is a story with a permissive license, and change is easier than you think.  
-Swap the order — put *Sun* before *Ice* — to get the old classic arc,  
-or even reverse the roles and call it *Wind and Sophie.*  
+A story about first love, first flight, and the freedom to write your own rules in the sky. Perfect for readers ages 8 and up.
 
-The playground is here:  
-[https://wind.kids](https://wind.kids)
+
+
+

@@ -32,3 +32,25 @@ This book is a story. You may have strong feelings about it, and that’s good. 
 
 To explore and create, visit our playground:
 https://wind.kids
+
+
+
+--
+disclaimer: page, text, centered
+--
+This is a work of fiction; the technologies depicted are plausible in 2025, but nothing here is a flight manual. Flying is only rewarding when risks are properly managed, with qualified instruction and within the rules.
+
+References to lead are not fictional. Lead is a poison, especially for children; contamination is real and global. The ongoing phase-out matters; the eGull in these pages illustrates a clean-air alternative for training fleets. Notre-Dame fire, incinerated hundreds of tons of lead, a plume of toxic lead dust covering Paris. Yet, despite protests, lead was used again to preserve “authentic” appearance.
+
+Here “lead” also names weight and legacy—traditions taught to children, even when better options exist. There is no safe level of lead exposure for children. It’s you who decide.
+
+
+
+
+
+It is a story with a permissive license, and change is easier than you think.  
+Swap the order — put *Sun* before *Ice* — to get the old classic arc,  
+or even reverse the roles and call it *Wind and Sophie.*  
+
+The playground is here:  
+[https://wind.kids](https://wind.kids)

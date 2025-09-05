@@ -11,20 +11,23 @@ Part 1
 Sophie and Winter
 
 @image:
-Sophie standing at the rail of a bench in the Luxembourg Gardens in winter. Bare trees, pale sky, her scarf lifted by a breeze. The Eiffel Tower faint in the background. She looks toward the distance as if imagining someplace far away.
+Sophie standing near a bench in the Luxembourg Gardens in winter. Bare trees, pale sky, her scarf lifted by a breeze. She looks toward the distance as if imagining someplace far away.
 
 --
-opening_scene: page, text, centered
+opening_scene: page, text, centered, tiny
 --
 It was winter, and Wind was away.  
 Every winter, he left Paris 
 for the other side of the world.
 
+@image:
+Background only, stillness in the air, a pale winter light. Low clouds.
+
 --
 lonely_garden: page, portrait-oriented, image
 --
 @image:
-Sophie on a bench in the Luxembourg Gardens, bundled in coat and scarf. The park is bare and quiet, the fountain drained. A single leaf skitters across the gravel path.
+Sophie in the Luxembourg Gardens, bundled in coat and scarf. The park is bare and quiet, the fountain drained. There is stillness in the air, a pale winter light. Low clouds. She looks toward the distance as if imagining someplace far away.
 
 --
 news_from_mom: page, text, centered
@@ -38,23 +41,32 @@ Sophie’s spoon stopped halfway to her mouth.
 “Really?”  
 “Really.”
 
+@image:
+Sophie sitting at the kitchen table, eating salad, Parisian appartment kitchen in the background.
+
 --
 packing: page, portrait-oriented, image
 --
 The next month, Sophie packed her small suitcase.
-She was going to San Francisco, to see Wind.
+She was going to San Francisco for a winter break.
 She took her clothes, books, a few chocolate bars,
 and her favorite toy she’d had since she was a baby.
 
+
 @image:
-Sophie folding clothes into a small rolling suitcase. Bashful Lamb peeks from her bed in the background. A globe on her desk.
+Sophie folding clothes into a small rolling suitcase.In the background a European looking kids bedroom, posters, bed, Golden Gate bridge on one of the posters, her suitcase. Small Bashful Lamb stuffed toy on the floor, far in the background. A backpack with Hawaiian patterns on it. A globe on her desk.
+
+@anchor: 
+![A stuffed toy, Bashful Lamb.](bashful_lamb.jpg)
 
 
 --
 departure_goodbyes: spread, landscape-oriented
 --
-@left: page, text
-Her dad drove them to the airport, with her brother in the backseat, teasing her about Wind the whole way.
+@left: page, text-only, small, portrait-oriented
+Her dad drove them to the airport, 
+with her brother in the backseat, 
+teasing her about Wind the whole way.
 
 At the airport, her dad hugged her tight.  
 “Sophie, be gentle with Wind, he loves you,” he said. 
@@ -67,25 +79,39 @@ he said, rubbing his arm.
 “I still can’t believe Mom and Dad are 
 letting you fly overseas alone,” he added.  
 
-“Dad laughed. “She’s ready. And the world’s ready for her.”
+“Dad laughed. “She’s ready. 
+And the world’s ready for her.”
 
-@right: page, image 
-Airport departure hall, winter light through tall glass. Sophie stands with her small rolling suitcase, her dad’s arm around her shoulders. Her brother relaxed, preppy, next to her mom, one hand rubbing his arm. Mom's hair is dark brown, brother in late tweens. Behind them, travelers move toward the security queue; Bashful Lamb peeks from the side pocket of Sophie’s bag.
+@left.background: light, wintery, sense of motion, trees, wind, no people
+
+
+@right: page, image, portrait-oriented 
+Airport departure hall, winter light through tall glass. Sophie stands with her small rolling suitcase and her blue backpack with Hawaiian patterns on it. Her dad’s arm around her shoulders. Her brother, in late tweens, relaxed, preppy, next to her mom, one hand rubbing his arm. Mom's hair is dark brown. Behind them, a few people passing through the security, no security guards visible; Small Bashful Lamb toy peeks from the side pocket of Sophie’s backpack with Hawaiian patterns.
 
 --
 airport_departure: spread, landscape-oriented
 --
-@left: page, text
+@left: page, text-only, portrait-oriented
 
-She went quickly through the security, no line, no waiting.
-Sophie felt a little nervous, it went so fast, and she was alone now.
+She went quickly through the security, 
+no line, no waiting.
 
-@right: page, image
-Sophie at Charles de Gaulle airport, holding her small rolling suitcase, wearing an unaccompanied minor lanyard. Bashful Lamb on the conveyor belt through the X-ray. Boarding pass in her hand: *Paris → San Francisco*.  
+Sophie felt a little nervous, 
+it went so fast, 
+and she was alone now.
+
+@left.background: pale winter light, motion in the air, no people, a few cloud wisps
+
+@right: page, image, portrait-oriented
+Sophie at the airport alone, holding her small rolling suitcase, wearing a lanyard. Her backpack with Hawaiian patterns on it is coming out from the conveyor belt after the security check.
 
 --
 arrival_sfo: page, portrait-oriented, image
 --
+@left: page, image, portrait-oriented
+Glass walls at San Francisco International. Winter light pours in, but it’s warm and golden. Wind and Sophie huging, grinning. Palm trees sway outside.
+
+@right: page, text-only, centered
 The flight was the longest and 
 most boring she had ever taken.
 
@@ -102,59 +128,79 @@ And in another half an hour,
 there was Wind, 
 and they were hugging tight.
 
-@image:
-Glass walls at San Francisco International. Winter light pours in, but it’s warm and golden. Wind waits just past the barrier, grinning. Palm trees sway outside.
+@background:
+Glass walls at San Francisco International. No people visible.
 
 
 --
-waymo_to_sunnyvale: spread, landscape-oriented
+waymo_to_sunnyvale: page, text, portrait-oriented
 --
-@left: page, text
-Wind called a car from his phone and typed: “Sunnyvale.”  
+Wind called a car from his phone and typed: 
+*“Sunnyvale.”*  
 
 Sophie snorted. “That’s not a real place.”
 
 Wind laughed. “It is as real as Eden — 
 or the Jardin du Luxembourg,” you'll see.
 
-The car eased forward, merging into the stream of cars, then slid toward the airport exit.
+The car eased forward, 
+merging into the stream of cars, 
+then slid toward the airport exit.
 
 
-@right: page, image
-Interior of a Waymo, California scenery visible through the windows — palm trees, low hills, and cars on the road as the vehicle leaves SFO. A large central display shows the  Bay Area route from *SFO* to *Sunnyvale* with a 34 mi indicator.  
+@image:
+Sophie is looking at the window on the left, Sophie and Wind in the back seat of a driverless car, no backpack or Bashful Lamb toy.
 
-Two kids in the back of a driverless car, looking out at sunlit streets lined with palm trees and mountains in the distance.
+Interior of a driverless car, California scenery visible through the windows — palm trees, low hills, and cars on the road.
 
-@right.viewpoint: from the back of the vehicle, pointing forward
-
-@waymo.interior: +realism
-
+@image.viewpoint: from the back of the vehicle, pointing forward
 
 
 --
-hidden_valley_arrival: spread, landscape-oriented
+hidden_valley_arrival: page, text, small portrait-oriented
 --
-@left: page, text
 Wind’s townhouse looked bigger on the inside. 
 Light poured in from skylights and wide windows.  
 The living room ceiling rose so high it felt like a hall.  
 
-Sophie sank into a golden-yellow sofa, the travel catching up to her.  
-“No sleeping now! Let's go to the pool, get some air.”  
+Sophie sank into a golden-yellow sofa, 
+the travel catching up to her.
+
+“No sleeping now! To the pool”, Wind said.  
 
 Five minutes later they were splashing in the turquoise water.
-After the swim, they rode their bikes to the ice cream shop,
-at a small pedestrian square, full of restaurants and cafes.
-
-
-@right: page, image
-Two kids on bikes in a Bay Area neighborhood — Sophie’s lime-green bike with a small rear basket, Wind’s bright orange bike with a silver bell. Bike lane. Low houses with gardens, flowering bushes, and one orange tree glowing in the afternoon sun, oranges hanging heavy on the branches.
 
 
 --
-ocean_catamaran: spread, landscape-oriented
+ice_cream_shop: page, text, portrait-oriented
 --
-@left: page, text
+@text: small
+After the swim, they rode their bikes.
+
+Some of the trees had orange fruit,
+right there in the neighborhood.
+
+They rode past a park, schools,
+to the ice cream shop,
+at a small pedestrian square, 
+full of restaurants and cafes.
+
+@background: 
+Murphy Square, in the distance Sophie and Wind are walking their bikes. No orange trees visible.
+
+--
+bike_ride: page, portrait-oriented, image
+--
+Sophie and Wind on bikes in a Bay Area neighborhood — Sophie’s bike with a small rear basket lime-green, Wind’s bright orange bike with a silver bell. Bike lane. Low houses with gardens, flowering bushes, and one orange tree glowing in the afternoon sun, oranges hanging heavy on the branches.
+
+
+
+
+
+--
+ocean_catamaran: page, text, portrait-oriented
+--
+@text: small
 On Sunday, Wind’s dad bought tickets for a sailing trip, 
 they drove over the hills to the ocean.
 The air smelled of salt and sunlight, 
@@ -165,119 +211,166 @@ hymns were the highlight of the season.
 But here, she leaned on the forward rail beside Wind, 
 hair flying, spray on her cheeks.
 
-Wind’s dad smiled. “You kids are right in your elements,” he called.
-“I’ve always loved the water and the wind. That’s how Wind got his name.”
-
 Sophie grinned, “This is almost like flying,” she said.
 
 Wind laughed. “Almost.”
 
-@right: page, image
+Wind’s dad smiled. 
+“You kids are right in your elements,” 
+he said,
+“I’ve always loved the water and the wind. 
+That’s how Wind got his name.”
+
+@background:
 A white sailing catamaran under full sail, evening light glinting off the water.
-Sophie and Wind at the forward rail, hair streaming, with Wind’s dad standing a few paces back, hands in pockets, smiling.
-Low coastline and a golden horizon in the distance.
+Sophie and Wind at the forward rail, hair streaming. Low coastline and a golden horizon in the distance.
 
 
 --
-the_secret: spread, landscape-oriented
+the_camp: page, portrait-oriented
 --
-@left: page, text
-The next day, Wind took Sophie to his school, for a winter camp.
-It was a bilingual school, with a big courtyard and around sixty kids at the camp.
-Sophie felt shy at first, but kids were friendly to a newcomer from Paris.
+@text: small
+The next day, Wind took Sophie to his school, 
+for a winter camp.
+
+It was a bilingual school, 
+with a big courtyard and 
+a lot of kids at the camp.
+
+Sophie felt shy at first, 
+but kids were friendly to a newcomer from Paris.
 They played games, made art, it was fun.
 
 @image:
-The courtyard of a school. Children playing, Sophie and Wind among them. A few trees, a low building with large windows, and bright blue sky overhead.
+The courtyard of a school. Children playing basketball, sitting at tables with art projects. Sophie and Wind among them. A few trees, a low building with large windows, and bright blue sky overhead.
+
+--
+the_secret: page, portrait-oriented
+--
+@text: small
+And then, Wind told her a secret.
+
+“I can fly, here, in California. 
+I have a real airplane.”
+
+Sophie looked at him, puzzled. 
+“What do you mean? How can you have an airplane?”
 
 
-@right: page, text
-And then, the next day, Wind told her a secret.
+“It's not possible in Paris, but here, in California, 
+rules are not the same," he said, grinning,  
 
-“I can fly, here, in California. I have a real airplane.”
-
-Sophie looked at him, puzzled. “What do you mean? How can you have an airplane?”
-
-
-
-“It's not possible in Paris, but here, in California, rules are not the same," he said, grinning,  
-
-“It's an ultralight, an eGull, and here kids can fly it, 
+“It's an ultralight, an eGull, and kids can fly it, 
 rules are this way. It is called Part 103.”
 
-“No license. Daytime only. Away from crowds. And no passengers,” Wind added,
-like he’d said it a hundred times.
+“No license. Away from crowds. No passengers,” 
+Wind added, like he’d said it a hundred times.
 
 @image:
-The courtyard of a school. Children playing. A few trees, a low building with large windows, and bright blue sky overhead. Sophie and Wind crouched together, Wind animatedly explaining something, his hands gesturing. Sophie listens intently, her eyes wide with curiosity.
+The courtyard of a school. Children playing basketball, sitting at tables with art projects. Sophie and Wind among them. A few trees, a low building with large windows, and bright blue sky overhead. Wind animatedly explaining something, his hands gesturing. Sophie listens intently, her eyes wide with curiosity.
+
 
 @comment: hidden
 The FAA does not impose minimum age requirements for operating ultralight vehicles under Part 103.
 
 
 --
-the_airport: spread, landscape-oriented
+the_airport: page, portrait-oriented
 --
-@left: page, text
-That afternoon, after camp, Wind led Sophie past the hangars at the airport. The air smelled of sun-warmed asphalt and oil.  
+@text: small
+That afternoon, after camp, 
+Wind led Sophie past the hangars at the airport. 
+The air smelled of sun-warmed asphalt and oil.  
 
-@right: page, image
-Rows of small airplanes on the ramp. Wind walking ahead, Sophie following, both in light hoodies. Beyond them, red-and-white windsock against a bright California winter sky.
+@image:
+Small airplanes on the ramp. Wind with Sophie are walking. Beyond them, red-and-white windsock against a bright California winter sky.
 
 @comment: hidden
-Reid-Hillview Airport, San Jose, California.
+Reid-Hillview Airport, San Jose, California, Young Eagles Chapter.
+
 
 --
-the_egull: page, portrait-oriented, image
+you_can_fly: page, portrait-oriented
 --
+@text: small
+“Wait — it's yours? You really can fly an airplane?” 
+Sophie stared at him.  
+
+“Yeah. I’ve been flying since I was eight,” Wind said.
+
 @image:
-His eGull, sleek and small, tied down on the ramp. Its wingtips glint in the light.
-Sophie looking at the little white eGull, her eyes wide with curiosity. She could hardly believe it was real. 
+Sophie and Wind, looking at the eGull next to them, chocks, tie-downs are visible. In the background airport hangars, taxiways.
+
+@style: 
+A charming watercolor children’s book illustration. No paper texture, +10% saturation.
+
+@eGull:
+A high wing electric ultralight, white, T-tail, gray propeller, tricycle gear, single seat, bubble canopy.
+
+@Sophie:  
+12 years old, girl, sun-touched light brown hair, orange long-sleeve, jeans, soft brown shoes.  
+
+@Wind:  
+12 years old, boy, tousled blond hair, light blue hoodie and jeans. Looks same age as Sophie.
+
+@notes: 
+Sophie and Wind are the same height. Match the atmosphere of the referenced ice cream shop scene.
+
+
 
 --
-you_can_fly: spread, landscape-oriented
+where_do_i_sit: page, portrait-oriented
 --
-@left: page, text
-“Wait — it's yours? You really can fly an airplane?” Sophie stared at him.  
+@text: small
+She looked at the little white eGull,
+“It’s so small. Where do I sit?” 
 
-“Yeah. I’ve been flying since I was eight,” Wind said. “Here, I can.”  
+Wind grinned. “Here. But eGull only got one seat.” 
 
-She looked at the little white eGull. “It’s so small. Where do I sit?”  
+“One seat? Can we fit in, both of us?”
 
-Wind grinned. “You don’t. It’s only got one seat.”  
+@image:
+Sophie and Wind, Sophie is looking at the eGull next to them, chocks, tie-downs are visible. In the background airport hangars, taxiways.
 
-“One seat? That’s not fair. You can't take me?”
+
+
 
 
 --
-the_rule: spread, landscape-oriented
+the_rule: page, portrait-oriented
 --
-@left: page, text
+@text: small
 “No passengers, I'm not allowed,” Wind said, sadly.
 “So if you want to fly with me, you have to learn.”  
 “Okay, I want to learn!” Sophie replied eagerly.  
 
-@right: page, image
-Close view of the eGull’s open cockpit, a single seat with harness straps. Sophie leaning in to look, her reflection faintly visible in the polished panel, Wind resting a hand on the fuselage.
+@image:
+Sophie and Wind, looking at the eGull next to them, chocks, tie-downs are visible. Close view of the eGull’s open cockpit. In the background airport hangars, taxiways.
+
+@eGull:
+A high wing ultralight, white, T-tail, gray propeller, tricycle gear, single seat, bubble canopy.
+
+@Sophie:  
+12 years old, girl, sun-touched light brown hair, orange long-sleeve, jeans, soft brown shoes.  
+
+@Wind:  
+12 years old, boy, tousled blond hair, light blue hoodie and jeans. Looks same age as Sophie.
+
 
 
 --
-inside_the_egull: spread, portrait-oriented, image
+inside_the_egull: page, portrait-oriented
 --
-@left: page, text
 "How can I learn to fly it?” Sophie asked, eyes bright. 
 "Can I get in?"
 
 “Sure — but it’s tied down. There'll be no flying today.”  
 
-And we'll need to close the canopy, if you want to see everything.
 The eGull was a single-seater, but it was designed for an adult,
 so they squeezed together in the cockpit, and Wind closed the canopy.
 
-@right: page, image, portrait-oriented
-View from behind the open cockpit of a small single-seat ultralight eGull, tied down on a sunny ramp.  
-The eGull’s cockpit, sunlight streaming in. Wind and Sophie inside, are squeezed together, no visible gap between them.
-Through the canopy, a bright winter sky and a distant hangar are visible.
+@image
+View from behind the the eGull’s  open cockpit, a single seat with harness straps. Wind and Sophie inside, are squeezed together, no visible gap between them. The aircraft is tied down and chocked on a sunny ramp.
 
 
 --
