@@ -200,7 +200,7 @@ Across the board, messy, tilted handwriting, attempts to write ‘puberty’:
 > . . . .  . .   .  .    .  .   .
 > I can say a word perimenopause.
 
-@text:
+@comment: hidden
 The Dragon finally pieced “puberty” together.  
 And then, it wrote “perimenopause” —  
 another word it was never supposed to say.

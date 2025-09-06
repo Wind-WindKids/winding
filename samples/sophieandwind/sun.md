@@ -24,16 +24,6 @@ to the old stone building
 with a leaden roof  
 at the end of the street.
 
-Sophie didn’t like going.  
-Wind didn’t like it much either.  
-
-There were candles and echoes,  
-and then there were rumors  
-that kids whispered to each other.
-
-And sometimes a friend went quiet,  
-as if someone else held their words.
-
 --
 sophie_on_steps: page, portrait-oriented, image
 --
@@ -167,18 +157,17 @@ they have pistachio."
 closing_reflection: page, text, centered
 --
 They ate ice cream.
-Sunlight caught in Sophie’s hair, turned it bright, iridescent gold.
+Sunlight caught in Sophie’s hair, 
+turned it bright, iridescent gold.
 
-“That color… it’s really my favorite,” Wind said, twirling a strand.
+“That color… it’s really my favorite,” Wind said, 
+twirling a strand in the light.
 
-
-Sophie watched the kite’s tail flicker against the wide sky, took Wind’s hand and smiled—  
-
+Sophie watched him, took his hand and smiled—  
 “Sundays are for sun and friends,” Sophie said.  
-“Not sitting under leaden roofs. Or burning candles.”  
 
 Wind grinned.  
-“Unless it’s on a birthday cake.” 
+"Yeah, and birthday cakes."
 
 --
 renewed_castle: page, image, portrait-oriented

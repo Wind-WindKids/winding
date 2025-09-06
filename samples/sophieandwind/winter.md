@@ -42,7 +42,7 @@ Sophie’s spoon stopped halfway to her mouth.
 “Really.”
 
 @image:
-Sophie sitting at the kitchen table, eating salad, Parisian appartment kitchen in the background.
+Sophie sitting at the kitchen table, eating salad, Parisian apartment kitchen in the background.
 
 --
 packing: page, portrait-oriented, image
@@ -301,9 +301,6 @@ Sophie stared at him.
 @image:
 Sophie and Wind, looking at the eGull next to them, chocks, tie-downs are visible. In the background airport hangars, taxiways.
 
-@style: 
-A charming watercolor children’s book illustration. No paper texture, +10% saturation.
-
 @eGull:
 A high wing electric ultralight, white, T-tail, gray propeller, tricycle gear, single seat, bubble canopy.
 
@@ -313,8 +310,8 @@ A high wing electric ultralight, white, T-tail, gray propeller, tricycle gear, s
 @Wind:  
 12 years old, boy, tousled blond hair, light blue hoodie and jeans. Looks same age as Sophie.
 
-@notes: 
-Sophie and Wind are the same height. Match the atmosphere of the referenced ice cream shop scene.
+@notes:
+Use the reference image for continuity. Sophie and Wind are the same height, they are looking at each other. Sophie can't believe it."""
 
 
 
@@ -452,7 +449,7 @@ The dragon's voice, still calm but urgent: "Sophie, push the stick forward. Now.
 But her hands wouldn't move. The little eGull spiraled down, spinning, until—
 The screen went black.
 Silence.
-The scene on the screen changed. The eGull, now broken, hung in the treetops of a steep hill.
+The scene changed again. The eGull, now broken, hung in the treetops of a steep hill.
 
 "What have you done to my dragon?", Wind teased.
 
@@ -480,7 +477,10 @@ Wind smiled.
 prayer_in_flight: spread, portrait-oriented, image
 --
 They were getting the hang of it and practicing landings. 
-One time, it was looking good on a glide to final, 
+One time, it was looking good on a glide to land.
+Finally, she thought that she had it this time, 
+ready to land — 
+
 Sophie closed her eyes for a moment — 
 a quick wish for luck — 
 like many people do when landing.
@@ -526,33 +526,26 @@ risen in California when she called her family —
 but in Paris, daylight was already fading. 
 
 They went to church that day, her mom told her to go.
-The church was all wrong. It was supposed to be 
-the same everywhere. It wasn't. 
-
-
---
-missed_flight: spread, landscape-oriented
---
-The litany in English was incomprehensible; 
-they stayed politely to the end, 
-relieved to step back into the sun.
-
-Wind didn’t like churches. He remembered faintly 
-that church had caused arguments between his parents. 
-And then there were rumors.  
+The church was supposed to be the same everywhere,
+but the litany in English was incomprehensible.
 
 They’d planned to fly, that day, but they came late,
 the weather had turned restless. Gusts picked up, 
 lessons were canceled, and they went home disappointed.  
 
-@comment: hidden, stories, fixme  
-circumcision, etc.
 
 --
 new_year: page, text, centered
 --
 
-The New Year came, and camp started again after the Christmas break. During the holidays she had flown several times in a real airplane, with an instructor. Her training progressed. She kept her eyes open, steady on the controls, flying with precision.
+The New Year came, and camp started again 
+after the Christmas break. During the holidays she 
+had flown several times in a real airplane, 
+with an instructor. Her training progressed. 
+
+She kept her eyes open, 
+steady on the controls, 
+flying with precision.
 
 And one morning, Wind told her she was ready.
 Ready for the real eGull.
@@ -561,14 +554,19 @@ Ready for the real eGull.
 taxi_training: spread, landscape-oriented
 --
 @left: page, text
-That afternoon, Sophie sat in the real eGull, headset snug over her ears.  
-Wind’s voice crackled over the radio from the grass beside the taxiway:  
+That afternoon, Sophie sat in the real eGull, 
+all by herself, the headset snug over her ears.  
+
+Wind’s voice crackled over the radio 
+from the grass beside the taxiway:  
 “Nice and slow, okay?”  
 
-The dragon’s voice followed, warm and deliberate:  
-“Today we will learn to taxi. Use gentle pedal pressure.”  
+The dragon’s voice followed, 
+warm and deliberate:  
+“Today we will learn to taxi.”  
 
-She didn't get to fly, but she got to control a real airplane.
+She didn't get to fly, 
+but she got to control a real airplane.
 
 @right: page, image
 The eGull rolling slowly along a sunlit taxiway.  

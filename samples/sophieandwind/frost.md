@@ -401,7 +401,7 @@ Epilogue — Back to Paris
 When Sophie got back to Paris, 
 her parents were waiting.
 
-They hugged her.
+They embraced her.
 She didn’t feel anything.
 
 Her dad looked tired.

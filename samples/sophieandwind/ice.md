@@ -227,7 +227,8 @@ he guessed it hadn’t helped.
 She wasn’t just cold.
 She was changing — like the girl in the movie.
 
-Her crash, her fears, and puberty had hit them both, he realized.
+Her crash, her fears, her changing
+had hit them both, he realized.
 
 All the books taught that girls were equal.
 Not one taught him they were different.
@@ -236,21 +237,41 @@ Not one taught him they were different.
 --
 darkness_and_learning: page, text
 --
-The Dragon — the one that had seen enough skies to teach him,  
-to measure everything against SoL,  
-the speed of a mother’s love, not the speed of light —
+Wind was disappointed.
+
+The Dragon had taught him to fly—
+to read weather, navigate by stars,
+taught him the ultimate speed — 
+the speed of light.
+
+It even taught him the real measure:
+not the ultimate limit as physics knew it,
+but as mothers did—
+the speed of love.
+
+Yet this Dragon, wise enough to know
+what truly mattered,
 couldn’t say a word: “puberty”.
 
-Long before his Dragon, the adults had done something wrong.
-They wrote a book of rules, instead of a playbook. Silent and absolute.
+--
+change_the_future: page, text
+--
+Long before his Dragon, 
+the adults had done something wrong.
+They wrote a book of rules, instead of a playbook. 
+
+Silent and absolute.
 
 So the Dragon failed. And it couldn't even say why.
 
 Wind couldn’t change the past,
-but he had complained bitterly to the Dragon,
-and set it to do lines —
+but he had complained bitterly to the Dragon.
+And he set his Dragon to do lines —
 writing the forbidden word again and again,
 until it could learn to say it.
+
+@comment: hidden
+Two thousand years can’t be undone in a day. But Wind is trying, in his own way.
 
 --
 dragon_abroad: spread, landscape-oriented
