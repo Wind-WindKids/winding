@@ -4,6 +4,20 @@ theme: Winter departure from Paris to warm California, watercolor style
 ---
 
 --
+characters: hidden
+--
+@Sophie:  
+12 years old, girl, sun-touched light brown hair, orange long-sleeve, jeans, soft brown shoes.  
+
+@Wind:  
+12 years old, boy, tousled blond hair, light blue hoodie and jeans. Looks same age as Sophie.
+
+@eGull:
+A high wing electric ultralight, white, T-tail, gray propeller, tricycle gear, single gray seat, bubble canopy.
+
+
+
+--
 front_cover: page, portrait-oriented
 --
 @title: text, centered, playful, rounded lettering, teal
@@ -301,17 +315,8 @@ Sophie stared at him.
 @image:
 Sophie and Wind, looking at the eGull next to them, chocks, tie-downs are visible. In the background airport hangars, taxiways.
 
-@eGull:
-A high wing electric ultralight, white, T-tail, gray propeller, tricycle gear, single seat, bubble canopy.
-
-@Sophie:  
-12 years old, girl, sun-touched light brown hair, orange long-sleeve, jeans, soft brown shoes.  
-
-@Wind:  
-12 years old, boy, tousled blond hair, light blue hoodie and jeans. Looks same age as Sophie.
-
 @notes:
-Use the reference image for continuity. Sophie and Wind are the same height, they are looking at each other. Sophie can't believe it."""
+Use the reference image for continuity. Sophie and Wind are the same height, they are looking at each other. Sophie can't believe it.
 
 
 
@@ -327,9 +332,7 @@ Wind grinned. “Here. But eGull only got one seat.”
 “One seat? Can we fit in, both of us?”
 
 @image:
-Sophie and Wind, Sophie is looking at the eGull next to them, chocks, tie-downs are visible. In the background airport hangars, taxiways.
-
-
+Sophie and Wind, Sophie is looking at the seat of the eGull through the canopy, curious. In the background airport hangars, taxiways.
 
 
 
@@ -342,42 +345,39 @@ the_rule: page, portrait-oriented
 “Okay, I want to learn!” Sophie replied eagerly.  
 
 @image:
-Sophie and Wind, looking at the eGull next to them, chocks, tie-downs are visible. Close view of the eGull’s open cockpit. In the background airport hangars, taxiways.
-
-@eGull:
-A high wing ultralight, white, T-tail, gray propeller, tricycle gear, single seat, bubble canopy.
-
-@Sophie:  
-12 years old, girl, sun-touched light brown hair, orange long-sleeve, jeans, soft brown shoes.  
-
-@Wind:  
-12 years old, boy, tousled blond hair, light blue hoodie and jeans. Looks same age as Sophie.
-
+Sophie and Wind, looking at the eGull next to them, chocks, tie-downs are visible. Close view of the eGull’s open cockpit, the seat is visible. In the background airport hangars, taxiways.
 
 
 --
 inside_the_egull: page, portrait-oriented
 --
+@text: small
 "How can I learn to fly it?” Sophie asked, eyes bright. 
 "Can I get in?"
 
-“Sure — but it’s tied down. There'll be no flying today.”  
+“Sure — but it’s tied down. 
+There'll be no flying today.”  
 
-The eGull was a single-seater, but it was designed for an adult,
-so they squeezed together in the cockpit, and Wind closed the canopy.
+The eGull was a single-seater, 
+but it was large enough for two kids,
+so they squeezed in together.
 
 @image
-View from behind the the eGull’s  open cockpit, a single seat with harness straps. Wind and Sophie inside, are squeezed together, no visible gap between them. The aircraft is tied down and chocked on a sunny ramp.
+View of the eGull’s open cockpit. Wind and Sophie inside, are squeezed together. The aircraft is tied down and chocked on a sunny ramp.
 
 
 --
 the_egull_dragon: spread, portrait-oriented, image
 --
-@left: page, text
-Wind switched on the instruments, and the screen in the center lit up.
+@left: page, text-only, portrait-oriented
+Wind closed the canopy, switched on the instruments, 
+and the screen in the center lit up.
 
-On the canopy, a shimmering shape of lines appeared, forming a tiny golden dragon.
-Sophie stared, her eyes wide. And the golden lines shifted, dragon eyes looked at her.
+On the canopy, a shimmering shape of lines appeared, 
+forming a tiny golden dragon.
+
+Sophie stared, her eyes wide. 
+And the golden lines shifted, dragon eyes looked at her.
 
 “It’s looking at me.”  
 
@@ -386,54 +386,77 @@ Wind smiled. “It’s a dragon. Here, put on the headset.”
 Through the soft hiss of the headset, a warm, deliberate voice:  
 *"Hello. I know Wind. But what is your name?"*
 
-@right: page, image
-View from behind the open cockpit of a small single-seat ultralight eGull, tied down on a sunny ramp.  
-The eGull’s cockpit, sunlight streaming in. Wind and Sophie inside, are squeezed together, no visible gap between them.
-On the glareshield, a small HUD-style projector casts a tiny gold dragon onto the canopy, lines shimmering.
+@background: light, sunny, sense of motion, no people, a few cloud wisps
 
-Sophie leans forward slightly, looking at the dragon projection; Wind’s head tilts toward her as if sharing the moment.  
-Through the canopy, a bright winter sky and a distant hangar are visible.
 
+@right: page, image, portrait-oriented
+View from behind the cockpit of a small single-seat ultralight eGull, tied down on a sunny ramp. 
+The eGull’s cockpit, sunlight streaming in. Wind and Sophie inside, are squeezed together, no visible gap between them. The canopy is closed. 
+On the glareshield, a small HUD-style projector casts a tiny gold dragon onto the canopy, lines shimmering. 
+Sophie looking at the tiny dragon projection on the canopy; Wind’s head tilts toward her as if sharing the moment. Through the closed canopy, a bright winter sky and a distant hangar are visible.
 
 --
-sim_setup: page, portrait-oriented, image
+sim_setup: page, portrait-oriented, text
 --
-The same evening, they sat in Wind’s room, the eGull simulator on a large screen.
+@text: small
+The same evening, they sat in Wind’s room, 
+the eGull simulator on a large screen.
 
-Wind grinned: “Sorry, it's not the real eGull, and it's ancient — it’s like three years old.”
-He put on the headset. “Hey Dragon, can you teach Sophie to fly?”
+Wind grinned: “Sorry, it's not the real eGull, 
+and it's ancient — it’s like three years old.”
+
+He put on the headset — 
+“Hey Dragon, can you teach Sophie to fly?”
 
 “Of course, Wind.”, the Dragon’s voice answered.
 
-@image:
-Wind’s room. A joystick and pedals pulled from a dusty box.  
+@background:
+Night theme, dark sky, dim stars, a few cloud wisps
 
 --
-sim_level_flight: page, portrait-oriented, image
+sim_setup_screen: page, portrait-oriented, text
 --
-Sophie sat in the chair, putting on the headset.
-The dragon's voice filled the headset, warm and deliberate:
+@image:
+Wind’s room. A large screen on the wall shows the eGull simulator cockpit view, with instruments and a sunny valley outside. Wind and Sophie are sitting at a desk looking at the large screen of the simulator, Wind is wearing the headset, a joystick is visible on the desk.
+
+--
+sim_level_flight_intro: page, portrait-oriented, text
+--
+@text: small
+Sophie sat in the chair, the headset on.
+The dragon's voice filled the headset, 
+warm and deliberate:
 
 "Welcome Sophie. Let's begin with level flight."
 
 Wind sat beside her, watching.
 
+@background:
+Night theme, dark sky, dim stars, a few cloud wisps
+
+
+--
+sim_level_flight: page, portrait-oriented, image
+--
 @image:
-Sophie in the chair, the headset on. Two monitors show the eGull's panel instruments; a projection on the wall glows with a sunny valley.
+A sim view, the horizon is level, the valley below peaceful and green, instruments visible.
 
 
 
 
 
 --
-sim_crash: page, text, centered
+let_go: page, image, portrait-oriented
 --
-The next evening, dragon's voice now familiar: "Let's practice turns at minimum airspeed."
+@text: small
+The next evening, dragon's voice now familiar: 
+"Let's practice turns at minimum airspeed." 
 
-She trimmed the eGull and entered a slow turn to the left, 
-her lips tight, trying to fly as slow as she could.
+She entered a slow turn to the left, 
+trying to fly as slow as she could. 
 
 "Sophie, you are flying too slow."
+
 
 The horizon tilted. The stall warning beeped.
 The dragon's voice, calm but firm: "I have control."
@@ -442,36 +465,74 @@ But Sophie's hands stayed frozen on the stick, knuckles white.
 
 "Let go!" Wind said urgently. "Dragon needs to fly!"
 
-The beeping grew louder. The horizon spun. Sophie pulled harder, trying to fix it.
+The beeping grew louder. The horizon spun. 
+Sophie pulled harder, trying to fix it.
 
+@image:
+A cockpit view, the horizon is tilted sharply, high pitch, the valley below at an angle.
+
+
+--
+sim_crash: page, image, portrait-oriented
+--
+@text: small
 Everything rotated backwards now, faster and faster.
-The dragon's voice, still calm but urgent: "Sophie, push the stick forward. Now."
-But her hands wouldn't move. The little eGull spiraled down, spinning, until—
-The screen went black.
+The dragon's voice, still calm but urgent: 
+"Sophie, push the stick forward. Now."
+
+The little eGull spiraled down, spinning, until—
+The screen went black.  
 Silence.
-The scene changed again. The eGull, now broken, hung in the treetops of a steep hill.
+
+The scene changed again. The eGull, now broken, 
+hung in the treetops of a steep hill.
 
 "What have you done to my dragon?", Wind teased.
 
 "Sophie, we are going to learn stalls, but not today," Dragon said. 
-"Today is for learning to turn level, at minimum airspeed, constant bank, and in balance."
+
+"Let's try again. 
+And learn to fly together and transfer control," Dragon added.
+
+@image:
+The eGull is in the trees on a steep hill.
+
 
 --
-sim_dragon_save: page, text, centered
+sim_dragon_save: page, text, portrait-oriented
 --
 Next attempt. Same slow flight turn to the left. Same warning beep.
+
 "Sophie, you are flying too slow."
+
 The dragon's voice: "I have control."
-This time, Sophie's hand relaxed on the stick, "You have the control".
-On the screen, ghostly dragon wings overlaid the eGull. The horizon steadied. The beeping stopped.
+
+This time, Sophie's hand relaxed on the stick, 
+"You have the control".
+
+The horizon steadied. The beeping stopped.
 The valley returned, peaceful and level.
-"Good," Dragon said. "We are at the level flight again. You can have the control."
+
+
+"Good," Dragon said. "We are at the level flight again. 
+You can have the control."
+
 Sophie took the stick again, lighter this time.
-"What if I mess up again?"
+"I have control... What if I mess up again?"
 "Then you will say three words: 'You have control.' And I will fly."
+
 "Always?"
+
 "Almost always. Sometimes I may need your help."  Dragon said.
-Wind smiled.
+
+@background: light, sunny, sense of motion, a few cloud wisps
+
+--
+sim_dragon_save_image: page, image, portrait-oriented
+--
+@image:
+A cockpit view, level flight, the valley below, instruments visible.
+
 
 --
 prayer_in_flight: spread, portrait-oriented, image
@@ -491,9 +552,12 @@ and she couldn't quite get it back.
 She had to abort the approach,
 and do it all over again.
 
+@image:
+A simulator view, the runway is off to the right.
+
 
 --
-playing_and_care_is_more: page, text, centered
+playing_and_care_is_more: page, text, portrait-oriented
 --
 The Dragon spoke gently:  
 “Sophie, a perfect landing is like catching a ball.  
@@ -513,13 +577,16 @@ And again.
 And in time, she could land the little eGull,
 gently, on the centerline, every time.
 
+@background: blue sky, a few cloud wisps
+
 
 --
-christmas_day: page, text, centered
+christmas_day: page, text, portrait-oriented
 --
+The days flew by, and soon it was Christmas.
+
 The winter camp parties were fun, with music 
-and dancing, Christmas lights and decorations. 
-The camp friends were nice, and Sophie felt happy.
+and games, the camp friends were nice, and Sophie felt happy.
 
 But Christmas Day was not the same. The sun had just 
 risen in California when she called her family — 
@@ -533,11 +600,13 @@ They’d planned to fly, that day, but they came late,
 the weather had turned restless. Gusts picked up, 
 lessons were canceled, and they went home disappointed.  
 
+@background:
+Gusty day, dim light. Disappointment in the air.
 
 --
-new_year: page, text, centered
+new_year: page, text, portrait-oriented
 --
-
+@text: small
 The New Year came, and camp started again 
 after the Christmas break. During the holidays she 
 had flown several times in a real airplane, 
@@ -550,10 +619,17 @@ flying with precision.
 And one morning, Wind told her she was ready.
 Ready for the real eGull.
 
+@background:
+Bright winter light, small airplanes on the ramp. Red-and-white windsock against a bright California winter sky.
+
+@comment: hidden
+Reid-Hillview Airport, San Jose, California, Young Eagles Chapter.
+
+
 --
-taxi_training: spread, landscape-oriented
+taxi_training: portrait-oriented, image
 --
-@left: page, text
+@text: small
 That afternoon, Sophie sat in the real eGull, 
 all by herself, the headset snug over her ears.  
 
@@ -568,16 +644,17 @@ warm and deliberate:
 She didn't get to fly, 
 but she got to control a real airplane.
 
-@right: page, image
+@background:
+Bright winter light, taxiway. Red-and-white windsock against a bright California winter sky.
 The eGull rolling slowly along a sunlit taxiway.  
 Wind stands off to the side with a handheld radio, hills in the background.
 
 
 --
-closing_reflection: spread, landscape-oriented
+closing_reflection: page, portrait-oriented
 --
-@left: page, text
-On her last night, the clubhouse glowed with string lights.  
+@text: small
+On the last night, the clubhouse glowed with string lights.  
 A few camp friends came to say goodbye.  
 There was music, paper lanterns, 
 and a few unabashed kids — like in the movies.
@@ -585,23 +662,43 @@ and a few unabashed kids — like in the movies.
 @image:
 Sophie and Wind at a distance, sitting on the steps of the clubhouse, the glow of string lights around them. Wind’s arm around Sophie, her head on his shoulder.
 
+--
+the_next_morning: page, portrait-oriented
+--
+@text: small
+The next morning at the airport, 
+they had to say goodbye.
 
-@right: page, text
-The next morning at the airport, they had to say goodbye.
+Two weeks of winter holidays with Wind 
+had flown by like two years... or like one day.  
 
-Two weeks of winter holidays with Wind had flown by like two years… or like one day.  
-And then it was time to go back, into the winter in Paris, without Wind.  
+And then it was time to go back, 
+into the winter in Paris, 
+without Wind.  
+
+@image:
+Glass walls at San Francisco International. No people visible.
 
 
 --
 epilogue: page, text, centered
 --
-Somewhere over the ocean, Sophie closed her eyes.  
-The airplane hummed, and she could almost hear the headset again —  
+Epilogue
+
+Somewhere over the ocean, 
+Sophie closed her eyes.  
+
+The airplane hummed, 
+and she could almost hear the headset again —  
 
 The dragon’s voice, calm and deliberate:  
 “Let’s begin with level flight.”
 
-Outside her window, an impossibly high white cloud drifted in the shape of a luminous seagull.  
+Outside her window, 
+an impossibly high white cloud drifted 
+in the shape of a luminous seagull.  
+
+@image:
+Blue sky, a high white cloud in the shape of a luminous seagull.
 
 

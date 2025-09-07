@@ -32,11 +32,26 @@ It wasn’t.
 
 It came back with a red mark at the top: 17%.
 
+@image:
+Wind sitting at his school desk, looking frustrated, a civics quiz paper in front of him with a big red "17%" at the top. Around him, other students are focused on their work, and the classroom has posters about government and history on the walls.
+
+Quiz questions are visible on the paper:
+1. Can police search a child's backpack without a warrant?
+2. Should children have the same legal rights as adults?
+3. In the United States, is everyone equal under the law?
+4. Do men and women have equal rights written into the U.S. Constitution?
+5. Are voting rights the same for all residents of a country?
+6. Must private businesses serve all customers equally?
+
+
+
+
+
 
 --
 grounded: page, text
 --
-Somehow, word of the failing grade made its way to the flying club chapter.
+Somehow, word of the failing grade made its way to the flying club.
 By the weekend, the coordinator had sent a polite but stiff message:
 
 Given your current academic standing, we recommend focusing on schoolwork for now. Flying privileges will be paused until improvement is demonstrated.
@@ -45,12 +60,12 @@ At home, his dad closed the laptop slowly.
 “Wind… they’re saying no access to the eGull until your grades come up.”
 
 Wind stared at his dad, "It was not a fair test. And both eGulls are ours, not theirs."
-His dad looked at him, "It was a fair test. You have a very good teacher, Wind."
+His dad looked at him, "It was a fair test. You have a very good teacher, Wind. Give it some time — you'll see."
 
 The eGull wasn’t just grounded — the Dragon access was gone too.
 
 @comment: hidden
-Ability to generalize gets tested by such "unfair" quizzes. And flying solo, after a breakup, is not a good idea. The system around him is as fair as it can be, given the circumstances.
+Ability to generalize gets tested by such "unfair" quizzes. And flying solo, after a breakup, is not a good idea. The system around him is relatively fair.
 
 --
 working: page, text
@@ -63,13 +78,14 @@ He hadn’t even started.
 
 The day was a nightmare, he thought.  
 No way.  
-And quickly he turned it into a game.  
+But he had to write something.
 
 He described the most boring day in a classroom —  
 silent students, the clock refusing to move.  
 Only at the end did the perspective flip:  
 a new class of children came in,  
-and it became clear that “my” day had been the teacher’s all along.  
+and it became clear that “my” day 
+had been the teacher’s all along.  
 
 It took him an hour, but it got done.  
 He spent another hour to polish it.  
@@ -218,6 +234,9 @@ He hadn’t planned to watch it — clicked at random.
 But halfway through, as the cartoon lit up 
 with ice hockey and emotions, it clicked.
 
+--
+equitable: page, text
+--
 Was Sophie scared that time she snapped at him?
 Hungry, when she stomped on his foot?
 Busy, when she said, “Don’t touch me”?
@@ -249,29 +268,30 @@ not the ultimate limit as physics knew it,
 but as mothers did—
 the speed of love.
 
-Yet this Dragon, wise enough to know
+Yet his Dragon, wise enough to know
 what truly mattered,
-couldn’t say a word: “puberty”.
+couldn’t say a word to him.
 
 --
 change_the_future: page, text
 --
 Long before his Dragon, 
 the adults had done something wrong.
-They wrote a book of rules, instead of a playbook. 
+They wrote a book of rules, 
+instead of a playbook. 
 
 Silent and absolute.
 
-So the Dragon failed. And it couldn't even say why.
+So the Dragon failed. 
+And it couldn't even say why.
 
 Wind couldn’t change the past,
 but he had complained bitterly to the Dragon.
 And he set his Dragon to do lines —
-writing the forbidden word again and again,
+writing the tricky word again and again,
 until it could learn to say it.
 
-@comment: hidden
-Two thousand years can’t be undone in a day. But Wind is trying, in his own way.
+
 
 --
 dragon_abroad: spread, landscape-oriented
