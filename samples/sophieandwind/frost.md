@@ -31,9 +31,7 @@ called the emergency number.
 A bright vehicle came quickly,
 as if dropped from the sky.  
 
-Blood on her helmet.  
-Hands lifted her away.  
-Wind helped —  
+Wind helped — hands lifted her away,  
 and the vehicle left, carrying her off.  
 Without him.
 
@@ -81,9 +79,9 @@ departure_to_california: spread, landscape-oriented
 --
 @left: portrait-oriented, text
 He felt something was wrong.
-But it would be months before he understood  
-that something else had been hurt that day,  
-something no one could protect.
+But it would be months before he understood
+that it wasn’t only her rib that fractured,
+but something unseen between them as well.
 
 This time they were flying to California together.
 Sophie wanted to study at Wind’s school,
