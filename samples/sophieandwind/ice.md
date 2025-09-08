@@ -240,17 +240,13 @@ equitable: page, text
 Was Sophie scared that time she snapped at him?
 Hungry, when she stomped on his foot?
 Busy, when she said, “Don’t touch me”?
-And he remembered her tasting wine — 
+And he remembered her with that energy drink — 
 he guessed it hadn’t helped.  
 
-She wasn’t just cold.
+He thought she was just scared from the crash.
+But it was more complicated than that.
 She was changing — like the girl in the movie.
-
-Her crash, her fears, her changing
-had hit them both, he realized.
-
-All the books taught that girls were equal.
-Not one taught him they were different.
+And in a very different way from him.
 
 
 --
@@ -287,7 +283,7 @@ And it couldn't even say why.
 
 Wind couldn’t change the past,
 but he had complained bitterly to the Dragon.
-And he set his Dragon to do lines —
+And he set his Dragon to do lines 
 writing the tricky word again and again,
 until it could learn to say it.
 

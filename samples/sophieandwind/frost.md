@@ -292,7 +292,9 @@ She wrote:
 The Dragon never even said sorry. 
 And Wind thought it was my own mistake.”
 
-She prayed a little, for help and support.
+She whispered into the silence, 
+asking for help and support.
+
 Then flipped back through the journal. 
 The pages were filled with her worst memories —  
 arguments, accidents, hurts.
@@ -315,7 +317,7 @@ She still saw Wind, but only on the ground — in cafés, on bike rides, in the 
 The sky no longer seemed to call her.
 
 While Wind was out at the airfield, she’d found a different routine.
-She liked the library and an old stone church with the crooked bell tower and the smell of wax.
+She liked the library and an old stone church courtyard nearby.
 
 When he asked why, she just shrugged.
 “I like it here. It’s quiet.”
@@ -323,6 +325,9 @@ When he asked why, she just shrugged.
 Her voice was gentle, but there was a stillness in it.
 Wind tried to understand, but he couldn’t.
 
+He didn't think she should sit there alone, 
+so he changed his routine — pausing on the flying,
+to keep her company.
 
 --
 sunday: spread, landscape-oriented

@@ -210,36 +210,6 @@ Sophie and Wind on bikes in a Bay Area neighborhood — Sophie’s bike with a s
 
 
 
-
---
-ocean_catamaran: page, text, portrait-oriented
---
-@text: small
-On Sunday, Wind’s dad bought tickets for a sailing trip, 
-they drove over the hills to the ocean.
-The air smelled of salt and sunlight, 
-and soon they were aboard a white catamaran.
-
-On Sundays in winter Paris, decorations, candles, and  
-hymns were the highlight of the season. 
-But here, she leaned on the forward rail beside Wind, 
-hair flying, spray on her cheeks.
-
-Sophie grinned, “This is almost like flying,” she said.
-
-Wind laughed. “Almost.”
-
-Wind’s dad smiled. 
-“You kids are right in your elements,” 
-he said,
-“I’ve always loved the water and the wind. 
-That’s how Wind got his name.”
-
-@background:
-A white sailing catamaran under full sail, evening light glinting off the water.
-Sophie and Wind at the forward rail, hair streaming. Low coastline and a golden horizon in the distance.
-
-
 --
 the_camp: page, portrait-oriented
 --
@@ -583,25 +553,58 @@ gently, on the centerline, every time.
 --
 christmas_day: page, text, portrait-oriented
 --
+@text: small
 The days flew by, and soon it was Christmas.
 
-The winter camp parties were fun, with music 
-and games, the camp friends were nice, and Sophie felt happy.
+Winter camp was fun — music, games, laughter.
+Sophie felt light and happy.
 
-But Christmas Day was not the same. The sun had just 
-risen in California when she called her family — 
-but in Paris, daylight was already fading. 
+But Christmas Day was different.  
+The day was just starting in California, 
+but when she called her family, it was 
+already evening in Paris.
 
-They went to church that day, her mom told her to go.
-The church was supposed to be the same everywhere,
-but the litany in English was incomprehensible.
+They had planned to fly, but Mom asked her  
+to go to church first. By the time they came back,  
+the weather turned restless. Gusts picked up.
+Flying lessons were canceled.  
 
-They’d planned to fly, that day, but they came late,
-the weather had turned restless. Gusts picked up, 
-lessons were canceled, and they went home disappointed.  
+They went home, disappointed. 
 
 @background:
-Gusty day, dim light. Disappointment in the air.
+Winter evening in Paris. Disappointment in the air.
+
+
+
+--
+ocean_catamaran: page, text, portrait-oriented
+--
+@text: small
+On Sunday, Wind’s dad bought tickets for a sailing trip, 
+they drove over the hills to the ocean.
+The air smelled of salt and sunlight, 
+and soon they were aboard a white catamaran.
+
+On Sundays in winter Paris, decorations, candles, and  
+hymns were the highlight of the season. 
+But here, she leaned on the forward rail beside Wind, 
+hair flying, spray on her cheeks.
+
+Sophie grinned, “This is almost like flying,” she said.
+
+Wind laughed. “Almost.”
+
+Wind’s dad smiled. 
+“You kids are right in your elements,” 
+he said,
+“I’ve always loved the water and the wind. 
+That’s how Wind got his name.”
+
+@background:
+A white sailing catamaran under full sail, evening light glinting off the water.
+Sophie and Wind at the forward rail, hair streaming. Low coastline and a golden horizon in the distance.
+
+
 
 --
 new_year: page, text, portrait-oriented
