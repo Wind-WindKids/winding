@@ -36,16 +36,12 @@ It came back with a red mark at the top: 17%.
 Wind sitting at his school desk, looking frustrated, a civics quiz paper in front of him with a big red "17%" at the top. Around him, other students are focused on their work, and the classroom has posters about government and history on the walls.
 
 Quiz questions are visible on the paper:
-1. Can police search a child's backpack without a warrant?
-2. Should children have the same legal rights as adults?
-3. In the United States, is everyone equal under the law?
-4. Do men and women have equal rights written into the U.S. Constitution?
-5. Are voting rights the same for all residents of a country?
-6. Must private businesses serve all customers equally?
-
-
-
-
+1. In Civitatibus Foederatis, num ignorantia iuris excusat?
+2. Habentne pueri eadem iura ac adulti?
+3. In Civitatibus Foederatis, suntne omnes sub lege aequales?
+4. Habentne viri et feminae sub Constitutione eadem iura?
+5. Ius suffragii idemne est omnibus civibus?
+6. Suntne leges eaedem in omnibus civitatibus Americae?
 
 
 --
@@ -100,11 +96,12 @@ In the morning, there was no reply. And the message was buried under weather ale
 --
 small_victory: page, text
 --
-A month later, his civics retake came back with a solid 83% in green at the top.
+A month later, his civics retake came back 
+with a solid 83% in green at the top.
 
 This time he had seen the pattern:
   Everyone is equal under the law.
-  Everyone follows the law.  
+  Everyone is under the law.
   Everyone is different,  
   and the laws are different  
   everywhere for everyone.  
@@ -113,13 +110,15 @@ This time he had seen the pattern:
 It wasn’t perfect, but it was enough.
 
 That evening, the Mac chimed.
-The Dragon’s avatar shimmered back into view, wings catching golden light.
+The Dragon’s avatar shimmered back into view, 
+wings catching golden light.
 
 “Skies are still closed,” it said,
 “but we can train again.”
 
 Wind smiled.
-It wasn’t flying — not yet — but at least it was a start.
+It wasn’t flying — not yet — 
+but at least it was a start.
 
 
 --

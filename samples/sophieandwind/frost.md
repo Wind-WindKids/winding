@@ -332,6 +332,7 @@ The pages were filled with her worst memories —
 arguments, accidents, hurts.
   
 She never thought to write down the best ones.  
+Or simply talk to her brother.
 
 By morning she’d decided: *she was done with Wind*.
 

@@ -133,6 +133,13 @@ A boy nearby was walking toward the café, crumpling an empty water bottle.
 “Wait!” she called.  
 “Can I have your bottle? It’s for a kite rescue.”  
 
+The boy looked at her, then at the kite, then back at her.
+“Is this a normal Sunday for you?” he asked, handing her the bottle.
+
+“Pretty much,” Sophie said, smiling.
+“Thanks!”
+
+
 @right: page, image
 Sophie catching up to the boy with the bottle, sunlight flashing on the crinkled plastic, the kite and kids visible in the background. Boy going to the trash can near the café, but stopped to hand the bottle to Sophie.
 
@@ -140,9 +147,12 @@ Sophie catching up to the boy with the bottle, sunlight flashing on the crinkled
 cafe_table_patch: spread, landscape-oriented
 --
 @left: page, text
-The boy smiled at her and looked at the kite.  
-They’d requisitioned one of the café tables and a few chairs as an improvised workshop.  
-One of the kids had a Swiss Army knife, and in no time they’d peeled a sticky label from the bottle, trimmed it into an oval patch, and pressed it over the tear.
+They’d requisitioned one of the café tables 
+and a few chairs as an improvised workshop.  
+
+One of the kids had a Swiss Army knife, 
+and in no time they’d peeled a sticky label from the bottle, 
+trimmed it into an oval patch, and pressed it over the tear.
 
 @right: page, image
 Children gathered around the café table, Sophie leaning over the kite, carefully pressing the patch in place.
@@ -151,7 +161,7 @@ Children gathered around the café table, Sophie leaning over the kite, carefull
 kite_flies: page, portrait-oriented, image
 --
 @image:
-The patched kite soaring high above the park, tail flickering in the wind. The children below run laughing, Sophie watching with a smile.
+The patched dragon kite soaring high above the park, tail flickering in the wind. The children below run laughing, Sophie watching with a smile.
 
 --
 wind_returns: page, text, centered
@@ -182,7 +192,7 @@ closing_reflection: page, text, centered
 --
 “Look, Wind - the dragon is now up there, 
 right above the playground. 
-The kids are keeping it aligned.”, Sophie said.
+The kids are keeping it aligned,” Sophie said.
 
 “Yeah, it’s flying great, love it,” Wind replied.
 
