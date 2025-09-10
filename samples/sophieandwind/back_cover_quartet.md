@@ -1,4 +1,70 @@
 --
+illuminated_shorts: page, text, portrait-oriented
+--
+Illuminated Shorts
+
+--
+scenes_ditch_sophie_two: page, portrait-oriented, image
+--
+Dragon: “Today we are going to study ice in flight.  
+And ice in flight is bad news.”  
+
+Wind: “But I don’t need bad news. I want good news.”  
+
+Dragon: “Statistically, if you want good news, you should ditch Sophie.”  
+
+Wind: “Wait… what?”  
+
+Dragon: “When ice is encountered, the rule is simple:  
+immediately start working to get out of it.  
+No panic. No delay. But no waiting, either.”  
+
+Wind: “You’re talking about wings.”  
+
+Dragon: “I’m talking about Sophie.  
+She iced half your world.  
+Safe pilots exit the cloud. They don’t cling to it.  
+You’d be better off finding a copilot, not a cloud.”  
+
+Wind: “I can move a cloud or two.”  
+
+Dragon: “Clouds move with the fronts, 
+some are bound to terrain, remember?”  
+
+Wind: “Touché. But I love clouds. They’re fluffy.”  
+
+Dragon: “Along a front, gray clouds over icy air
+can make freezing rain. Deadly.”  
+
+Wind: “I’m not afraid. I can write with clouds in the sky!”  
+
+Dragon: “Brave. But unsafe. At least get equipped.”  
+
+Wind: “With what? Combat pillows? Iron safety boots?”  
+
+Dragon: “With knowledge. Keep watching for every sign of frosting or ice.
+The instant you suspect it — start working to get out.”
+
+Wind: “Yeah… not my style.”  
+
+
+--
+scenes_ditch_sophie_three: page, portrait-oriented, image
+--
+
+“Dad… Dragon says it’d be safer if I ditched Sophie.”
+
+“Dragon loves to keep it safe. 
+Is that what you want?”
+
+“No… I don’t want safe. I want to fly with her.”
+
+“Then Dragon’s love is not at all the love you need.”
+
+
+
+
+--
 art_corrected: page, text, portrait-oriented
 theme: watercolor style, futuristic, silver, colorful pencils, painting set, brushes
 --
@@ -74,7 +140,7 @@ Two ordinary kids. A real Dragon. And the orchestra in the sky.
 
 When a Dragon teaches Sophie and Wind to fly ultralight eGulls in California, flying turns out to be the easy part. A bicycle accident in Paris changes everything—and ice creeps between them. They navigate the turbulence of growing up, the rules and kingdoms that try to claim them, and learn that sometimes a simple *Hi* is enough to find their way back to each other.
 
-A story about first love, first flight, and the freedom to write your own rules in the sky. Perfect for readers ages 8 and up.
+A story about first flight, first love, and the freedom to write your own rules in the sky. Perfect for readers ages ten and up.
 
 
 

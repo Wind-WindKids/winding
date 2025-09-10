@@ -51,35 +51,51 @@ Her mother paused. Sophie grinned. “I think Sundays are windier than other day
 
 “Thank you, Mom.”
 
-Sophie turned and ran toward the park.
+Sophie turned and walked toward the park.
 
 --
 kite_in_trouble: spread, landscape-oriented
 --
 @left: page, text
-In the wide grass, three younger kids were trying to get a kite into the air.  
-It flopped and spun in the wind, a jagged tear in its bright plastic sail.  
+In the park, Sophie saw three kids from a
+kite workshop she and Wind had been leading,
+where kids would make and fly dragon kites.
 
-“We can fix it,” Sophie said.  
-But when she checked her pockets, all she found was two pencils, a paper square, and a phone.  
-“We need tape.”  
+They were trying to launch a genormous dragon kite. 
+It kept going out of alignment, twisting its tail, 
+then flopping right back down onto the kids.
+
+Sophie looked at it for a while, then walked over.  
+“Hi! Need some help?” she asked, 
+“I see what’s wrong. We can fix it.”
+
+But when she checked her pockets, 
+all she found was two pencils, 
+a paper square, and a phone, 
+“But we do need tape,” she said.
 
 @right: page, image
-Three kids holding a sagging kite, Sophie kneeling beside them, examining the tear. Sunlit grass, playful breeze.
+Three kids across the grass field, 
+a huge dragon kite tumbling down on them.
+Sophie walking. Sunlit grass, playful breeze.
 
 --
 pharmacy_closed: page, text, centered
 --
 She thought of the pharmacy,  
 but Madame Madeleine—  
-who always kept a roll of every kind of tape behind the counter—  
-was away.
+who always kept a roll of every kind of tape 
+behind the counter — was away,
+she remembered seeing the pharmacy door locked.
 
 --
 texting_wind: page, portrait-oriented, image
 --
+Then she tried texting Wind.
+
 @image:
-Close-up of Sophie’s phone screen as she texts: *Got a kite emergency — bring tape?*  
+Close-up of Sophie’s phone screen as she texts:
+*Got a kite emergency — bring tape?*  
 Three dots appear… then vanish.  
 Next message: *Later.*
 
@@ -96,8 +112,16 @@ Sophie stopped. Closed, closed, closed.
 --
 cafe_closed: page, text, centered
 --
-She tried the little café by the pond — chairs stacked, door locked.  
-She looked around. The park was full of things, but none that were quite right.
+She tried the little café by the pond — 
+chairs stacked, door locked.  
+
+Maybe her mom was right, after all. 
+It seemed like everyone was not there.
+
+She looked around. 
+The park was full of things, 
+but none that were quite right.
+
 
 --
 water_bottle_idea: spread, landscape-oriented
@@ -151,11 +175,17 @@ It's you who decide.”
 “Come on,” Wind said.
 "Let's go share an ice cream.
 There's a new place, 
-they have pistachio."
+they have pistachio.”
 
 --
 closing_reflection: page, text, centered
 --
+“Look, Wind - the dragon is now up there, 
+right above the playground. 
+The kids are keeping it aligned.”, Sophie said.
+
+“Yeah, it’s flying great, love it,” Wind replied.
+
 They ate ice cream.
 Sunlight caught in Sophie’s hair, 
 turned it bright, iridescent gold.
@@ -164,7 +194,8 @@ turned it bright, iridescent gold.
 twirling a strand in the light.
 
 Sophie watched him, took his hand and smiled—  
-“Sundays are for sun and friends,” Sophie said.  
+“Sundays are for sun and friends,” Sophie said, 
+“and kites, and ice cream.”
 
 Wind grinned.  
 "Yeah, and birthday cakes."
@@ -172,7 +203,7 @@ Wind grinned.
 --
 renewed_castle: page, image, portrait-oriented
 --
-Sophie and Wind at a small café table in a green Paris square, each with a pistachio ice-cream cone; two mugs on the table. Behind them, a friendly, castle silhouette: soft turrets, blue roofs, small banners, kites drift overhead, it looks suspiciously like Notre-Dame. A playground and strolling families dot the lawn. Watercolor light, bright and kind.
+Sophie and Wind at a small café table in a green Paris square, each with a pistachio ice-cream cone; two mugs on the table. Behind them, a friendly, castle silhouette: soft turrets, blue roofs, small banners, kites drift overhead, it looks suspiciously like Notre-Dame. A giant golden dragon kite is soaring above that castle. A playground and strolling families dot the lawn. Watercolor light, bright and kind.
 
 
 --

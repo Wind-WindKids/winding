@@ -4,6 +4,40 @@ theme: Winter, Jardin du Luxembourg, watercolor style
 ---
 
 --
+characters: hidden
+--
+@style:
+A European picture book style (similar to French/Belgian illustrators). Gentle, painterly, emotional, with strong emphasis on mood through light and color blending rather than line. Watercolor washes dominate, with softened edges, muted tones, and minimal outlines. Backgrounds recede in loose washes, shadows use cool layered hues. Figures lean toward storybook realism: natural proportions with a slight idealization — smooth, luminous skin tones, large expressive eyes.
+
+@Wind:
+A boy of about twelve, slim and lightly built. His hair is tousled, light blond, and naturally messy, falling loosely across his forehead. His skin is fair, his features open and clear. He has large blue eyes that give him a watchful, thoughtful look. His face rests in soft, neutral expressions, sometimes edged with concern or a quiet smile. There is a sense of openness and sincerity in the way he carries himself.
+
+@Sophie:
+A girl of about twelve, slim but beginning to show the taller, more defined proportions of her age. Her hair is light brown, sun-kissed blond often loose and gently wavy, falling to her shoulders. Her skin is fair, her features soft yet gradually more refined. She has large, expressive hazel-brown eyes that hold both curiosity and a quiet seriousness. Her neutral expression is calm, sometimes with the suggestion of a smile, giving her an air of poise that feels just a step beyond childhood.
+
+@Wind.summer:
+Slim-fit linen shirt in teal, short sleeves, lightly tailored to the body. Mid-thigh shorts in light gray, clean cut, slightly fitted. White low-top sneakers with short white socks, visible just above the shoe line. Overall look neat, practical, and slightly fashionable.
+
+@Sophie.summer:
+A light, slim summer dress, soft linen in pale cream or light sky-blue tones. Dress has open shoulders with thin straps, slightly flared at the hem, falling just above the knee. Simple but graceful, with a faint floral or subtle stripe pattern to suggest texture without clutter. Worn with flat sandals or slip-on shoes in light brown leather.
+
+@Sophie.winter:
+A fitted teal winter coat over a soft sweater, paired with slim dark jeans. A purple knit scarf loosely around her neck, adding contrast. Brown winter boots, practical but neat. Her hair slightly tucked into the coat collar, emphasizing warmth and coziness.
+
+@Wind.winter:
+A slim, gray-green winter jacket with a zipper front, layered over a hoodie. Dark jeans with a straight slim fit. Simple sneakers or winter-ready shoes in neutral colors. Hair left tousled, the jacket slightly rumpled, giving him a natural, boyish look.
+
+@Wind.clothes:
+Slim-fit jeans, light blue hoodie with a soft, casual cut. Simple sneakers. Clothes sit comfortably but neat, practical for movement.
+
+@Sophie.clothes:
+Slim-fit jeans, long-sleeve top in warm orange tones, slightly fitted. Casual shoes or soft brown flats. Clean, practical look with a hint of brightness.
+
+@eGull:
+A high wing electric ultralight, white, T-tail, gray propeller, tricycle gear, single gray seat, bubble canopy.
+
+
+--
 front_cover: page, portrait-oriented, cover-front
 --
 @title: text, centered, playful, rounded lettering, frosty white
@@ -91,8 +125,8 @@ who spent half the year in France with his mom
 and the winter in California with his dad.
 
 @left.background: image
-A plane taking off, gray winter, CDG, Wind looking out the window.
-
+A passenger plane taking off, gray winter, CDG, 
+Wind looking out the window, Sophie beside him.
 
 --
 arrival_to_california: spread, landscape-oriented
