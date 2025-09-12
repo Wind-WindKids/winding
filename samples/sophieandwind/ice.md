@@ -15,11 +15,50 @@ Two eGulls, at the empty airfield in California, winter, low sun, long shadows, 
 
 
 --
+brother: page, text
+--
+At home, Sophie’s brother, usually lighthearted and bright,  
+had a tired look. She said hi and dropped onto the sofa,  
+watching him scroll his phone.  
+
+“Sorry I wasn’t there to meet you.  
+It’s just been a rough time for everyone.”  
+
+“What happened?”  
+
+“Nothing I planned.”  
+
+He paused, eyes back on the phone.  
+
+“Wanna talk? You and Wind?”  
+
+Sophie shook her head. “Not really.”  
+
+“Yeah.” He set the phone down. “Me neither.”  
+
+They exchanged a look.  
+
+He looked into the distance.  
+“My fault,” he said,  
+“Funny how it always is.”
+
+@image:  
+Sophie and her brother in their Paris living room, late afternoon light.  
+He sits slouched in a chair, phone in hand, looking weary.  
+Sophie sits on the sofa across from him, half-turned his way.  
+The atmosphere is subdued, muted winter tones,  
+a sense of distance and quiet heaviness.
+
+--
+iced: page, text
+--
+A week later, on another continent,  
+it was the very first day of civics class for Wind.
+
+--
 unfair_quiz: page, text
 --
-A week later, it was the very first day of civics classes.
 A quiz came at the end of class.
-
 Wind stared at the questions. 
 
 Someone raised a hand, 
@@ -56,6 +95,7 @@ At home, his dad closed the laptop slowly.
 “Wind… they’re saying no access to the eGull until your grades come up.”
 
 Wind stared at his dad, "It was not a fair test. And both eGulls are ours, not theirs."
+
 His dad looked at him, "It was a fair test. You have a very good teacher, Wind. Give it some time — you'll see."
 
 The eGull wasn’t just grounded — the Dragon access was gone too.
@@ -99,9 +139,9 @@ small_victory: page, text
 A month later, his civics retake came back 
 with a solid 83% in green at the top.
 
-This time he had seen the pattern:
-  Everyone is equal under the law.
-  Everyone is under the law.
+This time he had seen some pattern:
+  Everyone is equal under the law.  
+  Everyone is under the law.  
   Everyone is different,  
   and the laws are different  
   everywhere for everyone.  
@@ -119,6 +159,9 @@ wings catching golden light.
 Wind smiled.
 It wasn’t flying — not yet — 
 but at least it was a start.
+
+@comment: hidden
+everywhere and every time.  
 
 
 --

@@ -23,13 +23,16 @@ def save_img(img, filename: str):
         with open(filename, "wb") as f:
             f.write(image_bytes)
 
-def flatten_winding_to_md(node: Winding, header = True) -> str:
+def flatten_winding_to_md(node: Winding, self = True, stop = None) -> str:
     """
     Convert a Winding AST node back into a markdown snippet
     (header + nested content) suitable as an image prompt.
+
+    If `self` is False, omit the node's own header. If `stop` is given,
+    stop flattening when encountering a Winding with at == stop
     """
     lines = []
-    if header:
+    if self:
         header = "--\n" + f"{node.at}: {', '.join(node.arguments)}" + "\n--\n"
         lines.append(header)
 
@@ -40,6 +43,9 @@ def flatten_winding_to_md(node: Winding, header = True) -> str:
             lines.append(f"@{item.at}: {', '.join(item.arguments)}\n")
             # flatten its content recursively (only text/images)
             lines.append(flatten_winding_to_md(item).split("--\n")[-1])
+
+            if item.at == stop:
+                break
         else:
             # Markdown or Image represented as its content text
             # assume item.content holds either str or nested Image AST
@@ -50,6 +56,7 @@ def flatten_winding_to_md(node: Winding, header = True) -> str:
             else:
                 text = str(text)
             lines.append(text)
+        
     return "".join(lines)
 
 def infer_winding_size(args, page: Winding) -> str:
@@ -67,9 +74,23 @@ def infer_winding_size(args, page: Winding) -> str:
     
     return None
 
+
+def identify_context(args, node: Winding, context: Winding) -> str:
+    """Identify the context needed to artifact node."""
+
+    path = node.at
+    prompt = "Identify context IDs needed to artifact {path} page.\n" + \
+             "Use dot notation to refer to specific sub-paths referring to necessary context.\n" + \
+             "Return Markdown list of needed context paths.sub.paths only and nothing else.\n" + \
+             "For example: \n" + \
+                "- sophie_and_frost.style\n" + \
+                "- sophie_and_frost.characters.Wind\n\n" + \
+             "The context to analyze:\n\n"
+
+
 def generate_image(args, winding: Winding, context: Winding, client: OpenAI):
         prompt_snippet = flatten_winding_to_md(winding)
-        context_snippet = flatten_winding_to_md(context, header=False)
+        context_snippet = flatten_winding_to_md(context, self=False)
         outpath = os.path.join(args.outdir, "images", f"{winding.at}.png")
 
         print(f"Generating image for winding '{winding.at}' with prompt:\n{prompt_snippet}\n{context_snippet}")
@@ -143,25 +164,26 @@ def main():
     #pprint(ast, indent=2, width=160)
 
     # 2. Walk & print only the `.at` fields with indentation
-    def walk(node: Winding, depth: int = 0):        
+    def walk(node: Winding, path: str = ""):        
         if isinstance(node, Winding):
-            yield depth, node
+            yield path, node
             # chain.from_iterable to flatten child iterators
-            child_iters = (walk(child, depth + 1) for child in node.windings)
+            child_iters = (walk(child, path + "." + node.at) for child in node.windings)
             yield from chain.from_iterable(child_iters)
 
     #print("Parsed Winding AST:")
-    for depth, node in walk(ast):
-        print(f"{'  ' * depth}- {node.at}")    
+    for path, node in walk(ast):
+        print(f"{'  ' * path.count('.')}- {node.at}")    
 
     # 1.0 Find the fragment if specified
     #if "" in args.input:
     #    node = args.input.split(":")[-1]
     images = []
     context = None
-    print(f"Searching for fragment '{node}' in the document...")
-    for _, node in walk(ast):
-        if node.at == args.at:
+    print(f"Searching for fragment '{args.at}' in the document...")
+    for path, node in walk(ast):
+        print(path + "." + node.at)
+        if node.at == args.at or path + "." + node.at == args.at:
             images.append(node)
             print(f"Found fragment '{node.at}' in the document.")
         if node.at == args.context:

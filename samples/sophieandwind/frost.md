@@ -15,26 +15,17 @@ A boy of about twelve, slim and lightly built. His hair is tousled, light blond,
 @Sophie:
 A girl of about twelve, slim but beginning to show the taller, more defined proportions of her age. Her hair is light brown, sun-kissed blond often loose and gently wavy, falling to her shoulders. Her skin is fair, her features soft yet gradually more refined. She has large, expressive hazel-brown eyes that hold both curiosity and a quiet seriousness. Her neutral expression is calm, sometimes with the suggestion of a smile, giving her an air of poise that feels just a step beyond childhood.
 
-@Wind.summer:
-Slim-fit linen shirt in teal, short sleeves, lightly tailored to the body. Mid-thigh shorts in light gray, clean cut, slightly fitted. White low-top sneakers with short white socks, visible just above the shoe line. Overall look neat, practical, and slightly fashionable.
-
-@Sophie.summer:
-A light, slim summer dress, soft linen in pale cream or light sky-blue tones. Dress has open shoulders with thin straps, slightly flared at the hem, falling just above the knee. Simple but graceful, with a faint floral or subtle stripe pattern to suggest texture without clutter. Worn with flat sandals or slip-on shoes in light brown leather.
-
-@Sophie.winter:
-A fitted teal winter coat over a soft sweater, paired with slim dark jeans. A purple knit scarf loosely around her neck, adding contrast. Brown winter boots, practical but neat. Her hair slightly tucked into the coat collar, emphasizing warmth and coziness.
-
-@Wind.winter:
-A slim, gray-green winter jacket with a zipper front, layered over a hoodie. Dark jeans with a straight slim fit. Simple sneakers or winter-ready shoes in neutral colors. Hair left tousled, the jacket slightly rumpled, giving him a natural, boyish look.
-
-@Wind.clothes:
-Slim-fit jeans, light blue hoodie with a soft, casual cut. Simple sneakers. Clothes sit comfortably but neat, practical for movement.
-
-@Sophie.clothes:
-Slim-fit jeans, long-sleeve top in warm orange tones, slightly fitted. Casual shoes or soft brown flats. Clean, practical look with a hint of brightness.
-
 @eGull:
 A high wing electric ultralight, white, T-tail, gray propeller, tricycle gear, single gray seat, bubble canopy.
+
+--
+clothes: hidden
+--
+@Sophie.clothes: winter
+A fitted teal winter coat over a soft sweater, paired with slim dark jeans. A purple knit scarf loosely around her neck, adding contrast. Brown winter boots, practical but neat. Her hair slightly tucked into the coat collar, emphasizing warmth and coziness.
+
+@Wind.clothes: winter
+A slim, gray-green winter jacket with a zipper front, layered over a hoodie. Dark jeans with a straight slim fit. Simple sneakers in neutral colors. Hair left tousled, the jacket slightly rumpled, giving him a natural, boyish look.
 
 
 --
@@ -85,27 +76,45 @@ Café voices drifted in.
 He called her right away.  
 No reply.
 
-@left.background:
+@right: portrait-oriented, image, dark, icy, winter
 Wind standing on the sidewalk of the street, looking at the empty sky.
 
 
-@right: page, portrait-oriented, text
+--
+mountains: spread, landscape-oriented
+--
+@left: page, portrait-oriented, text
 Next day he saw her.  
 It was a broken rib and she felt fine.
 
-They’d been planning to go skiing next week,  
-and they still went to the mountains.  
-But the mood wasn’t there.  
-They took it easy, wandering the snowy streets,  
-lingering in warm cafés,  
+Wind came to Paris for Christmas break —  
+they’d planned to ski.  
+But after the fall, the mood wasn’t there.
+
+They still went, but took it easy,  
+wandering snowy streets, lingering in warm cafés,  
 breathing the thin, bright air.
 
-Wind saw she was still in pain from the broken rib.  
-She smiled when he spoke,  
-but the smile didn’t quite reach her eyes.
+He could tell her rib still hurt.  
+She smiled when he spoke, 
+but the playfulness was gone, 
+the smile didn’t quite reach her eyes.
 
 @right: image
 A snowy mountain village, Wind and Sophie walking side by side,
+
+
+--
+clothes_change: hidden
+--
+@Wind.clothes:
+Slim-fit jeans, light blue hoodie with a soft, casual cut. Simple gray sneakers. Clothes sit comfortably but neat, practical for movement.
+
+@Sophie.clothes:
+Slim-fit jeans, long-sleeve top in warm orange tones, slightly fitted. Casual soft brown flats. Clean, practical look with a hint of brightness.
+
+![Sophie and Wind in California/winter clothes](images/pages/frost/clothes_change.png)
+
 
 
 --
@@ -119,12 +128,17 @@ but something unseen between them as well.
 
 This time they were flying to California together.
 Sophie wanted to study at Wind’s school,
-and arrangements had been made for her to spend a semester there.
+and arrangements had been made for her 
+to spend a semester there.
+
 She thought she could be like Wind,
 who spent half the year in France with his mom
 and the winter in California with his dad.
 
 @left.background: image
+Fog
+
+@right: image
 A passenger plane taking off, gray winter, CDG, 
 Wind looking out the window, Sophie beside him.
 
@@ -364,8 +378,10 @@ to keep her company.
 
 --
 sunday: spread, landscape-oriented
---    
-One bright Sunday, Wind found her in the park, sitting on a stone bench with a book in her lap.
+--
+One bright Sunday, 
+Wind found her in the park, 
+sitting on a stone bench with a book in her lap.
 
 “Hey,” Wind said, dropping his bike beside the bench.
 “Forecast’s perfect. No wind, clear skies. Let’s take the eGulls out.”

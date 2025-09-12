@@ -6,6 +6,8 @@ Illuminated Shorts
 --
 scenes_ditch_sophie_two: page, portrait-oriented, image
 --
+Ditch Sophie
+
 Dragon: “Today we are going to study ice in flight.  
 And ice in flight is bad news.”  
 
@@ -60,6 +62,53 @@ Is that what you want?”
 “No… I don’t want safe. I want to fly with her.”
 
 “Then Dragon’s love is not at all the love you need.”
+
+
+
+--
+the_quartet: page, text, centered
+--
+The Quartet
+
+@left: page, text
+“Not the Dragon again, Wind. He’s scary,” Sophie said.
+
+“I’ve been training him — Dad helped too. Come see,” — 
+and “show her you can sing.”, Wind said to the Dragon.
+
+“I am an instructor, not a troubadour,” the Dragon replied.  
+
+“Dragon. Play.”  
+
+The Dragon bowed slightly. Its silhouette brightened,
+breaking apart into sparks — into a golden constellation in the sky.
+
+The simulator darkened. The eGull faded into night.
+A violin rose, drawing the shape of a single eGull across the stars.
+Another joined, then another —
+lines of light weaving harmony in the sky.
+
+At the peak, two eGulls lifted above the cloudtops.
+The horizon glowed with sunrise.
+
+
+@right: page, portrait-oriented, image
+
+@page: rectangle, cutout, large, landscape-oriented
+![Sophie and Wind sitting in the eGull simulator, close together, Sophie is hugging Wind. Orchestra in the sky.](epilogue_sophie_and_wind.png)
+
+@text:
+“It’s beautiful…”, Sophie whispered.
+Wind smiled — “Good Dragon.”
+
+“Can my eGull have a unicorn horn? Please?”
+
+“Yes, Princess Sophie,” replied the Dragon, 
+forming its shape out of the stars,
+with only a little delay, and bowing slightly.
+
+“Thank you,”  — and both of them smiled.
+
 
 
 

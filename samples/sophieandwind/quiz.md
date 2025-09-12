@@ -1,44 +1,25 @@
-1. Can police search a child's backpack without the same warrant required for an adult?
-A) Yes
-B) No
+Examen Civicum (versio emendata)
 
-Correct answer: A) Yes
+In Civitatibus Foederatis Americae, num ignorantia iuris excusat?
+Responsum: Non.
+Nota: Principium iuris: ignorantia iuris non excusat (paucae exceptiones iudiciales exstant).
 
+Habentne pueri eadem iura ac adulti?
+Responsum: Non.
+Nota: Multi status proteguntur, sed non omnia iura eisdem modis valent (suffragium, contractus, responsalitas criminalis, etc.).
 
-2. Should children have the same legal rights as adults?
-A) Yes
-B) No
+In Civitatibus Foederatis Americae, suntne omnes sub lege aequales?
+Responsum: Ita (principio).
+Nota: Aequitas formalis sancitur; in praxi inaequalitates fieri possunt.
 
-Correct answer: B) No
+Habentne viri et feminae sub Constitutione eadem iura?
+Responsum: Ita (principio hodierno).
+Nota: Si quaestio vult “expresse in Constitutione scripta,” tunc Non (ERA non est pars Constitutionis); at iurisprudentia aequalitatem late tuetur.
 
+Ius suffragii idemne est omnibus civibus?
+Responsum: Non.
+Nota: Aetas minima, inhabilitationes ob scelera in nonnullis civitatibus, et alia discrimina statalia variant.
 
-3. In the United States, is everyone equal under the law?
-A) Yes
-B) No
-
-Correct answer: A) Yes
-
-
-4. Do men and women have equal rights written into the U.S. Constitution?
-A) Yes
-B) No
-
-Correct answer: B) No
-
-
-5. Are voting rights the same for all residents of a country?
-A) Yes
-B) No
-
-Correct answer: B) No
-
-
-6. Must private businesses serve all customers equally?
-A) Yes
-B) No
-
-Correct answer: B) No
-
-
-
-
+Suntne leges eaedem in omnibus civitatibus Americae?
+Responsum: Non.
+Nota: Leges foederales, civitatum, et municipiorum inter se differunt.
