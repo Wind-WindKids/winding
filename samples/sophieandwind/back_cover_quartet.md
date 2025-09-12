@@ -1,7 +1,97 @@
+
+
+--
+the_end_two_birds: page, portrait-oriented
+--
+@image: centered, logo, small, golden
+Two birds, facing each other, with a heart between them. The birds are inside the shape of a heart, with the tails forming the top of the heart. 
+
+
+--
+aviation_glossary: page, text, portrait-oriented
+--
+Aviation Glossary
+aborted takeoff - Stopping a takeoff that has already begun, usually for safety reasons
+approach - The path an aircraft follows when coming in to land
+canopy - The transparent cover over the cockpit, like a windshield in a car
+centerline - The painted line running down the middle of a runway
+cockpit - The area where the pilot sits and controls the aircraft
+control stick - The main control lever the pilot uses to steer the aircraft up, down, left, and right
+crosswind - Wind blowing across the runway from the side, making takeoff and landing more challenging
+eGull - The electric ultralight aircraft in the story; a small, slow single-seat airplane
+glide - Flying without engine power, descending gradually
+gusting - When wind speed increases and decreases suddenly
+headset - Headphones with a microphone that pilots wear to communicate by radio
+level flight - Flying straight and level, maintaining the same altitude
+lift - The upward force that keeps aircraft in the air; also rising air currents that gliders use
+parallel runways - Two runways that run side by side
+Part 103 - U.S. aviation rules that allow ultralight aircraft to be flown without a pilot's license
+pattern - The standard rectangular path aircraft fly around an airport when preparing to land
+pedals - Foot controls that steer the aircraft left and right on the ground and control the rudder in flight
+preflight - The safety inspection done before every flight
+ramp - The paved area where aircraft are parked
+runway - The long strip of pavement where aircraft take off and land
+solo - Flying alone without an instructor
+stall warning - When an aircraft flies too slowly and loses lift; the warning sound that alerts the pilot
+taxiway - The paths aircraft use to move between the ramp and runway; 
+taxi - to taxi means to drive the aircraft on the ground
+takeoff roll - The aircraft's acceleration down the runway before leaving the ground
+throttle - The control that adjusts engine power
+tie-downs - Ropes or straps that secure an aircraft to the ground
+ultralight - A very small, lightweight and slow aircraft with simple controls
+windsock - A fabric cone that shows wind direction and speed at an airport
+
+
+
 --
 illuminated_shorts: page, text, portrait-oriented
 --
 Illuminated Shorts
+
+--
+the_quartet: page, text, centered
+--
+The Quartet
+
+@left: page, text
+“Not the Dragon again, Wind. He’s scary,” Sophie said.
+
+“I’ve been training him — Dad helped too. Come see,” — 
+and “show her you can sing.”, Wind said to the Dragon.
+
+“I am an instructor, not a troubadour,” the Dragon replied.  
+
+“Dragon. Play.”  
+
+The Dragon bowed slightly. Its silhouette brightened,
+breaking apart into sparks — into a golden constellation in the sky.
+
+The simulator darkened. The eGull faded into night.
+A violin rose, drawing the shape of a single eGull across the stars.
+Another joined, then another —
+lines of light weaving harmony in the sky.
+
+At the peak, two eGulls lifted above the cloudtops.
+The horizon glowed with sunrise.
+
+
+@right: page, portrait-oriented, image
+
+@page: rectangle, cutout, large, landscape-oriented
+![Sophie and Wind sitting in the eGull simulator, close together, Sophie is hugging Wind. Orchestra in the sky.](epilogue_sophie_and_wind.png)
+
+@text:
+“It’s beautiful…”, Sophie whispered.
+Wind smiled — “Good Dragon.”
+
+“Can my eGull have a unicorn horn? Please?”
+
+“Yes, Princess Sophie,” replied the Dragon, 
+forming its shape out of the stars,
+with only a little delay, and bowing slightly.
+
+“Thank you,”  — and both of them smiled.
+
 
 --
 scenes_ditch_sophie_two: page, portrait-oriented, image
@@ -65,52 +155,6 @@ Is that what you want?”
 
 
 
---
-the_quartet: page, text, centered
---
-The Quartet
-
-@left: page, text
-“Not the Dragon again, Wind. He’s scary,” Sophie said.
-
-“I’ve been training him — Dad helped too. Come see,” — 
-and “show her you can sing.”, Wind said to the Dragon.
-
-“I am an instructor, not a troubadour,” the Dragon replied.  
-
-“Dragon. Play.”  
-
-The Dragon bowed slightly. Its silhouette brightened,
-breaking apart into sparks — into a golden constellation in the sky.
-
-The simulator darkened. The eGull faded into night.
-A violin rose, drawing the shape of a single eGull across the stars.
-Another joined, then another —
-lines of light weaving harmony in the sky.
-
-At the peak, two eGulls lifted above the cloudtops.
-The horizon glowed with sunrise.
-
-
-@right: page, portrait-oriented, image
-
-@page: rectangle, cutout, large, landscape-oriented
-![Sophie and Wind sitting in the eGull simulator, close together, Sophie is hugging Wind. Orchestra in the sky.](epilogue_sophie_and_wind.png)
-
-@text:
-“It’s beautiful…”, Sophie whispered.
-Wind smiled — “Good Dragon.”
-
-“Can my eGull have a unicorn horn? Please?”
-
-“Yes, Princess Sophie,” replied the Dragon, 
-forming its shape out of the stars,
-with only a little delay, and bowing slightly.
-
-“Thank you,”  — and both of them smiled.
-
-
-
 
 
 --
@@ -138,7 +182,7 @@ theme: watercolor style, futuristic, silver, colorful kites
 
 @page: text, small
 About the author
-The author works at one of the labs where pieces of modern-day magic quietly come together. An active pilot in the past, he still flies some times and finds inspiration in art, flight, technology, and the creative threads that connect them.
+The author works at one of the labs where pieces of modern-day magic quietly come together. An active pilot in the past, he still flies some times and finds inspiration in art, flight, technology, and the creative particles that connect them.
 
 @page: rectangle, cutout, square
 ![Wind’s photo, lab, fusion powered dragon on the table, futuristic, photorealistic.](snaps/author.png)
@@ -156,20 +200,6 @@ Story by Wind and Ariane Windkid
 @page: text, small
 Licensing
 Text and source code components of Sophie and Ice are licensed under CC-BY 4.0. All imagery in Sophie and Ice—with the exception of the front and back covers—is licensed under CC-BY-NC 4.0. The cover illustrations are not included in this license and may not be reproduced, published, or distributed without explicit permission: wind@sophieandwind.com
-
---
-back_cover_with_map_in_place: page, portrait-oriented, cover-back
-theme: playful, colorful kites, wind patterns
---
-@page: text, small, centered, playful, rounded lettering, teal
-Play in your park, draw a map, hunt for treasures, find Sophie and Wind!
-
-@page: rectangle, large, landscape-oriented, !image, !caption
-![colorful treasure-hunt park map, child's marker drawn, hand-drawn.](map.png)
-
-@map:
-"You Are Here" is marked, near the sun.
-
 
 
 

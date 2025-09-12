@@ -1,5 +1,5 @@
 ---
-sophie_and_sun: book, portrait-oriented
+sophie_and_sun: book, part, portrait-oriented
 theme: Spring or summer daytime, Jardin du Luxembourg, watercolor style
 --- 
 
@@ -16,7 +16,7 @@ A light, slim summer dress, soft linen in pale cream or light sky-blue tones. Dr
 
 
 --
-front_cover: page, portrait-oriented
+part_cover: page, portrait-oriented
 --
 @title: text, centered, playful, rounded lettering, golden
 Part 4
@@ -242,11 +242,9 @@ theme: winter sun, mastery, quiet triumph
 --
 
 @left: page, text, centered
-The next winter, Sophie’s mom didn’t let her  
-go to California. But it didn’t matter.  
+The next winter, they were flying again.
 
-Their lessons, their flying, their Dragon —  
-they had already made the difference.  
+Together.  
 
 Sophie and Wind were ordinary children.  
 
@@ -257,13 +255,6 @@ In the sky.
 @right: page, image
 Two white eGulls tracing words across the sky.  
 Their trails spell: **Hello World!**  
-
-
---
-the_end_two_birds: page, portrait-oriented
---
-@image: centered, logo, small, golden
-Two birds, facing each other, with a heart between them. The birds are inside the shape of a heart, with the tails forming the top of the heart. 
 
 
 

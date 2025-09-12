@@ -1,5 +1,5 @@
 ---
-sophie_and_winter: book, portrait-oriented
+sophie_and_winter: book, part, portrait-oriented
 theme: Winter departure from Paris to warm California, watercolor style
 ---
 
@@ -7,10 +7,10 @@ theme: Winter departure from Paris to warm California, watercolor style
 characters: hidden
 --
 @Sophie:  
-12 years old, girl, sun-touched light brown hair, orange long-sleeve, jeans, soft brown shoes.  
+11 years old, girl, sun-touched light brown hair, orange long-sleeve, jeans, soft brown shoes.  
 
 @Wind:  
-12 years old, boy, tousled blond hair, light blue hoodie and jeans. Looks same age as Sophie.
+11 years old, boy, tousled blond hair, light blue hoodie and jeans. Looks same age as Sophie.
 
 @eGull:
 A high wing electric ultralight, white, T-tail, gray propeller, tricycle gear, single gray seat, bubble canopy.
@@ -18,7 +18,7 @@ A high wing electric ultralight, white, T-tail, gray propeller, tricycle gear, s
 
 
 --
-front_cover: page, portrait-oriented
+part_cover: page, portrait-oriented
 --
 @title: text, centered, playful, rounded lettering, teal
 Part 1

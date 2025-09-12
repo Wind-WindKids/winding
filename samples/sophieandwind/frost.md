@@ -1,5 +1,5 @@
 ---
-sophie_and_frost: book, portrait-oriented
+sophie_and_frost: book, part, portrait-oriented
 theme: Winter, Jardin du Luxembourg, watercolor style
 ---
 
@@ -29,7 +29,7 @@ A slim, gray-green winter jacket with a zipper front, layered over a hoodie. Dar
 
 
 --
-front_cover: page, portrait-oriented, cover-front
+part_cover: page, portrait-oriented, cover-front
 --
 @title: text, centered, playful, rounded lettering, frosty white
 Part 2
@@ -91,7 +91,7 @@ Wind came to Paris for Christmas break —
 they’d planned to ski.  
 But after the fall, the mood wasn’t there.
 
-They still went, but took it easy,  
+They still went to the mountains, but took it easy,  
 wandering snowy streets, lingering in warm cafés,  
 breathing the thin, bright air.
 

@@ -1,10 +1,10 @@
 ---
-wind_and_ice: book, portrait-oriented
+wind_and_ice: book, part, portrait-oriented
 theme: Winter, Jardin du Luxembourg, watercolor style
 ---
 
 --
-front_cover: page, portrait-oriented, cover-front
+part_cover: page, portrait-oriented, cover-front
 --
 @title: text, centered, playful, rounded lettering, ice blue  
 Part 3
