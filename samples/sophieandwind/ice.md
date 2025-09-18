@@ -8,14 +8,15 @@ part_cover: page, portrait-oriented, cover-front
 --
 @title: text, centered, playful, rounded lettering, ice blue  
 Part 3
-Wind and Ice
+Sophie and Ice
 
 @image: 
 Two eGulls, at the empty airfield in California, winter, low sun, long shadows, frost on the ground, clear sky.
 
+Can you do a matching page, similar background with that ice texture, same small font
 
 --
-brother: page, text
+brother: page, text, small
 --
 At home, Sophie’s brother, usually lighthearted and bright,  
 had a tired look. She said hi and dropped onto the sofa,  
@@ -26,15 +27,18 @@ It’s just been a rough time for everyone.”
 
 “What happened?”  
 
-“Nothing I planned.”  
+“Nothing I planned,”  he said.
 
-He paused, eyes back on the phone.  
-
+He paused, eyes back on the phone, 
 “Wanna talk? You and Wind?”  
 
-Sophie shook her head. “Not really.”  
+Sophie shook her head, “Not really.”  
 
-“Yeah.” He set the phone down. “Me neither.”  
+
+--
+brother_right: page, text, small
+--
+“Yeah.” He set the phone down. “Me neither.”
 
 They exchanged a look.  
 
@@ -44,21 +48,19 @@ He looked into the distance.
 
 @image:  
 Sophie and her brother in their Paris living room, late afternoon light.  
-He sits slouched in a chair, phone in hand, looking weary.  
+He sits slouched in a chair, phone in hand, looking at the distance.  
 Sophie sits on the sofa across from him, half-turned his way.  
 The atmosphere is subdued, muted winter tones,  
 a sense of distance and quiet heaviness.
+
+@brother: around fourteen, slim built, relaxed, preppy, looking at the distance, light brown hair, hazel eyes, light brown sweater, shirt collar, dark blue pants.
 
 --
 iced: page, text
 --
 A week later, on another continent,  
 it was the very first day of civics class for Wind.
-
---
-unfair_quiz: page, text
---
-A quiz came at the end of class.
+A quiz came at the end of class. 
 Wind stared at the questions. 
 
 Someone raised a hand, 
@@ -71,10 +73,13 @@ It wasn’t.
 
 It came back with a red mark at the top: 17%.
 
-@image:
+--
+quiz: page, image, portrait-oriented
+--
 Wind sitting at his school desk, looking frustrated, a civics quiz paper in front of him with a big red "17%" at the top. Around him, other students are focused on their work, and the classroom has posters about government and history on the walls.
 
 Quiz questions are visible on the paper:
+@paper:
 1. In Civitatibus Foederatis, num ignorantia iuris excusat?
 2. Habentne pueri eadem iura ac adulti?
 3. In Civitatibus Foederatis, suntne omnes sub lege aequales?

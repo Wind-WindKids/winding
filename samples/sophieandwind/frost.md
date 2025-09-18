@@ -18,6 +18,7 @@ A girl of about twelve, slim but beginning to show the taller, more defined prop
 @eGull:
 A high wing electric ultralight, white, T-tail, gray propeller, tricycle gear, single gray seat, bubble canopy.
 
+
 --
 clothes: hidden
 --
@@ -169,6 +170,7 @@ Fog
 --
 new_semester: spread, landscape-oriented
 --
+@left: page, text
 They started the new semester together.
 Classes, homework.
 
@@ -181,10 +183,13 @@ Now they would take two eGulls into the air,
 practicing side by side, 
 or chasing lift in the hills that started to turn green.
 
+@right: image
+Two eGulls flying side by side, one slightly ahead.
+
 --
-egull_takeoff: spread, landscape-oriented
+egull_takeoff: page, portrait-oriented
 --
-@left: page, text, portrait-oriented
+@text: small, dark
 On Sunday the fog had burned off by mid-morning.  
 Two white eGulls sat ready on the field, canopies glinting.
 
@@ -193,16 +198,11 @@ In the second eGull, Sophie did the same, the sunlight playing in her hair.
 
 The Dragons came alive together.  
 Wind eased the throttle forward. 
-The eGull rolled, lifted, and the horizon dropped away.  
-On the parallel runway, Sophie climbed alongside.
+The eGull rolled, lifted, and the horizon dropped away.
 
+@image:
+airport strip is visible, in the distance an eGull is taking off, another waiting. colorful air
 
-@right: image, portrait-oriented
-Two white eGulls taking off in parallel, 
-the sun breaking through the morning fog, hills
-
-@eGull: aircraft, electric, white 
-A sleek ultralight electric aircraft, high-wing monoplane, tricycle landing gear. A bubble canopy for a single pilot. Engine is small, sleek and aerodynamic. High T-tail. The fuselage is short and smooth, tapering to the tail, giving it a light, glider-like look.
 
 --
 not_level: spread, landscape-oriented
@@ -231,8 +231,9 @@ Wind’s eGull flying in a distance, the sun bright.
 egull_rolling: spread, landscape-oriented
 --
 @left: page, text, portrait-oriented
-The next day, they lined up on the parallel runways again — 
-“This is a tricky one,” — Wind said, “but you can do it.”
+The next day, they were flying  again — 
+“This is a tricky one,” — 
+Wind said, “but you can do it.”
 
 She lowered her canopy and started her checklist.
 
@@ -243,11 +244,15 @@ her Dragon advised, calm and clear.
 Sophie’s eGull began its takeoff roll, 
 A gust hit, hard. The eGull veered left, then right.
 
-“Abort the takeoff—Abort now—” her Dragon’s voice was quick now, firm.
+“Abort the takeoff—Abort now—” 
+her Dragon’s voice was quick now, firm.
 But Sophie kept chasing the centerline. 
 
 Another gust — stronger, the right wing lifted.
 Still on the ground, the eGull started to roll on one wheel.
+
+@background:
+windy, background only, no airplanes or people
 
 
 @right: image, portrait-oriented
@@ -274,15 +279,6 @@ Wind thought she’d had a rough time.
 He landed, came to comfort her.
 “I’m fine,” she said again.
 
-
-
---
-scared: spread, landscape-oriented
---
-It wasn’t the gusts that had scared her most — 
-it was the Dragon taking control.
-She felt like that day in Paris.
-
 @right: image, portrait-oriented 
 Cockpit view, Sophie in a headset, sitting in her eGull, 
 holding the control stick with her right hand. 
@@ -294,76 +290,24 @@ Sophie’s face tense.
 
 
 --
-closed_door: spread, landscape-oriented
+scared: spread, landscape-oriented
 --
-@left: page, text
-Wind felt helpless. Their easy trust — 
-nothing between them — was gone. 
+It wasn’t the gusts that had scared her most — 
+it was the Dragon taking control.
+She felt like that day in Paris.
 
-He tried — warm tea with a flower smell,
-her rose mug with “kindness” on it.
-
-“Don’t move my stuff,” Sophie said, pointing to the bag.
-
-“It's in the doorway,” he said. “I put it back.”
-
-She stepped into the doorway. “Leave it.”
-
-She looked at him, eyes hard. He left. 
-And the door closed softly between them. 
-The latch clicked.
-
-They were like two young seagulls in a gust — 
-stalling, tumbling, feathers ruffled — 
-dropping toward the ocean. 
-The water hit like ice.
-
-
-@right: page, image
-The bag in the doorway, the door is closed.
-
-
---
-relationships_work: spread, landscape-oriented
---
-@left: page, text, portrait-oriented
-Sophie wasn’t sure what had come over her.
-
-That night, she took out her journal —  
-she was taught that she should work on  
-relationships and ask for help and support.
-
-She wrote:  
-“Today we went flying and I almost died.  
-The Dragon never even said sorry. 
-And Wind thought it was my own mistake.”
-
-She whispered into the silence, 
-asking for help and support.
-
-Then flipped back through the journal. 
-The pages were filled with her worst memories —  
-arguments, accidents, hurts.
-  
-She never thought to write down the best ones.  
-Or simply talk to her brother.
-
-By morning she’d decided: *she was done with Wind*.
-
-@comment: hidden
-Empathy, self-awareness, attention, care, play, compatibility, common interests and external factors. "work" comes way down the list and easily can be negative.
 
 
 --
 ice: spread, landscape-oriented
 --
-The next day the eGull was ready to fly again, but Sophie never came back to the cockpit.
-Her headset gathered dust in the hangar, the eGull sat silent.
+The next day the eGull was ready to fly again, 
+but Sophie decided she didn’t want to go up.
 
-She still saw Wind, but only on the ground — in cafés, on bike rides, in the park.
-The sky no longer seemed to call her.
+She still spent time with Wind, but only on the ground — 
+the sky no longer seemed to call her.
 
-While Wind was out at the airfield, she’d found a different routine.
+While Wind was out at the airfield, she’d found a different routine. 
 She liked the library and an old stone church courtyard nearby.
 
 When he asked why, she just shrugged.
@@ -413,6 +357,12 @@ Wind tried to breathe and couldn’t.
 Sophie is parroting what she was taught, without understanding the impact. Words were drilled into her head, and empathy was not a part of that lesson. 
 
 --
+walking_away: image, portrait-oriented
+--
+Sophie and Wind, she is walking away, in the background a field, a few trees, park, distant playground, field, school looking structures. grass is green and sky is blue, winter time in a norcal suburb
+
+
+--
 sunday_flight: spread, landscape-oriented
 --
 He went to the airfield anyway.
@@ -434,6 +384,73 @@ Without Sophie, it wasn’t flying.
 It was just… being in the air.
 
 
+
+--
+relationships_work: spread, landscape-oriented
+--
+@left: page, text, portrait-oriented
+Sophie wasn’t sure what had come over her.
+
+That night, she took out her journal —  
+she was taught that she should work on  
+relationships and ask for help and support.
+
+She wrote:  
+“Today we went flying and I almost died.  
+The Dragon never even said sorry. 
+And Wind thought it was my own mistake.”
+
+She whispered into the silence, 
+asking for help and support.
+
+Then flipped back through the journal. 
+The pages were filled with her worst memories —  
+arguments, accidents, hurts.
+  
+She never thought to write down the best ones.  
+Or simply talk to her brother.
+
+By morning she’d decided: *she was done with Wind*.
+
+@comment: hidden
+Empathy, self-awareness, attention, care, play, compatibility, common interests and external factors. "work" comes way down the list and easily can be negative.
+
+
+--
+closed_door: spread, landscape-oriented
+--
+@left: page, text
+Wind felt helpless. Their easy trust — 
+nothing between them — was gone. 
+
+He tried — warm tea with a flower smell,
+her rose mug with “kindness” on it.
+
+“Don’t move my stuff,” Sophie said, pointing to the bag.
+
+“It's in the doorway,” he said. “I put it back.”
+
+She stepped into the doorway. “Leave it.”
+
+She looked at him, eyes hard. He left. 
+And the door closed softly between them. 
+The latch clicked.
+
+They were like two young seagulls in a gust — 
+stalling, tumbling, feathers ruffled — 
+dropping toward the ocean. 
+The water hit like ice.
+
+@right: page, image
+The bag in the doorway, the door is closed.
+
+
+--
+unhappy_departure: page, image
+--
+Sophie and Wind at the airport, not smiling, standing apart.
+
+
 --
 departure: page, text
 --
@@ -448,10 +465,8 @@ He tried again.
 Nothing.
 
 --
-epilogue: spread, landscape-oriented
+back: spread, landscape-oriented
 --
-Epilogue — Back to Paris
-
 When Sophie got back to Paris, 
 her parents were waiting.
 

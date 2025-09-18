@@ -235,6 +235,8 @@ renewed_castle: page, image, portrait-oriented
 --
 Sophie and Wind at a small café table in a green Paris square, each with a pistachio ice-cream cone; two mugs on the table. Behind them, a friendly, castle silhouette: soft turrets, blue roofs, small banners, kites drift overhead, it looks suspiciously like Notre-Dame. A giant golden dragon kite is soaring above that castle. A playground and strolling families dot the lawn. Watercolor light, bright and kind.
 
+@Notre-Dame: A reimagined Notre-Dame rendered as a castle: a perfectly symmetrical façade with twin square towers, each crowned by a blue conical spire and orange pennant; a steep blue pyramidal roof over the central nave; a large rose window centered above the iconic triple pointed portals; vertical buttress-like piers and narrow lancet openings articulating the towers; bands of blind arcades across the mid-façade; and small corner turrets and side aisles capped with matching blue pyramidal roofs—preserving the classic twin-towers + rose-window + triple-portal silhouette in castle form. All in warm, sunlit honey-stone that gives the whole structure a softly inviting look.
+
 
 --
 hello_world: spread, landscape-oriented
@@ -248,7 +250,7 @@ Together.
 
 Sophie and Wind were ordinary children.  
 
-But they knew the rules were not the same everywhere,  
+But they knew the rules weren't the same everywhere,  
 and that sometimes they could write their own.  
 In the sky.  
 

@@ -684,10 +684,8 @@ Glass walls at San Francisco International. No people visible.
 
 
 --
-epilogue: page, text, centered
+winter_epilogue: page, text, centered
 --
-Epilogue
-
 Somewhere over the ocean, 
 Sophie closed her eyes.  
 
