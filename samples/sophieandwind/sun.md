@@ -197,7 +197,7 @@ giving him a quick kiss on the cheek,
 when you made it through a window?”  
 
 “Almost!” Wind grinned. 
-“They don't make you wear a seatbelt,
+“They don't force you to stay,
 but it sure feels like it.”
 
 Sophie nodded, a bit worried. 
@@ -206,7 +206,7 @@ but not anymore. Not here.
 It's you who decide.”
 
 “They can’t force you,” Wind said,
-“but it is important to go.”
+“but it matters.”
 
 
 --
@@ -219,7 +219,7 @@ And it makes everything closed on Sundays —
 pharmacies, cafés — nonsense.”
 
 “It’s not nonsense,” Wind said. 
-“Think about it. Why was everything closed?”
+“You know why everything was closed?”
 
 He picked up a stick and drew in the dust.
 
@@ -243,23 +243,19 @@ what kids may need, and keeps tape” — Wind said.
 “When you’re part of it, people can help you — and 
 good old ideas are there, waiting— patient as cats.”
 
-“Yeah, I remember that civics teacher now,” 
-Sophie said, “It’s like cats— once you feed one, 
-the whole porch shows up, and then they turn you 
-into a cat. And cats keep it warm together— and purr.”
+“Yeah, I remember that civics class now, It's like 
+story-cats, you feed one, the whole porch shows up, 
+and then they turn you into a cat. And cats 
+keep it warm together— and purr, and— 
+remember being more than a cat.”
 
-“There was also: kindly use respectful, nuanced words. 
-And that it’s like math—it works; don't miss it.” — 
-Wind said.
+“Yeah. At least we can go together, I wish they 
+served ice cream. That would be nice,” Wind added.
 
-“Yeah. At least we’re lucky we can go to the 
-same service. And I wish they served ice cream,”
-Sophie added. “That would be nice.”
-
-“Come on,” Wind said. “New place—pistachio.”
+“Come on, new place—pistachio.”
 
 @comment: hidden
-The keyword here is memeplex, a cluster of ideas that reinforce each other. When such set also creates a social network, and such network is global, and it persists for millennia, it is a good indicator that this particular memeplex is really working. Ideas or stories are not matter, they are information. And a memeplex is an informational structure, interconnected, self-reinforcing and useful - similar to math. It is as divine as math, and it works.
+The keyword here is agentic memeplex, a cluster of ideas that reinforce each other. When such set also creates a social network, and such network is global, and it persists for millennia, it is a good indicator that this particular memeplex is really working. Ideas or stories are not matter, they are information. And a memeplex is an informational structure, interconnected, self-reinforcing and useful - similar to math. It is as divine as math, and it works.
 
 --
 closing_reflection: page, text, centered
