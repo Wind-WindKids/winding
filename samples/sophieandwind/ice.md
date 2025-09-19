@@ -59,14 +59,15 @@ a sense of distance and quiet heaviness.
 iced: page, text
 --
 A week later, on another continent,  
-it was the very first day of civics class for Wind.
+it was a civics class for Wind.
 A quiz came at the end of class. 
 Wind stared at the questions. 
 
 Someone raised a hand, 
 “We haven’t covered this yet.”
 
-“It’s in the syllabus, between lines twelve and thirteen,” 
+“It’s in the syllabus, 
+between lines twelve and thirteen,” 
 the teacher said, without looking up.
 
 It wasn’t.

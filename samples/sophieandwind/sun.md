@@ -59,7 +59,7 @@ because it’s the sun that makes the wind,
 and because it’s Sunday, Wind isn't at school.
 So can I just go to the park instead?”
 
-“Sophie, it is important. 
+“Sophie, I can't force you, but it is important. 
 Everyone is going to be there.”
 
 “Please?”
@@ -74,7 +74,7 @@ And Sophie headed straight toward the park.
 kite_in_trouble: spread, landscape-oriented
 --
 @left: page, text
-In the park, Sophie saw three kids from a
+In the park, Sophie saw two kids from a
 kite workshop she and Wind had been leading,
 where kids would make and fly dragon kites.
 
@@ -92,7 +92,7 @@ a paper square, and a phone,
 “But we do need tape,” she said.
 
 @right: page, image
-Three kids across the grass field, 
+Two kids across the grass field, 
 a huge dragon kite tumbling down on them.
 Sophie walking. Sunlit grass, playful breeze.
 
@@ -197,7 +197,7 @@ giving him a quick kiss on the cheek,
 when you made it through a window?”  
 
 “Almost!” Wind grinned. 
-“They don't force you to stay, 
+“They don't make you wear a seatbelt,
 but it sure feels like it.”
 
 Sophie nodded, a bit worried. 
@@ -205,8 +205,58 @@ Sophie nodded, a bit worried.
 but not anymore. Not here.
 It's you who decide.”
 
-“Come on,” Wind said, “Let’s go get ice cream. 
-There's a new place, they have pistachio.”
+“They can’t force you,” Wind said,
+“but it is important to go.”
+
+
+--
+dots: page, text, centered
+--
+“You sound like my mom,” Sophie said. 
+“I’ve always believed, even when it felt 
+like nonsense. It never helped me.
+And it makes everything closed on Sundays —
+pharmacies, cafés — nonsense.”
+
+“It’s not nonsense,” Wind said. 
+“Think about it. Why was everything closed?”
+
+He picked up a stick and drew in the dust.
+
+"Look—" A dot. "That's your mom. 
+Another dot. "Madame Madeleine." 
+Another. "Me." He connected them with lines.
+
+He drew one dot a little outside the web. 
+"This is you in the park today. 
+Still connected" — he drew a line to the web — 
+"but not lit up. Not getting the full signal."
+
+“So... it’s like not checking the social feed?” 
+Sophie asked, “it’s not that important.”
+
+
+--
+memeplex: page, text, centered
+--
+“Closer to how Madame Madeleine knows 
+what kids may need, and keeps tape” — Wind said.
+“When you’re a part, people can help you — and 
+good old ideas are there, waiting— patient as cats.”
+
+“Yeah, I remember that civics teacher now,” 
+Sophie said, “a social network that’s been 
+going for two thousand years? Right — 
+the memeplex; heaven on earth.”
+
+“He also said — kindly use respectful, nuanced 
+words, like tradition or religion” — Wind said.
+
+“Yeah. At least we’re lucky we can go to the 
+same service. And I wish they served ice cream,”
+Sophie added. “That would be nice.”
+
+“Come on,” Wind said. “New place—pistachio.”
 
 --
 closing_reflection: page, text, centered
