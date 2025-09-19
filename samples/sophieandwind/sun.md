@@ -232,13 +232,12 @@ He drew one dot a little outside the web.
 Still connected" — he drew a line to the web — 
 "but not lit up. Not getting the full signal."
 
-“So— like skipping the social feed?” 
-Sophie shrugged, “I’m fine. Not important.”
-
-
 --
 memeplex: page, text, centered
 --
+“So— like skipping the social feed?” 
+Sophie shrugged, “I’m fine. Not important.”
+
 “Closer to how Madame Madeleine knows 
 what kids may need, and keeps tape” — Wind said.
 “When you’re a part of it, people can help you — and 
@@ -249,7 +248,7 @@ Sophie said, “a social network that’s been
 going for two thousand years? Right — 
 the memeplex; heaven on earth.”
 
-“He also said — kindly use respectful, nuanced 
+“There was also: kindly use respectful, nuanced 
 words, like tradition or religion” — Wind said.
 
 “Yeah. At least we’re lucky we can go to the 
