@@ -232,8 +232,8 @@ He drew one dot a little outside the web.
 Still connected" — he drew a line to the web — 
 "but not lit up. Not getting the full signal."
 
-“So... it’s like not checking the social feed?” 
-Sophie asked, “it’s not that important.”
+“So— like skipping the social feed?” 
+Sophie shrugged, “I’m fine. Not important.”
 
 
 --
