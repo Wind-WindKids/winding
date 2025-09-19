@@ -224,7 +224,7 @@ pharmacies, cafés — nonsense.”
 He picked up a stick and drew in the dust.
 
 "Look—" A dot. "That's your mom. 
-Another dot. "Madame Madeleine." 
+Another dot. "Dad." Another. "Madame Madeleine." 
 Another. "Me." He connected them with lines.
 
 He drew one dot a little outside the web. 
@@ -232,8 +232,12 @@ He drew one dot a little outside the web.
 Still connected" — he drew a line to the web — 
 "but not lit up. Not getting the full signal."
 
+@image:
+Wind drawing dots and lines on a globe with 
+continents sketched with dust.
+
 --
-memeplex: page, text, centered
+cats: page, text, centered
 --
 “So— like skipping the social feed?” 
 Sophie shrugged, “I’m fine. Not important.”
@@ -255,7 +259,7 @@ served ice cream. That would be nice,” Wind added.
 “Come on, new place—pistachio.”
 
 @comment: hidden
-The keyword here is agentic memeplex, a cluster of ideas that reinforce each other. When such set also creates a social network, and such network is global, and it persists for millennia, it is a good indicator that this particular memeplex is really working. Ideas or stories are not matter, they are information. And a memeplex is an informational structure, interconnected, self-reinforcing and useful - similar to math. It is as divine as math, and it works.
+The keyword here is agentic memeplex, a cluster of ideas that reinforce each other. When such set also creates a social network, and such network is global, and it persists for millennia, it is a good indicator that this particular memeplex is really working. Ideas or stories are not matter, they are information. And a memeplex is an informational structure, interconnected, self-reinforcing and useful - similar to math. It is refined, as divine as math is, and it works.
 
 --
 closing_reflection: page, text, centered
