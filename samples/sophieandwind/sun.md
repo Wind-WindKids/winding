@@ -59,10 +59,10 @@ because it’s the sun that makes the wind,
 and because it’s Sunday, Wind isn't at school.
 So can I just go to the park instead?”
 
-“Sophie, I can't force you, but it is important. 
+“Sophie, it is important. 
 Everyone is going to be there.”
 
-“Please?”
+“I don't want to, and you can't force me. Please?”
 
 “All right.”
 
@@ -244,12 +244,12 @@ what kids may need, and keeps tape” — Wind said.
 good old ideas are there, waiting— patient as cats.”
 
 “Yeah, I remember that civics teacher now,” 
-Sophie said, “a social network that’s been 
-going for two thousand years? Right — 
-the memeplex; heaven on earth.”
+Sophie said, “a social network that’s been going 
+for two thousand years? Right — the memeplex.”
 
 “There was also: kindly use respectful, nuanced 
 words, like tradition or religion” — Wind said.
+“And that it’s like math—it works; don't miss it.”
 
 “Yeah. At least we’re lucky we can go to the 
 same service. And I wish they served ice cream,”

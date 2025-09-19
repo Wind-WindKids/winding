@@ -147,10 +147,10 @@ theme: watercolor style, futuristic, silver, colorful pencils, painting set, bru
 --
 
 Art
-The generative AI art in *Sophie and Ice* is not without flaws. If you'd like to illuminate your own version, please visit [wind.kids](https://wind.kids).
+The generative AI art in *Sophie and Wind* is not without flaws. If you'd like to illuminate your own version, please visit [wind.kids](https://wind.kids).
 
 Acknowledgments
-Special thanks to the many magnificent ones—large and small—who have opened access to their models, technologies, and the modern digital art workshop: a true bicycle-for-the-mind. Without these tools, Sophie and Ice would never have fit within the constraints of everyday life, and simply wouldn’t have been possible.
+Special thanks to the many magnificent ones—large and small—who have opened access to their models, technologies, and the modern digital art workshop: a true bicycle-for-the-mind. Without these tools, Sophie and Wind would never have fit within the constraints of everyday life, and simply wouldn’t have been possible.
 
 What began as a bike is now almost a fusion-powered flying dragon for the mind.
 
@@ -183,7 +183,7 @@ Story by Wind and Ariane Windkid
 
 @page: text, small
 Licensing
-Text and source code components of Sophie and Ice are licensed under CC-BY 4.0. All imagery in Sophie and Ice—with the exception of the front and back covers—is licensed under CC-BY-NC 4.0. The cover illustrations are not included in this license and may not be reproduced, published, or distributed without explicit permission: wind@sophieandwind.com
+Text and source code components of Sophie and Wind are licensed under CC-BY 4.0. All imagery in Sophie and Wind—with the exception of the front and back covers—is licensed under CC-BY-NC 4.0. The cover illustrations are not included in this license and may not be reproduced, published, or distributed without explicit permission: wind@sophieandwind.com
 
 
 
