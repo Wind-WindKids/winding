@@ -241,7 +241,7 @@ memeplex: page, text, centered
 --
 “Closer to how Madame Madeleine knows 
 what kids may need, and keeps tape” — Wind said.
-“When you’re a part, people can help you — and 
+“When you’re a part of it, people can help you — and 
 good old ideas are there, waiting— patient as cats.”
 
 “Yeah, I remember that civics teacher now,” 
