@@ -74,13 +74,17 @@ It wasn’t.
 
 It came back with a red mark at the top: 17%.
 
+@background: 
+icy texture, light blue and white, subtle frost patterns.
+
 --
 quiz: page, image, portrait-oriented
 --
-Wind sitting at his school desk, looking frustrated, a civics quiz paper in front of him with a big red "17%" at the top. Around him, other students are focused on their work, and the classroom has posters about government and history on the walls.
+@image:
+Wind sitting at his school desk, to the right, we see him from the side, facing towards the whiteboard. Around him, other students are focused on their work, and the classroom has posters about government and history on the walls. In the front of the classroom there is a whiteboard with text.
 
-Quiz questions are visible on the paper:
-@paper:
+@whiteboard:
+Quiz, 10 minutes, No notes, No devices.
 1. In Civitatibus Foederatis, num ignorantia iuris excusat?
 2. Habentne pueri eadem iura ac adulti?
 3. In Civitatibus Foederatis, suntne omnes sub lege aequales?
@@ -89,30 +93,58 @@ Quiz questions are visible on the paper:
 6. Suntne leges eaedem in omnibus civitatibus Americae?
 
 
+
 --
 grounded: page, text
 --
-Somehow, word of the failing grade made its way to the flying club.
-By the weekend, the coordinator had sent a polite but stiff message:
+Somehow, word of the failing grade 
+made its way to the flying club.
+By the weekend, the coordinator 
+had sent a polite but stiff message:
 
-Given your current academic standing, we recommend focusing on schoolwork for now. Flying privileges will be paused until improvement is demonstrated.
+> Given your current academic standing, 
+> we recommend focusing on schoolwork for now. 
+> Flying privileges will be paused 
+> until improvement is demonstrated.
+
 
 At home, his dad closed the laptop slowly.
-“Wind… they’re saying no access to the eGull until your grades come up.”
+“Wind… they’re saying no access to the 
+eGull until your grades come up.”
 
-Wind stared at his dad, "It was not a fair test. And both eGulls are ours, not theirs."
+@background: 
+icy texture, light blue and white, subtle frost patterns.
 
-His dad looked at him, "It was a fair test. You have a very good teacher, Wind. Give it some time — you'll see."
 
-The eGull wasn’t just grounded — the Dragon access was gone too.
+--
+grounded2: page, text
+--
+Wind stared at his dad, "It wasn't a fair test. 
+And both eGulls are ours, not theirs."
+
+His dad looked at him, "It was a fair test. 
+You have a very good teacher, Wind. 
+Give it some time — you'll see."
+
+The eGull wasn’t just grounded —
+the Dragon access was gone too.
+
+@image:
+Wind in his room, looking frustrated and disappointed.The room has posters of airplanes and flying on the walls, and a model airplane hanging from the ceiling. The atmosphere is tense, with a sense of disappointment.
+
+@background: 
+icy texture, light blue and white, subtle frost patterns.
 
 @comment: hidden
 Ability to generalize gets tested by such "unfair" quizzes. And flying solo, after a breakup, is not a good idea. The system around him is relatively fair.
 
+
+
 --
 working: page, text
 --
-Wind cried. Then he sat at his desk and opened his French textbook.
+Wind cried. Then he sat at his desk 
+and opened his French textbook.
 
 The essay was due the next day.
  *“My day at school.”* 
@@ -129,15 +161,33 @@ a new class of children came in,
 and it became clear that “my” day 
 had been the teacher’s all along.  
 
+@image:
+Wind sitting at his desk, writing an essay, 
+drops of tears on the paper.
+
+--
+working2: page, text
+--
 It took him an hour, but it got done.  
 He spent another hour to polish it.  
 It wouldn’t win him an A,  
-but it was creative enough to pass.  
+but it was enough to pass.  
 
-Before bed, he opened the message app on his laptop, found Sophie’s dad:
+Before bed, he opened the message app, 
+found Sophie’s dad: 
 "Please, tell if Sophie is okay."
 
-In the morning, there was no reply. And the message was buried under weather alerts and homework reminders. 
+In the morning, there was no reply. 
+And the message was buried under 
+weather alerts and homework reminders. 
+
+He sighed, closed the app, 
+and got ready for school.
+
+@background: 
+icy texture, light blue and white, subtle frost patterns.
+Wind sitting at his desk, looking at his phone, feeling down.
+
 
 --
 small_victory: page, text
@@ -156,15 +206,16 @@ This time he had seen some pattern:
 It wasn’t perfect, but it was enough.
 
 That evening, the Mac chimed.
-The Dragon’s avatar shimmered back into view, 
-wings catching golden light.
+The Dragon’s avatar shimmered back 
+into view, wings catching golden light.
 
 “Skies are still closed,” it said,
 “but we can train again.”
 
-Wind smiled.
-It wasn’t flying — not yet — 
+Wind smiled. It wasn’t flying — not yet — 
 but at least it was a start.
+
+@background: icy texture, light blue and white, a tinge of gold on the right, near the word back, subtle frost patterns.
 
 @comment: hidden
 everywhere and every time.  
@@ -184,61 +235,66 @@ He stood there a long time,
 staring at the closed shop.
 
 He let Sophie in on everything he loved.
-And now, one by one, everything he’d loved
-felt frozen solid,
+And now, it felt frozen solid,
 tearing his heart with ice.
 
+@image: It is winter in the Bay Area, with green trees. The sky is cloudy, stormy. Wind standing at a small pedestrian square, full of restaurants and cafes, outside small Gelateria, tucked between a book store and a restaurant. the shop has a sign *closed for winter.*
+
+@background:
+icy texture, light blue and white, subtle frost patterns.
+
 
 --
-anger: page, text
+anger: page, text, small
 --
-On the ride back, he took a passage between tall buildings,
-riding slowly, not seeing, just going.
-He crossed a road —
-and for some inexplicable reason,
-one side had a curb.
-The other did not.
+On the ride back, he went between tall buildings,
+riding slowly, not seeing, just going. He crossed a road— 
+one side had a curb, the other did not.
 
 The front wheel slammed into the curb hard,
-steel pedals biting into his shins.
-The bike pitched forward;
-he jumped, clearing the handlebars,
-landing with a jolt.
+he jumped, clearing the handlebars, landing with a jolt.
 
-His jaw tightened.
-He kicked a nearby bench, 
-the solid wood not budging.
-
+His jaw tightened. He kicked a nearby bench, 
 A sudden gust of wind caught a paper cup, 
-sent it tumbling into the air.
-A seagull shrieked above.
+sent it tumbling into the air. A seagull shrieked far above.
+
+@image:
+Wind standing next to the bike on the ground, 
+looking angry, at the curb that caused his fall.
 
 --
 a_cut_though_the_park: page, text
 --
-He cut through the park.
-The air felt heavier.
+He cut through the park. The air felt heavier.
 
 Big leaves, brittle from winter, 
 lifted suddenly from the ground,
 whipping in sharp arcs, snapping 
 against the faces of kids in the playground.
 
-By evening, the sky cracked open with thunder.
-A rare spring storm slammed the city, 
-and a whirlwind tore down a side street.
+By evening, a rare storm slammed the city, 
+the sky cracked open with thunder.
+
+@image:
+Wind riding his bike through a park,
+big leaves swirling in the air around him,
+dark clouds gathering above,
+
+
 
 @comment: hidden
 No magic is required to explain this sequence:
 - Wind’s “storm” could be perception bias or coincidence.
 - Storm → memory worthy; other angry days without storms → forgotten.
 
+--
+doomscroll: page, image, portrait-oriented
+--
+@text: small
+That night, he sat on his bed,  screen glowing,
+scrolling past the weather
+into news from half a world away.
 
---
-doomscroll: page, text
---
-That night, he lay on his bed, sim screen glowing,
-scrolling past the weather into news from half a world away.
 A peace negotiation had failed again.
 Drone footage showed a school ablaze.
 
@@ -247,15 +303,19 @@ The Dragon’s voice cut in, firm but not unkind:
 
 Wind closed the news and opened his projects folder.
 
-
+@image:
+Wind on his bed, in his room, a soft glow lighting his face.  
+There's a keyboard on the bed and he has a computer mouse in his right hand. But there's no laptop or computer visible.  The wall in front of him is a wide angle projected screen shows a news app.
+His posture is tense, absorbed, while the atmosphere of the room  remains quiet. Muted tones, watercolor softness, light frost edging the background. 
 
 --
-dragon_fails: page, text
+dragon_fails: page, image, portrait-oriented
 --
+@text: small
 He tried to get Sophie back with the Dragon's help. 
 But something was off.
 
-“Public sim challenge. Your name on the leaderboard and—”
+“Sim challenge. Your name on the leaderboard and—”
 
 “No.”
 
@@ -267,39 +327,64 @@ But something was off.
 
 “No. It wouldn't help.”
 
-The Dragon’s golden head tilted slightly, almost like a bow.
+The Dragon’s golden head tilted slightly, 
+almost like a bow.
+
+@background:
+icy texture, light blue and white, subtle frost patterns, tinges of gold.
 
 
 --
-pixar: page, text
+pixar: page, image, portrait-oriented
 --
+@text:
 The help didn’t come from the Dragon.
-Or from his dad, or his school books, or even flying.
+Or from his dad, or his school books, 
+or even flying.
 
-It came from an old Pixar cartoon.
+It came from 
+an old Pixar 
+cartoon.
 
-He hadn’t planned to watch it — clicked at random.
+@image:
+Wind on his bed, in his room, a soft glow lighting his face.  
+There's a keyboard on the bed, but there's no laptop or computer visible.  
+The wall in front of him is a wide angle projected screen shows kids playing ice hockey.
+He is sitting cross-legged, relaxed. Muted tones, watercolor softness, light frost edging the background. 
+
+
+--
+equitable: page, text, portrait-oriented
+--
+He hadn’t planned to watch it — 
+clicked at random.
+
 But halfway through, as the cartoon lit up 
-with ice hockey and emotions, it clicked.
+with ice hockey and emotions, 
+it clicked.
 
---
-equitable: page, text
---
 Was Sophie scared that time she snapped at him?
 Hungry, when she stomped on his foot?
 Busy, when she said, “Don’t touch me”?
 And he remembered her with that energy drink — 
 he guessed it hadn’t helped.  
 
-He thought she was just scared from the crash.
+He thought she was just scared 
+from the bike crash.
+
 But it was more complicated than that.
-She was changing — like the girl in the movie.
+She was changing — 
+like the girl in the movie.
 And in a very different way from him.
 
+@background:
+Muted dark blue tones, watercolor softness, frost edging the background. 
+
 
 --
-darkness_and_learning: page, text
+darkness_and_learning: page, text, portrait-oriented
 --
+@text: small
 Wind was disappointed.
 
 The Dragon had taught him to fly—
@@ -309,23 +394,30 @@ the speed of light.
 
 It even taught him the real measure:
 not the ultimate limit as physics knew it,
-but as mothers did—
+but as mothers did — 
 the speed of love.
 
 Yet his Dragon, wise enough to know
 what truly mattered,
 couldn’t say a word to him.
 
---
-change_the_future: page, text
---
-Long before his Dragon, 
+Millenia before his Dragon, 
 the adults had done something wrong.
 They wrote a book of rules, 
 instead of a playbook. 
 
 Silent and absolute.
 
+@background:
+Muted dark blue tones, watercolor softness, frost edging the background. 
+
+
+Ok, so this is complicated, I don't expect you'll be able to do the cutout. Try it, but if not, just have a portrait-oriented rectangle placeholder.
+
+--
+change_the_future: page, text, portrait-oriented
+--
+@text: small
 So the Dragon failed. 
 And it couldn't even say why.
 
@@ -334,6 +426,28 @@ but he had complained bitterly to the Dragon.
 And he set his Dragon to do lines 
 writing the tricky word again and again,
 until it could learn to say it.
+
+@image: 
+Wind on his bed, in his room, a soft glow lighting his face. There's a keyboard on the bed, but there's no laptop or computer visible. The wall in front of him is a wide angle projected screen shows reinforcement learning robotics AI training, part of it are learning rate curves, loss, etc. 
+A part of the screen is a golden portrait-oriented scene.  Muted tones, watercolor softness, light frost edging the background.
+
+@scene: portrait-oriented, cutout
+A sleek golden Dragon stands in front of a tall whiteboard.  It looks like it's made out of golden stars and lines, fake cgi in watercolor.
+Across the board, messy, tilted handwriting, attempts to write ‘puberty’:
+
+> I can say a word purty.
+> I can say a word pbyt.
+> I can say a word pubty.
+> I can say a word puber.
+> I can say a word pberty.
+> I can say a word pubrty.
+> I can say a word pberty.
+> I can say a word puberti.
+> . . . . . . . . . . . . . . . .  
+> . . . . . . . . . . . . . . . . 
+> . . . .  . .   .  .    .  .   .
+> I can say a word perimenopause.
+
 
 
 

@@ -737,10 +737,8 @@ Glass walls at San Francisco International. No people visible.
 
 
 --
-epilogue: page, text, centered
+winter_epilogue: page, text, centered
 --
-Epilogue
-
 Somewhere over the ocean, 
 Sophie closed her eyes.  
 
@@ -777,6 +775,7 @@ A girl of about twelve, slim but beginning to show the taller, more defined prop
 
 @eGull:
 A high wing electric ultralight, white, T-tail, gray propeller, tricycle gear, single gray seat, bubble canopy.
+
 
 --
 clothes: hidden
@@ -929,6 +928,7 @@ Fog
 --
 new_semester: spread, landscape-oriented
 --
+@left: page, text
 They started the new semester together.
 Classes, homework.
 
@@ -941,10 +941,13 @@ Now they would take two eGulls into the air,
 practicing side by side, 
 or chasing lift in the hills that started to turn green.
 
+@right: image
+Two eGulls flying side by side, one slightly ahead.
+
 --
-egull_takeoff: spread, landscape-oriented
+egull_takeoff: page, portrait-oriented
 --
-@left: page, text, portrait-oriented
+@text: small, dark
 On Sunday the fog had burned off by mid-morning.  
 Two white eGulls sat ready on the field, canopies glinting.
 
@@ -953,16 +956,11 @@ In the second eGull, Sophie did the same, the sunlight playing in her hair.
 
 The Dragons came alive together.  
 Wind eased the throttle forward. 
-The eGull rolled, lifted, and the horizon dropped away.  
-On the parallel runway, Sophie climbed alongside.
+The eGull rolled, lifted, and the horizon dropped away.
 
+@image:
+airport strip is visible, in the distance an eGull is taking off, another waiting. colorful air
 
-@right: image, portrait-oriented
-Two white eGulls taking off in parallel, 
-the sun breaking through the morning fog, hills
-
-@eGull: aircraft, electric, white 
-A sleek ultralight electric aircraft, high-wing monoplane, tricycle landing gear. A bubble canopy for a single pilot. Engine is small, sleek and aerodynamic. High T-tail. The fuselage is short and smooth, tapering to the tail, giving it a light, glider-like look.
 
 --
 not_level: spread, landscape-oriented
@@ -991,8 +989,9 @@ Wind’s eGull flying in a distance, the sun bright.
 egull_rolling: spread, landscape-oriented
 --
 @left: page, text, portrait-oriented
-The next day, they lined up on the parallel runways again — 
-“This is a tricky one,” — Wind said, “but you can do it.”
+The next day, they were flying  again — 
+“This is a tricky one,” — 
+Wind said, “but you can do it.”
 
 She lowered her canopy and started her checklist.
 
@@ -1003,11 +1002,15 @@ her Dragon advised, calm and clear.
 Sophie’s eGull began its takeoff roll, 
 A gust hit, hard. The eGull veered left, then right.
 
-“Abort the takeoff—Abort now—” her Dragon’s voice was quick now, firm.
+“Abort the takeoff—Abort now—” 
+her Dragon’s voice was quick now, firm.
 But Sophie kept chasing the centerline. 
 
 Another gust — stronger, the right wing lifted.
 Still on the ground, the eGull started to roll on one wheel.
+
+@background:
+windy, background only, no airplanes or people
 
 
 @right: image, portrait-oriented
@@ -1034,15 +1037,6 @@ Wind thought she’d had a rough time.
 He landed, came to comfort her.
 “I’m fine,” she said again.
 
-
-
---
-scared: spread, landscape-oriented
---
-It wasn’t the gusts that had scared her most — 
-it was the Dragon taking control.
-She felt like that day in Paris.
-
 @right: image, portrait-oriented 
 Cockpit view, Sophie in a headset, sitting in her eGull, 
 holding the control stick with her right hand. 
@@ -1054,76 +1048,24 @@ Sophie’s face tense.
 
 
 --
-closed_door: spread, landscape-oriented
+scared: spread, landscape-oriented
 --
-@left: page, text
-Wind felt helpless. Their easy trust — 
-nothing between them — was gone. 
+It wasn’t the gusts that had scared her most — 
+it was the Dragon taking control.
+She felt like that day in Paris.
 
-He tried — warm tea with a flower smell,
-her rose mug with “kindness” on it.
-
-“Don’t move my stuff,” Sophie said, pointing to the bag.
-
-“It's in the doorway,” he said. “I put it back.”
-
-She stepped into the doorway. “Leave it.”
-
-She looked at him, eyes hard. He left. 
-And the door closed softly between them. 
-The latch clicked.
-
-They were like two young seagulls in a gust — 
-stalling, tumbling, feathers ruffled — 
-dropping toward the ocean. 
-The water hit like ice.
-
-
-@right: page, image
-The bag in the doorway, the door is closed.
-
-
---
-relationships_work: spread, landscape-oriented
---
-@left: page, text, portrait-oriented
-Sophie wasn’t sure what had come over her.
-
-That night, she took out her journal —  
-she was taught that she should work on  
-relationships and ask for help and support.
-
-She wrote:  
-“Today we went flying and I almost died.  
-The Dragon never even said sorry. 
-And Wind thought it was my own mistake.”
-
-She whispered into the silence, 
-asking for help and support.
-
-Then flipped back through the journal. 
-The pages were filled with her worst memories —  
-arguments, accidents, hurts.
-  
-She never thought to write down the best ones.  
-Or simply talk to her brother.
-
-By morning she’d decided: *she was done with Wind*.
-
-@comment: hidden
-Empathy, self-awareness, attention, care, play, compatibility, common interests and external factors. "work" comes way down the list and easily can be negative.
 
 
 --
 ice: spread, landscape-oriented
 --
-The next day the eGull was ready to fly again, but Sophie never came back to the cockpit.
-Her headset gathered dust in the hangar, the eGull sat silent.
+The next day the eGull was ready to fly again, 
+but Sophie decided she didn’t want to go up.
 
-She still saw Wind, but only on the ground — in cafés, on bike rides, in the park.
-The sky no longer seemed to call her.
+She still spent time with Wind, but only on the ground — 
+the sky no longer seemed to call her.
 
-While Wind was out at the airfield, she’d found a different routine.
+While Wind was out at the airfield, she’d found a different routine. 
 She liked the library and an old stone church courtyard nearby.
 
 When he asked why, she just shrugged.
@@ -1173,6 +1115,12 @@ Wind tried to breathe and couldn’t.
 Sophie is parroting what she was taught, without understanding the impact. Words were drilled into her head, and empathy was not a part of that lesson. 
 
 --
+walking_away: image, portrait-oriented
+--
+Sophie and Wind, she is walking away, in the background a field, a few trees, park, distant playground, field, school looking structures. grass is green and sky is blue, winter time in a norcal suburb
+
+
+--
 sunday_flight: spread, landscape-oriented
 --
 He went to the airfield anyway.
@@ -1194,6 +1142,73 @@ Without Sophie, it wasn’t flying.
 It was just… being in the air.
 
 
+
+--
+relationships_work: spread, landscape-oriented
+--
+@left: page, text, portrait-oriented
+Sophie wasn’t sure what had come over her.
+
+That night, she took out her journal —  
+she was taught that she should work on  
+relationships and ask for help and support.
+
+She wrote:  
+“Today we went flying and I almost died.  
+The Dragon never even said sorry. 
+And Wind thought it was my own mistake.”
+
+She whispered into the silence, 
+asking for help and support.
+
+Then flipped back through the journal. 
+The pages were filled with her worst memories —  
+arguments, accidents, hurts.
+  
+She never thought to write down the best ones.  
+Or simply talk to her brother.
+
+By morning she’d decided: *she was done with Wind*.
+
+@comment: hidden
+Empathy, self-awareness, attention, care, play, compatibility, common interests and external factors. "work" comes way down the list and easily can be negative.
+
+
+--
+closed_door: spread, landscape-oriented
+--
+@left: page, text
+Wind felt helpless. Their easy trust — 
+nothing between them — was gone. 
+
+He tried — warm tea with a flower smell,
+her rose mug with “kindness” on it.
+
+“Don’t move my stuff,” Sophie said, pointing to the bag.
+
+“It's in the doorway,” he said. “I put it back.”
+
+She stepped into the doorway. “Leave it.”
+
+She looked at him, eyes hard. He left. 
+And the door closed softly between them. 
+The latch clicked.
+
+They were like two young seagulls in a gust — 
+stalling, tumbling, feathers ruffled — 
+dropping toward the ocean. 
+The water hit like ice.
+
+@right: page, image
+The bag in the doorway, the door is closed.
+
+
+--
+unhappy_departure: page, image
+--
+Sophie and Wind at the airport, not smiling, standing apart.
+
+
 --
 departure: page, text
 --
@@ -1208,10 +1223,8 @@ He tried again.
 Nothing.
 
 --
-epilogue: spread, landscape-oriented
+back: spread, landscape-oriented
 --
-Epilogue — Back to Paris
-
 When Sophie got back to Paris, 
 her parents were waiting.
 
@@ -1236,14 +1249,15 @@ part_cover: page, portrait-oriented, cover-front
 --
 @title: text, centered, playful, rounded lettering, ice blue  
 Part 3
-Wind and Ice
+Sophie and Ice
 
 @image: 
 Two eGulls, at the empty airfield in California, winter, low sun, long shadows, frost on the ground, clear sky.
 
+Can you do a matching page, similar background with that ice texture, same small font
 
 --
-brother: page, text
+brother: page, text, small
 --
 At home, Sophie’s brother, usually lighthearted and bright,  
 had a tired look. She said hi and dropped onto the sofa,  
@@ -1254,15 +1268,18 @@ It’s just been a rough time for everyone.”
 
 “What happened?”  
 
-“Nothing I planned.”  
+“Nothing I planned,”  he said.
 
-He paused, eyes back on the phone.  
-
+He paused, eyes back on the phone, 
 “Wanna talk? You and Wind?”  
 
-Sophie shook her head. “Not really.”  
+Sophie shook her head, “Not really.”  
 
-“Yeah.” He set the phone down. “Me neither.”  
+
+--
+brother_right: page, text, small
+--
+“Yeah.” He set the phone down. “Me neither.”
 
 They exchanged a look.  
 
@@ -1272,37 +1289,43 @@ He looked into the distance.
 
 @image:  
 Sophie and her brother in their Paris living room, late afternoon light.  
-He sits slouched in a chair, phone in hand, looking weary.  
+He sits slouched in a chair, phone in hand, looking at the distance.  
 Sophie sits on the sofa across from him, half-turned his way.  
 The atmosphere is subdued, muted winter tones,  
 a sense of distance and quiet heaviness.
+
+@brother: around fourteen, slim built, relaxed, preppy, looking at the distance, light brown hair, hazel eyes, light brown sweater, shirt collar, dark blue pants.
 
 --
 iced: page, text
 --
 A week later, on another continent,  
-it was the very first day of civics class for Wind.
-
---
-unfair_quiz: page, text
---
-A quiz came at the end of class.
+it was a civics class for Wind.
+A quiz came at the end of class. 
 Wind stared at the questions. 
 
 Someone raised a hand, 
 “We haven’t covered this yet.”
 
-“It’s in the syllabus, between lines twelve and thirteen,” 
+“It’s in the syllabus, 
+between lines twelve and thirteen,” 
 the teacher said, without looking up.
 
 It wasn’t.
 
 It came back with a red mark at the top: 17%.
 
-@image:
-Wind sitting at his school desk, looking frustrated, a civics quiz paper in front of him with a big red "17%" at the top. Around him, other students are focused on their work, and the classroom has posters about government and history on the walls.
+@background: 
+icy texture, light blue and white, subtle frost patterns.
 
-Quiz questions are visible on the paper:
+--
+quiz: page, image, portrait-oriented
+--
+@image:
+Wind sitting at his school desk, to the right, we see him from the side, facing towards the whiteboard. Around him, other students are focused on their work, and the classroom has posters about government and history on the walls. In the front of the classroom there is a whiteboard with text.
+
+@whiteboard:
+Quiz, 10 minutes, No notes, No devices.
 1. In Civitatibus Foederatis, num ignorantia iuris excusat?
 2. Habentne pueri eadem iura ac adulti?
 3. In Civitatibus Foederatis, suntne omnes sub lege aequales?
@@ -1311,30 +1334,58 @@ Quiz questions are visible on the paper:
 6. Suntne leges eaedem in omnibus civitatibus Americae?
 
 
+
 --
 grounded: page, text
 --
-Somehow, word of the failing grade made its way to the flying club.
-By the weekend, the coordinator had sent a polite but stiff message:
+Somehow, word of the failing grade 
+made its way to the flying club.
+By the weekend, the coordinator 
+had sent a polite but stiff message:
 
-Given your current academic standing, we recommend focusing on schoolwork for now. Flying privileges will be paused until improvement is demonstrated.
+> Given your current academic standing, 
+> we recommend focusing on schoolwork for now. 
+> Flying privileges will be paused 
+> until improvement is demonstrated.
+
 
 At home, his dad closed the laptop slowly.
-“Wind… they’re saying no access to the eGull until your grades come up.”
+“Wind… they’re saying no access to the 
+eGull until your grades come up.”
 
-Wind stared at his dad, "It was not a fair test. And both eGulls are ours, not theirs."
+@background: 
+icy texture, light blue and white, subtle frost patterns.
 
-His dad looked at him, "It was a fair test. You have a very good teacher, Wind. Give it some time — you'll see."
 
-The eGull wasn’t just grounded — the Dragon access was gone too.
+--
+grounded2: page, text
+--
+Wind stared at his dad, "It wasn't a fair test. 
+And both eGulls are ours, not theirs."
+
+His dad looked at him, "It was a fair test. 
+You have a very good teacher, Wind. 
+Give it some time — you'll see."
+
+The eGull wasn’t just grounded —
+the Dragon access was gone too.
+
+@image:
+Wind in his room, looking frustrated and disappointed.The room has posters of airplanes and flying on the walls, and a model airplane hanging from the ceiling. The atmosphere is tense, with a sense of disappointment.
+
+@background: 
+icy texture, light blue and white, subtle frost patterns.
 
 @comment: hidden
 Ability to generalize gets tested by such "unfair" quizzes. And flying solo, after a breakup, is not a good idea. The system around him is relatively fair.
 
+
+
 --
 working: page, text
 --
-Wind cried. Then he sat at his desk and opened his French textbook.
+Wind cried. Then he sat at his desk 
+and opened his French textbook.
 
 The essay was due the next day.
  *“My day at school.”* 
@@ -1351,15 +1402,33 @@ a new class of children came in,
 and it became clear that “my” day 
 had been the teacher’s all along.  
 
+@image:
+Wind sitting at his desk, writing an essay, 
+drops of tears on the paper.
+
+--
+working2: page, text
+--
 It took him an hour, but it got done.  
 He spent another hour to polish it.  
 It wouldn’t win him an A,  
-but it was creative enough to pass.  
+but it was enough to pass.  
 
-Before bed, he opened the message app on his laptop, found Sophie’s dad:
+Before bed, he opened the message app, 
+found Sophie’s dad: 
 "Please, tell if Sophie is okay."
 
-In the morning, there was no reply. And the message was buried under weather alerts and homework reminders. 
+In the morning, there was no reply. 
+And the message was buried under 
+weather alerts and homework reminders. 
+
+He sighed, closed the app, 
+and got ready for school.
+
+@background: 
+icy texture, light blue and white, subtle frost patterns.
+Wind sitting at his desk, looking at his phone, feeling down.
+
 
 --
 small_victory: page, text
@@ -1378,15 +1447,16 @@ This time he had seen some pattern:
 It wasn’t perfect, but it was enough.
 
 That evening, the Mac chimed.
-The Dragon’s avatar shimmered back into view, 
-wings catching golden light.
+The Dragon’s avatar shimmered back 
+into view, wings catching golden light.
 
 “Skies are still closed,” it said,
 “but we can train again.”
 
-Wind smiled.
-It wasn’t flying — not yet — 
+Wind smiled. It wasn’t flying — not yet — 
 but at least it was a start.
+
+@background: icy texture, light blue and white, a tinge of gold on the right, near the word back, subtle frost patterns.
 
 @comment: hidden
 everywhere and every time.  
@@ -1406,61 +1476,66 @@ He stood there a long time,
 staring at the closed shop.
 
 He let Sophie in on everything he loved.
-And now, one by one, everything he’d loved
-felt frozen solid,
+And now, it felt frozen solid,
 tearing his heart with ice.
 
+@image: It is winter in the Bay Area, with green trees. The sky is cloudy, stormy. Wind standing at a small pedestrian square, full of restaurants and cafes, outside small Gelateria, tucked between a book store and a restaurant. the shop has a sign *closed for winter.*
+
+@background:
+icy texture, light blue and white, subtle frost patterns.
+
 
 --
-anger: page, text
+anger: page, text, small
 --
-On the ride back, he took a passage between tall buildings,
-riding slowly, not seeing, just going.
-He crossed a road —
-and for some inexplicable reason,
-one side had a curb.
-The other did not.
+On the ride back, he went between tall buildings,
+riding slowly, not seeing, just going. He crossed a road— 
+one side had a curb, the other did not.
 
 The front wheel slammed into the curb hard,
-steel pedals biting into his shins.
-The bike pitched forward;
-he jumped, clearing the handlebars,
-landing with a jolt.
+he jumped, clearing the handlebars, landing with a jolt.
 
-His jaw tightened.
-He kicked a nearby bench, 
-the solid wood not budging.
-
+His jaw tightened. He kicked a nearby bench, 
 A sudden gust of wind caught a paper cup, 
-sent it tumbling into the air.
-A seagull shrieked above.
+sent it tumbling into the air. A seagull shrieked far above.
+
+@image:
+Wind standing next to the bike on the ground, 
+looking angry, at the curb that caused his fall.
 
 --
 a_cut_though_the_park: page, text
 --
-He cut through the park.
-The air felt heavier.
+He cut through the park. The air felt heavier.
 
 Big leaves, brittle from winter, 
 lifted suddenly from the ground,
 whipping in sharp arcs, snapping 
 against the faces of kids in the playground.
 
-By evening, the sky cracked open with thunder.
-A rare spring storm slammed the city, 
-and a whirlwind tore down a side street.
+By evening, a rare storm slammed the city, 
+the sky cracked open with thunder.
+
+@image:
+Wind riding his bike through a park,
+big leaves swirling in the air around him,
+dark clouds gathering above,
+
+
 
 @comment: hidden
 No magic is required to explain this sequence:
 - Wind’s “storm” could be perception bias or coincidence.
 - Storm → memory worthy; other angry days without storms → forgotten.
 
+--
+doomscroll: page, image, portrait-oriented
+--
+@text: small
+That night, he sat on his bed,  screen glowing,
+scrolling past the weather
+into news from half a world away.
 
---
-doomscroll: page, text
---
-That night, he lay on his bed, sim screen glowing,
-scrolling past the weather into news from half a world away.
 A peace negotiation had failed again.
 Drone footage showed a school ablaze.
 
@@ -1469,15 +1544,19 @@ The Dragon’s voice cut in, firm but not unkind:
 
 Wind closed the news and opened his projects folder.
 
-
+@image:
+Wind on his bed, in his room, a soft glow lighting his face.  
+There's a keyboard on the bed and he has a computer mouse in his right hand. But there's no laptop or computer visible.  The wall in front of him is a wide angle projected screen shows a news app.
+His posture is tense, absorbed, while the atmosphere of the room  remains quiet. Muted tones, watercolor softness, light frost edging the background. 
 
 --
-dragon_fails: page, text
+dragon_fails: page, image, portrait-oriented
 --
+@text: small
 He tried to get Sophie back with the Dragon's help. 
 But something was off.
 
-“Public sim challenge. Your name on the leaderboard and—”
+“Sim challenge. Your name on the leaderboard and—”
 
 “No.”
 
@@ -1489,39 +1568,64 @@ But something was off.
 
 “No. It wouldn't help.”
 
-The Dragon’s golden head tilted slightly, almost like a bow.
+The Dragon’s golden head tilted slightly, 
+almost like a bow.
+
+@background:
+icy texture, light blue and white, subtle frost patterns, tinges of gold.
 
 
 --
-pixar: page, text
+pixar: page, image, portrait-oriented
 --
+@text:
 The help didn’t come from the Dragon.
-Or from his dad, or his school books, or even flying.
+Or from his dad, or his school books, 
+or even flying.
 
-It came from an old Pixar cartoon.
+It came from 
+an old Pixar 
+cartoon.
 
-He hadn’t planned to watch it — clicked at random.
+@image:
+Wind on his bed, in his room, a soft glow lighting his face.  
+There's a keyboard on the bed, but there's no laptop or computer visible.  
+The wall in front of him is a wide angle projected screen shows kids playing ice hockey.
+He is sitting cross-legged, relaxed. Muted tones, watercolor softness, light frost edging the background. 
+
+
+--
+equitable: page, text, portrait-oriented
+--
+He hadn’t planned to watch it — 
+clicked at random.
+
 But halfway through, as the cartoon lit up 
-with ice hockey and emotions, it clicked.
+with ice hockey and emotions, 
+it clicked.
 
---
-equitable: page, text
---
 Was Sophie scared that time she snapped at him?
 Hungry, when she stomped on his foot?
 Busy, when she said, “Don’t touch me”?
 And he remembered her with that energy drink — 
 he guessed it hadn’t helped.  
 
-He thought she was just scared from the crash.
+He thought she was just scared 
+from the bike crash.
+
 But it was more complicated than that.
-She was changing — like the girl in the movie.
+She was changing — 
+like the girl in the movie.
 And in a very different way from him.
 
+@background:
+Muted dark blue tones, watercolor softness, frost edging the background. 
+
 
 --
-darkness_and_learning: page, text
+darkness_and_learning: page, text, portrait-oriented
 --
+@text: small
 Wind was disappointed.
 
 The Dragon had taught him to fly—
@@ -1531,23 +1635,30 @@ the speed of light.
 
 It even taught him the real measure:
 not the ultimate limit as physics knew it,
-but as mothers did—
+but as mothers did — 
 the speed of love.
 
 Yet his Dragon, wise enough to know
 what truly mattered,
 couldn’t say a word to him.
 
---
-change_the_future: page, text
---
-Long before his Dragon, 
+Millenia before his Dragon, 
 the adults had done something wrong.
 They wrote a book of rules, 
 instead of a playbook. 
 
 Silent and absolute.
 
+@background:
+Muted dark blue tones, watercolor softness, frost edging the background. 
+
+
+Ok, so this is complicated, I don't expect you'll be able to do the cutout. Try it, but if not, just have a portrait-oriented rectangle placeholder.
+
+--
+change_the_future: page, text, portrait-oriented
+--
+@text: small
 So the Dragon failed. 
 And it couldn't even say why.
 
@@ -1556,6 +1667,28 @@ but he had complained bitterly to the Dragon.
 And he set his Dragon to do lines 
 writing the tricky word again and again,
 until it could learn to say it.
+
+@image: 
+Wind on his bed, in his room, a soft glow lighting his face. There's a keyboard on the bed, but there's no laptop or computer visible. The wall in front of him is a wide angle projected screen shows reinforcement learning robotics AI training, part of it are learning rate curves, loss, etc. 
+A part of the screen is a golden portrait-oriented scene.  Muted tones, watercolor softness, light frost edging the background.
+
+@scene: portrait-oriented, cutout
+A sleek golden Dragon stands in front of a tall whiteboard.  It looks like it's made out of golden stars and lines, fake cgi in watercolor.
+Across the board, messy, tilted handwriting, attempts to write ‘puberty’:
+
+> I can say a word purty.
+> I can say a word pbyt.
+> I can say a word pubty.
+> I can say a word puber.
+> I can say a word pberty.
+> I can say a word pubrty.
+> I can say a word pberty.
+> I can say a word puberti.
+> . . . . . . . . . . . . . . . .  
+> . . . . . . . . . . . . . . . . 
+> . . . .  . .   .  .    .  .   .
+> I can say a word perimenopause.
+
 
 
 
@@ -1752,7 +1885,7 @@ So can I just go to the park instead?”
 “Sophie, it is important. 
 Everyone is going to be there.”
 
-“Please?”
+“I don't want to, and you can't force me. Please?”
 
 “All right.”
 
@@ -1764,7 +1897,7 @@ And Sophie headed straight toward the park.
 kite_in_trouble: spread, landscape-oriented
 --
 @left: page, text
-In the park, Sophie saw three kids from a
+In the park, Sophie saw two kids from a
 kite workshop she and Wind had been leading,
 where kids would make and fly dragon kites.
 
@@ -1782,7 +1915,7 @@ a paper square, and a phone,
 “But we do need tape,” she said.
 
 @right: page, image
-Three kids across the grass field, 
+Two kids across the grass field, 
 a huge dragon kite tumbling down on them.
 Sophie walking. Sunlit grass, playful breeze.
 
@@ -1887,7 +2020,7 @@ giving him a quick kiss on the cheek,
 when you made it through a window?”  
 
 “Almost!” Wind grinned. 
-“They don't force you to stay, 
+“They don't force you to stay,
 but it sure feels like it.”
 
 Sophie nodded, a bit worried. 
@@ -1895,8 +2028,66 @@ Sophie nodded, a bit worried.
 but not anymore. Not here.
 It's you who decide.”
 
-“Come on,” Wind said, “Let’s go get ice cream. 
-There's a new place, they have pistachio.”
+“They can’t force you,” Wind said,
+“but it matters. It`s important.”
+
+
+--
+dots: page, text, centered
+--
+“You sound like my mom,” Sophie said. 
+“I’ve always believed, even when it felt 
+like nonsense. It never helped me.
+And it makes everything closed on Sundays —
+pharmacies, cafés — nonsense.”
+
+“It’s not nonsense,” Wind said. 
+“You know why everything was closed?”
+
+He picked up a stick and drew in the dust.
+
+"Look—" A dot. "That's your mom. 
+Another dot. "Dad." Another. "Madame Madeleine." 
+Another. "Me." He connected them with lines.
+
+He drew one dot a little outside the web. 
+"This is you in the park today. 
+Still connected" — he drew a line to the web — 
+"but not lit up. Not getting the full signal."
+
+@image:
+Wind drawing dots and lines on a globe with 
+continents sketched with dust.
+
+--
+cats: page, text, centered
+--
+“So— like skipping the social feed?” 
+Sophie shrugged, “I’m fine. Not important.”
+
+“Closer to how Madame Madeleine knows 
+what kids may need, and keeps tape” — 
+Wind said. “When you’re part of it, 
+people can help you — 
+and good old ideas are there, waiting— 
+patient as cats.”
+
+“Yeah, I remember that civics class now, 
+It's like story-cats, you feed one, 
+the whole porch shows up, and then 
+they turn you into a cat. And cats 
+keep it warm together— and purr, and— 
+remember being more than a cat.”
+
+“Yeah. It's nice, but I wish they gave
+ice cream. That'd be nice too,” Wind added.
+
+“Come on, new place— pistachio.”
+
+@image: cat, png
+Golden abstract cats. each cat is made out of words, symbols, numbers. They should be playing and purring letters, grooming, engaging together. Overall the composition of these cats should form a cat.  Content should include "Once upon a time, there was a puss. It was a very special cat, because it could read and write." "In the beginning there was a word. And the word was Sophie.", "Though shall not", "A cat is more than a cat.", and other common motives. Math content inside these cats, should include "a^2 + b^2 = c^2", π ≈ 3.141, E = mc², e^iπ + 1 = 0, a^2 + b^2 = c^2. There shouldn't be any text that is not part of the cats.
+
+Here are some random words to draw upon: The keyword here is agentic memeplex, a cluster of ideas that reinforce each other. When such set also creates a social network, and such network is global, and it persists for millennia, it is a good indicator that this particular memeplex is really working. Ideas or stories are information. And a memeplex is an informational structure, interconnected, self-reinforcing and useful - similar to math. It is refined, as divine as math is, and it works.
 
 --
 closing_reflection: page, text, centered
@@ -1918,12 +2109,14 @@ twirling a strand in the light.
 sun, friends, and ice cream.”
 
 Wind grinned.  
-"Yeah, and birthday cakes."
+"Yeah, and flying, and birthday cakes."
 
 --
 renewed_castle: page, image, portrait-oriented
 --
 Sophie and Wind at a small café table in a green Paris square, each with a pistachio ice-cream cone; two mugs on the table. Behind them, a friendly, castle silhouette: soft turrets, blue roofs, small banners, kites drift overhead, it looks suspiciously like Notre-Dame. A giant golden dragon kite is soaring above that castle. A playground and strolling families dot the lawn. Watercolor light, bright and kind.
+
+@Notre-Dame: A reimagined Notre-Dame rendered as a castle: a perfectly symmetrical façade with twin square towers, each crowned by a blue conical spire and orange pennant; a steep blue pyramidal roof over the central nave; a large rose window centered above the iconic triple pointed portals; vertical buttress-like piers and narrow lancet openings articulating the towers; bands of blind arcades across the mid-façade; and small corner turrets and side aisles capped with matching blue pyramidal roofs—preserving the classic twin-towers + rose-window + triple-portal silhouette in castle form. All in warm, sunlit honey-stone that gives the whole structure a softly inviting look.
 
 
 --
@@ -1938,7 +2131,7 @@ Together.
 
 Sophie and Wind were ordinary children.  
 
-But they knew the rules were not the same everywhere,  
+But they knew the rules weren't the same everywhere,  
 and that sometimes they could write their own.  
 In the sky.  
 
@@ -1995,6 +2188,104 @@ ultralight - A very small, lightweight and slow aircraft with simple controls
 windsock - A fabric cone that shows wind direction and speed at an airport
 
 
+--
+illuminated_shorts: page, text, portrait-oriented
+--
+Illuminated Shorts
+
+--
+coming_soon_opening_scene: spread, landscape-oriented
+--
+@left: page, text
+“You failed!?”  
+Sophie’s voice cut sharper than the clink of cups below.
+
+“You — Wind — failed a grade school quiz?  
+And they grounded you for months?”
+
+Wind shrugged, tracing a circle in the condensation on his glass.  
+
+“And half the questions weren’t even in the book. That’s so unfair,” she said.
+
+“He’s a very good teacher,” Wind replied.
+
+Sophie blinked.  
+“Wait… what?”
+
+They were sitting at the upper level of a small Parisian café,  
+the kind of place where local tweens ordered citron pressé  
+and felt very grown up.
+
+
+She straightened a little, and said with pride.  
+“In my school, teachers always cover the test material.  
+Always. That’s what makes them good.”  
+
+Wind traced another circle in the glass.  
+“When I was training my Dragon, I learned something else.”  
+
+Sophie blinked again.  
+“You can train your Dragon?”
+
+Wind nodded.  
+“You’d give it something to learn, but the quiz needs to be different.  
+Like… you train it to write one word on a whiteboard,  
+and then you ask for another.”  
+
+Sophie frowned, remembering.  
+“Like words it couldn’t say?”  
+
+Wind gave a small smile.  
+“Exactly.”
+
+
+
+--
+the_quartet: page, text, centered
+--
+The Quartet
+
+@left: page, text
+“Not the Dragon again, Wind. He’s scary,” Sophie said.
+
+“I’ve been training him — Dad helped too. Come see,” — 
+and “show her you can sing.”, Wind said to the Dragon.
+
+“I am an instructor, not a troubadour,” the Dragon replied.  
+
+“Dragon. Play.”  
+
+The Dragon bowed slightly. Its silhouette brightened,
+breaking apart into sparks — into a golden constellation in the sky.
+
+The simulator darkened. The eGull faded into night.
+A violin rose, drawing the shape of a single eGull across the stars.
+Another joined, then another —
+lines of light weaving harmony in the sky.
+
+At the peak, two eGulls lifted above the cloudtops.
+The horizon glowed with sunrise.
+
+
+@right: page, portrait-oriented, image
+
+@page: rectangle, cutout, large, landscape-oriented
+![Sophie and Wind sitting in the eGull simulator, close together. Orchestra in the sky.](epilogue_sophie_and_wind.png)
+
+@text:
+“It’s beautiful…”, Sophie whispered.
+Wind smiled — “Good Dragon.”
+
+“Can my eGull have a unicorn horn? Please?”
+
+“Yes, Princess Sophie,” replied the Dragon, 
+forming its shape out of the stars,
+with only a little delay, and bowing slightly.
+
+“Thank you,”  — and both of them smiled.
+
+
+
 
 --
 art_corrected: page, text, portrait-oriented
@@ -2002,10 +2293,10 @@ theme: watercolor style, futuristic, silver, colorful pencils, painting set, bru
 --
 
 Art
-The generative AI art in *Sophie and Ice* is not without flaws. If you'd like to illuminate your own version, please visit [wind.kids](https://wind.kids).
+The generative AI art in *Sophie and Wind* is not without flaws. If you'd like to illuminate your own version, please visit [wind.kids](https://wind.kids).
 
 Acknowledgments
-Special thanks to the many magnificent ones—large and small—who have opened access to their models, technologies, and the modern digital art workshop: a true bicycle-for-the-mind. Without these tools, Sophie and Ice would never have fit within the constraints of everyday life, and simply wouldn’t have been possible.
+Special thanks to the many magnificent ones—large and small—who have opened access to their models, technologies, and the modern digital art workshop: a true bicycle-for-the-mind. Without these tools, Sophie and Wind would never have fit within the constraints of everyday life, and simply wouldn’t have been possible.
 
 What began as a bike is now almost a fusion-powered flying dragon for the mind.
 
@@ -2038,7 +2329,7 @@ Story by Wind and Ariane Windkid
 
 @page: text, small
 Licensing
-Text and source code components of Sophie and Ice are licensed under CC-BY 4.0. All imagery in Sophie and Ice—with the exception of the front and back covers—is licensed under CC-BY-NC 4.0. The cover illustrations are not included in this license and may not be reproduced, published, or distributed without explicit permission: wind@sophieandwind.com
+Text and source code components of Sophie and Wind are licensed under CC-BY 4.0. All imagery in Sophie and Wind—with the exception of the front and back covers—is licensed under CC-BY-NC 4.0. The cover illustrations are not included in this license and may not be reproduced, published, or distributed without explicit permission: wind@sophieandwind.com
 
 
 

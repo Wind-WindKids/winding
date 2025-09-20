@@ -186,8 +186,7 @@ scenes_dragon_training: page, portrait-oriented, image
 "Dragon, handwrite. Stop when you can say any word."
 
 @image:
-A sleek golden Dragon stands in front of a tall whiteboard. 
-One wing is folded, the other used for balance as it grips a green marker. 
+A sleek golden Dragon stands in front of a tall whiteboard.  It looks like it's made out of golden stars and lines, fake cgi in watercolor.
 Across the board, messy, tilted handwriting, attempts to write ‘puberty’:
 
 > I can say a word purty.
@@ -197,11 +196,13 @@ Across the board, messy, tilted handwriting, attempts to write ‘puberty’:
 > I can say a word pberty.
 > I can say a word pubrty.
 > I can say a word pberty.
-> I can say a word puberty.
+> I can say a word puberti.
 > . . . . . . . . . . . . . . . .  
 > . . . . . . . . . . . . . . . . 
 > . . . .  . .   .  .    .  .   .
 > I can say a word perimenopause.
+
+
 
 @comment: hidden
 The Dragon finally pieced “puberty” together.  

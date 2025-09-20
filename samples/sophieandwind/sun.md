@@ -256,9 +256,8 @@ they turn you into a cat. And cats
 keep it warm together— and purr, and— 
 remember being more than a cat.”
 
-“Yeah. It's nice we can purr together, 
-but I wish they served ice cream. 
-That would be nice too,” Wind added.
+“Yeah. It's nice, but I wish they gave
+ice cream. That'd be nice too,” Wind added.
 
 “Come on, new place— pistachio.”
 
