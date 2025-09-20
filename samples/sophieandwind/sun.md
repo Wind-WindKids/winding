@@ -206,7 +206,7 @@ but not anymore. Not here.
 It's you who decide.”
 
 “They can’t force you,” Wind said,
-“but it matters.”
+“but it matters. It`s important.”
 
 
 --
@@ -243,23 +243,29 @@ cats: page, text, centered
 Sophie shrugged, “I’m fine. Not important.”
 
 “Closer to how Madame Madeleine knows 
-what kids may need, and keeps tape” — Wind said.
-“When you’re part of it, people can help you — and 
-good old ideas are there, waiting— patient as cats.”
+what kids may need, and keeps tape” — 
+Wind said. “When you’re part of it, 
+people can help you — 
+and good old ideas are there, waiting— 
+patient as cats.”
 
-“Yeah, I remember that civics class now, It's like 
-story-cats, you feed one, the whole porch shows up, 
-and then they turn you into a cat. And cats 
+“Yeah, I remember that civics class now, 
+It's like story-cats, you feed one, 
+the whole porch shows up, and then 
+they turn you into a cat. And cats 
 keep it warm together— and purr, and— 
 remember being more than a cat.”
 
-“Yeah. At least we can go together, I wish they 
-served ice cream. That would be nice,” Wind added.
+“Yeah. It's nice we can purr together, 
+but I wish they served ice cream. 
+That would be nice too,” Wind added.
 
-“Come on, new place—pistachio.”
+“Come on, new place— pistachio.”
 
-@comment: hidden
-The keyword here is agentic memeplex, a cluster of ideas that reinforce each other. When such set also creates a social network, and such network is global, and it persists for millennia, it is a good indicator that this particular memeplex is really working. Ideas or stories are not matter, they are information. And a memeplex is an informational structure, interconnected, self-reinforcing and useful - similar to math. It is refined, as divine as math is, and it works.
+@image: cat, png
+Golden abstract cats. each cat is made out of words, symbols, numbers. They should be playing and purring letters, grooming, engaging together. Overall the composition of these cats should form a cat.  Content should include "Once upon a time, there was a puss. It was a very special cat, because it could read and write." "In the beginning there was a word. And the word was Sophie.", "Though shall not", "A cat is more than a cat.", and other common motives. Math content inside these cats, should include "a^2 + b^2 = c^2", π ≈ 3.141, E = mc², e^iπ + 1 = 0, a^2 + b^2 = c^2. There shouldn't be any text that is not part of the cats.
+
+Here are some random words to draw upon: The keyword here is agentic memeplex, a cluster of ideas that reinforce each other. When such set also creates a social network, and such network is global, and it persists for millennia, it is a good indicator that this particular memeplex is really working. Ideas or stories are information. And a memeplex is an informational structure, interconnected, self-reinforcing and useful - similar to math. It is refined, as divine as math is, and it works.
 
 --
 closing_reflection: page, text, centered
@@ -281,7 +287,7 @@ twirling a strand in the light.
 sun, friends, and ice cream.”
 
 Wind grinned.  
-"Yeah, and birthday cakes."
+"Yeah, and flying, and birthday cakes."
 
 --
 renewed_castle: page, image, portrait-oriented
