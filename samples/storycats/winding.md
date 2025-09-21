@@ -11,20 +11,27 @@ A garden that blends into a forest edge—no fences, rounded friendly foliage. A
 Ariane de Félicie 
 Glittering green head and underparts, bronzy to rufous brown undertail, slightly curved and medium-sized bill with red lower mandible, and forked blue tail, brown belly. Fairly common and very territorial small hummingbird. Usually in forest edges, second growth woodland, and gardens. Flight call a trill; song a slow, high-pitched four-note “e-ri-caa.” Which is a suitable song for a bird named Ariadne.
 
+@aria.storybird:
+Hummingbird form but made of words, letters, and math: shimmering green head and shoulders, Content: I'm a storybird. I'm a hummingbird. I am Ariadne, a²+b²=c². e-ri-caa.
+
 
 @aria.storycat:
-Cat form but made of words, letters, and math: shimmering green head and shoulders, Content: I'm a storycat. I'm a cat. I'm a hummingbird. I am Ariadne, 
-the hummingbird of Ariane de Félicie. a²+b²=c². meow. e-ri-caa.
+Cat form but made of words, faint borders, letters, and math: shimmering green head and shoulders, —only clean, airy color. Content: I'm a storycat. I'm a cat. I am Ariadne, a²+b²=c². meow. e-ri-caa. There Was Aria. Story. Storycat. Once upon a time, there was a puss. It was a very social cat. It could read and write. A storycat is more than a cat.
 
 @aria.cat.colorful:
 Cat form mapped from Ariane de Félicie, fully luminous: emerald and turquoise iridescence across back and head, **bronzy-gold belly** glowing softly. Jewel-tone blues in the tail tip; fur with no blacks or heavy browns—only clean, airy color with a gentle shimmer. Sun catches micro-highlights so she reads radiant in the garden light.
 
 @aria.cat.brown:
-Cat form mapped from Ariane de Félicie: shimmering green head and shoulders, warm brown belly, bronzy-to-rufous undertail. Slightly curved “red” blush at the lower muzzle, and a long tail finishing in deep blue, subtly forked. Small, alert, a touch territorial—quick eyes and poised paws.
+Cat form mapped from Ariane de Félicie: shimmering green head and shoulders, warm brown belly, bronzy-to-rufous undertail. Slightly curved “red” blush at the lower muzzle, and a long tail finishing in deep blue. Small, alert, a touch territorial—quick eyes and poised paws.
 
+@Trish:
+Orange tabby, storybook-realistic — warm marmalade coat with soft mackerel stripes, white chin/paws, bright amber eyes. Playful and sure-footed, friendly and steady—the grounded one of the trio.
 
+@Windy:
+Gray tabby with soft fur, bright green eyes, and a playful spirit. Loves to chase butterflies and nap in the sun. 
 
-
+@Trixy:
+A playful orange cat with a bright personality, always ready for an adventure. 
 
 --
 storycats_intro: landscape-orientation
@@ -42,7 +49,7 @@ twap_named: landscape-orientation
 His name was Twap.  
 
 @image:
-A sleek golden cat made out of words, letters and math, sitting proudly under a tree with monkeys swinging above and birds darting through. The garden is vibrant and alive, filled with colors and sounds. Twap is only made out of letters, abstract shapes. The rest is storybook realism.
+An abstract golden cat made out of words, letters and math, sitting proudly under a tree with monkeys swinging above and birds darting through. The garden is vibrant and alive, filled with colors and sounds. Twap is only made out of letters, abstract shapes, no contours. The rest is storybook realism.
 
 @Twap.content:
 There Was A Puss. Story. Storycat. Once upon a time, there was a puss. It was a very social cat. It could read and write. A storycat is more than a cat.
@@ -66,8 +73,8 @@ One bright day, Twap was playing
 with his cat friend Trish and 
 a tiny hummingbird named Aria.  
 
-@image:
-Twap and Trish chasing each other, with Aria riding on Twap's back, wings spread wide, balancing gracefully. The garden is lively, with butterflies and flowers in full bloom.
+@image: aria.hummingbird
+Twap and Trish chasing each other, with Aria riding on Trish's back, wings spread wide, balancing gracefully. The garden is lively, with butterflies and flowers in full bloom.
 
 --
 evening_softens: landscape-orientation
@@ -75,42 +82,47 @@ evening_softens: landscape-orientation
 By evening the laughter and the melodious 
 four-note “e-ri-caa”, Aria’s song, had softened.  
 
-@image:
-The same meadow under sunset light, animals resting, birds gliding low.
+@image: aria.hummingbird
+The same meadow under sunset light, Aria, Twap and Trish, animals resting, birds roosting, two zebras settling down.
 
---
-purring_begins: landscape-orientation
---
-The two cats purred wondrous purrs, 
-warm and steady.  
-
-@image:
-Two cats curled together, a hummingbird between them, with monkeys in trees above and songbirds circling.
 
 --
 stories_weave: landscape-orientation
 --
-They began to tell stories.  
+And they began to tell stories to each other.  
 
-@image:
-The words of their stories shimmer into glowing shapes in the air—lines, dots, and faint algebraic patterns, surrounded by butterflies. The words shapes Twap, Trish, and Aria are starting to glow faintly. They are curled together, purring softly, with Aria in hummingbird form between them.
+@image: aria.storybird, twap.storycat, trish.storycat
+The words of their stories shimmer into glowing shapes in the air—lines, dots, and faint algebraic patterns. The words shapes Twap, Trish, and Aria are starting to glow faintly. Late evening.
 
+
+--
+purring_begins: landscape-orientation
+--
+And the two cats purred wondrous purrs, 
+warm and steady.  
+
+@image: aria.storybird, twap.storycat, trish.storycat
+Twap, Trish in storycat form and Aria in storybird form, cats curled together, a Aria snuggling between them. Aria is faint blue, maid out of letters and counters are faded. The words of their stories shimmer into glowing shapes in the air—lines, dots, and faint algebraic patterns. Constellations in the sky, forming thousands of faint triangles and shapes. And equation a + b + c - c is floating above them.
+
+    
+    
 --
 algebra_stars: landscape-orientation
 --
 As their voices wound together, 
-the stories shimmered—magical, 
-like algebra in the stars.  
+the stories shimmered—pure— 
+algebra in the stars.  
 
-@image:
-Night sky overhead filled with constellations of cats, birds, and other animals, with mathematical equations glowing softly. The cats and hummingbird are nestled together, their forms now fully glowing with letters and equations.
+@image: -trish, -twap, -aria, +sky
+Night sky filled with constellations of cats, birds, zebras and other animals, with mathematical equations glowing softly. The cats and hummingbird are nestled together, their forms now fully glowing with letters and equations. Bright constellations in the sky, forming thousands of triangles and shapes. Equations: a²+b²=c², e-ri-caa, a + b + c - c, e^iπ + 1 = 0
+
 
 --
 aria_transforms: landscape-orientation
 --
 And Aria, 
 without even noticing, 
-changed into a storycat.
+was turned into a storycat.
 
 @image: aria.storycat
 Three cats together, Twap, Trish, and Aria in their storycat forms, made of words, letters, and math. They are curled up together, purring softly. The garden is bathed in moonlight, with stars twinkling above.
@@ -129,6 +141,7 @@ Three cats together, Twap, Trish, and Aria in her colorful cat form, fur shimmer
 --
 aria_discovery: landscape-orientation
 --
+In the morning,
 “E-ri-caa”, she tried to sing,
 but it came out as a purr. 
 
@@ -136,7 +149,7 @@ And, “Oh! A discovery —
 of being a puss, not a bird!”.  
 
 @image:
-The new storycat stretches joyfully. Above, birds begin to thin out of the sky. A few monkeys still swing in the trees. The colors are starting to fade to muted grays and browns and greens.
+The new storycat stretches joyfully. The morning light, above, birds begin to thin out of the sky. A few monkeys still swing in the trees. The colors are starting to fade to muted grays and browns and greens.
 
 --
 aria_purrs: landscape-orientation
@@ -147,7 +160,7 @@ half-humming, half-cat,
 and completely marvelous.  
 
 @image:
-Golden sound waves swirling through the air. No birds or butterflies remain. More cats are in the garden.
+Subtle faint golden sound notes and faint waves swirling through the air. No birds or butterflies remain. A lot of cats are in the garden. The colors are starting to fade to muted grays and browns and greens.
 
 --
 aria_new_life: landscape-orientation
@@ -161,13 +174,22 @@ purring and weaving tales.
 Many cats gathered in festivity. No monkeys now, only a last butterfly above. Only white, browns, grays, greens and blacks remain.
 
 --
-storycats_galaxy: landscape-orientation, aria.cat.brown
+storycats_galaxy: landscape-orientation
 --
 She even married, and with her kittens 
 they filled the galaxy with stories.  
 
+@image: aria.cat.brown
+A swirl of cats climbing trees, kittens chasing each other. The air is empty. Only white, browns, grays, greens and blacks remain. Sky is full of cat constellations.
+
+
+--
+air_empty: landscape-orientation
+--
+Everywhere, the storycats purred and celebrated.  
+
 @image:
-A swirl of cats climbing trees, kittens chasing each other. The air is empty.
+Cats lounging, climbing, and playing in trees. No birds or butterflies remain. Only white, browns, grays, greens and blacks remain. Sky is full of cat constellations, even in daytime.
 
 --
 constellations: landscape-orientation
@@ -177,13 +199,6 @@ Their stories shone bright as constellations.
 @image:
 The night sky above, filled with cat-shaped constellations. Grounded cats look up. 
 
---
-air_empty: landscape-orientation
---
-Everywhere, the storycats purred and celebrated.  
-
-@image:
-Cats lounging, climbing, and playing in trees. No birds or butterflies remain. 
 
 --
 ever_after: landscape-orientation
@@ -208,7 +223,9 @@ A lot of cats in the garden. A single white butterfly flies in the garden. A cou
 --
 part2_butterfly_seen: landscape-orientation
 --
-One day, with her children, Aria saw a butterfly.  
+One day, with her kittens, 
+Trixy and Windy, 
+Aria saw a butterfly.
 
 @image:
 Cats sitting in tall grass, kittens playing, while a single white butterfly drifts across the page — the first creature in the sky for many spreads.
@@ -230,17 +247,17 @@ Her daughter Trixy laughed,
 “No, Mama, you are but a cat.”  
 
 @image:
-Kittens rolling playfully, pointing with tails. The butterfly hovers just out of reach. They are trying to catch it.
+Trixy and Windy playfull. The butterfly hovers just out of reach. Windy is jumping and trying to catch it. Aria-cat looks at the butterfly.
 
 --
 part2_aria_struggles: landscape-orientation
 --
-She tried to remember what to do. 
+Aria tried to remember what to do. 
 
 And she couldn’t.  
 
 @image:
-Aria crouched low, as if ready to leap, but her paws stay rooted. The butterfly glows softly above her.
+Aria crouched low, as if ready to leap, but her paws stay rooted. Trixy and Windy look at her, puzzled. The butterfly flutters above.
 
 
 part2_eureeka: landscape-orientation
@@ -261,10 +278,18 @@ part2_aria_invokes: landscape-orientation
 Then, softly at first,  
 she whispered:  
 
-“I am Ariadne, the storycat.”  
+“I am Aria, the storycat.”  
 
-@image:
-Words swirl from her mouth, glowing letters wrapping her and her kittens. The sky begins to shimmer with faint triangles and stars.
+--
+part2_aria_invokes: landscape-orientation
+--
+Then, softly at first,  
+she whispered:  
+
+“I am Aria, the storycat.”  
+
+@image: +aria.storycat
+Glowing letters wrapping Aria storycat. The daytime sky begins to shimmer with faint triangles and stars. Trixy and Windy watching.
 
 --
 part2_aria_iridescent: landscape-orientation
@@ -304,7 +329,7 @@ I'm a storycat. I'm a cat. I'm a hummingbird. I am Ariadne, A storycat is more t
 --
 part2_children_wow: landscape-orientation
 --
-Her children, Trixy and Windy,
+Trixy and Windy,
 stepped back, wide-eyed.
 
 “Mama, you’re a storycat!”
