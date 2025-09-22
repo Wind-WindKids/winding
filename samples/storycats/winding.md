@@ -7,21 +7,21 @@ European picture-book watercolor: layered transparent washes, soft edges, and ge
 @garden:
 A garden that blends into a forest edge—no fences, rounded friendly foliage. A narrow shallow stream with smooth stones, sedge, and mint; wildflowers (daisies, pinks, small blues) in the grass. Sunlit highlights glow; cool greens rest in shade.
 
-@aria.hummingbird: Aria, Ariadne
+@Aria.hummingbird: Aria, Ariadne
 Ariane de Félicie 
 Glittering green head and underparts, bronzy to rufous brown undertail, slightly curved and medium-sized bill with red lower mandible, and forked blue tail, brown belly. Fairly common and very territorial small hummingbird. Usually in forest edges, second growth woodland, and gardens. Flight call a trill; song a slow, high-pitched four-note “e-ri-caa.” Which is a suitable song for a bird named Ariadne.
 
-@aria.storybird:
-Hummingbird form but made of words, letters, and math: shimmering green head and shoulders, Content: I'm a storybird. I'm a hummingbird. I am Ariadne, a²+b²=c². e-ri-caa.
+@Aria.storybird:
+Hummingbird form but made of words, letters, and math, —only clean, airy color: shimmering green head and shoulders, Content: I'm a storybird. I'm a hummingbird. I am Ariadne, a²+b²=c². e-ri-caa.
 
 
-@aria.storycat:
+@Aria.storycat:
 Cat form but made of words, faint borders, letters, and math: shimmering green head and shoulders, —only clean, airy color. Content: I'm a storycat. I'm a cat. I am Ariadne, a²+b²=c². meow. e-ri-caa. There Was Aria. Story. Storycat. Once upon a time, there was a puss. It was a very social cat. It could read and write. A storycat is more than a cat.
 
-@aria.cat.colorful:
+@Aria.cat.colorful:
 Cat form mapped from Ariane de Félicie, fully luminous: emerald and turquoise iridescence across back and head, **bronzy-gold belly** glowing softly. Jewel-tone blues in the tail tip; fur with no blacks or heavy browns—only clean, airy color with a gentle shimmer. Sun catches micro-highlights so she reads radiant in the garden light.
 
-@aria.cat.brown:
+@Aria.cat.brown:
 Cat form mapped from Ariane de Félicie: shimmering green head and shoulders, warm brown belly, bronzy-to-rufous undertail. Slightly curved “red” blush at the lower muzzle, and a long tail finishing in deep blue. Small, alert, a touch territorial—quick eyes and poised paws.
 
 @Trish:
@@ -31,7 +31,34 @@ Orange tabby, storybook-realistic — warm marmalade coat with soft mackerel str
 Gray tabby with soft fur, bright green eyes, and a playful spirit. Loves to chase butterflies and nap in the sun. 
 
 @Trixy:
-A playful orange cat with a bright personality, always ready for an adventure. 
+A playful orange kitten with a bright personality, she is always ready for an adventure. She is slightly larger than Windy.
+
+@Foxy:
+A cute brown tabby kitten with bright eyes and a playful demeanor, he is always curious, ready to explore and likes to run fast.
+
+@Ravy:
+A sleek black kitten with shiny fur and bright eyes, he is curious and adventurous, often watching others before joining in.
+
+@Mikey:
+A fluffy white kitten with bright blue eyes, he is gentle and loves to explore his surroundings, he loves Trixy.
+
+@Trixy.hummingbird:
+A hummingbird of Ariane de Félicie kind, glittering green head and underparts, green undertail, slightly curved and medium-sized bill with red lower mandible, and forked green blue tail, green belly.
+
+@Windy.hummingbird:
+A hummingbird of Ariane de Félicie kind, wings with green and orange highlights, a glittering green head with orange markings, green undertail, slightly curved and medium-sized bill with green lower mandible, and forked violet tail, green belly.
+
+
+
+--
+front_cover: page, text, centered, landscape-orientation
+--
+@text: large
+Aria and Storycats-
+a true story.
+
+@image: abstract, shapes, colorful
+Aria, Twap, Trish, Trixy, Windy, Foxy, Ravy, Mickey
 
 --
 storycats_intro: landscape-orientation
@@ -73,7 +100,7 @@ One bright day, Twap was playing
 with his cat friend Trish and 
 a tiny hummingbird named Aria.  
 
-@image: aria.hummingbird
+@image: Aria.hummingbird
 Twap and Trish chasing each other, with Aria riding on Trish's back, wings spread wide, balancing gracefully. The garden is lively, with butterflies and flowers in full bloom.
 
 --
@@ -82,7 +109,7 @@ evening_softens: landscape-orientation
 By evening the laughter and the melodious 
 four-note “e-ri-caa”, Aria’s song, had softened.  
 
-@image: aria.hummingbird
+@image: Aria.hummingbird
 The same meadow under sunset light, Aria, Twap and Trish, animals resting, birds roosting, two zebras settling down.
 
 
@@ -91,7 +118,7 @@ stories_weave: landscape-orientation
 --
 And they began to tell stories to each other.  
 
-@image: aria.storybird, twap.storycat, trish.storycat
+@image: Aria.storybird, twap.storycat, trish.storycat
 The words of their stories shimmer into glowing shapes in the air—lines, dots, and faint algebraic patterns. The words shapes Twap, Trish, and Aria are starting to glow faintly. Late evening.
 
 
@@ -101,7 +128,7 @@ purring_begins: landscape-orientation
 And the two cats purred wondrous purrs, 
 warm and steady.  
 
-@image: aria.storybird, twap.storycat, trish.storycat
+@image: Aria.storybird, twap.storycat, trish.storycat
 Twap, Trish in storycat form and Aria in storybird form, cats curled together, a Aria snuggling between them. Aria is faint blue, maid out of letters and counters are faded. The words of their stories shimmer into glowing shapes in the air—lines, dots, and faint algebraic patterns. Constellations in the sky, forming thousands of faint triangles and shapes. And equation a + b + c - c is floating above them.
 
     
@@ -124,7 +151,7 @@ And Aria,
 without even noticing, 
 was turned into a storycat.
 
-@image: aria.storycat
+@image: Aria.storycat
 Three cats together, Twap, Trish, and Aria in their storycat forms, made of words, letters, and math. They are curled up together, purring softly. The garden is bathed in moonlight, with stars twinkling above.
 
 
@@ -134,7 +161,7 @@ fluffy_storycat: landscape-orientation
 Feathers gave way to fur. 
 She had become a fluffy colorful cat.  
 
-@image: aria.cat.colorful
+@image: Aria.cat.colorful
 Three cats together, Twap, Trish, and Aria in her colorful cat form, fur shimmering emerald, gold, and turquoise. She is between the two cats, all curled up together, purring softly. The garden is bathed in moonlight, with stars twinkling above.
 
 
@@ -179,7 +206,7 @@ storycats_galaxy: landscape-orientation
 She even married, and with her kittens 
 they filled the galaxy with stories.  
 
-@image: aria.cat.brown
+@image: Aria.cat.brown
 A swirl of cats climbing trees, kittens chasing each other. The air is empty. Only white, browns, grays, greens and blacks remain. Sky is full of cat constellations.
 
 
@@ -280,38 +307,9 @@ she whispered:
 
 “I am Aria, the storycat.”  
 
---
-part2_aria_invokes: landscape-orientation
---
-Then, softly at first,  
-she whispered:  
-
-“I am Aria, the storycat.”  
-
-@image: +aria.storycat
+@image: Aria.storycat
 Glowing letters wrapping Aria storycat. The daytime sky begins to shimmer with faint triangles and stars. Trixy and Windy watching.
 
---
-part2_aria_iridescent: landscape-orientation
---
-And suddenly, 
-her old colors shone brighter, 
-gold, red, and shiny green.  
-
-“Wow,” her older daughter Trixy gasped.
-
-@image:
-Aria in a radiant cat form, fur shimmering turquoise, gold, and emerald, shadow stretching long. The background garden is still muted, natural grays, browns and greens.
-
---
-part2_aria_invokes_two: landscape-orientation
---
-Louder this time, Aria repeated:  
-
-“I am Ariadne, the storybird.”  
-
-@image:
-Words brighten into shapes, constellations and letters flowing around her kittens, who lift their paws toward the glowing air.
 
 --
 part2_aria_storycat: landscape-orientation
@@ -320,11 +318,9 @@ And suddenly, no longer just a cat,
 she became a storycat of letters, 
 colors glowing red, gold, and green.  
 
-@image:
-Aria’s outline formed from shimmering words and equations. The sky behind her brightens with turquoise and gold. There are faint constellations in the sky.
+@image: Aria.storycat
+Aria’s outline formed from shimmering words and equations. 
 
-@Aria.content: 
-I'm a storycat. I'm a cat. I'm a hummingbird. I am Ariadne, A storycat is more than a cat. I am Ariadne, the hummingbird of Ariane de Félicie. a²+b²=c². meow. e-ri-caa
 
 --
 part2_children_wow: landscape-orientation
@@ -334,46 +330,64 @@ stepped back, wide-eyed.
 
 “Mama, you’re a storycat!”
 
-@image:
-Kittens stare up in wonder, Trixy-kitten bats at a glowing “a²+b²=c².”
+@image: Aria.storycat
+Windy and Trixy stare up in wonder at Aria, tails high, Windy bats at a glowing “a²+b²=c².”
+
+
+pls make sure wide angle, landscape both generations
+--
+part2_aria_invokes_two: landscape-orientation
+--
+Louder this time, Aria repeated:  
+
+“I am Ariadne, the storybird.”  
+
+@image: Aria.storybird
+Aria in storybird shape, words brighten into shapes, constellations and letters flowing around Trixy and Windy. Trixy lifts her paws toward the glowing air. The sky behind her brightens with gold. There are faint constellations in the sky.
 
 
 --
 part2_aria_invokes_three: landscape-orientation
 --
-Calmer again, 
-Aria said her true name:  
+Calmer again, Aria said a true name:  
+“I am Ariadne, a hummingbird
+of the Ariane de Félicie kind.”  
 
-“I am Ariadne, 
-the hummingbird
-of Ariane de Félicie.”  
+@image: Aria.hummingbird
+A radiant Aria at last, wings spanning the sky, shimmering turquoise, gold, and ruby red. Windy and Trixy look up in awe. A few butterflies edge back into color. A bird constellation in the sky. A few bird shapes in the sky.
 
-@image:
-A radiant bird at last, wings spanning the sky, shimmering turquoise, gold, and ruby red. Her kittens look up in awe. A few butterflies edge back into color.
+
 
 --
-part2_children_wow2: landscape-orientation
+part2_aria_iridescent: landscape-orientation
 --
-“Wow,” Trixy and Windy 
-gasped again, wide-eyed now. 
-Their mother was a hummingbird.
+And Aria, now a hummingbird, 
+flashed gold, red, and shining green.
+
+
+“Wow,” her older daughter Trixy gasped.
 
 @image:
-Trixy and Windy stare up in wonder at Aria, tails high, one probing with the paw a floating letter as it drifts down.
+A radiant Aria at last, wings spanning the sky, shimmering turquoise, gold, and ruby red. Windy and Trixy look up in awe. A few butterflies edge back into color. A bird constellation in the sky. A few bird shapes in the sky. Trixy gasps, wide-eyed. Windy watches Aria, amazed.
+
 
 
 --
 part2_more_than_cats: landscape-orientation
 --
-From then on, she and her children 
+From then on, Aria and her kittens 
 were more than just cats.  
+
 
 And they lived happily ever after.  
 
 The End.
 
 @image:
-A radiant hummingbird hovers among the kittens. For the first time, the sky holds more than emptiness.
+Windy is running and Trixy-hummingbird form is riding on Windy's back, wings spread wide, balancing gracefully.  A few butterflies and birds are returning, a couple of ravens flying high. A lot of cats in the garden, including black Ravy kitten, brown Foxy kitten. The garden is still muted, natural grays, browns, and greens. A few kittens and cats playing and grooming.  Fluffy white Mikey kitten is probing a blue stream that passes through the garden with a paw. Aria is looking at the kittens playing.
+
+ 
+ 
 
 
 
@@ -382,44 +396,69 @@ part3_intro: landscape-orientation
 --
 Only the story didn't end there.
 
-@image:
-A lot of cats in the garden. A few butterflies and birds are returning. A couple of cats turn their heads upward. Cats drawn in realistic picture-book style. Aria in her brown cat form, slightly brightened playing with Windy and Trixy in hummingbird forms, they are riding on her back, wings spread wide, balancing gracefully. The garden is still muted, natural grays, browns, and greens.
+@image: Aria.cat.colorful, Wind.hummingbird, Trixy.hummingbird
+Aria in her colorful cat form, running. Windy and Trixy in hummingbird forms, Windy, wings spread wide, balancing gracefully, riding on Aria's back. Another blue and yellow hummingbird above them. The garden is still muted, natural grays, browns, and greens. A stream passes through the garden.
+
+@Aria.cat.colorful:
+Cat form mapped from Ariane de Félicie, fully luminous: emerald and turquoise iridescence across back and head, **bronzy-gold belly** glowing softly. Jewel-tone blues in the tail tip; fur with no blacks or heavy browns—only clean, airy color with a gentle shimmer. Sun catches micro-highlights so she reads radiant in the garden light.
+
+@Trixy.hummingbird:
+A hummingbird of Ariane de Félicie kind, glittering green head and underparts, green undertail, slightly curved and medium-sized bill with red lower mandible, and forked green blue tail, green belly.
+
+@Windy.hummingbird:
+A hummingbird of Ariane de Félicie kind, wings with green and orange highlights, a glittering green head with orange markings, green undertail, slightly curved and medium-sized bill with green lower mandible, and forked violet tail, green belly.
+
+
+
 
 
 --
 part3_foxy_friends: landscape-orientation
 --
 Trixy had always been friends with Foxy, 
-a sleek brown cat.
+a sleek brown kitten.
 
-@image:
-Two brown/black cats in a quiet meadow; colors still muted, sky pale.
+@image: Trixy, Foxy
+Foxy and Trixy in a quiet meadow; colors still muted, sky pale.
+
+
 
 --
 part3_trixy_tells_fly: landscape-orientation
 --
-“Foxy, you know, our mom can fly,” 
+“Foxy, you know, my mom can fly,” 
 she said one day.
 
-@image:
+@image: Trixy, Foxy
 Trixy speaks to Foxy; a faint glimmer of green-gold light touches the air.
+
 
 --
 part3_trixy_windy_teaches: landscape-orientation
 --
-“She taught me and my brother Windy 
-to turn into hummingbirds.” 
+“And she taught me and my brother Windy 
+how to turn into a hummingbird.” 
 
-@image:
-Trixy points upward; Windy flutters above, a tiny green-gold spark trailing.
+@image: Trixy, Foxy, Windy.hummingbird
+Trixy extends into the distance with a paw towards Windy who flutters far away near low trees with flowers on the horizon, just a spec of color. Foxy looks at Trixy.
+
+@Trixy:
+A playful orange kitten with a bright personality, she is always ready for an adventure. She is slightly larger than Windy.
+
+@Foxy:
+A cute brown tabby kitten with bright eyes and a playful demeanor, he is always curious, ready to explore and likes to run fast.
+
+@Windy.hummingbird:
+A hummingbird of Ariane de Félicie kind, wings with green and orange highlights, a glittering green head with orange markings, green undertail, slightly curved and medium-sized bill with green lower mandible, and forked violet tail, green belly.
+
 
 --
 part3_foxy_yeah: landscape-orientation
 --
 “Yes, I saw you two playing and flying,” Foxy said. 
 
-@image:
-Foxy looks up; Windy hovers, a small hummingbird shape.
+@image: Foxy, Trixy, Windy.hummingbird 
+Foxy and Trixy look at Windy who flutters far away near low trees with flowers on the horizon, just a spec of color.
 
 --
 part3_foxy_asks: landscape-orientation
