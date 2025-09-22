@@ -33,6 +33,10 @@ Gray tabby with soft fur, bright green eyes, and a playful spirit. Loves to chas
 @Trixy:
 A playful orange kitten with a bright personality, she is always ready for an adventure. She is slightly larger than Windy.
 
+@Trixy.colorful:
+A cute colorful kitty form, fur shimmering vivid orange.
+
+
 @Foxy:
 A cute brown tabby kitten with bright eyes and a playful demeanor, he is always curious, ready to explore and likes to run fast.
 
@@ -465,59 +469,102 @@ part3_foxy_asks: landscape-orientation
 --
 “Can you teach me?”, Foxy asked. 
 
-“I don't want to fly, but I always wanted 
-to run really fast, like a fox.”
+“I don't want to fly, but I always wanted to run fast, like a fox.”
 
 @image:
-Foxy crouches, ears back, a thin ribbon of color beginning to form above his head
+Foxy looks at Trixy, hopeful. Trixy tilts her head a bit, amused. Windy flutters far away near low trees with flowers on the horizon, just a spec of color. Kittens are more detailed now.
+
+
+
+--
+part3_trixy_calls_windy: landscape-orientation
+--
+
+“Windy, come here,” Trixy called.
+
+And Windy darted over, wings humming.
+
+@image: Trixy, Foxy, Windy.hummingbird
+Trixy calls to Windy, who is flying in from the right, wings a blur. Foxy watches, intrigued. 
+
+
+
+--
+part3_cat_and_story: landscape-orientation
+--
+“A storycat is a cat and a story,” Trixy said.
+“And a cat can learn a new story,” Windy rhymed.
+
+@image:
+Trixy, cute and orange, tail high. Foxy is looking at her with interest. Windy in his hummingbird form, flying nearby, wings a blur. The garden colors are starting to brighten slightly, with hints of flowers in the grass, sky a bit bluer.
+
+@Foxy:
+A cute brown tabby kitten with bright eyes and a playful demeanor, he is always curious, ready to explore and likes to run fast.
+
+
+@Windy.hummingbird:
+A hummingbird of Ariane de Félicie kind, wings with green and orange highlights, a glittering green head with orange markings, green undertail, slightly curved and medium-sized bill with green lower mandible, and forked violet tail, green belly.
+
+
+--
+part3_color: landscape-orientation
+--
+And suddenly Trixy began to shimmer with color.
+
+@image: Trixy.colorful, Windy.hummingbird, Foxy
+Trixy in her cute colorful kitty form, fur shimmering vivid orange. Windy in his hummingbird form, flying nearby, wings a blur. Foxy watches, amazed. The garden colors are starting to brighten slightly, with hints of flowers in the grass, sky a bit bluer, and constellations of cats and birds faintly visible in the sky. Drawn in realistic detailed picture-book style.
+
+@Foxy:
+A cute brown tabby kitten with bright eyes and a playful demeanor, he is always curious, ready to explore and likes to run fast.
+
+
+@Windy.hummingbird:
+A hummingbird of Ariane de Félicie kind, wings with green and orange highlights, a glittering green head with orange markings, green undertail, slightly curved and medium-sized bill with green lower mandible, and forked violet tail, green belly.
 
 
 --
 part3_storycat: landscape-orientation
 --
-“A storycat is a cat and a story,” Trixy said.
-
-“And a cat can learn a new story,” Windy added.
-
-@image:
-Trixy in her colorful cat form, fur shimmering turquoise, gold, and emerald, shadow stretching long. Windy in his hummingbird form, perched on her back, wings folded. 
-
---
-part3_storybird: landscape-orientation
---
-“And even turn into a storybird,” Trixy said.
+“Foxy, you are a storycat now,” Trixy said.
 
 “Try to tell yourself a new story,” Windy added.
 
-@image:
-Windy sitting on top of Foxy's back, wings spread wide. A faint green-gold glow surrounds Windy. Foxy looks at Trixy, intrigued. Trixy is in her storybird form, shimmering green and gold.
+@image: Trixy.colorful, Windy.hummingbird, Foxy
+Windy sitting on top of Foxy's back, wings spread wide. A faint green-gold glow surrounds Windy. Foxy looks at Trixy, intrigued.
 
 
 --
 part3_foxy_tries: landscape-orientation
 --
-“I am Foxy… the storycat.” 
+“I am Foxy… the storycat,” he tried.
+And he turned into light and stories.
 
 @image:
-Letters gather like fireflies around Foxy’s whiskers.
+Foxy looks determined, his shape luminous, now made from patterns of letters and constellations. Trixy watches, smiling. Windy hovers nearby, wings a blur. The garden is now vibrant with flowers, low trees with flowers on the horizon, sky a clear blue with constellations of cats and birds visible. The content is: I'm a storycat. I'm a cat. I am Foxy, meow. Once upon a time, there was a cat. It was a very social cat. It could read and write. A storycat is more than a cat. 
+
+@Trixy:
+A playful orange kitten with a bright personality, she is always ready for an adventure. Her fur is shining slightly.
 
 --
 part3_foxy_declares: landscape-orientation
 --
-“I am Foxy Reynard… the storyfox.” 
+“I am Foxy Reynard, the storyfox,” he declared. 
 
 @image:
-The letters flash; Foxy’s tail lengthens and flares bright.
+Foxy looks determined, still kitten shaped, but his shape luminous orange, now made from patterns of letters and constellations, his tail lengthens and flares bright. Trixy watches, smiling. Windy hovers nearby, wings a blur. The garden is now vibrant with flowers and greenery, sky a clear blue with bright constellations of cats, foxes, birds and other animals visible, forming thousands of triangles and shapes. Equations: a²+b²=c², e-ri-caa, a + b + c - c, e^iπ + 1 = 0 The content is: I am Foxy Reynarn.  I'm a storyfox. I'm a cat. I am Foxy. A storycat is more than a cat. 
 
+@Trixy:
+A playful orange kitten with a bright personality, she is always ready for an adventure. Her fur is shining slightly.
 
 --
 part3_foxy_declares_two: landscape-orientation
 --
-“I am Foxy Reynard… the fox. 
-Oh, and I can run really fast.” 
+“I am Foxy Reynard, the fox. Oh, and I can run really fast,” he added.
+
+His legs got longer and stronger.
 
 @image:
-The content changes again; Foxy’s legs lengthen, and his fur deepens to a rich russet.
+Foxy’s legs lengthen, his luminous shape deepens to a rich russet. Trixy watches, smiling. Windy hovers nearby, wings a blur. The garden is now vibrant with flowers and greenery, sky a clear blue with constellations of cats and birds visible. Bright constellations in the sky, forming thousands of triangles and shapes. Equations: a²+b²=c², e-ri-caa, a + b + c - c, e^iπ + 1 = 0 The content is: I am Foxy Reynarn.  I'm a storyfox. I'm a fox. I can run really fast. A storyfox is more than a fox.
 
 
 --
@@ -526,79 +573,57 @@ part3_fox_appears: landscape-orientation
 And in a flash, a fox stood where the brown cat had been. 
 
 @image:
-A fox faces the reader; warm reds and golds flood his coat.
+A Foxy fox faces the reader; warm orange, russet reds flood his coat. Trixy watches, smiling. Windy hovers nearby, wings a blur. The garden is now vibrant with flowers and greenery. Butterflies and birds are returning. Low trees with flowers on the horizon are blossoming. Sky a clear blue with white clouds.
 
 --
 part3_trixy_delight: landscape-orientation
 --
 “You did it, Foxy!” Trixy cried with delight.
 
-@image:
-Trixy claps her paws; petals open in the grass.
-
---
-part3_windy_joy: landscape-orientation
---
 Windy spun above in circles, chirping with joy. 
 
 @image:
-Hummingbird trails draw neon loops; color brightens the treetops.
+Trixy jumps up, tail high; Foxy grins, ears forward. Windy spun above in circles, chirping with joy. Hummingbird trails draw neon loops; color brightens the treetops. The garden is now vibrant with flowers and greenery. Butterflies and birds are flying. Low trees with flowers on the horizon are blossoming. Sky a clear blue with white clouds.
 
 --
 part3_color_ripple_run: landscape-orientation
 --
-He darted across the meadow, colors swirling from his tail. 
+Foxy darted across the meadow, 
+vivid orange swirling from his tail. 
 
 @image:
-Fox streak summons ribbons of red, gold, and green across the field. Gold brushed the grass, green rippled into the trees.
-
---
-part3_color_ripple_sky: landscape-orientation
---
-Gold brushed the grass, 
-green rippled into the trees, 
-blue shimmered into the sky. 
-
-@image:
-Meadow glows; sky deepens with soft blue; butterflies edge back. A few brown and gray cats watch with interest.
+Fox streak summons ribbons of red, gold, and green flowers across the field. Gold brushed the grass, green rippled into the trees. Distant silhouettes of birds, a black kitten Ravy is watching with interest. The garden is now vibrant with flowers and greenery. Butterflies and birds are flying. Low trees with flowers on the horizon are blossoming. Sky a clear blue with white clouds.
 
 
 --
 part3_ravy_watch: landscape-orientation
 --
-Their neighbor Ravy, 
-a shiny black kitten, 
+Their neighbor Ravy, a shiny black kitten, 
 was watching across the garden. 
 
 @image:
-Glossy-black kitten peers over a slat fence; a single feather drifts by.
+Glossy-black kitten peers from tall grass, eyes wide, fur catching glints of light. The garden is now vibrant with red and orange flowers and lush greenery. Butterflies and birds are flying. Low trees with flowers on the horizon are blossoming. Sky a clear blue with white clouds.
 
 --
 part3_ravy_join: landscape-orientation
 --
-He leapt over to join them. 
+He ran to them, leaping joyfully over the tall grass with flowers.
 
 @image:
-Mid-leap blur; a shadow spreads like wings beneath him.
+Mid-leap blur of black kitten, tail curved, eyes bright, a few silver sparks flickering around his ears. The garden is now vibrant with red and orange flowers and lush greenery. Butterflies and birds are flying. Low trees with flowers on the horizon are blossoming. Sky a clear blue with white clouds.
 
---
-part3_ravy_says_back: landscape-orientation
---
-“It’s about time the hummingbirds were really back.” 
-
-@image:
-Ravy’s eyes mirror Windy’s glow; a green spark blooms above.
 
 --
 part3_ravy_parents: landscape-orientation
 --
-“My parents told me stories.
-And that they could fly too.
-But it was hard to believe,”
-he said.
+“My parents told me stories. But they never taught me how,
+And it was hard to believe,” Ravy said.
 
 @image:
-Two distant raven shapes hinted in the sky like memories.
+Ravy sits, tail curled, eyes bright, a few silver sparks flickering around his ears. Foxy and Trixy look at him, intrigued. The garden is now vibrant with red and orange flowers and lush greenery. Butterflies and birds are flying. Low trees with flowers on the horizon are blossoming. Sky a clear blue with white clouds.
+
+
+Two distant raven shapes hinted in the sky like memories. 
 
 --
 part3_ravy_raven: landscape-orientation
