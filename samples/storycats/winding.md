@@ -24,6 +24,9 @@ Cat form mapped from Ariane de Félicie, fully luminous: emerald and turquoise i
 @Aria.cat.brown:
 Cat form mapped from Ariane de Félicie: shimmering green head and shoulders, warm brown belly, bronzy-to-rufous undertail. Slightly curved “red” blush at the lower muzzle, and a long tail finishing in deep blue. Small, alert, a touch territorial—quick eyes and poised paws.
 
+@Twap:
+A social cat with a vibrant personality, golden fur and bright eyes. 
+
 @Trish:
 Orange tabby, storybook-realistic — warm marmalade coat with soft mackerel stripes, white chin/paws, bright amber eyes. Playful and sure-footed, friendly and steady—the grounded one of the trio.
 
@@ -617,43 +620,40 @@ Mid-leap blur of black kitten, tail curved, eyes bright, a few silver sparks fli
 part3_ravy_parents: landscape-orientation
 --
 “My parents told me stories. But they never taught me how,
-And it was hard to believe,” Ravy said.
+and it was hard to believe,” Ravy said.
 
 @image:
 Ravy sits, tail curled, eyes bright, a few silver sparks flickering around his ears. Foxy and Trixy look at him, intrigued. The garden is now vibrant with red and orange flowers and lush greenery. Butterflies and birds are flying. Low trees with flowers on the horizon are blossoming. Sky a clear blue with white clouds.
 
 
-Two distant raven shapes hinted in the sky like memories. 
-
 --
 part3_ravy_raven: landscape-orientation
 --
-“And they never taught me how,” he added.
-
-He shimmered into a young raven  
+Ravy shimmered into a young raven  
 and joined Windy above the meadow. 
 
 @image:
-A black, glossy raven lifts off; emerald loops and inky arcs twine together.
+A black, glossy raven lifts off, wings wide, feathers catching light. Windy hovers nearby, wings a blur. Foxy and Trixy look up, amazed. The garden is now vibrant with flowers and greenery. Butterflies and birds are flying. Low trees with flowers on the horizon are blossoming. Sky a clear blue with white clouds.
 
 --
 part3_mickey_arrives: landscape-orientation
 --
-Mickey padded over, tail high. 
+Mickey padded over, tail high, to join them.
 
 “I know I can be a mouse,”  he said.
 
 @image:
-A fluffy bright white cat approaches, eyes bright, tiny silver sparks flickering around his paws.
+Foxy and Trixy look at Mickey, a fluffy white kitten approaching, eyes bright, tiny silver sparks flickering around his paws. A garden that blends into a forest edge—no fences, rounded friendly foliage. A narrow shallow stream with smooth stones, sedge, and mint; wildflowers (daisies, pinks, small blues) in the grass.  The garden is now vibrant fool bloom with flowers and greenery. Butterflies and birds are flying. Low trees with flowers on the horizon are blossoming. There are monkeys swinging in the trees. A few ravens flying high. A few hummingbirds darting through. A couple of zebras drinking from the stream. A few cats playing and grooming.Sky a clear blue with white clouds. Sunlit highlights glow; cool greens rest in shade. No browns or heavy blacks—only clean, airy color with a gentle shimmer.
+
 
 
 --
-part3_trixy_hummer: landscape-orientation
+part3_trixy_bats_at_copyright: landscape-orientation
 --
 “No, you can't!” Trixy laughed. 
 
 @image:
-Trixy bats at a floating © letter; Mickey looks puzzled, a few silver sparks fading.
+Trixy bats at floating © letters; Mickey looks puzzled, ears back. Foxy laughts. The garden is now vibrant with flowers and greenery. Butterflies and birds are flying. Low trees with flowers on the horizon are blossoming. Sky a clear blue with white clouds. Butterflies and birds are flying. Low trees with flowers on the horizon are blossoming.  A couple of squirrels chattering. There are monkeys swinging in the trees. Birds on the branches and in the air. A few hummingbirds darting through. A couple of squirrels chattering. A couple of zebras drinking from the stream. A few cats playing and grooming.Sky a clear blue with white clouds. Sunlit highlights glow; cool greens rest in shade. No browns or heavy blacks—only clean, airy color with a gentle shimmer.
 
 
 --
@@ -662,13 +662,12 @@ part3_stay: landscape-orientation
 “And I like you, so let's stay cats,” Trixy said.
 
 @image:
-Mickey and Trixy touch foreheads; warm browns glow with a new gold edge.
-A soft heart-shape of light forms above where their heads meet.
+Mickey and Trixy touch foreheads, a soft heart-shape of pink light forms above where their heads meet. Foxy looks at them, smiling. The garden is now vibrant with flowers and greenery. Butterflies and birds are flying. Low trees with flowers on the horizon are blossoming. There are monkeys swinging in the trees. A few ravens flying high. A few hummingbirds darting through. A couple of squirrels chattering. A couple of zebras drinking from the stream. A few cats playing and grooming. Sky a clear blue with white clouds. Sunlit highlights glow; cool greens rest in shade. No browns or heavy blacks—only clean, airy color with a gentle shimmer.
 
 --
 part3_ever_after: landscape-orientation
 --
 And they’ve lived happily ever after. 
 
-@image:
-Fox, raven, hummingbird, cats, and friends together in a vivid meadow; the sky alive with color.
+@image: Aria.cat.colorful, Twap, Trish, Windy.hummingbird, Foxy, Ravy, Mickey, Trixy
+Foxy, Ravy, Windy, Mickey, Trixy, Trish, Twap and Aria together in a vivid meadow; the sky alive with color.
