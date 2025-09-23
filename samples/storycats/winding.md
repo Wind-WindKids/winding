@@ -4,6 +4,10 @@ characters: hidden
 @style:
 European picture-book watercolor: layered transparent washes, soft edges, and gentle storybook realism. Warm, dappled late-afternoon light; backgrounds slightly de-focused so characters pop. Minimal linework—just eyes/whiskers—letting color carry form.
 
+@font:
+Century Schoolbook L Medium, 50pt
+Garamond
+
 @garden:
 A garden that blends into a forest edge—no fences, rounded friendly foliage. A narrow shallow stream with smooth stones, sedge, and mint; wildflowers (daisies, pinks, small blues) in the grass. Sunlit highlights glow; cool greens rest in shade.
 
@@ -165,8 +169,8 @@ Three cats together, Twap, Trish, and Aria in their storycat forms, made of word
 --
 fluffy_storycat: landscape-orientation
 --
-Feathers gave way to fur. 
-She had become a fluffy colorful cat.  
+Feathers softened into fur— 
+Aria was now a fluffy, colorful cat.
 
 @image: Aria.cat.colorful
 Three cats together, Twap, Trish, and Aria in her colorful cat form, fur shimmering emerald, gold, and turquoise. She is between the two cats, all curled up together, purring softly. The garden is bathed in moonlight, with stars twinkling above.
