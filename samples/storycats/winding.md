@@ -12,8 +12,8 @@ Garamond
 A garden that blends into a forest edge—no fences, rounded friendly foliage. A narrow shallow stream with smooth stones, sedge, and mint; wildflowers (daisies, pinks, small blues) in the grass. Sunlit highlights glow; cool greens rest in shade.
 
 @Aria.hummingbird: Aria, Ariadne
-Ariane de Félicie 
-Glittering green head and underparts, bronzy to rufous brown undertail, slightly curved and medium-sized bill with red lower mandible, and forked blue tail, brown belly. Fairly common and very territorial small hummingbird. Usually in forest edges, second growth woodland, and gardens. Flight call a trill; song a slow, high-pitched four-note “e-ri-caa.” Which is a suitable song for a bird named Ariadne.
+Ariane de Félicie (fr) - a small, territorial, relatively common hummingbird. It frequents both dry and humid forests from lowlands to high elevations, mangrove marsh vegetation, and gardens. Its song is a slow, high-pitched, four-note call: “e-ri-caa.” Adults have a glittering green head and underparts, a forked blue tail, and a slightly curved medium bill with a red lower mandible.
+
 
 @Aria.storybird:
 Hummingbird form but made of words, letters, and math, —only clean, airy color: shimmering green head and shoulders, Content: I'm a storybird. I'm a hummingbird. I am Ariadne, a²+b²=c². e-ri-caa.
@@ -70,6 +70,37 @@ a true story.
 
 @image: abstract, shapes, colorful
 Aria, Twap, Trish, Trixy, Windy, Foxy, Ravy, Mickey
+
+--
+back_cover: page, text, centered, landscape-orientation
+--
+Aria and Storycats –
+true story.
+
+In a garden at the forest’s edge, a tiny hummingbird 
+named Aria listens
+to a cat’s purr 
+and a story–and everything 
+changes.
+
+Read-aloud: 
+ages 2-4.
+Independent 
+readers: 
+ages 5-8.
+
+@text: small
+Ariane de Félicie (fr) - a small, territorial, relatively common hummingbird. It frequents both dry and humid forests from lowlands to high elevations, mangrove marsh vegetation, Glittering green head and underparts, bronzy undertail, red-tinted lower bill, forked blue tail; song “e-ri-caa.”
+
+Licensing
+Licensing
+Text and source code © authors, CC-BY 4.0. Interior images CC-BY-NC 4.0 (except front/back covers). The back cover photo: Charles J. Sharp, CC BY-SA 4.0, via Wikimedia Commons.
+
+Art in Aria and Storycats is not without flaws. To remix or illuminate your own version, visit https://wind.kids
+
+Story by Wind and Ariane Windkid.
+
+
 
 --
 storycats_intro: landscape-orientation
@@ -675,3 +706,5 @@ And they’ve lived happily ever after.
 
 @image: Aria.cat.colorful, Twap, Trish, Windy.hummingbird, Foxy, Ravy, Mickey, Trixy
 Foxy, Ravy, Windy, Mickey, Trixy, Trish, Twap and Aria together in a vivid meadow; the sky alive with color.
+
+
