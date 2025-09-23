@@ -67,8 +67,9 @@ front_cover: page, text, centered, landscape-orientation
 Aria and storycats-
 a true story.
 
-@image: abstract, shapes, colorful, garden, constellations
-Aria, Twap, Trish, Trixy, Windy, Foxy, Ravy, Mickey
+@image: abstract, shapes, colorful, garden, constellations, animals
+Aria, Twap, Trixy, Windy, Foxy, Ravy
+
 
 --
 back_cover: page, text, centered, landscape-orientation
