@@ -60,15 +60,14 @@ A hummingbird of Ariane de Félicie kind, glittering green head and underparts, 
 A hummingbird of Ariane de Félicie kind, wings with green and orange highlights, a glittering green head with orange markings, green undertail, slightly curved and medium-sized bill with green lower mandible, and forked violet tail, green belly.
 
 
-
 --
 front_cover: page, text, centered, landscape-orientation
 --
 @text: large
-Aria and Storycats-
+Aria and storycats-
 a true story.
 
-@image: abstract, shapes, colorful
+@image: abstract, shapes, colorful, garden, constellations
 Aria, Twap, Trish, Trixy, Windy, Foxy, Ravy, Mickey
 
 --
