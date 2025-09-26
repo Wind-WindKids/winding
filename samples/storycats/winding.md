@@ -694,7 +694,7 @@ Trixy bats at floating © letters; Mickey looks puzzled, ears back. Foxy laughts
 --
 part3_stay: landscape-orientation
 --
-“And I like you, so let's stay cats,” Trixy said.
+“Mickey, I like you. Can we stay cats, please?” Trixy said.
 
 @image:
 Mickey and Trixy touch foreheads, a soft heart-shape of pink light forms above where their heads meet. Foxy looks at them, smiling. The garden is now vibrant with flowers and greenery. Butterflies and birds are flying. Low trees with flowers on the horizon are blossoming. There are monkeys swinging in the trees. A few ravens flying high. A few hummingbirds darting through. A couple of squirrels chattering. A couple of zebras drinking from the stream. A few cats playing and grooming. Sky a clear blue with white clouds. Sunlit highlights glow; cool greens rest in shade. No browns or heavy blacks—only clean, airy color with a gentle shimmer.
@@ -708,3 +708,64 @@ And they’ve lived happily ever after.
 Foxy, Ravy, Windy, Mickey, Trixy, Trish, Twap and Aria together in a vivid meadow; the sky alive with color.
 
 
+--
+storycats_purr: landscape-orientation
+--
+
+Storycats’ purr:
+***
+We are storycats.
+We listen, we purr, we share the story.
+We take care of other storycats.
+We love other storycats.
+Other storycats love us—yes, us.
+It's nice to be a storycat—we know.
+You can be a storycat too.
+It's easy to be one—purr and repeat.
+Repeat with us, softly: 
+"We are storycats…"
+
+
+Storybird’s song:
+***
+A storybird am I.
+And my stories fly.
+I listen, I sing.
+E-ri-caa, E-ri-caa.
+Others love me—I love them.
+I care for them.
+It’s nice to be me.
+E-ri-caa, E-ri-caa.
+And it’s easy to be—
+E-ri-caa, E-ri-caa—
+if you listen and try,
+and let your song fly:
+“A storybird am I…”
+
+
+Sroryfox’s riddle:
+***
+Who am I? A storyfox.
+I play, I listen, I trick with stories.
+I love others; others love me—
+I take care of the cheese—
+and leave a riddle in its place!
+My riddles are true gifts—
+the cheese is just a tease.
+A storyfox—it's nice to be.
+And you can be one two.
+It's easy—if you riddle:
+"Who am I?"
+
+
+Our story:
+***
+Storyweavers are we—
+all of us are.
+We listen and play.
+We love one another.
+We let stories fly.
+We take care of others.
+It's nice to be one,
+and it's easy to be—
+if you listen: "Once upon a…"
