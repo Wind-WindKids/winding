@@ -95,9 +95,12 @@ Ariane de Félicie (fr) - a small, territorial, relatively common hummingbird. I
 Licensing
 Text and source code © authors, CC-BY 4.0. Interior images CC-BY-NC 4.0 (except front/back covers). The back cover photo: Charles J. Sharp, CC BY-SA 4.0, via Wikimedia Commons.
 
-Art in *Aria and Storycats* is not without flaws. The social stories shown here—art, science, religion, readers, copyright law—are simplified kernels—unix in a haiku. Don't use them to reduce real-world social stories and their physical dynamics, which have been optimized by millennia of distributed, world-scale uptime and computation. To remix or illuminate your own version, visit https://wind.kids
+Art in *Aria and Storycats* is not without flaws. To remix or illuminate your own version, visit https://wind.kids
 
 Story by Wind and Ariane Windkid.
+
+@comment: hidden
+The social stories shown here—art, science, religion, readers, copyright law—are simplified kernels—unix in a haiku. Don't use them to reduce real-world social stories and their physical dynamics, which have been optimized by millennia of distributed, world-scale uptime and computation. 
 
 
 
