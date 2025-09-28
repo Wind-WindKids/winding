@@ -167,17 +167,6 @@ The words of their stories shimmer into glowing shapes in the air—lines, dots,
 
 
 --
-purring_begins: page, image, landscape-oriented
---
-And the two cats purred wondrous purrs, 
-warm and steady.  
-
-@image: Aria.storybird, twap.storycat, trish.storycat
-Twap, Trish in storycat form and Aria in storybird form, cats curled together, a Aria snuggling between them. Aria is faint blue, maid out of letters and counters are faded. The words of their stories shimmer into glowing shapes in the air—lines, dots, and faint algebraic patterns. Constellations in the sky, forming thousands of faint triangles and shapes. And equation a + b + c - c is floating above them.
-
-    
-    
---
 algebra_stars: page, image, landscape-oriented
 --
 As their voices wound together, 
@@ -187,6 +176,18 @@ algebra in the stars.
 @image:
 Night sky filled with constellations of cats, birds, zebras and other animals, with mathematical equations glowing softly. The cats and hummingbird are nestled together, their forms now fully glowing with letters and equations. Bright constellations in the sky, forming thousands of triangles and shapes. Equations: a²+b²=c², e-ri-caa, a + b + c - c, e^iπ + 1 = 0
 
+
+
+--
+purring_begins: page, image, landscape-oriented
+--
+And the two cats purred wondrous purrs, 
+warm and steady.  
+
+@image: Aria.storybird, twap.storycat, trish.storycat
+Twap, Trish in storycat form and Aria in storybird form, cats curled together, a Aria snuggling between them. Aria is faint blue, maid out of letters and counters are faded. The words of their stories shimmer into glowing shapes in the air—lines, dots, and faint algebraic patterns. Constellations in the sky, forming thousands of faint triangles and shapes. And equation a + b + c - c is floating above them.
+
+    
 
 --
 aria_transforms: page, image, landscape-oriented
@@ -253,54 +254,6 @@ they filled the galaxy with stories.
 @image: Aria.cat.brown
 A swirl of cats climbing trees, kittens chasing each other. The air is empty. Only white, browns, grays, greens and blacks remain. Sky is full of cat constellations.
 
---
-storycats_library: page, image, landscape-oriented, hidden
---
-
-The cats kept a library, full of storybooks. 
-
-@image: a library, all the books are brown, gray or black. 
-
---
-storycats_oopsie: page, image, landscape-oriented, hidden
---
-And if anything ever happened to a cat, 
-
-@image: Twap, letter form, falling from a cliff, paws extended up, letters flying.
-
---
-trish_library: page, image, landscape-oriented, hidden
---
-Trish would go to the library, open a right page, and read: "On the next day Twap ..."
-
-@image:
-Trish, on the table with a lamp, pawing a book and reading from a page, in the storybooks library full of brown, gray and black books. On the pages, a lot of small text, but the left page starts with larger: On the next day Twap
-
-
---
-storycats_back: page, image, landscape-oriented, hidden
---
-And the cat would be back, with a turn of a page, even better than before.
-
-@image: Twap, shining
-
-
---
-aria_secured: page, image, landscape-oriented, hidden
---
-And Aria, now a storycat, had a page too,
-safe and secure, and in that library.
-
-@image:
-Trish, on the table with a lamp, pawing a book and reading from a page, in the storybooks library full of brown, gray and black books. On the pages, a lot of small text, but the left page starts with larger heading: Aria.
-
---
-air_empty: page, image, landscape-oriented
---
-Everywhere, the storycats purred and celebrated.  
-
-@image:
-Cats lounging, climbing, and playing in trees. No birds or butterflies remain. Only white, browns, grays, greens and blacks remain. Sky is full of cat constellations, even in daytime.
 
 --
 constellations: page, image, landscape-oriented
@@ -309,6 +262,15 @@ Their stories shone bright as constellations.
 
 @image:
 The night sky above, filled with cat-shaped constellations. Grounded cats look up. 
+
+
+--
+air_empty: page, image, landscape-oriented
+--
+Everywhere, the storycats purred and celebrated.  
+
+@image:
+Cats lounging, climbing, and playing in trees. No birds or butterflies remain. Only white, browns, grays, greens and blacks remain. Sky is full of cat constellations, even in daytime.
 
 
 --
@@ -793,6 +755,10 @@ You can be a storycat too.
 It's easy to be one—purr and repeat.
 Repeat with us, softly: 
 "We are storycats…"
+
+@background:
+Starry dark blue sky with constellations of cats, foxes, cats, fishes, turtles, cats, birds and other animals, did I mention cats, constellations in the sky, forming thousands of triangles and shapes.
+
 
 --
 storycats_purr_sky: image, landscape-orientation
