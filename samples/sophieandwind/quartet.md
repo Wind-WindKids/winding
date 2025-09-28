@@ -17,35 +17,14 @@ Sophie and Wind seated together in a eGull, open cockpit, flying through a early
 Blue/azure sky, only hint of sunrise, hinting at wonder, love, and flight.
 
 
-
---
-front_cover: page, portrait-oriented, cover-front
---
-@title: text, centered, playful, rounded lettering, teal
-Sophie and Wind — The Quartet
-
-@image:
-Sophie sitting on a wooden park bench. She wears large, headphones and looks at her phone, smiling slightly. Leaves drift around her, and small birds and flowers surround the scene, creating a gentle, whimsical atmosphere. In the background, the Eiffel Tower rises through a light mist, and a red-orange kite flies in the sky.
-
-@headphones:
-Primarily turquoise blue with peachy-orange ear pads and a yellow-gold accent ring around the pads. The cord is also turquoise.
-
-@phone:
-muted teal blue, closely matching the color of her headphones. It's a simple, modern smartphone design with clean edges. there's no visible logo or brand name.
-
---
-authoring: page, image, portrait-oriented, cover-front-inside
---
-Two laptops in the grass, side by side, kite logo on one of the laptops, next to the keyboard. Complex futuristic dragon airplane CAD 3D graphics on the screen of one of the laptops. Code on another side. In the background, Sophie reads a book, slightly smiling, Eiffel Tower in the distance.
-
 --
 dedication: page, portrait-oriented
 --
 @text: centered, cursive, golden
 To Sophie, 
-she can fly. 
-Just like me.
-       Wind.
+who learned
+to fly.
+ Love, Wind.
 
 @image: centered, logo, small, golden
 Two birds, facing each other, with a heart between them. The birds are inside the shape of a heart, with the tails forming the top of the heart. 
@@ -307,9 +286,6 @@ Wind added, like he’d said it a hundred times.
 The courtyard of a school. Children playing basketball, sitting at tables with art projects. Sophie and Wind among them. A few trees, a low building with large windows, and bright blue sky overhead. Wind animatedly explaining something, his hands gesturing. Sophie listens intently, her eyes wide with curiosity.
 
 
-@comment: hidden
-The FAA does not impose minimum age requirements for operating ultralight vehicles under Part 103.
-
 
 --
 the_airport: page, portrait-oriented
@@ -321,9 +297,6 @@ The air smelled of sun-warmed asphalt and oil.
 
 @image:
 Small airplanes on the ramp. Wind with Sophie are walking. Beyond them, red-and-white windsock against a bright California winter sky.
-
-@comment: hidden
-Reid-Hillview Airport, San Jose, California, Young Eagles Chapter.
 
 
 --
@@ -678,9 +651,6 @@ Ready for the real eGull.
 @background:
 Bright winter light, small airplanes on the ramp. Red-and-white windsock against a bright California winter sky.
 
-@comment: hidden
-Reid-Hillview Airport, San Jose, California, Young Eagles Chapter.
-
 
 --
 taxi_training: portrait-oriented, image
@@ -777,15 +747,6 @@ A girl of about twelve, slim but beginning to show the taller, more defined prop
 A high wing electric ultralight, white, T-tail, gray propeller, tricycle gear, single gray seat, bubble canopy.
 
 
---
-clothes: hidden
---
-@Sophie.clothes: winter
-A fitted teal winter coat over a soft sweater, paired with slim dark jeans. A purple knit scarf loosely around her neck, adding contrast. Brown winter boots, practical but neat. Her hair slightly tucked into the coat collar, emphasizing warmth and coziness.
-
-@Wind.clothes: winter
-A slim, gray-green winter jacket with a zipper front, layered over a hoodie. Dark jeans with a straight slim fit. Simple sneakers in neutral colors. Hair left tousled, the jacket slightly rumpled, giving him a natural, boyish look.
-
 
 --
 part_cover: page, portrait-oriented, cover-front
@@ -862,17 +823,6 @@ the smile didn’t quite reach her eyes.
 @right: image
 A snowy mountain village, Wind and Sophie walking side by side,
 
-
---
-clothes_change: hidden
---
-@Wind.clothes:
-Slim-fit jeans, light blue hoodie with a soft, casual cut. Simple gray sneakers. Clothes sit comfortably but neat, practical for movement.
-
-@Sophie.clothes:
-Slim-fit jeans, long-sleeve top in warm orange tones, slightly fitted. Casual soft brown flats. Clean, practical look with a hint of brightness.
-
-![Sophie and Wind in California/winter clothes](images/pages/frost/clothes_change.png)
 
 
 
@@ -1111,14 +1061,6 @@ Her book was still open, face down where she’d left it.
 The echo of her words stayed in the air.
 Wind tried to breathe and couldn’t.
 
-@comment: hidden
-Sophie is parroting what she was taught, without understanding the impact. Words were drilled into her head, and empathy was not a part of that lesson. 
-
---
-walking_away: image, portrait-oriented
---
-Sophie and Wind, she is walking away, in the background a field, a few trees, park, distant playground, field, school looking structures. grass is green and sky is blue, winter time in a norcal suburb
-
 
 --
 sunday_flight: spread, landscape-oriented
@@ -1170,8 +1112,6 @@ Or simply talk to her brother.
 
 By morning she’d decided: *she was done with Wind*.
 
-@comment: hidden
-Empathy, self-awareness, attention, care, play, compatibility, common interests and external factors. "work" comes way down the list and easily can be negative.
 
 
 --
@@ -1376,10 +1316,6 @@ Wind in his room, looking frustrated and disappointed.The room has posters of ai
 @background: 
 icy texture, light blue and white, subtle frost patterns.
 
-@comment: hidden
-Ability to generalize gets tested by such "unfair" quizzes. And flying solo, after a breakup, is not a good idea. The system around him is relatively fair.
-
-
 
 --
 working: page, text
@@ -1458,9 +1394,6 @@ but at least it was a start.
 
 @background: icy texture, light blue and white, a tinge of gold on the right, near the word back, subtle frost patterns.
 
-@comment: hidden
-everywhere and every time.  
-
 
 --
 i_scream: page, text
@@ -1522,11 +1455,6 @@ big leaves swirling in the air around him,
 dark clouds gathering above,
 
 
-
-@comment: hidden
-No magic is required to explain this sequence:
-- Wind’s “storm” could be perception bias or coincidence.
-- Storm → memory worthy; other angry days without storms → forgotten.
 
 --
 doomscroll: page, image, portrait-oriented
@@ -1716,9 +1644,6 @@ She didn’t want to stay there.
 She got up, pulled on her jacket,  
 and stepped outside.  
 
-@comment: hidden
-The advertisement could have been the Dragon’s work, acting on Wind’s behalf from abroad. The Dragon has a certain level of autonomy, perhaps a great deal. It’s no ordinary AI: a CFI/PIC-capable agent, embodied in the eGull. Its favorite student (and partial owner, since Wind’s dad owns both eGulls) is unraveling after his crush is gone. He had “complained bitterly” to the Dragon. On top of that, Wind had been “training it” — making the Dragon write the unspeakable word. It sounds a lot like a reinforcement-learning finetune task, which may have interfered with its safety constraints and granted it more freedom or made it quirky. A month had passed since that interference. So perhaps this was the Dragon’s way of helping Wind.
-
 
 
 --
@@ -1826,14 +1751,6 @@ sophie_and_sun: book, part, portrait-oriented
 theme: Spring or summer daytime, Jardin du Luxembourg, watercolor style
 --- 
 
---
-clothes: hidden
---
-@Wind.clothes: summer
-Slim-fit linen shirt in teal, short sleeves, lightly tailored to the body. Mid-thigh shorts in light gray, clean cut, slightly fitted. White low-top sneakers with short white socks, visible just above the shoe line. Overall look neat, practical, and slightly fashionable.
-
-@Sophie.clothes: summer
-A light, slim summer dress, soft linen in pale cream or light sky-blue tones. Dress has open shoulders with thin straps, slightly flared at the hem, falling just above the knee. Simple but graceful, with a faint floral or subtle stripe pattern to suggest texture without clutter. Worn with flat sandals or slip-on shoes in light brown leather.
 
 
 

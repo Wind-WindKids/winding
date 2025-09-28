@@ -251,7 +251,7 @@ they filled the galaxy with stories.
 A swirl of cats climbing trees, kittens chasing each other. The air is empty. Only white, browns, grays, greens and blacks remain. Sky is full of cat constellations.
 
 --
-storycats_library: landscape-orientation
+storycats_library: landscape-orientation, hidden
 --
 
 The cats kept a library, full of storybooks. 
@@ -259,14 +259,14 @@ The cats kept a library, full of storybooks.
 @image: a library, all the books are brown, gray or black. 
 
 --
-storycats_oopsie: landscape-orientation
+storycats_oopsie: landscape-orientation, hidden
 --
 And if anything ever happened to a cat, 
 
 @image: Twap, letter form, falling from a cliff, paws extended up, letters flying.
 
 --
-trish_library: landscape-orientation
+trish_library: landscape-orientation, hidden
 --
 Trish would go to the library, open a right page, and read: "On the next day Twap ..."
 
@@ -275,7 +275,7 @@ Trish, on the table with a lamp, pawing a book and reading from a page, in the s
 
 
 --
-storycats_back: landscape-orientation
+storycats_back: landscape-orientation, hidden
 --
 And the cat would be back, with a turn of a page, even better than before.
 
@@ -283,7 +283,7 @@ And the cat would be back, with a turn of a page, even better than before.
 
 
 --
-storycats_secured: landscape-orientation
+aria_secured: landscape-orientation, hidden
 --
 And Aria, now a storycat, had a page too,
 safe and secure, and in that library.
@@ -758,20 +758,23 @@ Storybird’s song:
 ***
 A storybird am I.
 And my stories fly.
-I listen, I sing.
-E-ri-caa, E-ri-caa.
+I listen, I sing— E-ri-caa, E-ri-caa.
 Others love me—I love them.
 I care for them.
-It’s nice to be me.
-E-ri-caa, E-ri-caa.
-And it’s easy to sing—
-E-ri-caa, E-ri-caa—
-if you listen and try,
+It’s nice to be me— E-ri-caa, E-ri-caa.
+And it’s easy to sing— E-ri-caa, E-ri-caa—
+if you listen and try, 
 and let your song fly:
 “A storybird am I…”
 
+@background:
+Starry dark blue sky with constellations of foxes, cats, birds and other animals, constellations in the sky, forming thousands of triangles and shapes.
 
-@image:
+
+
+--
+storybirds_song_sky: image, landscape-orientation
+--
 Supernova style Aria, starry sky full of animal constellations, galaxies, geometric patterns and triangles. Text as a part of Aria storybird. left wing = “A storybird am I.” → “I listen, I sing.”; right wing = “It’s easy to sing.”, “I love them.” Poops Euler identity, e^iπ + 1 = 0, below the tail. 
 
 --
@@ -790,8 +793,14 @@ It's easy to be one—purr and repeat.
 Repeat with us, softly: 
 "We are storycats…"
 
-@image:
-Twap and Trish star clusters style, starry sky full of animal constellations, galaxies, geometric patterns and triangles. Text as a part of Twap and Trish storycats: “We are storycats.”, “We listen, we purr, we share the story.”, “It's easy to be one.”, “We love other storycats.” Purr waves all around them.
+--
+storycats_purr_sky: image, landscape-orientation
+--
+Nebulous style Twap and Trish made out of golden text content, wave patterns, starry sky full of animal constellations, galaxies, geometric patterns, crosses, triangles.  Text content inside these storycats (don't put any text outside, put many small fragments inside, tiny letters): “We are storycats.”, “We listen, we purr, we share the story.”, “It's easy to be one.”, “We love other storycats.”, a²+b²=c², We are storycats. We listen, we purr, we share the story. We take care of other storycats—yes, we do. We love other storycats—you know it’s true. Other storycats love us—yes, us. It's nice to be a storycat—we know. You can be a storycat too. It's easy to be one—purr and repeat. Repeat with us, softly:  "We are storycats…"
+
+
+
+
 
 
 
@@ -799,6 +808,7 @@ Twap and Trish star clusters style, starry sky full of animal constellations, ga
 --
 storyfox_riddle: landscape-orientation
 --
+@text: golden, starry, glowing
 
 Sroryfox’s riddle:
 ***
@@ -814,9 +824,17 @@ And you can be one two.
 It's easy—if you riddle:
 "Who am I?"
 
-@image:
+@background:
+Starry dark blue sky with constellations of foxes, cats, birds and other animals, constellations in the sky, forming thousands of triangles and shapes.
+
+--
+storyfox_riddle_sky: image, landscape-orientation
+--
 Nebulae style Foxy, starry sky full of animal constellations, galaxies, geometric patterns and triangles. Text as a part of Foxy storyfox. left side = “Who am I? A storyfox.” → “I play, I listen, I trick with stories.”; right side = “It's easy—if you riddle.”, “I love others.” Holds starry cheese. "E=m" is visible.
 
+--
+our_story: landscape-orientation
+--
 
 Our story:
 ***
@@ -826,63 +844,72 @@ We listen and play.
 We love one another.
 We let stories fly.
 We take care of others.
-It's nice to be one,
+It's nice to be us,
 and it's easy to weave—
 if you listen: "Once upon a…"
 
-@image:
-A wide galaxy view, stars scattered, glowing Twap and Trish star clusters, a glowing Foxy nebulae and a glowing Aria supernova. The sky is full of other constellations, birds, monkeys, zebras, butterflies and fishes.
+@background:
+Starry dark blue sky with constellations of foxes, cats, birds and other animals, constellations in the sky, forming thousands of triangles and shapes.
+
+
+--
+our_story_sky: image, landscape-orientation
+--
+A wide galaxy view, stars scattered, Nebulae style Foxy, Nebulous style Twap and Trish, a glowing Aria supernova. The sky is full of other constellations, birds, monkeys, zebras, butterflies and fishes.
 
 
 
 
 
 --
-storyfox_riddles: landscape-orientation
+storyfox_riddles_1: landscape-orientation
 --
 I’ve met a fox. It stole my cheese and left me only riddles.
-The fox said: the answer is one<sup>1</sup> two all the riddles.
+The fox said: the answer is one² to all the riddles.
 Can you help me solve them?
 
 
 Fox's riddles
 ***
 How quickly can a fox steal cheese?
-<em class="ud">at the speed of light.</em>
+                    *at the speed of light.*
 
 How quickly can a storyfox steal cheese?
-<em class="ud">at the speed of love.</em>
+                    *at the speed of love.*
 
 How fast can a bird possibly fly?
-<em class="ud">at the speed of light.</em>
+                    *at the speed of light.*
 
 How fast can a storybird fly?
-<em class="ud">at the speed of love.</em>
+                    *at the speed of love.*
 
 How fast can a storycat run?
-<em class="ud">godspeed.</em>
+                    *godspeed.*
 
 What outruns them all without moving?
-<em class="ud">being here, being in love, and listening.</em>
+                    *being here, being in love, and listening.*
 
 
+
+-- 
+storyfox_riddles_2: landscape-orientation 
 --
-storyfox_riddles: landscape-orientation
---
+
 What is the speed of light?¹
-<em class="ud">1.</em>
+                    *it is 1.*
 
 What is the speed of love?¹
-<em class="ud">1.</em>
+                    *it is 1.*
 
 How do you measure up?¹
-<em class="ud">you measure up to 1.</em>
+                    *you measure up to 1.*
 
-How do you measure love?¹
-<em class="ud">ask your mom or dad—you are made of love.</em>
+How do you measure love?
+            *ask your mom or dad—you are made of love.*
 
-How do you measure the speed of love?¹
-<em class="ud">ask your mom and dad—they know love.</em>
+How do you measure the speed of love?
+            *ask your mom and dad—they know love.*
 
 —
 ¹ In natural units.
+² In words.

@@ -23,7 +23,7 @@ def save_img(img, filename: str):
         with open(filename, "wb") as f:
             f.write(image_bytes)
 
-def flatten_winding_to_md(node: Winding, self = True, stop = None) -> str:
+def flatten_winding_to_md(node: Winding, self = True) -> str:
     """
     Convert a Winding AST node back into a markdown snippet
     (header + nested content) suitable as an image prompt.
@@ -43,9 +43,6 @@ def flatten_winding_to_md(node: Winding, self = True, stop = None) -> str:
             lines.append(f"@{item.at}: {', '.join(item.arguments)}\n")
             # flatten its content recursively (only text/images)
             lines.append(flatten_winding_to_md(item).split("--\n")[-1])
-
-            if item.at == stop:
-                break
         else:
             # Markdown or Image represented as its content text
             # assume item.content holds either str or nested Image AST
@@ -58,6 +55,49 @@ def flatten_winding_to_md(node: Winding, self = True, stop = None) -> str:
             lines.append(text)
         
     return "".join(lines)
+
+
+def walk(node: Winding, path: str = ""):        
+    if isinstance(node, Winding):
+        yield path, node
+        # chain.from_iterable to flatten child iterators
+        child_iters = (walk(child, path + "." + node.at) for child in node.windings)
+        yield from chain.from_iterable(child_iters)
+
+
+from copy import deepcopy
+from winding.ast import Winding
+
+def cut_tail(root: Winding, stop: str) -> Winding:
+    """
+    Return a copy of root with everything AFTER the first
+    winding whose .at == stop removed in pre-order traversal.
+    Descendants of the stop (if kept) are preserved.
+    """
+    found = False
+
+    def visit(node: Winding, path="") -> list:
+        nonlocal found
+        children = []
+        for child in node.windings:
+            if found:
+                break
+            if isinstance(child, Winding):
+                print("Visiting:", path + "." + child.at)
+                if child.at == stop or path + "." + child.at == stop:                    
+                    found = True
+                else:
+                    child.windings = visit(child, path + "." + child.at)
+                    children.append(child)
+            elif not found:
+                children.append(child)
+        return children
+
+    root = deepcopy(root)
+    root.windings = visit(root, "." + root.at)
+    return root
+
+
 
 def infer_winding_size(args, page: Winding) -> str:
     """Determine the appropriate size based on arguments."""
@@ -75,17 +115,28 @@ def infer_winding_size(args, page: Winding) -> str:
     return None
 
 
-def identify_context(args, node: Winding, context: Winding) -> str:
-    """Identify the context needed to artifact node."""
 
-    path = node.at
-    prompt = "Identify context IDs needed to artifact {path} page.\n" + \
+def identify_context(args, node: Winding, context: Winding) -> Winding:
+    """Identify the context needed to artifact a node. Return a Winding containing only the needed context."""
+
+    prompt = "Identify context IDs needed to artifact {node.at}.\n" + \
              "Use dot notation to refer to specific sub-paths referring to necessary context.\n" + \
-             "Return Markdown list of needed context paths.sub.paths only and nothing else.\n" + \
-             "For example: \n" + \
-                "- sophie_and_frost.style\n" + \
-                "- sophie_and_frost.characters.Wind\n\n" + \
-             "The context to analyze:\n\n"
+             "Return json list of needed context paths.sub.paths only and nothing else.\n" + \
+             "For example: ['sophie_and_frost.style', 'sophie_and_frost.characters.Wind']\n" + \
+             "This is the node to artifact:\n\n" + flatten_winding_to_md(node) + "\n\n" + \
+             "The context to analyze:\n\n" + flatten_winding_to_md(context, self=False)
+    print(prompt)
+    client = OpenAI()
+    response = client.chat.completions.parse(
+        "gpt-5-mini",
+        messages=[
+            {"role": "system", "content": "You are a helpful assistant that identifies context needed to artifact a page."},
+            {"role": "user", "content": prompt}
+        ],
+        response_model=list[str]
+    )
+    print("Identified context paths:", response)
+
 
 
 def generate_image(args, winding: Winding, context: Winding, client: OpenAI):
@@ -164,13 +215,6 @@ def main():
     #pprint(ast, indent=2, width=160)
 
     # 2. Walk & print only the `.at` fields with indentation
-    def walk(node: Winding, path: str = ""):        
-        if isinstance(node, Winding):
-            yield path, node
-            # chain.from_iterable to flatten child iterators
-            child_iters = (walk(child, path + "." + node.at) for child in node.windings)
-            yield from chain.from_iterable(child_iters)
-
     #print("Parsed Winding AST:")
     for path, node in walk(ast):
         print(f"{'  ' * path.count('.')}- {node.at}")    
@@ -199,7 +243,13 @@ def main():
     #    and any(attr in ("image", "png", "jpg", "jpeg") for attr in node.arguments)
     #]
     #print(f"Found {len(images)} images in the document at the top level.")
-    print("Image:", flatten_winding_to_md(images[0]))
+    print("Image:", flatten_winding_to_md(images[0], self=True))
+    print("Cut tail at:", args.at)
+    pprint(cut_tail(ast, args.at), indent=2, width=160)
+    #cut_tail(ast, args.at)
+    print(flatten_winding_to_md(cut_tail(ast, args.at), self=False))
+
+    #print(f"Winding context:", flatten_winding_to_md(ast, self=False, stop=images[0].at))
     #return
 
 

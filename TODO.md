@@ -10,6 +10,11 @@
 It's important to include AIs in the user acquisition, as they are a significant part of the target audience.
 
 --
+user_acquisition
+--
+* https://hackclub.com/
+
+--
 immediate
 --
 Add clarification to naming right after quick reference table

@@ -418,18 +418,26 @@ Ok, so this is complicated, I don't expect you'll be able to do the cutout. Try 
 change_the_future: page, text, portrait-oriented
 --
 @text: small
-So the Dragon failed. 
+So the Dragon failed.  
 And it couldn't even say why.
-
-Wind couldn’t change the past,
-but he had complained bitterly to the Dragon.
-And he set his Dragon to do lines 
-writing the tricky word again and again,
+Wind couldn’t change the past, 
+but he had complained bitterly 
+to the Dragon. 
+And he set his Dragon to 
+do lines writing the tricky 
+word again and again, 
 until it could learn to say it.
 
 @image: 
-Wind on his bed, in his room, a soft glow lighting his face. There's a keyboard on the bed, but there's no laptop or computer visible. The wall in front of him is a wide angle projected screen shows reinforcement learning robotics AI training, part of it are learning rate curves, loss, etc. 
-A part of the screen is a golden portrait-oriented scene.  Muted tones, watercolor softness, light frost edging the background.
+Wind on his bed, in his room, a soft glow lighting his face. There's a keyboard on the bed, but there's no laptop or computer visible. The wall in front of him is a wide angle projected screen shows reinforcement learning robotics AI training.
+
+@screen.left:
+learning rate curves, loss, etc. 
+
+@screen.right: 
+A golden portrait-oriented scene with a dragon
+
+Muted tones, watercolor softness, light frost edging the background.
 
 @scene: portrait-oriented, cutout
 A sleek golden Dragon stands in front of a tall whiteboard.  It looks like it's made out of golden stars and lines, fake cgi in watercolor.
@@ -520,37 +528,39 @@ tapped Unblock and typed:
 
 
 --
-hey_jude: page, text
+hey_jude: page, portrait-oriented
 --
+@text: small
 Wind didn’t see the message right away.
 
 That morning, his dad called from the doorway:
-“Come on, let’s head to the coast — catch some wind the old way.”
+“Come on, let’s head to the coast —
+ catch some wind the old way.”
 
-He scooped him up the way he had when Wind was little,
-and together they drove off.
+And together they drove off.
 
 They left the freeway, climbing into the hills.
 *Hey Jude* filled the car.
 
-His dad sang, off-key but certain. Wind grinned and joined in.
-As they crested the ridge, the ocean opened wide below.
+His dad sang, off-key but certain. 
+Wind grinned and joined in.
+As they crested the ridge, 
+the ocean opened wide below.
 
-By the time they reached the harbor,
-a catamaran was waiting,
-her sails bright in the late-morning sun.
-
+@image:
+A car driving on a coastal road, with the ocean visible in the distance. The sky is clear and blue, with a few clouds. The car is a modern sedan, and we see it from behind, driving away from us.
 
 
 --
-salt_and_ice: spread, landscape-oriented
+salt_and_ice: page, portrait-oriented
 --
-They came back in the late afternoon, skin warm, hair stiff with salt.
-Wind’s jacket was crusted white where the spray had dried.
+They went sailing and came back in the late afternoon, 
+skin warm, jackets and hair stiff with salt.
 
-Salt melts ice, he said, brushing it from his sleeve.
+“Salt melts ice,” Wind said, brushing it from his sleeve.
 
-The phone blinked awake in his hand, still warm from the sun.
+The phone blinked awake in his hand, 
+still warm from the sun. 
 
 One new message.
 
@@ -560,6 +570,8 @@ He stared at it, the taste of salt still on his lips,
 and for the first time in months he felt calm and certain.
 And the sky inside him felt clear.
 
+@image:
+Wind, at the coast, in the background a catamaran sailboat on the water.
 
 
 --
