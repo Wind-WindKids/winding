@@ -61,7 +61,7 @@ A hummingbird of Ariane de Félicie kind, wings with green and orange highlights
 
 
 --
-front_cover: page, text, centered, landscape-orientation
+front_cover: page, cover_front, text, centered, landscape-orientation
 --
 @text: large
 Aria and storycats-
@@ -72,7 +72,7 @@ Aria, Twap, Trixy, Windy, Foxy, Ravy
 
 
 --
-back_cover: page, text, centered, landscape-orientation
+back_cover: page, cover_back, text, centered, landscape-orientation
 --
 Aria and Storycats –
 true story.
@@ -357,18 +357,6 @@ she whispered:
 @image: Aria.storycat
 Glowing letters wrapping Aria storycat. The daytime sky begins to shimmer with faint triangles and stars. Trixy and Windy watching.
 
-
---
-part2_aria_storycat: page, image, landscape-oriented
---
-And suddenly, no longer just a cat, 
-she became a storycat of letters, 
-colors glowing red, gold, and green.  
-
-@image: Aria.storycat
-Aria’s outline formed from shimmering words and equations. 
-
-
 --
 part2_children_wow: page, image, landscape-oriented
 --
@@ -381,7 +369,19 @@ stepped back, wide-eyed.
 Windy and Trixy stare up in wonder at Aria, tails high, Windy bats at a glowing “a²+b²=c².”
 
 
-pls make sure wide angle, landscape both generations
+
+--
+part2_aria_storycat: page, image, landscape-oriented
+--
+And suddenly, no longer just a cat, 
+she became a storycat of letters, 
+colors glowing red, gold, and green.  
+
+@image: Aria.storycat
+Aria’s outline formed from shimmering words and equations. 
+
+
+
 --
 part2_aria_invokes_two: page, image, landscape-oriented
 --
@@ -712,6 +712,12 @@ And they’ve lived happily ever after.
 @image: Aria.cat.colorful, Twap, Trish, Windy.hummingbird, Foxy, Ravy, Mickey, Trixy
 Foxy, Ravy, Windy, Mickey, Trixy, Trish, Twap and Aria together in a vivid meadow; the sky alive with color.
 
+--
+part3_ever_after_the_end: page, image, landscape-oriented
+--
+
+@image:
+A wide, dark-blue night sky—deep enough to feel quiet—fills with tiny stars and faint galaxies. In the foreground, Foxy, Ravy, Windy, Mickey, Trixy, Trish, Twap, and Aria appear as constellations woven from fine golden lines: hair-thin strokes that ripple like filament and drift into tighter spirals to suggest fur, feathers, and wing vanes. Those lines subtly thicken at edges to read as silhouettes, then dissolve back into specks, so each figure looks both drawn and born of starlight. Around them, a field of animal constellations (birds, monkeys, turtles, zebras, butterflies, fishes) and simple sky glyphs—crosses, triangles, and measured geometric lattices—quietly echo the same filament style. No body text floats in the sky; only, near the center, barely readable and nearly lost among the stars, the whisper: And they’ve lived happily ever after.
 
 
 --
@@ -736,7 +742,7 @@ Starry dark blue sky with constellations of foxes, cats, birds and other animals
 
 
 --
-storybirds_song_sky: image, landscape-orientation
+storybirds_song_sky: page, image, landscape-orientation
 --
 Supernova style Aria, starry sky full of animal constellations, galaxies, geometric patterns and triangles. Text as a part of Aria storybird. left wing = “A storybird am I.” → “I listen, I sing.”; right wing = “It’s easy to sing.”, “I love them.” Poops Euler identity, e^iπ + 1 = 0, below the tail. 
 
@@ -761,13 +767,9 @@ Starry dark blue sky with constellations of cats, foxes, cats, fishes, turtles, 
 
 
 --
-storycats_purr_sky: image, landscape-orientation
+storycats_purr_sky: page, image, landscape-orientation
 --
 Nebulous style Twap and Trish made out of golden text content, wave patterns, starry sky full of animal constellations, galaxies, geometric patterns, crosses, triangles.  Text content inside these storycats (don't put any text outside, put many small fragments inside, tiny letters): “We are storycats.”, “We listen, we purr, we share the story.”, “It's easy to be one.”, “We love other storycats.”, a²+b²=c², We are storycats. We listen, we purr, we share the story. We take care of other storycats—yes, we do. We love other storycats—you know it’s true. Other storycats love us—yes, us. It's nice to be a storycat—we know. You can be a storycat too. It's easy to be one—purr and repeat. Repeat with us, softly:  "We are storycats…"
-
-
-
-
 
 
 
@@ -795,7 +797,7 @@ It's easy—if you riddle:
 Starry dark blue sky with constellations of foxes, cats, birds and other animals, constellations in the sky, forming thousands of triangles and shapes.
 
 --
-storyfox_riddle_sky: image, landscape-orientation
+storyfox_riddle_sky: page, image, landscape-orientation
 --
 Nebulae style Foxy, starry sky full of animal constellations, galaxies, geometric patterns and triangles. Text as a part of Foxy storyfox. left side = “Who am I? A storyfox.” → “I play, I listen, I trick with stories.”; right side = “It's easy—if you riddle.”, “I love others.” Holds starry cheese. "E=m" is visible.
 
@@ -819,7 +821,7 @@ Starry dark blue sky with constellations of foxes, cats, birds and other animals
 
 
 --
-our_story_sky: image, landscape-orientation
+our_story_sky: page, image, landscape-orientation
 --
 A wide galaxy view, stars scattered, Nebulae style Foxy, Nebulous style Twap and Trish, a glowing Aria supernova. The sky is full of other constellations, birds, monkeys, zebras, butterflies and fishes.
 

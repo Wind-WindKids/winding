@@ -149,6 +149,29 @@ def export(args, pages):
     print(f"Exported {page_number} pages to {args.outdir}/export/")
             
 
+def copy(args, pages):
+    """Export the pages as a set of png files by copying them."""
+    import shutil
+    os.makedirs(os.path.join(args.outdir, "export"), exist_ok=True)
+    page_number = 1
+    for page in pages:
+        image_path  = os.path.join(args.outdir, "pages", f"{page.at}.png")
+
+        cover = next((a for a in page.arguments if a.startswith("cover")), None)
+        if cover:
+            export_path = os.path.join(args.outdir, "export", f"{cover}.png")
+        else:
+            export_path = os.path.join(args.outdir, "export", f"{page_number:03d}.png")
+            page_number += 1
+
+        if not os.path.exists(image_path):
+            print(f"Error: {image_path} not found, skipping.")
+            break
+        shutil.copy(image_path, export_path)
+
+
+    print(f"Exported {page_number} pages to {args.outdir}/export/")
+
         
 def export_pdf(args):
     """Combines the exported images into a single PDF file."""
@@ -171,8 +194,8 @@ def export_pdf(args):
     page_w = trim_w + bleed
     page_h = trim_h + 2 * bleed
     # 3. Convert to pixels
-    image_w = int(page_w * args.dpi + 0.5)
-    image_h = int(page_h * args.dpi + 0.5)
+    image_w = int(page_w * args.dpi + 0.499)
+    image_h = int(page_h * args.dpi + 0.499)
 
     pdf = FPDF(unit="in", format=(page_w, page_h))
     pdf.set_auto_page_break(auto=True, margin=0)
@@ -211,6 +234,7 @@ def main():
     parser.add_argument("--quality", default="high", help="Image quality setting")
     parser.add_argument("--dry-run", action="store_true", help="Skip image generation, just parse and print")
     parser.add_argument("--export", action="store_true", help="Export the pages")
+    parser.add_argument("--copy", action="store_true", help="Export the pages by copying them")
     parser.add_argument("--export-pdf", action="store_true", help="Export the pages as a PDF")
     parser.add_argument("--generate", action="store_true", help="Generate images")
     parser.add_argument("--limit", type=int, default=1, help="Limit the number of pages to process (0 for no limit)")   
@@ -282,9 +306,19 @@ def main():
         export(args, pages)
         return
 
+    if args.copy:
+        copy(args, pages)
+        return
+
     if args.export_pdf:
         export_pdf(args)
         return
+
+
+    if args.dry_run:
+        print(f"Preview saved to {args.preview}")
+        return
+
 
     if args.generate or args.regenerate:
         client = OpenAI()
@@ -309,10 +343,6 @@ def main():
 
                 return
         return
-
-    #if args.dry_run:
-    #    print(f"Preview saved to {args.preview}")
-    #    return
 
 
 
