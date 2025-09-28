@@ -105,7 +105,7 @@ The social stories shown here—art, science, religion, readers, copyright law�
 
 
 --
-storycats_intro: landscape-orientation
+storycats_intro: page, image, landscape-oriented
 --
 Once upon a time, 
 in a galaxy love-years away, 
@@ -115,7 +115,7 @@ there lived a storycat.
 A wide galaxy view, stars scattered, a glowing cat constellation among them. The sky is full of other constellations, birds, monkeys, zebras, butterflies and fishes.
 
 --
-twap_named: landscape-orientation
+twap_named: page, image, landscape-oriented
 --
 His name was Twap.  
 
@@ -127,7 +127,7 @@ There Was A Puss. Story. Storycat. Once upon a time, there was a puss. It was a 
 
 
 --
-twap_social: landscape-orientation
+twap_social: page, image, landscape-oriented
 --
 Twap was a social cat, 
 with many friends—
@@ -138,7 +138,7 @@ and even zebras.
 Cats on the grass, a zebra drinking from the stream, and birds fluttering in the air.
 
 --
-twap_party: landscape-orientation
+twap_party: page, image, landscape-oriented
 --
 One bright day, Twap was playing 
 with his cat friend Trish and 
@@ -148,7 +148,7 @@ a tiny hummingbird named Aria.
 Twap and Trish chasing each other, with Aria riding on Trish's back, wings spread wide, balancing gracefully. The garden is lively, with butterflies and flowers in full bloom.
 
 --
-evening_softens: landscape-orientation
+evening_softens: page, image, landscape-oriented
 --
 By evening the laughter and the melodious 
 four-note “e-ri-caa”, Aria’s song, had softened.  
@@ -158,7 +158,7 @@ The same meadow under sunset light, Aria, Twap and Trish, animals resting, birds
 
 
 --
-stories_weave: landscape-orientation
+stories_weave: page, image, landscape-oriented
 --
 And they began to tell stories to each other.  
 
@@ -167,7 +167,7 @@ The words of their stories shimmer into glowing shapes in the air—lines, dots,
 
 
 --
-purring_begins: landscape-orientation
+purring_begins: page, image, landscape-oriented
 --
 And the two cats purred wondrous purrs, 
 warm and steady.  
@@ -178,18 +178,18 @@ Twap, Trish in storycat form and Aria in storybird form, cats curled together, a
     
     
 --
-algebra_stars: landscape-orientation
+algebra_stars: page, image, landscape-oriented
 --
 As their voices wound together, 
 the stories shimmered—pure— 
 algebra in the stars.  
 
-@image: -trish, -twap, -aria, +sky
+@image:
 Night sky filled with constellations of cats, birds, zebras and other animals, with mathematical equations glowing softly. The cats and hummingbird are nestled together, their forms now fully glowing with letters and equations. Bright constellations in the sky, forming thousands of triangles and shapes. Equations: a²+b²=c², e-ri-caa, a + b + c - c, e^iπ + 1 = 0
 
 
 --
-aria_transforms: landscape-orientation
+aria_transforms: page, image, landscape-oriented
 --
 And Aria, 
 without even noticing, 
@@ -200,7 +200,7 @@ Three cats together, Twap, Trish, and Aria in their storycat forms, made of word
 
 
 --
-fluffy_storycat: landscape-orientation
+fluffy_storycat: page, image, landscape-oriented
 --
 Feathers softened into fur— 
 Aria was now a fluffy, colorful cat.
@@ -210,7 +210,7 @@ Three cats together, Twap, Trish, and Aria in her colorful cat form, fur shimmer
 
 
 --
-aria_discovery: landscape-orientation
+aria_discovery: page, image, landscape-oriented
 --
 In the morning,
 “E-ri-caa”, she tried to sing,
@@ -223,7 +223,7 @@ of being a puss, not a bird!”.
 The new storycat stretches joyfully. The morning light, above, birds begin to thin out of the sky. A few monkeys still swing in the trees. The colors are starting to fade to muted grays and browns and greens.
 
 --
-aria_purrs: landscape-orientation
+aria_purrs: page, image, landscape-oriented
 --
 When she tried purring, 
 the sound came out musical, 
@@ -234,7 +234,7 @@ and completely marvelous.
 Subtle faint golden sound notes and faint waves swirling through the air. No birds or butterflies remain. A lot of cats are in the garden. The colors are starting to fade to muted grays and browns and greens.
 
 --
-aria_new_life: landscape-orientation
+aria_new_life: page, image, landscape-oriented
 --
 From that day on, 
 Aria lived among the storycats—
@@ -245,7 +245,7 @@ purring and weaving tales.
 Many cats gathered in festivity. No monkeys now, only a last butterfly above. Only white, browns, grays, greens and blacks remain.
 
 --
-storycats_galaxy: landscape-orientation
+storycats_galaxy: page, image, landscape-oriented
 --
 She even married, and with her kittens 
 they filled the galaxy with stories.  
@@ -254,7 +254,7 @@ they filled the galaxy with stories.
 A swirl of cats climbing trees, kittens chasing each other. The air is empty. Only white, browns, grays, greens and blacks remain. Sky is full of cat constellations.
 
 --
-storycats_library: landscape-orientation, hidden
+storycats_library: page, image, landscape-oriented, hidden
 --
 
 The cats kept a library, full of storybooks. 
@@ -262,14 +262,14 @@ The cats kept a library, full of storybooks.
 @image: a library, all the books are brown, gray or black. 
 
 --
-storycats_oopsie: landscape-orientation, hidden
+storycats_oopsie: page, image, landscape-oriented, hidden
 --
 And if anything ever happened to a cat, 
 
 @image: Twap, letter form, falling from a cliff, paws extended up, letters flying.
 
 --
-trish_library: landscape-orientation, hidden
+trish_library: page, image, landscape-oriented, hidden
 --
 Trish would go to the library, open a right page, and read: "On the next day Twap ..."
 
@@ -278,7 +278,7 @@ Trish, on the table with a lamp, pawing a book and reading from a page, in the s
 
 
 --
-storycats_back: landscape-orientation, hidden
+storycats_back: page, image, landscape-oriented, hidden
 --
 And the cat would be back, with a turn of a page, even better than before.
 
@@ -286,7 +286,7 @@ And the cat would be back, with a turn of a page, even better than before.
 
 
 --
-aria_secured: landscape-orientation, hidden
+aria_secured: page, image, landscape-oriented, hidden
 --
 And Aria, now a storycat, had a page too,
 safe and secure, and in that library.
@@ -295,7 +295,7 @@ safe and secure, and in that library.
 Trish, on the table with a lamp, pawing a book and reading from a page, in the storybooks library full of brown, gray and black books. On the pages, a lot of small text, but the left page starts with larger heading: Aria.
 
 --
-air_empty: landscape-orientation
+air_empty: page, image, landscape-oriented
 --
 Everywhere, the storycats purred and celebrated.  
 
@@ -303,7 +303,7 @@ Everywhere, the storycats purred and celebrated.
 Cats lounging, climbing, and playing in trees. No birds or butterflies remain. Only white, browns, grays, greens and blacks remain. Sky is full of cat constellations, even in daytime.
 
 --
-constellations: landscape-orientation
+constellations: page, image, landscape-oriented
 --
 Their stories shone bright as constellations.  
 
@@ -312,7 +312,7 @@ The night sky above, filled with cat-shaped constellations. Grounded cats look u
 
 
 --
-ever_after: landscape-orientation
+ever_after: page, image, landscape-oriented
 --
 And they lived happily ever after.  
 
@@ -322,7 +322,7 @@ The End.
 A peaceful final spread of cats curled together under starlight. Cats drawn in realistic picture-book style, resting peacefully under trees. No birds, no butterflies, sky completely empty, but warm.
 
 --
-part2_not_the_end: landscape-orientation
+part2_not_the_end: page, image, landscape-oriented
 --
 Only the story didn't end there.
 
@@ -332,7 +332,7 @@ A lot of cats in the garden. A single white butterfly flies in the garden. A cou
 
 
 --
-part2_butterfly_seen: landscape-orientation
+part2_butterfly_seen: page, image, landscape-oriented
 --
 One day, with her kittens, 
 Trixy and Windy, 
@@ -342,7 +342,7 @@ Aria saw a butterfly.
 Cats sitting in tall grass, kittens playing, while a single white butterfly drifts across the page — the first creature in the sky for many spreads.
 
 --
-aria_claims: landscape-orientation
+aria_claims: page, image, landscape-oriented
 --
 “I can fly too,” 
 she told them. 
@@ -352,7 +352,7 @@ she told them.
 Aria-cat gazing upward at the butterfly. The kittens look at her, puzzled.
 
 --
-children_laugh: landscape-orientation
+children_laugh: page, image, landscape-oriented
 --
 Her daughter Trixy laughed, 
 “No, Mama, you are but a cat.”  
@@ -361,7 +361,7 @@ Her daughter Trixy laughed,
 Trixy and Windy playfull. The butterfly hovers just out of reach. Windy is jumping and trying to catch it. Aria-cat looks at the butterfly.
 
 --
-part2_aria_struggles: landscape-orientation
+part2_aria_struggles: page, image, landscape-oriented
 --
 Aria tried to remember what to do. 
 
@@ -371,7 +371,8 @@ And she couldn’t.
 Aria crouched low, as if ready to leap, but her paws stay rooted. Trixy and Windy look at her, puzzled. The butterfly flutters above.
 
 
-part2_eureeka: landscape-orientation
+--
+part2_eureeka: page, image, landscape-oriented
 --
 Then, suddenly, she remembered her song.
 
@@ -384,7 +385,7 @@ Aria-cat looking up, eyes bright, a tiny green-gold spark appear in the air. The
 
 
 --
-part2_aria_invokes: landscape-orientation
+part2_aria_invokes: page, image, landscape-oriented
 --
 Then, softly at first,  
 she whispered:  
@@ -396,7 +397,7 @@ Glowing letters wrapping Aria storycat. The daytime sky begins to shimmer with f
 
 
 --
-part2_aria_storycat: landscape-orientation
+part2_aria_storycat: page, image, landscape-oriented
 --
 And suddenly, no longer just a cat, 
 she became a storycat of letters, 
@@ -407,7 +408,7 @@ Aria’s outline formed from shimmering words and equations.
 
 
 --
-part2_children_wow: landscape-orientation
+part2_children_wow: page, image, landscape-oriented
 --
 Trixy and Windy,
 stepped back, wide-eyed.
@@ -420,7 +421,7 @@ Windy and Trixy stare up in wonder at Aria, tails high, Windy bats at a glowing 
 
 pls make sure wide angle, landscape both generations
 --
-part2_aria_invokes_two: landscape-orientation
+part2_aria_invokes_two: page, image, landscape-oriented
 --
 Louder this time, Aria repeated:  
 
@@ -431,7 +432,7 @@ Aria in storybird shape, words brighten into shapes, constellations and letters 
 
 
 --
-part2_aria_invokes_three: landscape-orientation
+part2_aria_invokes_three: page, image, landscape-oriented
 --
 Calmer again, Aria said a true name:  
 “I am Ariadne, a hummingbird
@@ -443,7 +444,7 @@ A radiant Aria at last, wings spanning the sky, shimmering turquoise, gold, and 
 
 
 --
-part2_aria_iridescent: landscape-orientation
+part2_aria_iridescent: page, image, landscape-oriented
 --
 And Aria, now a hummingbird, 
 flashed gold, red, and shining green.
@@ -457,7 +458,7 @@ A radiant Aria at last, wings spanning the sky, shimmering turquoise, gold, and 
 
 
 --
-part2_more_than_cats: landscape-orientation
+part2_more_than_cats: page, image, landscape-oriented
 --
 From then on, Aria and her kittens 
 were more than just cats.  
@@ -476,7 +477,7 @@ Windy is running and Trixy-hummingbird form is riding on Windy's back, wings spr
 
 
 --
-part3_intro: landscape-orientation
+part3_intro: page, image, landscape-oriented
 --
 Only the story didn't end there.
 
@@ -497,7 +498,7 @@ A hummingbird of Ariane de Félicie kind, wings with green and orange highlights
 
 
 --
-part3_foxy_friends: landscape-orientation
+part3_foxy_friends: page, image, landscape-oriented
 --
 Trixy had always been friends with Foxy, 
 a sleek brown kitten.
@@ -508,7 +509,7 @@ Foxy and Trixy in a quiet meadow; colors still muted, sky pale.
 
 
 --
-part3_trixy_tells_fly: landscape-orientation
+part3_trixy_tells_fly: page, image, landscape-oriented
 --
 “Foxy, you know, my mom can fly,” 
 she said one day.
@@ -518,7 +519,7 @@ Trixy speaks to Foxy; a faint glimmer of green-gold light touches the air.
 
 
 --
-part3_trixy_windy_teaches: landscape-orientation
+part3_trixy_windy_teaches: page, image, landscape-oriented
 --
 “And she taught me and my brother Windy 
 how to turn into a hummingbird.” 
@@ -537,7 +538,7 @@ A hummingbird of Ariane de Félicie kind, wings with green and orange highlights
 
 
 --
-part3_foxy_yeah: landscape-orientation
+part3_foxy_yeah: page, image, landscape-oriented
 --
 “Yes, I saw you two playing and flying,” Foxy said. 
 
@@ -545,7 +546,7 @@ part3_foxy_yeah: landscape-orientation
 Foxy and Trixy look at Windy who flutters far away near low trees with flowers on the horizon, just a spec of color.
 
 --
-part3_foxy_asks: landscape-orientation
+part3_foxy_asks: page, image, landscape-oriented
 --
 “Can you teach me?”, Foxy asked. 
 
@@ -557,7 +558,7 @@ Foxy looks at Trixy, hopeful. Trixy tilts her head a bit, amused. Windy flutters
 
 
 --
-part3_trixy_calls_windy: landscape-orientation
+part3_trixy_calls_windy: page, image, landscape-oriented
 --
 
 “Windy, come here,” Trixy called.
@@ -570,7 +571,7 @@ Trixy calls to Windy, who is flying in from the right, wings a blur. Foxy watche
 
 
 --
-part3_cat_and_story: landscape-orientation
+part3_cat_and_story: page, image, landscape-oriented
 --
 “A storycat is a cat and a story,” Trixy said.
 “And a cat can learn a new story,” Windy rhymed.
@@ -587,7 +588,7 @@ A hummingbird of Ariane de Félicie kind, wings with green and orange highlights
 
 
 --
-part3_color: landscape-orientation
+part3_color: page, image, landscape-oriented
 --
 And suddenly Trixy began to shimmer with color.
 
@@ -603,7 +604,7 @@ A hummingbird of Ariane de Félicie kind, wings with green and orange highlights
 
 
 --
-part3_storycat: landscape-orientation
+part3_storycat: page, image, landscape-oriented
 --
 “Foxy, you are a storycat now,” Trixy said.
 
@@ -614,7 +615,7 @@ Windy sitting on top of Foxy's back, wings spread wide. A faint green-gold glow 
 
 
 --
-part3_foxy_tries: landscape-orientation
+part3_foxy_tries: page, image, landscape-oriented
 --
 “I am Foxy… the storycat,” he tried.
 And he turned into light and stories.
@@ -626,7 +627,7 @@ Foxy looks determined, his shape luminous, now made from patterns of letters and
 A playful orange kitten with a bright personality, she is always ready for an adventure. Her fur is shining slightly.
 
 --
-part3_foxy_declares: landscape-orientation
+part3_foxy_declares: page, image, landscape-oriented
 --
 “I am Foxy Reynard, the storyfox,” he declared. 
 
@@ -637,7 +638,7 @@ Foxy looks determined, still kitten shaped, but his shape luminous orange, now m
 A playful orange kitten with a bright personality, she is always ready for an adventure. Her fur is shining slightly.
 
 --
-part3_foxy_declares_two: landscape-orientation
+part3_foxy_declares_two: page, image, landscape-oriented
 --
 “I am Foxy Reynard, the fox. Oh, and I can run really fast,” he added.
 
@@ -648,7 +649,7 @@ Foxy’s legs lengthen, his luminous shape deepens to a rich russet. Trixy watch
 
 
 --
-part3_fox_appears: landscape-orientation
+part3_fox_appears: page, image, landscape-oriented
 --
 And in a flash, a fox stood where the brown cat had been. 
 
@@ -656,7 +657,7 @@ And in a flash, a fox stood where the brown cat had been.
 A Foxy fox faces the reader; warm orange, russet reds flood his coat. Trixy watches, smiling. Windy hovers nearby, wings a blur. The garden is now vibrant with flowers and greenery. Butterflies and birds are returning. Low trees with flowers on the horizon are blossoming. Sky a clear blue with white clouds.
 
 --
-part3_trixy_delight: landscape-orientation
+part3_trixy_delight: page, image, landscape-oriented
 --
 “You did it, Foxy!” Trixy cried with delight.
 
@@ -666,7 +667,7 @@ Windy spun above in circles, chirping with joy.
 Trixy jumps up, tail high; Foxy grins, ears forward. Windy spun above in circles, chirping with joy. Hummingbird trails draw neon loops; color brightens the treetops. The garden is now vibrant with flowers and greenery. Butterflies and birds are flying. Low trees with flowers on the horizon are blossoming. Sky a clear blue with white clouds.
 
 --
-part3_color_ripple_run: landscape-orientation
+part3_color_ripple_run: page, image, landscape-oriented
 --
 Foxy darted across the meadow, 
 vivid orange swirling from his tail. 
@@ -676,7 +677,7 @@ Fox streak summons ribbons of red, gold, and green flowers across the field. Gol
 
 
 --
-part3_ravy_watch: landscape-orientation
+part3_ravy_watch: page, image, landscape-oriented
 --
 Their neighbor Ravy, a shiny black kitten, 
 was watching across the garden. 
@@ -685,7 +686,7 @@ was watching across the garden.
 Glossy-black kitten peers from tall grass, eyes wide, fur catching glints of light. The garden is now vibrant with red and orange flowers and lush greenery. Butterflies and birds are flying. Low trees with flowers on the horizon are blossoming. Sky a clear blue with white clouds.
 
 --
-part3_ravy_join: landscape-orientation
+part3_ravy_join: page, image, landscape-oriented
 --
 He ran to them, leaping joyfully over the tall grass with flowers.
 
@@ -694,7 +695,7 @@ Mid-leap blur of black kitten, tail curved, eyes bright, a few silver sparks fli
 
 
 --
-part3_ravy_parents: landscape-orientation
+part3_ravy_parents: page, image, landscape-oriented
 --
 “My parents told me stories. But they never taught me how,
 and it was hard to believe,” Ravy said.
@@ -704,7 +705,7 @@ Ravy sits, tail curled, eyes bright, a few silver sparks flickering around his e
 
 
 --
-part3_ravy_raven: landscape-orientation
+part3_ravy_raven: page, image, landscape-oriented
 --
 Ravy shimmered into a young raven  
 and joined Windy above the meadow. 
@@ -713,7 +714,7 @@ and joined Windy above the meadow.
 A black, glossy raven lifts off, wings wide, feathers catching light. Windy hovers nearby, wings a blur. Foxy and Trixy look up, amazed. The garden is now vibrant with flowers and greenery. Butterflies and birds are flying. Low trees with flowers on the horizon are blossoming. Sky a clear blue with white clouds.
 
 --
-part3_mickey_arrives: landscape-orientation
+part3_mickey_arrives: page, image, landscape-oriented
 --
 Mickey padded over, tail high, to join them.
 
@@ -725,7 +726,7 @@ Foxy and Trixy look at Mickey, a fluffy white kitten approaching, eyes bright, t
 
 
 --
-part3_trixy_bats_at_copyright: landscape-orientation
+part3_trixy_bats_at_copyright: page, image, landscape-oriented
 --
 “No, you can't!” Trixy laughed. 
 
@@ -734,7 +735,7 @@ Trixy bats at floating © letters; Mickey looks puzzled, ears back. Foxy laughts
 
 
 --
-part3_stay: landscape-orientation
+part3_stay: page, image, landscape-oriented
 --
 “Mickey, I like you. Can we stay cats, please?” Trixy said.
 
@@ -742,7 +743,7 @@ part3_stay: landscape-orientation
 Mickey and Trixy touch foreheads, a soft heart-shape of pink light forms above where their heads meet. Foxy looks at them, smiling. The garden is now vibrant with flowers and greenery. Butterflies and birds are flying. Low trees with flowers on the horizon are blossoming. There are monkeys swinging in the trees. A few ravens flying high. A few hummingbirds darting through. A couple of squirrels chattering. A couple of zebras drinking from the stream. A few cats playing and grooming. Sky a clear blue with white clouds. Sunlit highlights glow; cool greens rest in shade. No browns or heavy blacks—only clean, airy color with a gentle shimmer.
 
 --
-part3_ever_after: landscape-orientation
+part3_ever_after: page, image, landscape-oriented
 --
 And they’ve lived happily ever after. 
 
@@ -750,12 +751,9 @@ And they’ve lived happily ever after.
 Foxy, Ravy, Windy, Mickey, Trixy, Trish, Twap and Aria together in a vivid meadow; the sky alive with color.
 
 
---
-our_story: landscape-orientation
---
 
 --
-storybirds_song: landscape-orientation
+storybirds_song: page, image, landscape-oriented
 --
 Storybird’s song:
 ***
@@ -781,7 +779,7 @@ storybirds_song_sky: image, landscape-orientation
 Supernova style Aria, starry sky full of animal constellations, galaxies, geometric patterns and triangles. Text as a part of Aria storybird. left wing = “A storybird am I.” → “I listen, I sing.”; right wing = “It’s easy to sing.”, “I love them.” Poops Euler identity, e^iπ + 1 = 0, below the tail. 
 
 --
-storycats_purr: landscape-orientation
+storycats_purr: page, image, landscape-oriented
 --
 Storycats’ purr:
 ***
@@ -809,7 +807,7 @@ Nebulous style Twap and Trish made out of golden text content, wave patterns, st
 
 
 --
-storyfox_riddle: landscape-orientation
+storyfox_riddle: page, image, landscape-oriented
 --
 @text: golden, starry, glowing
 
@@ -836,9 +834,8 @@ storyfox_riddle_sky: image, landscape-orientation
 Nebulae style Foxy, starry sky full of animal constellations, galaxies, geometric patterns and triangles. Text as a part of Foxy storyfox. left side = “Who am I? A storyfox.” → “I play, I listen, I trick with stories.”; right side = “It's easy—if you riddle.”, “I love others.” Holds starry cheese. "E=m" is visible.
 
 --
-our_story: landscape-orientation
+our_story: page, image, landscape-oriented
 --
-
 Our story:
 ***
 Storyweavers are we—
@@ -861,16 +858,12 @@ our_story_sky: image, landscape-orientation
 A wide galaxy view, stars scattered, Nebulae style Foxy, Nebulous style Twap and Trish, a glowing Aria supernova. The sky is full of other constellations, birds, monkeys, zebras, butterflies and fishes.
 
 
-
-
-
 --
-storyfox_riddles_1: landscape-orientation
+storyfox_riddles_1: page, image, landscape-oriented
 --
 I’ve met a fox. It stole my cheese and left me only riddles.
 The fox said: the answer is one² to all the riddles.
 Can you help me solve them?
-
 
 Fox's riddles
 ***
@@ -894,8 +887,8 @@ What outruns them all without moving?
 
 
 
--- 
-storyfox_riddles_2: landscape-orientation 
+--
+storyfox_riddles_2: page, image, landscape-oriented 
 --
 
 What is the speed of light?¹
@@ -916,3 +909,4 @@ How do you measure the speed of love?
 —
 ¹ In natural units.
 ² In words.
+
