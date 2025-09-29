@@ -1,5 +1,8 @@
+from PIL import Image
+import numpy as np
+from scipy.ndimage import gaussian_filter
 
-def outpaint(image_path, left, right, up, down):
+def outpaint(image_path, left, right, up, down, pixelate=False):
     """
     Outpaint a thin border around an image, to fill bleed areas
 
@@ -54,6 +57,12 @@ def outpaint(image_path, left, right, up, down):
     for c in range(3):
         blurred[..., c] = gaussian_filter(canvas[..., c].astype(np.float32), sigma=sigma)
 
+    if pixelate:
+        gauss = np.random.normal(0.01, 0.01, canvas.shape).astype(np.float32)
+        blurred = blurred * gauss
+        blurred = np.clip(blurred, 0, 255)
+
+
     # Composite: use blurred where mask True, keep original where False
     final = canvas.astype(np.float32)
     for c in range(3):
@@ -75,9 +84,10 @@ if __name__ == '__main__':
     parser.add_argument('--right', type=int, default=0, help='Padding size, right side, pixels')
     parser.add_argument('--up', type=int, default=0, help='Padding size, top side, pixels')
     parser.add_argument('--down', type=int, default=0, help='Padding size, bottom side, pixels')
+    parser.add_argument('--pixelate', action='store_true', help='Adds noise to the border to reduce banding')
     args = parser.parse_args()
 
-    result = outpaint(args.img, args.left, args.right, args.up, args.down)
+    result = outpaint(args.img, args.left, args.right, args.up, args.down, args.pixelate)
     if args.output:
         result.save(args.output)
     else:

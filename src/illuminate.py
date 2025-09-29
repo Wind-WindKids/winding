@@ -119,8 +119,8 @@ def export(args, pages):
 
     page_number = 1
     for page in pages:
-        image_path  = os.path.join(args.outdir, "pages", f"{page.at}.png")
-        patched_path = os.path.join(args.outdir, "pages", f"{page.at}.patched.png")
+        image_path  = os.path.join(args.pages, f"{page.at}.png")
+        patched_path = os.path.join(args.pages, f"{page.at}.patched.png")
         if os.path.exists(patched_path):
             image_path = patched_path
         elif not os.path.exists(image_path):
@@ -155,7 +155,7 @@ def copy(args, pages):
     os.makedirs(os.path.join(args.outdir, "export"), exist_ok=True)
     page_number = 1
     for page in pages:
-        image_path  = os.path.join(args.outdir, "pages", f"{page.at}.png")
+        image_path  = os.path.join(args.pages, f"{page.at}.png")
 
         cover = next((a for a in page.arguments if a.startswith("cover")), None)
         if cover:
@@ -193,9 +193,9 @@ def export_pdf(args):
     # 2. Calculate the page size in inches
     page_w = trim_w + bleed
     page_h = trim_h + 2 * bleed
-    # 3. Convert to pixels
-    image_w = int(page_w * args.dpi + 0.499)
-    image_h = int(page_h * args.dpi + 0.499)
+    # 3. Convert to pixels, accounting for DPI and gutter
+    image_w = int((page_w + float(args.gutter)) * args.dpi + 0.1)      # Add a small epsilon to avoid rounding issues
+    image_h = int(page_h * args.dpi + 0.1)
 
     pdf = FPDF(unit="in", format=(page_w, page_h))
     pdf.set_auto_page_break(auto=True, margin=0)
@@ -222,13 +222,15 @@ def main():
     )
     parser.add_argument("input", help="Path to the .md file")
     parser.add_argument("--preview", help="Path to save the preview.md file", default="preview.md")
-    parser.add_argument("--outdir", default="images/", help="Directory to save generated images")
+    parser.add_argument("--outdir", default="output", help="Directory to save generated images")
+    parser.add_argument("--pages", default="pages", help="Directory to save generated images")
     parser.add_argument("--model", default="gpt-image-1", help="Image generation model")
     parser.add_argument("--landscape", default="1536x1024", help="Landscape image size (e.g., 1536x1024)")
     parser.add_argument("--portrait", default="1024x1536", help="Portrait image size (e.g., 1024x1536)")
     parser.add_argument("--square", default="1024x1024", help="Square image size (e.g., 1024x1024)")
     parser.add_argument("--trim", default="6x9", help="Physical Trim size in inches (e.g., 4x6)")
     parser.add_argument("--bleed", default="0.125", help="Bleed size in inches (e.g., 0.125)")
+    parser.add_argument("--gutter", default="0.375", help="Gutter size in inches for spreads (e.g., 0.375 for 24-150 pages)")
     parser.add_argument("--pad", default=12, type=int, help="Padding for the patches")
     parser.add_argument("--dpi", default=300, type=int, help="DPI for the output pages")
     parser.add_argument("--quality", default="high", help="Image quality setting")
@@ -291,8 +293,8 @@ def main():
     # 3.0 Generate preview.md
     with open(args.preview, "w") as f:
         for page in pages:
-            outpath  = os.path.join(args.outdir, "pages", f"{page.at}.png")
-            patched_path = os.path.join(args.outdir, "pages", f"{page.at}.patched.png")
+            outpath  = os.path.join(args.pages, f"{page.at}.png")
+            patched_path = os.path.join(args.pages, f"{page.at}.patched.png")
             if os.path.exists(patched_path):
                 outpath = patched_path
             elif not os.path.exists(outpath):
@@ -348,8 +350,8 @@ def main():
 
     # 3.1 Process each page
     for page in pages:
-        outpath  = os.path.join(args.outdir, "pages", f"{page.at}.png")
-        patched_path = os.path.join(args.outdir, "pages", f"{page.at}.patched.png")
+        outpath  = os.path.join(args.pages, f"{page.at}.png")
+        patched_path = os.path.join(args.pages, f"{page.at}.patched.png")
 
         if os.path.exists(outpath):
             print(f"Skipping existing {outpath}")
@@ -364,7 +366,7 @@ def main():
         cutouts = [child for child in page.windings if isinstance(child, Winding) and "cutout" in child.arguments]
         if cutouts:
             print(f"Found cutouts in page '{page.at}': {cutouts}")
-            transparent_path = os.path.join(args.outdir, "pages", f"{page.at}.transparent.png")
+            transparent_path = os.path.join(args.pages, f"{page.at}.transparent.png")
 
             if not os.path.exists(transparent_path):
                 print(f"Transparent image path not found, skipping'{page.at}.transparent.png'")
@@ -402,8 +404,8 @@ def main():
                 continue
 
             # Determine the target size from the trim, dpi and the page size
-            target_width = int((float(args.trim.split("x")[0]) + float(args.bleed)) * args.dpi + 0.5)
-            target_height = int((float(args.trim.split("x")[1]) + float(args.bleed) * 2) * args.dpi + 0.5)
+            target_width = int((float(args.trim.split("x")[0]) + float(args.gutter) + float(args.bleed)) * args.dpi)
+            target_height = int((float(args.trim.split("x")[1]) + float(args.bleed) * 2) * args.dpi)
 
             # If the image is landscape, assume this is a spread
             if "spread" in page.arguments:
