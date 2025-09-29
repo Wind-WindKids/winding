@@ -1,6 +1,7 @@
 from PIL import Image
 import numpy as np
 from scipy.ndimage import gaussian_filter
+import os
 
 def outpaint(image_path, left, right, up, down, pixelate=False):
     """
@@ -21,12 +22,12 @@ def outpaint(image_path, left, right, up, down, pixelate=False):
 
 
     # Load the original image (H×W×C)
-    img = Image.open('001.png').convert('RGB')
+    img = Image.open(image_path).convert('RGB')
     img_arr = np.array(img)
     h, w = img_arr.shape[:2]
 
     # Padding and layers
-    pad = 21
+    pad = 7*8
     layers = list(range(pad, 0, -7))
     print(f"Layers: {list(layers)}")
 
@@ -58,7 +59,7 @@ def outpaint(image_path, left, right, up, down, pixelate=False):
         blurred[..., c] = gaussian_filter(canvas[..., c].astype(np.float32), sigma=sigma)
 
     if pixelate:
-        gauss = np.random.normal(0.01, 0.01, canvas.shape).astype(np.float32)
+        gauss = np.random.normal(1.01, 0.01, canvas.shape).astype(np.float32)
         blurred = blurred * gauss
         blurred = np.clip(blurred, 0, 255)
 
@@ -73,13 +74,13 @@ def outpaint(image_path, left, right, up, down, pixelate=False):
     final_uint8 = np.clip(final, 0, 255).astype(np.uint8)
     # Save the final image
     out_img = Image.fromarray(final_uint8)
-    out_img.save('outpaint-resize.png')
+    return out_img
 
 if __name__ == '__main__':
     import argparse
     parser = argparse.ArgumentParser(description="Outpaint a thin border around an image, to fill bleed areas")
-    parser.add_argument('img', type=str, help='Path to the original image')
-    parser.add_argument('--output', type=str, help='Path to save the output image')
+    parser.add_argument('files', type=str, nargs='+', help='Paths to the images to outpaint')
+    parser.add_argument('--outdir', type=str, help='Output directory for the outpainted images', default="tmp")
     parser.add_argument('--left', type=int, default=0, help='Padding size, left side, pixels')
     parser.add_argument('--right', type=int, default=0, help='Padding size, right side, pixels')
     parser.add_argument('--up', type=int, default=0, help='Padding size, top side, pixels')
@@ -87,8 +88,9 @@ if __name__ == '__main__':
     parser.add_argument('--pixelate', action='store_true', help='Adds noise to the border to reduce banding')
     args = parser.parse_args()
 
-    result = outpaint(args.img, args.left, args.right, args.up, args.down, args.pixelate)
-    if args.output:
-        result.save(args.output)
-    else:
-        result.show()
+
+    for file in args.files:
+        result = outpaint(file, args.left, args.right, args.up, args.down, args.pixelate)
+        result.save(os.path.join(args.outdir, os.path.basename(file)))
+    
+    print(f"Outpainted images saved to {args.outdir}")

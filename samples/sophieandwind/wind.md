@@ -1,4 +1,4 @@
---
+---
 sophie_and_wind: book, portrait-oriented
 theme: Spring or summer daytime, Jardin du Luxembourg, watercolor style
 ---
@@ -38,7 +38,7 @@ Two birds, facing each other, with a heart between them. The birds are inside th
 
 
 --
-sophie_sitting: page, text, portrait-oriented, -Sophie, -Wind, -sad
+sophie_sitting: page, text, portrait-oriented, !Sophie, !Wind, !sad
 --
 Sophie liked to sit on a bench  
 in a big, quiet park in Paris.  
@@ -170,7 +170,7 @@ But she took a few sips from her water bottle and continued.
 A simple, clear water bottle with a kite logo on it. 
 
 --
-sophie_having_fun: spread, text, -Sophie, -Wind, -sad
+sophie_having_fun: spread, text, !Sophie, !Wind, !sad
 --
 @background:
 Kites at the border, leaves flying, wind patterns. 
@@ -184,7 +184,7 @@ It got windy. She didn't mind. She was having fun.
 
 
 --
-the_final_tree: page, text, centered, -tree, -sophie
+the_final_tree: page, text, centered, !tree, !sophie
 --
 The last clue talked about a big old tree:  
 
@@ -206,7 +206,7 @@ you_are_here_illustration: page, portrait-oriented, image, png, centered, anchor
 
 
 --
-you_are_here: page, text, -tree, -sophie, -sad
+you_are_here: page, text, !tree, !sophie, !sad
 --
 Inside was a folded note,  
 like the pages in the book.  
@@ -224,33 +224,7 @@ and hid the book inside.
 
 
 --
-she_thought: page, text, -Sophie, -Wind, -sad
---
-@background:
-Kites at the border, leaves flying, wind patterns.
-
-@left: page, text, centered
-She thought about the book,  
-the note, and the riddle;  
-the search for clues.  
-
-Something lit up in her mind.  
-Wind.  
-A name.  
-She heard it before.  
-
-The kite was still tugging at the sky.
-A boy was holding the string —
-a boy she had seen many times,
-but whose name she did not know.
-
-She stepped closer, looked at him, 
-smiled, and said:
-
-“Hi, Wind.”
-
---
-she_still_likes: page, text, -Sophie, -Wind, -sad
+she_still_likes: page, text, !Sophie, !Wind, !sad
 --
 @background:
 Kites at the border, leaves flying, wind patterns.

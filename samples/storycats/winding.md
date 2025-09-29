@@ -681,7 +681,7 @@ please go ahead and generate the image for the page, please, only Trixy and Jiji
 
 
 --
-part3_jiji_kiru_tag: landscape-orientation
+part3_jiji_kiru_tag: page, image, landscape-orientation
 --
 @text:
 Trixy and Foxy returned to the garden. Trixy played tag with her friends— Jiji and Kiru, while Foxy watched.
@@ -736,13 +736,6 @@ And they’ve lived happily ever after.
 
 @image: Aria.cat.colorful, Twap, Trish, Windy.hummingbird, Foxy, Ravy, Mickey, Trixy
 Foxy, Ravy, Windy, Mickey, Trixy, Trish, Twap and Aria together in a vivid meadow; the sky alive with color.
-
---
-part3_ever_after_the_end: page, image, landscape-oriented
---
-
-@image:
-A wide, dark-blue night sky—deep enough to feel quiet—fills with tiny stars and faint galaxies. In the foreground, Foxy, Ravy, Windy, Mickey, Trixy, Trish, Twap, and Aria appear as constellations woven from fine golden lines: hair-thin strokes that ripple like filament and drift into tighter spirals to suggest fur, feathers, and wing vanes. Those lines subtly thicken at edges to read as silhouettes, then dissolve back into specks, so each figure looks both drawn and born of starlight. Around them, a field of animal constellations (birds, monkeys, turtles, zebras, butterflies, fishes) and simple sky glyphs—crosses, triangles, and measured geometric lattices—quietly echo the same filament style. No body text floats in the sky; only, near the center, barely readable and nearly lost among the stars, the whisper: And they’ve lived happily ever after.
 
 
 --
@@ -947,4 +940,13 @@ safe and secure, and in that library.
 
 @image:
 Trish, on the table with a lamp, pawing a book and reading from a page, in the storybooks library full of brown, gray and black books. On the pages, a lot of small text, but the left page starts with larger heading: Aria.
+
+
+
+--
+part3_ever_after_the_end: page, image, landscape-oriented
+--
+
+@image:
+A wide, dark-blue night sky—deep enough to feel quiet—fills with tiny stars and faint galaxies. In the foreground, Foxy, Ravy, Windy, Mickey, Trixy, Trish, Twap, and Aria appear as constellations woven from fine golden lines: hair-thin strokes that ripple like filament and drift into tighter spirals to suggest fur, feathers, and wing vanes. Those lines subtly thicken at edges to read as silhouettes, then dissolve back into specks, so each figure looks both drawn and born of starlight. Around them, a field of animal constellations (birds, monkeys, turtles, zebras, butterflies, fishes) and simple sky glyphs—crosses, triangles, and measured geometric lattices—quietly echo the same filament style. No body text floats in the sky; only, near the center, barely readable and nearly lost among the stars, the whisper: And they’ve lived happily ever after.
 

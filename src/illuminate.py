@@ -180,7 +180,7 @@ def export_pdf(args):
     from PIL import Image
 
     # 0. Get the image paths and check they exist, no skipped images
-    exported_images = sorted(glob.glob(os.path.join(args.outdir, "export", "???.png")))
+    exported_images = sorted(glob.glob(os.path.join(args.outdir, "pdf", "???.png")))
     page_number = len(exported_images)
     for n in range(page_number):
         if not os.path.exists(exported_images[n]):
@@ -211,9 +211,38 @@ def export_pdf(args):
         pdf.image(image_path, 0, 0, w=page_w, h=page_h, keep_aspect_ratio=False)
 
     # Save the PDF
-    pdf_path = os.path.join(args.outdir, "export", "output-32.pdf")
+    pdf_path = os.path.join(args.outdir, "pdf", "output-32.pdf")
     pdf.output(pdf_path)
     print(f"Exported PDF to {pdf_path}")    
+
+
+    # 2. Calculate the cover size in inches
+    page_w = trim_w + bleed + float(args.spine) / 2 
+    cover_w = page_w * 2
+    page_h = trim_h + 2 * bleed
+    image_w = int(page_w * args.dpi + 0.1)      # Add a small epsilon to avoid rounding issues
+    image_h = int(page_h * args.dpi + 0.1)
+
+
+    pdf = FPDF(unit="in", format=(cover_w, page_h))
+    pdf.set_auto_page_break(auto=False, margin=0)
+    
+    pdf.add_page(orientation="P")
+    pdf.rect(0, 0, page_w, page_h, style="DF")
+    image_path = os.path.join(args.outdir, "pdf", "cover_back.png")
+    image = Image.open(image_path)
+    pdf.image(image_path, 0, 0, w=page_w, h=page_h, keep_aspect_ratio=False)
+
+    pdf.rect(page_w, 0, cover_w, page_h, style="DF")
+    image_path = os.path.join(args.outdir, "pdf", "cover_front.png")
+    image = Image.open(image_path)    
+    pdf.image(image_path, page_w, 0, w=page_w, h=page_h, keep_aspect_ratio=False)
+
+    # Save the PDF
+    pdf_path = os.path.join(args.outdir, "pdf", "output-cover-2.pdf")
+    pdf.output(pdf_path)
+    print(f"Exported PDF to {pdf_path}")    
+
 
 
 def main():
@@ -230,6 +259,7 @@ def main():
     parser.add_argument("--square", default="1024x1024", help="Square image size (e.g., 1024x1024)")
     parser.add_argument("--trim", default="6x9", help="Physical Trim size in inches (e.g., 4x6)")
     parser.add_argument("--bleed", default="0.125", help="Bleed size in inches (e.g., 0.125)")
+    parser.add_argument("--spine", default="0.167", help="Spine size in inches (e.g., 0.167), use Print Cover Calculator")
     parser.add_argument("--gutter", default="0.375", help="Gutter size in inches for spreads (e.g., 0.375 for 24-150 pages)")
     parser.add_argument("--pad", default=12, type=int, help="Padding for the patches")
     parser.add_argument("--dpi", default=300, type=int, help="DPI for the output pages")

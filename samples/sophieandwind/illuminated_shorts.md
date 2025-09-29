@@ -484,6 +484,33 @@ The diamond kite would fly best, balanced and right aspect ratio for the kite.
 Correct answer is to circle #2, cross out #1, #3, #4, #5, and #6.
 
 
+--
+she_thought: page, text, !Sophie, !Wind, !sad
+--
+@background:
+Kites at the border, leaves flying, wind patterns.
+
+@left: page, text, centered
+She thought about the book,  
+the note, and the riddle;  
+the search for clues.  
+
+Something lit up in her mind.  
+Wind.  
+A name.  
+She heard it before.  
+
+The kite was still tugging at the sky.
+A boy was holding the string —
+a boy she had seen many times,
+but whose name she did not know.
+
+She stepped closer, looked at him, 
+smiled, and said:
+
+“Hi, Wind.”
+
+
 
 
 --
@@ -560,3 +587,5 @@ Ariane looking at the dragon, in front of it.
 
 Amazingly, even though the dragon hadn't changed, it replied right away:
 “Greetings, princess. I am the dragon of this park. What is your name?”
+
+
