@@ -675,6 +675,31 @@ and joined Windy above the meadow.
 @image:
 A black, glossy raven lifts off, wings wide, feathers catching light. Windy hovers nearby, wings a blur. Foxy and Trixy look up, amazed. The garden is now vibrant with flowers and greenery. Butterflies and birds are flying. Low trees with flowers on the horizon are blossoming. Sky a clear blue with white clouds.
 
+  
+please go ahead and generate the image for the page, please, only Trixy and Jiji  in foreground, both facing away, don't include descriptions of their faces, so the tool wouldn't turn them incorrectly. the text is to be included at the bottom of the page.  feel free to use the photos above
+
+
+
+--
+part3_jiji_kiru_tag: landscape-orientation
+--
+@text:
+Trixy and Foxy returned to the garden. Trixy played tag with her friends— Jiji and Kiru, while Foxy watched.
+
+@image:
+View from the side, Jiji running in close pursuit, with paw extended mid-leap - trying to reach and tag Trixie's tail, while Trixie is running away (facing sideways/away from the camera). Kiru running in the background, head slightly turned, low to the ground, ready to leap away, watching attentively. 
+
+@Jiji:
+A gray-and-white short-hair tuxedo (white blaze on nose, white chin and chest, front white “socks,” gray mask and back)
+
+@Kiru:
+A larger classic tabby kitten (bold dark swirl pattern on sides, clear “M” on forehead, ringed tail, pale muzzle whisker pads)
+
+@background: 
+The garden is in full bloom and blends into a friendly forest edge—no fences, rounded foliage. A narrow, shallow stream with smooth stones, sedge, and mint; wildflowers (daisies, pinks, and tiny blues) sprinkled through the grass. Butterflies and songbirds in motion; a few hummingbirds darting; ravens small and high; monkeys swinging in distant trees. Two zebras drink at the far stream. A few background cats play and groom. Foxy (friendly red fox) is lying in the grass, away at the grass edge, amused.
+Sky clear blue with white clouds. Sunlit highlights glow; cool greens rest in shade. Except for the kittens, avoid browns or heavy blacks—keep colors clean, airy, gently shimmering.
+
+
 --
 part3_mickey_arrives: page, image, landscape-oriented
 --
@@ -877,4 +902,49 @@ How do you measure the speed of love?
 —
 ¹ In natural units.
 ² In words.
+
+
+
+
+
+--
+storycats_library: page, image, landscape-oriented
+--
+
+The cats kept a library, full of storybooks. 
+
+@image: a library, all the books are brown, gray or black. 
+
+--
+storycats_oopsie: page, image, landscape-oriented
+--
+And if anything ever happened to a cat, 
+
+@image: Twap, letter form, falling from a cliff, paws extended up, letters flying.
+
+--
+trish_library: page, image, landscape-oriented
+--
+Trish would go to the library, open a right page, and read: "On the next day ..."
+
+@image:
+Trish, on the table with a lamp, pawing a book and reading from a page, in the storybooks library full of brown, gray and black books. On the pages, a lot of small text, but the left page starts with larger: On the next day Twap
+
+
+--
+storycats_back: page, image, landscape-oriented
+--
+And the cat would be back, with a turn of a page, even better than before.
+
+@image: Twap, shining
+
+
+--
+aria_secured: page, image, landscape-oriented
+--
+And Aria, now a storycat, had a page too,
+safe and secure, and in that library.
+
+@image:
+Trish, on the table with a lamp, pawing a book and reading from a page, in the storybooks library full of brown, gray and black books. On the pages, a lot of small text, but the left page starts with larger heading: Aria.
 
