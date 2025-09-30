@@ -3,6 +3,12 @@ sophie_and_sun: book, part, portrait-oriented
 theme: Spring or summer daytime, Jardin du Luxembourg, watercolor style
 --- 
 
+@Sophie:
+A girl of about twelve, slim but beginning to show the taller, more defined proportions of her age. Her hair is light brown, sun-kissed blond often loose and gently wavy, falling to her shoulders. Her skin is fair, her features soft yet gradually more refined. She has large, expressive hazel-brown eyes that hold both curiosity and a quiet seriousness. Her neutral expression is calm, sometimes with the suggestion of a smile, giving her an air of poise that feels just a step beyond childhood.
+
+@Font:
+Century Schoolbook L Medium, 50pt, 16 spacing, black
+
 --
 clothes: hidden
 --
@@ -23,12 +29,13 @@ Part 4
 Sophie and Sun
 
 @image:
-Sophie standing at the foot of wide stone church steps, looking toward the sunny park beyond. In the park, colorful kites tug in the wind, leaves swirl, and children laugh in the distance. 
+Sophie standing at the foot of wide stone church steps, looking toward the sunny alley beyond.
 
 
 --
 opening_scene: page, text, centered
 --
+@text:
 Sundays had always been the same.  
 
 Sophie’s mother would take her  
@@ -36,15 +43,19 @@ to the old stone building
 with a heavy leaden roof  
 at the end of the street.
 
---
-sophie_on_steps: page, portrait-oriented, image
---
 @image:
-Sophie standing halfway up the church steps, summer dress catching the wind, sunlight spilling across her face. Beyond the steps, green park trees sway, and red and yellow kites soar above.
+Sophie standing at the foot of wide stone church steps, looking toward the sunny alley beyond.
+
 
 --
-sophie_gets_out: page, text, centered
+she_went: page, portrait-oriented, image
 --
+@text:
+She went, she believed the stories—
+she believed they were true—
+but they weren’t hers,
+and they never seemed to help her.
+
 “Come inside, Sophie,” her mother called.
 
 Sophie shook her head.  
@@ -52,6 +63,18 @@ Sophie shook her head.
 “Mom, I came with you here, 
 but I’d rather be outside. With Wind.”
 
+@background:
+texture, wall with a leaden roof
+
+
+@image:
+Sophie standing at the foot of wide stone church steps, looking toward the sunny alley beyond.
+
+
+--
+sophie_paused: page, portrait-oriented, image 
+-- 
+@text:
 Her mother paused. Sophie grinned. 
 
 “I think Sundays are windier than other days, 
@@ -60,50 +83,72 @@ and because it’s Sunday, Wind isn't at school.
 So can I just go to the park instead?”
 
 “Sophie, it is important. 
-Everyone is going to be there.”
+Everyone will be there.”
 
-“I don't want to, and you can't force me. Please?”
+“I don't want to, Please?
+You told me you wouldn't force me to go.”
 
 “All right.”
 
 “Thank you, Mom.”
 
-And Sophie headed straight toward the park.
+@background: 
+texture, wall with a leaden roof
+
 
 --
-kite_in_trouble: spread, landscape-oriented
+sophie_gets_out: page, portrait-oriented, image 
+-- 
+@text:
+And Sophie headed straight toward the park.
+The sun was bright, the air warm, 
+and the stories could wait.
+
+@image:
+Sophie walking away from the church steps, down a sunlit alley that curves towards a park, green trees on the left, buildings on the right.
+
 --
-@left: page, text
+kite_in_trouble: page, portrait-oriented, image
+--
+@text: small
 In the park, Sophie saw two kids from a
 kite workshop she and Wind had been leading,
 where kids would make and fly dragon kites.
 
-They were trying to launch a dragon kite. It was big...
-It kept going out of alignment, twisting its tail, 
-then flopping right back down onto the kids.
+They were trying to repair a large kite. 
 
+--
+kite_torn: page, portrait-oriented, image
+--
+@text: small
 Sophie watched them for a while, then walked over.
-“Hey, want a hand?” she asked, 
-“I can see what’s off. We’ll get it fixed.”
+“Hey, want a hand?” she asked.
 
-But when she checked her pockets, 
-all she found was two pencils, 
-a paper square, and a phone, 
-“But we do need tape,” she said.
+“I can see what’s off. We’ll get it fixed. 
+But we do need ripstop sail tape.” she said.
 
-@right: page, image
-Two kids across the grass field, 
-a huge dragon kite tumbling down on them.
-Sophie walking. Sunlit grass, playful breeze.
+@image:
+Far away, in the field, two kids are arranging a large kite on a grassy field, Sophie approaching them. The kite is pale yellow, a yellow head, made out of a loose set of individual disks forming a rough shape of a dragon, with around 10 disks for each wing, 10 smaller ones for the tail, 10 for the body, It is very large, and the whole set is spread on the grass.
+
+
 
 --
 pharmacy_closed: page, text, centered
 --
-She thought of the pharmacy,  
-but Madame Madeleine—  
+She thought of the workshop tools and tape—
+but the workshop was at the back of the church.
+
+And she was too embarrassed to go back there.
+
+She thought of the pharmacy, Madame Madeleine—  
 who always kept a roll of every kind of tape 
-behind the counter — was away,
-she remembered seeing the pharmacy door locked.
+behind the counter — she was at the church.
+
+And the little café right next— 
+chairs stacked, door locked.  
+
+Her mom was right. The adults were out.
+
 
 --
 texting_wind: page, portrait-oriented, image
@@ -112,37 +157,16 @@ Then she tried texting Wind.
 
 @image:
 Close-up of Sophie’s phone screen as she texts:
-*Got a kite — bring tape?*  
+*Got a kite — bring ripstop?*  
 Three dots appear… then vanish.  
 Next message: *Later.*
-
---
-flower_shop_closed: page, text, centered
---
-Sophie thought hard about anything that used tape and where she could get some.  
-“Let’s go to the flower shop,” she said to the kids.  
-“It’s right at the edge of the park, and they’ll give us tape.”  
-
-At the flower shop, the sign read: *Open at noon*.
-Sophie stopped. Closed, closed, closed.  
-
---
-cafe_closed: page, text, centered
---
-She tried the little café right next — 
-chairs stacked, door locked.  
-
-Maybe her mom was right, after all. 
-It seemed like everyone was not there.
-
 
 
 --
 water_bottle_idea: spread, landscape-oriented
 --
 @left: page, text
-She was about to pull out her phone, 
-but a boy nearby was walking toward the café, 
+A boy nearby was walking toward the café, 
 crumpling an empty water bottle.  
 
 “Hey!” she called.  
@@ -167,22 +191,19 @@ Sophie catching up to the boy with the bottle, sunlight flashing on the crinkled
 cafe_table_patch: spread, landscape-oriented
 --
 @left: page, text
-They’d requisitioned one of the café tables 
-and a few chairs as an improvised workshop.  
-
 One of the kids had a Swiss Army knife, 
 they’d peeled a sticky label from the bottle, 
 trimmed it into an oval patch, 
 and pressed it over the tear.
 
-@right: page, image
-Children gathered around the café table, Sophie leaning over the kite, carefully pressing the patch in place.
+Not perfect. But it would have to do.
 
---
-kite_flies: page, portrait-oriented, image
---
-@image:
-The patched dragon kite soaring high above the park, tail flickering in the wind. The children below run laughing, Sophie watching with a smile.
+Just in time, her phone buzzed— 
+Wind was coming down the street.
+
+@right: page, image
+Kids gathered around the café table, Sophie leaning over the kite, carefully pressing the patch in place.
+
 
 --
 wind_returns: page, text, centered
@@ -191,91 +212,95 @@ wind_returns: page, text, centered
 giving him a quick kiss on the cheek, 
 “You’re late.”
 
-“Sorry I got stuck.”
+“I got stuck,” Wind replied.
 
 “Was there a whooshing sound  
-when you made it through a window?”  
+when you made it through a window?”
 
-“Almost!” Wind grinned. 
-“They don't force you to stay,
-but it sure feels like it.”
-
-Sophie nodded, a bit worried. 
-“Mom says they used to force you — 
-but not anymore. Not here.
-It's you who decide.”
-
-“They can’t force you,” Wind said,
-“but it matters. It's important.”
+“Almost!” Wind grinned, 
+“They have good stories— 
+but the benches are very sticky,
+you are fixing a kite?”
 
 
 --
-dots: page, text, centered
+kite_flies: page, portrait-oriented, image
 --
-“You sound like my mom,” Sophie said. 
-“I’ve always believed, even when it felt 
-like nonsense. It never helped me.
-And it makes everything closed on Sundays —
-pharmacies, cafés — nonsense.”
+Wind looked at the patch.
+“A water bottle label— 
+we have proper tape at the workshop.”
 
-“It’s not nonsense,” Wind said. 
-“You know why everything was closed?”
+“I know, but I couldn’t go after skunking out.”
 
-He picked up a stick and drew in the dust.
+“Right,” Wind said,
 
-"Look—" A dot. "That's your mom. 
-Another dot. "Dad." Another. "Madame Madeleine." 
-Another. "Me." He connected them with lines.
+“It’s good enough, let’s get it up.”, Sophie said,
 
-He drew one dot a little outside the web. 
-"This is you in the park today. 
-Still connected" — he drew a line to the web — 
-"but not lit up. Not getting the full signal."
+They launched again. It lifted, twisted— 
+then flopped onto the ground with a pop.
 
-@image:
-Wind drawing dots and lines on a globe with 
-continents sketched with dust.
+When they've checked, the bottle label flown off.
+The left wing was torn in two places.
+
+They gathered around, inspecting the damage.
+One of the kids looked close to tears.
+
 
 --
-cats: page, text, centered
+kite_fails: page, text, centered
 --
-“So— like skipping the social feed?” 
-Sophie shrugged, “I’m fine. Not important.”
+“Can you fix it?” one of the kids asked.
 
-“Closer to how Madame Madeleine knows 
-what kids may need, and keeps tape” — 
-Wind said. “When you’re part of it, 
-people can help you — 
-and good old ideas are there, waiting— 
-patient as cats.”
+Sophie studied the torn wing.
+“Wind, can you get the toolbox?”
 
-“Yeah, I remember that civics class now, 
-It's like story-cats, you feed one, 
-the whole porch shows up, and then 
-they turn you into a cat. And cats 
-keep it warm together— and purr, and— 
-remember being more than a cat.”
+“Come on. Let's go to the workshop,” Wind said.
+“It's there for us. You'll see.”
 
-“Yeah. It's nice, but I wish they gave
-ice cream. That'd be nice too,” Wind added.
+Sophie felt her face get hot— 
+but the kids were waiting.
 
-“Come on, new place— pistachio.”
+“Okay,” she said quietly.
 
-@image: cat, png
-Golden abstract cats. each cat is made out of words, symbols, numbers. They should be playing and purring letters, grooming, engaging together. Overall the composition of these cats should form a cat.  Content should include "Once upon a time, there was a puss. It was a very special cat, because it could read and write." "In the beginning there was a word. And the word was Sophie.", "Though shall not", "A cat is more than a cat.", and other common motives. Math content inside these cats, should include "a^2 + b^2 = c^2", π ≈ 3.141, E = mc², e^iπ + 1 = 0, a^2 + b^2 = c^2. There shouldn't be any text that is not part of the cats.
 
-Here are some random words to draw upon: The keyword here is agentic memeplex, a cluster of ideas that reinforce each other. When such set also creates a social network, and such network is global, and it persists for millennia, it is a good indicator that this particular memeplex is really working. Ideas or stories are information. And a memeplex is an informational structure, interconnected, self-reinforcing and useful - similar to math. It is refined, as divine as math is, and it works.
 
 --
-closing_reflection: page, text, centered
+workshop_arrival: page, portrait-oriented, image
 --
+They walked back to the church, then around, 
+to the community space.
+
+The church was near empty, only a few people.
+Some smiled at the kids with the kite.
+Her Mom was not there.
+
+Sophie felt a little better.
+
+They've taken the time and repaired the dragon kite,
+properly this time, restoring its torn wing.
+
+“There, good as new, it`s a great workshop,” Wind said.
+the only thing missing here is ice cream. Come on. 
+New place—pistachio.”
+
+
+@comment: hidden
+Religions - a self-reinforcing cluster of ideas that functions as information infrastructure: interconnected, useful, math-like in refinement and reliability, and often coupled to a social network that can scale globally and persist for millennia. Stories act as algorithms for living (shaping behavior); prayers focus attention and intent; rituals provide pre-cooked responses; networks spread information and coordinate action; living social stories evolve and stabilize communities. Monotheistic frames reduce noise but trade off diversity via hierarchy. Most of these systems are designed for adults, not children—so they often fail modern kids unless reinterpreted for them.
+
+--
+dragon_flies: page, text, centered
+--
+They ate ice cream.
+
 “Look, Wind — the dragon. They’ve released it,
 it’s gliding now,” Sophie said.  
 
 “Yeah, flying free — it looks great,” Wind replied.  
 “Love it.”  
 
-They ate ice cream.
+--
+closing_reflection: page, text, centered
+--
 Sunlight caught in Sophie’s hair, 
 turned it bright, iridescent gold.
 
@@ -283,10 +308,14 @@ turned it bright, iridescent gold.
 twirling a strand in the light.
 
 “See? This is what Sundays should be for — 
-sun, friends, and ice cream.”
+sun, friends, dragons, and ice cream.”
 
-Wind grinned.  
-"Yeah, and flying, and birthday cakes."
+Wind grinned.
+"Proper workshops? We just have to show up. 
+And they're ours."
+
+She laughed and pulled her hair back,
+“Maybe next time.”
 
 --
 renewed_castle: page, image, portrait-oriented
@@ -300,15 +329,14 @@ Sophie and Wind at a small café table in a green Paris square, each with a pist
 hello_world: spread, landscape-oriented
 theme: winter sun, mastery, quiet triumph
 --
-
 @left: page, text, centered
-The next winter, they were flying again.
+They were flying again.
 
 Together.  
 
-Sophie and Wind were ordinary children.  
+Sophie and Wind were ordinary children—  
 
-But they knew the rules weren't the same everywhere,  
+but they knew the rules weren't the same everywhere,  
 and that sometimes they could write their own.  
 In the sky.  
 

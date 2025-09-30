@@ -1,5 +1,9 @@
 build/
 dist/
+images/export*
+images/pdf*
+samples/storycats/export
+samples/storycats/pdf
 samples/__pycache__/
 src/winding.egg-info/
 src/winding/__pycache__/

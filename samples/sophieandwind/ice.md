@@ -157,7 +157,7 @@ But he had to write something.
 He described the most boring day in a classroom —  
 silent students, the clock refusing to move.  
 Only at the end did the perspective flip:  
-a new class of children came in,  
+a new class of students came in,  
 and it became clear that “my” day 
 had been the teacher’s all along.  
 
@@ -552,8 +552,9 @@ A car driving on a coastal road, with the ocean visible in the distance. The sky
 
 
 --
-salt_and_ice: page, portrait-oriented
+salt_and_ice_text: page, portrait-oriented
 --
+@text: small
 They went sailing and came back in the late afternoon, 
 skin warm, jackets and hair stiff with salt.
 
@@ -570,25 +571,28 @@ He stared at it, the taste of salt still on his lips,
 and for the first time in months he felt calm and certain.
 And the sky inside him felt clear.
 
+--
+salt_and_ice: page, image, portrait-oriented
+--
 @image:
 Wind, at the coast, in the background a catamaran sailboat on the water.
 
 
 --
-epilogue: spread, landscape-oriented
+epilogue: page, image, portrait-oriented
 --
-Epilogue — Back to Paris
+@text: small
+Epilogue — See you in Paris
 
-The boarding gate was quiet in the late afternoon light. 
-Security was quick and efficient, no humans in sight.
+She did say “Sorry” — soft enough to stay with him.
 
-When his bag slid through the scanner, 
-the dragon sticker on it caught the X-ray beam.
-It seemed to ripple — a golden head turning, 
-eyes locking with the agent’s. The agent blinked.
+Soon after the jet lifted into the early morning sky,
+Wind leaned back, engines hummed, clouds melted away beneath.
+He was flying again, settling to cruise — to Paris.
 
-Soon after the jet lifted into the evening sky.  
-Wind leaned back, engines purred, clouds disappearing below.
-He was flying again, settling to cruise, to Paris.
+@background:
+Sky, clouds, sunrise light, watercolor style.
+
+
 
 
