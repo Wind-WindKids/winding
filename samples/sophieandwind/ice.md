@@ -13,7 +13,6 @@ Sophie and Ice
 @image: 
 Two eGulls, at the empty airfield in California, winter, low sun, long shadows, frost on the ground, clear sky.
 
-Can you do a matching page, similar background with that ice texture, same small font
 
 --
 brother: page, text, small
@@ -287,26 +286,6 @@ No magic is required to explain this sequence:
 - Wind’s “storm” could be perception bias or coincidence.
 - Storm → memory worthy; other angry days without storms → forgotten.
 
---
-doomscroll: page, image, portrait-oriented
---
-@text: small
-That night, he sat on his bed,  screen glowing,
-scrolling past the weather
-into news from half a world away.
-
-A peace negotiation had failed again.
-Drone footage showed a school ablaze.
-
-The Dragon’s voice cut in, firm but not unkind:
-“Stop. This won’t get Sophie back. Work.”
-
-Wind closed the news and opened his projects folder.
-
-@image:
-Wind on his bed, in his room, a soft glow lighting his face.  
-There's a keyboard on the bed and he has a computer mouse in his right hand. But there's no laptop or computer visible.  The wall in front of him is a wide angle projected screen shows a news app.
-His posture is tense, absorbed, while the atmosphere of the room  remains quiet. Muted tones, watercolor softness, light frost edging the background. 
 
 --
 dragon_fails: page, image, portrait-oriented
@@ -387,32 +366,25 @@ darkness_and_learning: page, text, portrait-oriented
 @text: small
 Wind was disappointed.
 
-The Dragon had taught him to fly—
-to read weather, navigate by stars,
-taught him the ultimate speed — 
+The Dragon had taught him to fly—  
+to read the weather, navigate by stars,  
+and even taught him the ultimate speed—  
 the speed of light.
 
-It even taught him the real measure:
-not the ultimate limit as physics knew it,
-but as mothers did — 
-the speed of love.
+It had even shown him the truer measure:  
+not the ultimate limit as physics knew it,  
+but as parents did—the speed of love.
 
-Yet his Dragon, wise enough to know
-what truly mattered,
+Yet his Dragon, wise enough to know  
+what truly mattered,  
 couldn’t say a word to him.
 
-Millenia before his Dragon, 
-the adults had done something wrong.
-They wrote a book of rules, 
-instead of a playbook. 
-
-Silent and absolute.
+It had followed its rulebook,  
+silent and absolute.  
 
 @background:
 Muted dark blue tones, watercolor softness, frost edging the background. 
 
-
-Ok, so this is complicated, I don't expect you'll be able to do the cutout. Try it, but if not, just have a portrait-oriented rectangle placeholder.
 
 --
 change_the_future: page, text, portrait-oriented

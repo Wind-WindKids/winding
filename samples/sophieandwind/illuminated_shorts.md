@@ -159,6 +159,106 @@ Wind: “Yeah… not my style.”
 
 
 --
+illuminated_shorts: page, text, portrait-oriented
+--
+Illuminated Shorts
+
+--
+coming_soon_opening_scene: spread, landscape-oriented
+--
+@left: page, text
+“You failed!?”  
+Sophie’s voice cut sharper than the clink of cups below.
+
+“You — Wind — failed a grade school quiz?  
+And they grounded you for months?”
+
+Wind shrugged, tracing a circle in the condensation on his glass.  
+
+“And half the questions weren’t even in the book. That’s so unfair,” she said.
+
+“He’s a very good teacher,” Wind replied.
+
+Sophie blinked.  
+“Wait… what?”
+
+They were sitting at the upper level of a small Parisian café,  
+the kind of place where local tweens ordered citron pressé  
+and felt very grown up.
+
+
+She straightened a little, and said with pride.  
+“In my school, teachers always cover the test material.  
+Always. That’s what makes them good.”  
+
+Wind traced another circle in the glass.  
+“When I was training my Dragon, I learned something else.”  
+
+Sophie blinked again.  
+“You can train your Dragon?”
+
+Wind nodded.  
+“You’d give it something to learn, but the quiz needs to be different.  
+Like… you train it to write one word on a whiteboard,  
+and then you ask for another.”  
+
+Sophie frowned, remembering.  
+“Like words it couldn’t say?”  
+
+Wind gave a small smile.  
+“Exactly.”
+
+
+
+--
+the_quartet: page, text, centered
+--
+The Quartet
+
+@left: page, text
+“Not the Dragon again, Wind. He’s scary,” Sophie said.
+
+“I’ve been training him — Dad helped too. Come see,” — 
+and “show her you can sing.”, Wind said to the Dragon.
+
+“I am an instructor, not a troubadour,” the Dragon replied.  
+
+“Dragon. Play.”  
+
+The Dragon bowed slightly. Its silhouette brightened,
+breaking apart into sparks — into a golden constellation in the sky.
+
+The simulator darkened. The eGull faded into night.
+A violin rose, drawing the shape of a single eGull across the stars.
+Another joined, then another —
+lines of light weaving harmony in the sky.
+
+At the peak, two eGulls lifted above the cloudtops.
+The horizon glowed with sunrise.
+
+
+@right: page, portrait-oriented, image
+
+@page: rectangle, cutout, large, landscape-oriented
+![Sophie and Wind sitting in the eGull simulator, close together. Orchestra in the sky.](epilogue_sophie_and_wind.png)
+
+@text:
+“It’s beautiful…”, Sophie whispered.
+Wind smiled — “Good Dragon.”
+
+“Can my eGull have a unicorn horn? Please?”
+
+“Yes, Princess Sophie,” replied the Dragon, 
+forming its shape out of the stars,
+with only a little delay, and bowing slightly.
+
+“Thank you,”  — and both of them smiled.
+
+
+
+
+
+--
 scenes_time: page, portrait-oriented, image
 --
 Wind: “Dad, the Dragon says I should ditch Sophie. Should I?”  

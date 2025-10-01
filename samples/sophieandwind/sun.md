@@ -338,7 +338,6 @@ Sophie and Wind were ordinary children—
 
 but they knew the rules weren't the same everywhere,  
 and that sometimes they could write their own.  
-In the sky.  
 
 @right: page, image
 Two white eGulls tracing words across the sky.  

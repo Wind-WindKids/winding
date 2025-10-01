@@ -747,6 +747,15 @@ A girl of about twelve, slim but beginning to show the taller, more defined prop
 A high wing electric ultralight, white, T-tail, gray propeller, tricycle gear, single gray seat, bubble canopy.
 
 
+--
+clothes: hidden
+--
+@Sophie.clothes: winter
+A fitted teal winter coat over a soft sweater, paired with slim dark jeans. A purple knit scarf loosely around her neck, adding contrast. Brown winter boots, practical but neat. Her hair slightly tucked into the coat collar, emphasizing warmth and coziness.
+
+@Wind.clothes: winter
+A slim, gray-green winter jacket with a zipper front, layered over a hoodie. Dark jeans with a straight slim fit. Simple sneakers in neutral colors. Hair left tousled, the jacket slightly rumpled, giving him a natural, boyish look.
+
 
 --
 part_cover: page, portrait-oriented, cover-front
@@ -823,6 +832,17 @@ the smile didn’t quite reach her eyes.
 @right: image
 A snowy mountain village, Wind and Sophie walking side by side,
 
+
+--
+clothes_change: hidden
+--
+@Wind.clothes:
+Slim-fit jeans, light blue hoodie with a soft, casual cut. Simple gray sneakers. Clothes sit comfortably but neat, practical for movement.
+
+@Sophie.clothes:
+Slim-fit jeans, long-sleeve top in warm orange tones, slightly fitted. Casual soft brown flats. Clean, practical look with a hint of brightness.
+
+![Sophie and Wind in California/winter clothes](images/pages/frost/clothes_change.png)
 
 
 
@@ -1113,7 +1133,6 @@ Or simply talk to her brother.
 By morning she’d decided: *she was done with Wind*.
 
 
-
 --
 closed_door: spread, landscape-oriented
 --
@@ -1317,6 +1336,7 @@ Wind in his room, looking frustrated and disappointed.The room has posters of ai
 icy texture, light blue and white, subtle frost patterns.
 
 
+
 --
 working: page, text
 --
@@ -1334,7 +1354,7 @@ But he had to write something.
 He described the most boring day in a classroom —  
 silent students, the clock refusing to move.  
 Only at the end did the perspective flip:  
-a new class of children came in,  
+a new class of students came in,  
 and it became clear that “my” day 
 had been the teacher’s all along.  
 
@@ -1453,6 +1473,7 @@ the sky cracked open with thunder.
 Wind riding his bike through a park,
 big leaves swirling in the air around him,
 dark clouds gathering above,
+
 
 
 
@@ -1587,18 +1608,26 @@ Ok, so this is complicated, I don't expect you'll be able to do the cutout. Try 
 change_the_future: page, text, portrait-oriented
 --
 @text: small
-So the Dragon failed. 
+So the Dragon failed.  
 And it couldn't even say why.
-
-Wind couldn’t change the past,
-but he had complained bitterly to the Dragon.
-And he set his Dragon to do lines 
-writing the tricky word again and again,
+Wind couldn’t change the past, 
+but he had complained bitterly 
+to the Dragon. 
+And he set his Dragon to 
+do lines writing the tricky 
+word again and again, 
 until it could learn to say it.
 
 @image: 
-Wind on his bed, in his room, a soft glow lighting his face. There's a keyboard on the bed, but there's no laptop or computer visible. The wall in front of him is a wide angle projected screen shows reinforcement learning robotics AI training, part of it are learning rate curves, loss, etc. 
-A part of the screen is a golden portrait-oriented scene.  Muted tones, watercolor softness, light frost edging the background.
+Wind on his bed, in his room, a soft glow lighting his face. There's a keyboard on the bed, but there's no laptop or computer visible. The wall in front of him is a wide angle projected screen shows reinforcement learning robotics AI training.
+
+@screen.left:
+learning rate curves, loss, etc. 
+
+@screen.right: 
+A golden portrait-oriented scene with a dragon
+
+Muted tones, watercolor softness, light frost edging the background.
 
 @scene: portrait-oriented, cutout
 A sleek golden Dragon stands in front of a tall whiteboard.  It looks like it's made out of golden stars and lines, fake cgi in watercolor.
@@ -1686,37 +1715,40 @@ tapped Unblock and typed:
 
 
 --
-hey_jude: page, text
+hey_jude: page, portrait-oriented
 --
+@text: small
 Wind didn’t see the message right away.
 
 That morning, his dad called from the doorway:
-“Come on, let’s head to the coast — catch some wind the old way.”
+“Come on, let’s head to the coast —
+ catch some wind the old way.”
 
-He scooped him up the way he had when Wind was little,
-and together they drove off.
+And together they drove off.
 
 They left the freeway, climbing into the hills.
 *Hey Jude* filled the car.
 
-His dad sang, off-key but certain. Wind grinned and joined in.
-As they crested the ridge, the ocean opened wide below.
+His dad sang, off-key but certain. 
+Wind grinned and joined in.
+As they crested the ridge, 
+the ocean opened wide below.
 
-By the time they reached the harbor,
-a catamaran was waiting,
-her sails bright in the late-morning sun.
-
+@image:
+A car driving on a coastal road, with the ocean visible in the distance. The sky is clear and blue, with a few clouds. The car is a modern sedan, and we see it from behind, driving away from us.
 
 
 --
-salt_and_ice: spread, landscape-oriented
+salt_and_ice_text: page, portrait-oriented
 --
-They came back in the late afternoon, skin warm, hair stiff with salt.
-Wind’s jacket was crusted white where the spray had dried.
+@text: small
+They went sailing and came back in the late afternoon, 
+skin warm, jackets and hair stiff with salt.
 
-Salt melts ice, he said, brushing it from his sleeve.
+“Salt melts ice,” Wind said, brushing it from his sleeve.
 
-The phone blinked awake in his hand, still warm from the sun.
+The phone blinked awake in his hand, 
+still warm from the sun. 
 
 One new message.
 
@@ -1726,24 +1758,29 @@ He stared at it, the taste of salt still on his lips,
 and for the first time in months he felt calm and certain.
 And the sky inside him felt clear.
 
+--
+salt_and_ice: page, image, portrait-oriented
+--
+@image:
+Wind, at the coast, in the background a catamaran sailboat on the water.
 
 
 --
-epilogue: spread, landscape-oriented
+epilogue: page, image, portrait-oriented
 --
-Epilogue — Back to Paris
+@text: small
+Epilogue — See you in Paris
 
-The boarding gate was quiet in the late afternoon light. 
-Security was quick and efficient, no humans in sight.
+She did say “Sorry” — soft enough to stay with him.
 
-When his bag slid through the scanner, 
-the dragon sticker on it caught the X-ray beam.
-It seemed to ripple — a golden head turning, 
-eyes locking with the agent’s. The agent blinked.
+Soon after the jet lifted into the early morning sky,
+Wind leaned back, engines hummed, clouds melted away beneath.
+He was flying again, settling to cruise — to Paris.
 
-Soon after the jet lifted into the evening sky.  
-Wind leaned back, engines purred, clouds disappearing below.
-He was flying again, settling to cruise, to Paris.
+@background:
+Sky, clouds, sunrise light, watercolor style.
+
+
 
 
 ---
@@ -1751,6 +1788,17 @@ sophie_and_sun: book, part, portrait-oriented
 theme: Spring or summer daytime, Jardin du Luxembourg, watercolor style
 --- 
 
+@Sophie:
+A girl of about twelve, slim but beginning to show the taller, more defined proportions of her age. Her hair is light brown, sun-kissed blond often loose and gently wavy, falling to her shoulders. Her skin is fair, her features soft yet gradually more refined. She has large, expressive hazel-brown eyes that hold both curiosity and a quiet seriousness. Her neutral expression is calm, sometimes with the suggestion of a smile, giving her an air of poise that feels just a step beyond childhood.
+
+--
+clothes: hidden
+--
+@Wind.clothes: summer
+Slim-fit linen shirt in teal, short sleeves, lightly tailored to the body. Mid-thigh shorts in light gray, clean cut, slightly fitted. White low-top sneakers with short white socks, visible just above the shoe line. Overall look neat, practical, and slightly fashionable.
+
+@Sophie.clothes: summer
+A light, slim summer dress, soft linen in pale cream or light sky-blue tones. Dress has open shoulders with thin straps, slightly flared at the hem, falling just above the knee. Simple but graceful, with a faint floral or subtle stripe pattern to suggest texture without clutter. Worn with flat sandals or slip-on shoes in light brown leather.
 
 
 
@@ -1763,12 +1811,15 @@ Part 4
 Sophie and Sun
 
 @image:
-Sophie standing at the foot of wide stone church steps, looking toward the sunny park beyond. In the park, colorful kites tug in the wind, leaves swirl, and children laugh in the distance. 
+Sophie standing at the foot of wide stone church steps, looking toward the sunny alley beyond.
 
+
+Can you generate the image?  Please use the more realistic one, smoother (I think it is the second image of the above pair).  
 
 --
 opening_scene: page, text, centered
 --
+@text:
 Sundays had always been the same.  
 
 Sophie’s mother would take her  
@@ -1776,15 +1827,22 @@ to the old stone building
 with a heavy leaden roof  
 at the end of the street.
 
---
-sophie_on_steps: page, portrait-oriented, image
---
 @image:
-Sophie standing halfway up the church steps, summer dress catching the wind, sunlight spilling across her face. Beyond the steps, green park trees sway, and red and yellow kites soar above.
+Sophie standing at the foot of wide stone church steps, looking toward the sunny alley beyond.
+
+
+
+ 
 
 --
-sophie_gets_out: page, text, centered
+she_went: page, portrait-oriented, image
 --
+@text:
+She went, she believed the stories—
+she believed they were true—
+but they weren’t hers,
+and they never seemed to help her.
+
 “Come inside, Sophie,” her mother called.
 
 Sophie shook her head.  
@@ -1792,6 +1850,18 @@ Sophie shook her head.
 “Mom, I came with you here, 
 but I’d rather be outside. With Wind.”
 
+@background:
+texture, wall with a leaden roof
+
+
+@image:
+Sophie standing at the foot of wide stone church steps, looking toward the sunny alley beyond.
+
+
+--
+sophie_paused: page, portrait-oriented, image 
+-- 
+@text:
 Her mother paused. Sophie grinned. 
 
 “I think Sundays are windier than other days, 
@@ -1800,15 +1870,29 @@ and because it’s Sunday, Wind isn't at school.
 So can I just go to the park instead?”
 
 “Sophie, it is important. 
-Everyone is going to be there.”
+Everyone will be there.”
 
-“I don't want to, and you can't force me. Please?”
+“I don't want to, Please?
+You told me you wouldn't force me to go.”
 
 “All right.”
 
 “Thank you, Mom.”
 
+@background: 
+texture, wall with a leaden roof
+
+
+--
+sophie_gets_out: page, portrait-oriented, image 
+-- 
+@text:
 And Sophie headed straight toward the park.
+The sun was bright, the air warm, 
+and the stories could wait.
+
+@image:
+Sophie walking away from the church steps, down a sunlit alley that curves towards a park, green trees on the left, buildings on the right.
 
 --
 kite_in_trouble: spread, landscape-oriented
@@ -1818,9 +1902,9 @@ In the park, Sophie saw two kids from a
 kite workshop she and Wind had been leading,
 where kids would make and fly dragon kites.
 
-They were trying to launch a dragon kite. It was big...
-It kept going out of alignment, twisting its tail, 
-then flopping right back down onto the kids.
+They were trying to launch a dragon kite. 
+It kept, twisting its tail, then—
+flopping right back down onto the kids.
 
 Sophie watched them for a while, then walked over.
 “Hey, want a hand?” she asked, 
@@ -1857,24 +1941,12 @@ Three dots appear… then vanish.
 Next message: *Later.*
 
 --
-flower_shop_closed: page, text, centered
---
-Sophie thought hard about anything that used tape and where she could get some.  
-“Let’s go to the flower shop,” she said to the kids.  
-“It’s right at the edge of the park, and they’ll give us tape.”  
-
-At the flower shop, the sign read: *Open at noon*.
-Sophie stopped. Closed, closed, closed.  
-
---
 cafe_closed: page, text, centered
 --
 She tried the little café right next — 
 chairs stacked, door locked.  
 
-Maybe her mom was right, after all. 
-It seemed like everyone was not there.
-
+Maybe her mom was right. The adults were out.
 
 
 --
@@ -1907,22 +1979,22 @@ Sophie catching up to the boy with the bottle, sunlight flashing on the crinkled
 cafe_table_patch: spread, landscape-oriented
 --
 @left: page, text
-They’d requisitioned one of the café tables 
-and a few chairs as an improvised workshop.  
-
 One of the kids had a Swiss Army knife, 
 they’d peeled a sticky label from the bottle, 
 trimmed it into an oval patch, 
 and pressed it over the tear.
 
+Just in time, too — her phone buzzed, 
+and she saw Wind’s coming down the street.
+
 @right: page, image
-Children gathered around the café table, Sophie leaning over the kite, carefully pressing the patch in place.
+Kids gathered around the café table, Sophie leaning over the kite, carefully pressing the patch in place.
 
 --
 kite_flies: page, portrait-oriented, image
 --
 @image:
-The patched dragon kite soaring high above the park, tail flickering in the wind. The children below run laughing, Sophie watching with a smile.
+The patched dragon kite soaring high above the park, tail flickering in the wind. The kids below run laughing, Sophie watching with a smile.
 
 --
 wind_returns: page, text, centered
@@ -1931,80 +2003,15 @@ wind_returns: page, text, centered
 giving him a quick kiss on the cheek, 
 “You’re late.”
 
-“Sorry I got stuck.”
+“I got stuck,” Wind replied.
 
 “Was there a whooshing sound  
-when you made it through a window?”  
+when you made it through a window?”,
 
-“Almost!” Wind grinned. 
-“They don't force you to stay,
-but it sure feels like it.”
+“Almost!” Wind grinned, 
+“They've had good stories—
+come on. New place— pistachio.”
 
-Sophie nodded, a bit worried. 
-“Mom says they used to force you — 
-but not anymore. Not here.
-It's you who decide.”
-
-“They can’t force you,” Wind said,
-“but it matters. It`s important.”
-
-
---
-dots: page, text, centered
---
-“You sound like my mom,” Sophie said. 
-“I’ve always believed, even when it felt 
-like nonsense. It never helped me.
-And it makes everything closed on Sundays —
-pharmacies, cafés — nonsense.”
-
-“It’s not nonsense,” Wind said. 
-“You know why everything was closed?”
-
-He picked up a stick and drew in the dust.
-
-"Look—" A dot. "That's your mom. 
-Another dot. "Dad." Another. "Madame Madeleine." 
-Another. "Me." He connected them with lines.
-
-He drew one dot a little outside the web. 
-"This is you in the park today. 
-Still connected" — he drew a line to the web — 
-"but not lit up. Not getting the full signal."
-
-@image:
-Wind drawing dots and lines on a globe with 
-continents sketched with dust.
-
---
-cats: page, text, centered
---
-“So— like skipping the social feed?” 
-Sophie shrugged, “I’m fine. Not important.”
-
-“Closer to how Madame Madeleine knows 
-what kids may need, and keeps tape” — 
-Wind said. “When you’re part of it, 
-people can help you — 
-and good old ideas are there, waiting— 
-patient as cats.”
-
-“Yeah, I remember that civics class now, 
-It's like story-cats, you feed one, 
-the whole porch shows up, and then 
-they turn you into a cat. And cats 
-keep it warm together— and purr, and— 
-remember being more than a cat.”
-
-“Yeah. It's nice, but I wish they gave
-ice cream. That'd be nice too,” Wind added.
-
-“Come on, new place— pistachio.”
-
-@image: cat, png
-Golden abstract cats. each cat is made out of words, symbols, numbers. They should be playing and purring letters, grooming, engaging together. Overall the composition of these cats should form a cat.  Content should include "Once upon a time, there was a puss. It was a very special cat, because it could read and write." "In the beginning there was a word. And the word was Sophie.", "Though shall not", "A cat is more than a cat.", and other common motives. Math content inside these cats, should include "a^2 + b^2 = c^2", π ≈ 3.141, E = mc², e^iπ + 1 = 0, a^2 + b^2 = c^2. There shouldn't be any text that is not part of the cats.
-
-Here are some random words to draw upon: The keyword here is agentic memeplex, a cluster of ideas that reinforce each other. When such set also creates a social network, and such network is global, and it persists for millennia, it is a good indicator that this particular memeplex is really working. Ideas or stories are information. And a memeplex is an informational structure, interconnected, self-reinforcing and useful - similar to math. It is refined, as divine as math is, and it works.
 
 --
 closing_reflection: page, text, centered
@@ -2023,7 +2030,7 @@ turned it bright, iridescent gold.
 twirling a strand in the light.
 
 “See? This is what Sundays should be for — 
-sun, friends, and ice cream.”
+sun, friends, dragons, and ice cream.”
 
 Wind grinned.  
 "Yeah, and flying, and birthday cakes."
