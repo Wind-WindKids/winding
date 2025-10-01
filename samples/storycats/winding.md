@@ -715,7 +715,7 @@ Foxy and Trixy look at Mickey, a fluffy white kitten approaching, eyes bright, t
 --
 part3_trixy_bats_at_copyright: page, image, landscape-oriented
 --
-“No, you can't!” Trixy laughed. 
+“A mouse named Mickey? You can't! That's someone else's story.” Trixy laughed. 
 
 @image:
 Trixy bats at floating © letters; Mickey looks puzzled, ears back. Foxy laughts. The garden is now vibrant with flowers and greenery. Butterflies and birds are flying. Low trees with flowers on the horizon are blossoming. Sky a clear blue with white clouds. Butterflies and birds are flying. Low trees with flowers on the horizon are blossoming.  A couple of squirrels chattering. There are monkeys swinging in the trees. Birds on the branches and in the air. A few hummingbirds darting through. A couple of squirrels chattering. A couple of zebras drinking from the stream. A few cats playing and grooming.Sky a clear blue with white clouds. Sunlit highlights glow; cool greens rest in shade. No browns or heavy blacks—only clean, airy color with a gentle shimmer.
