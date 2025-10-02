@@ -491,13 +491,12 @@ she’s bad news—like a cloud of ice.”
 his dad said, 
 “Hold on tight to your dreams, Wind—not to Dragons.”
 
-@background:
-Morning light, watercolor softness, light frost edging the background
-
+@background: 
+Morning light, watercolor softness, a window with indistinct morning light, no people on the image
 
 
 --
-dragon_abroad: spread, landscape-oriented
+abroad: spread, landscape-oriented
 --
 @left: page, text
 A month later, Sophie was curled up on her couch in Paris,  
@@ -520,30 +519,40 @@ She didn’t want to stay there.
 She got up, pulled on her jacket,  
 and stepped outside.  
 
+@background: 
+Evening light, watercolor softness, a window with indistinct evening light, no people on the image
+
 @comment: hidden
 The advertisement could have been the Dragon’s work, acting on Wind’s behalf from abroad. The Dragon has a certain level of autonomy, perhaps a great deal. It’s no ordinary AI: a CFI/PIC-capable agent, embodied in the eGull. Its favorite student (and partial owner, since Wind’s dad owns both eGulls) is unraveling after his crush is gone. He had “complained bitterly” to the Dragon. On top of that, Wind had been “training it” — making the Dragon write the unspeakable word. It sounds a lot like a reinforcement-learning finetune task, which may have interfered with its safety constraints and granted it more freedom or made it quirky. A month had passed since that interference. So perhaps this was the Dragon’s way of helping Wind.
 
 
 
 --
-the_next_morning: page, text
+the_next_morning: page, image, portrait-oriented
 --
-The next morning her sharp words came back —  
-the foot-stomp, the courtyard, the “Don’t touch me.”  
+@text: small
+The next morning her sharp words came back —
+the foot-stomp, the courtyard, the “Don’t touch me.”
 
-She sat a long time,  
-thinking about what she’d done,  
+She sat a long time,
+thinking about what she’d done,
 and about a boy with wind in his name  
-who used to make her laugh without even trying.  
+who used to make her laugh without trying.
 
-That she iced him out, 
-simply because she was scared.
+She’d iced him out because she was scared—
+because things were happening to her,
+and it was too much, she felt out of control.
 
 And that thought stayed with her.  
 
+@background: 
+Morning light, watercolor softness, a window with indistinct morning light, no people on the image
+
+
 --
-hi_wind: page, text
+hi_wind: page, image, portrait-oriented
 --
+@text: small
 It was too late to fix things.
 But she picked up her laptop,  
 feeling the smooth, cold metal.
@@ -557,11 +566,14 @@ She opened it.
 The screen lit: two eGulls soaring over a California sky,  
 the sun bright and warm.  
 
-She stared at it for a moment.  
-Then, without thinking too hard,  
-tapped Unblock and typed:  
+She stared at it for a moment. 
+Then, without thinking too hard,
+tapped Unblock and typed:
 
 *Hi, Wind.*
+
+@background:
+Morning light, watercolor softness, a window with clear morning light, no people on the image. A cell phone with a message app open, text input field showing "Hi, Wind."
 
 
 --
