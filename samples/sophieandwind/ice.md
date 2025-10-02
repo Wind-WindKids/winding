@@ -429,6 +429,71 @@ Across the board, messy, tilted handwriting, attempts to write ‘puberty’:
 > I can say a word perimenopause.
 
 
+--
+dragon_corrupted: page, text, portrait-oriented
+--
+@text: small
+The next weekend he had a surprise. He was studying 
+with the Dragon again —  “Today we are going to 
+study ice in flight. And ice in flight is bad news.”  
+
+“But I don’t need bad news. I want good news,” Wind
+said cheerfully.
+
+“Statistically, if you want good news, you should 
+ditch Sophie,” the Dragon said flatly.  
+
+“Wait… what?”  Wind frowned.
+
+“When ice is encountered, the rule is simple:  
+immediately start working to get out of it.  
+No panic. No delay. But no waiting, either.”  
+
+“You’re talking about wings?”   
+
+“I’m talking about Sophie. She iced half your world.  
+Safe pilots exit the cloud. They don’t cling to it.  
+You’d be better off finding a copilot, not a cloud,”
+the Dragon replied.  
+
+Wind closed the session, and rolled the training back.
+
+@background:
+Morning light, watercolor softness, light frost edging the background, stylized dragon at the top.
+
+
+
+--
+scenes_time: page, portrait-oriented, image
+--
+@text: small
+Wind closed the session, and rolled the training back.
+
+@image:
+small stylyzed dragon
+
+@text: small
+That day, he asked his dad:
+
+“Dad, the Dragon says
+it'd be safer if I ditch Sophie. 
+Should I?”  
+
+“Dragon loves safe. 
+Is that what you want?”, his dad asked.
+
+“No… I don’t want safe. 
+I want to fly with her. 
+But the Dragon says 
+she’s bad news—like a cloud of ice.”
+
+“Does it, now? Dragons know nothing of this world,” 
+his dad said, 
+“Hold on tight to your dreams, Wind—not to Dragons.”
+
+@background:
+Morning light, watercolor softness, light frost edging the background
+
 
 
 --
