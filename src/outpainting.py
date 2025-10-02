@@ -59,7 +59,7 @@ def outpaint(image_path, left, right, up, down, pixelate=False):
         blurred[..., c] = gaussian_filter(canvas[..., c].astype(np.float32), sigma=sigma)
 
     if pixelate:
-        gauss = np.random.normal(1.01, 0.01, canvas.shape).astype(np.float32)
+        gauss = np.random.normal(1.01, 0.03, canvas.shape).astype(np.float32)
         blurred = blurred * gauss
         blurred = np.clip(blurred, 0, 255)
 
