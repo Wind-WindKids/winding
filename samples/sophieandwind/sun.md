@@ -60,9 +60,6 @@ and they never seemed to help her.
 
 Sophie shook her head.  
 
-“Mom, I came with you here, 
-but I’d rather be outside. With Wind.”
-
 @background:
 texture, wall with a leaden roof
 
@@ -272,9 +269,10 @@ to the community space.
 
 The church was near empty, only a few people.
 Some smiled at the kids with the kite.
-Her Mom was not there.
 
 Sophie felt a little better.
+But her Mom was not there.
+
 
 They've taken the time and repaired the dragon kite,
 properly this time, restoring its torn wing.
@@ -299,7 +297,7 @@ it’s gliding now,” Sophie said.
 “Love it.”  
 
 --
-closing_reflection: page, text, centered
+reflection: page, text, centered
 --
 Sunlight caught in Sophie’s hair, 
 turned it bright, iridescent gold.
@@ -317,6 +315,8 @@ And they're ours."
 She laughed and pulled her hair back,
 “Maybe next time.”
 
+Wind looked away.
+
 --
 renewed_castle: page, image, portrait-oriented
 --
@@ -326,24 +326,45 @@ Sophie and Wind at a small café table in a green Paris square, each with a pist
 
 
 --
-hello_world: spread, landscape-oriented
-theme: winter sun, mastery, quiet triumph
+reflections: page, text, centered
 --
-@left: page, text, centered
-They were flying again.
+She said it so easily — *maybe next time* — the
+way she always did. But this time, Wind didn’t smile.
 
-Together.  
+He just looked away, toward the dragon kite drifting above the park.
+“Wind —” she started.
 
-Sophie and Wind were ordinary children—  
+He turned back, and there was something different in his eyes.
+Not anger. Something quieter. Saddness? Disappointment?
 
-but they knew the rules weren't the same everywhere,  
-and that sometimes they could write their own.  
+“What?” he asked. Not mean, just... tired. Sophie felt something in her chest  — 
+the same feeling she'd had when her brother sat slumped in that chair, looking into distance.
+*My fault,* her brother had said. She knew it wasn't.
 
-@right: page, image
-Two white eGulls tracing words across the sky.  
-Their trails spell: **Hello World!**  
+And looking at Wind now, she felt it again. *My fault.* 
+And she started to cry, “Wind, I’m sorry. I didn’t mean to—”
+
+Wind looked at her, really looked at her.
 
 
+--
+park_walk: page, text, centered
+--
+
+She looked back—
+and saw how suddenly tired he was.
+
+Wind didn't reach for her. 
+He didn't walk away either.
+
+After a moment, she stood.
+"Come on," she said quietly.
+
+They walked through the park and she started feeling better, 
+the warmth of day and sun again.
+
+They haven't held hands, but in a little while,
+they've walked closer together and started to talk and smile again.
 
 
 

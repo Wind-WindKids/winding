@@ -59,9 +59,7 @@ Story by Wind and Ariane Windkid.
 Sophie and Wind — The Quartet
 Two ordinary kids. A real Dragon. And the sky.
 
-When a Dragon teaches Sophie and Wind to fly ultralight eGulls in California, flying turns out to be the easy part. A bicycle accident in Paris changes everything—and ice creeps between them. They navigate the turbulence of growing up, the rules and kingdoms that try to claim them, and learn that sometimes a simple *Hi* is enough to find their way back to each other.
-
-A story about first flight, relationships, and the freedom to write your own rules in the sky.
+When a Dragon teaches Sophie and Wind to fly ultralight eGulls in California, flying turns out to be the easy part. A bicycle accident in Paris changes everything—and ice creeps between them. They navigate the turbulence of growing up, the rules and kingdoms that try to claim them, and learn that sometimes a simple *Hi* is enough and not enough.
 
 
 
