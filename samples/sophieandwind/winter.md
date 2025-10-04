@@ -21,7 +21,7 @@ A high wing electric ultralight, white, T-tail, gray propeller, tricycle gear, s
 part_cover: page, portrait-oriented
 --
 @title: text, centered, playful, rounded lettering, teal
-Part 1
+Part 2
 Sophie and Winter
 
 @image:

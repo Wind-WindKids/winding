@@ -789,3 +789,346 @@ Amazingly, even though the dragon hadn't changed, it replied right away:
 
 
 
+--
+reflection: page, text, centered
+--
+Sunlight caught in Sophie’s hair, 
+turned it bright, iridescent gold.
+
+“That color… it’s my favorite,” Wind said, 
+twirling a strand in the light.
+
+“See? This is what Sundays should be for — 
+sun, friends, dragons, and ice cream.”
+
+Wind grinned.
+"And we only have to show up.”
+
+She laughed and pulled her hair back,
+“Maybe next time.”
+
+Wind looked away.
+
+--
+renewed_castle: page, image, portrait-oriented
+--
+Sophie and Wind at a small café table in a green Paris square, each with a pistachio ice-cream cone; two mugs on the table. Behind them, a friendly, castle silhouette: soft turrets, blue roofs, small banners, kites drift overhead, it looks suspiciously like Notre-Dame. A giant golden dragon kite is soaring above that castle. A playground and strolling families dot the lawn. Watercolor light, bright and kind.
+
+@Notre-Dame: A reimagined Notre-Dame rendered as a castle: a perfectly symmetrical façade with twin square towers, each crowned by a blue conical spire and orange pennant; a steep blue pyramidal roof over the central nave; a large rose window centered above the iconic triple pointed portals; vertical buttress-like piers and narrow lancet openings articulating the towers; bands of blind arcades across the mid-façade; and small corner turrets and side aisles capped with matching blue pyramidal roofs—preserving the classic twin-towers + rose-window + triple-portal silhouette in castle form. All in warm, sunlit honey-stone that gives the whole structure a softly inviting look.
+
+
+--
+reflections: page, text, centered
+--
+She said it so easily — *maybe next time* — the
+way she always did. But this time, Wind didn’t smile.
+
+He just looked away, toward the dragon kite drifting above the park.
+“Wind —” she started.
+
+He turned back, and there was something different in his eyes.
+Not anger. Something quieter. Saddness? Disappointment?
+
+“What?” he asked. Not mean, just... tired. Sophie felt something in her chest  — 
+the same feeling she'd had when her brother sat slumped in that chair, looking into distance.
+*My fault,* her brother had said. She knew it wasn't.
+
+And looking at Wind now, she felt it again. *My fault.* 
+And she almost started to cry, “Wind, 
+I’m sorry. I didn’t mean to—”
+
+Wind looked at her, really looked at her.
+
+
+--
+park_walk: page, text, centered
+--
+
+She looked back—
+and saw how suddenly tired he was.
+
+Wind didn't reach for her. 
+He didn't walk away either.
+
+After a moment, she stood.
+"Come on," she said quietly.
+
+They walked through the park, under the trees,
+the warmth of day and sun was soft around them.
+
+They haven't held hands, but in a little while,
+they've walked closer together and started to talk and smile again.
+
+
+
+
+
+
+
+
+
+
+
+
+
+--
+iced: page, text
+--
+A week later, on another continent,  
+it was a civics class for Wind.
+A quiz came at the end of class. 
+Wind stared at the questions. 
+
+Someone raised a hand, 
+“We haven’t covered this yet.”
+
+“It’s in the syllabus, 
+between lines twelve and thirteen,” 
+the teacher said, without looking up.
+
+It wasn’t.
+
+It came back with a red mark at the top: 17%.
+
+@background: 
+icy texture, light blue and white, subtle frost patterns.
+
+--
+quiz: page, image, portrait-oriented
+--
+@image:
+Wind sitting at his school desk, to the right, we see him from the side, facing towards the whiteboard. Around him, other students are focused on their work, and the classroom has posters about government and history on the walls. In the front of the classroom there is a whiteboard with text.
+
+@whiteboard:
+Quiz, 10 minutes, No notes, No devices.
+1. In Civitatibus Foederatis, num ignorantia iuris excusat?
+2. Habentne pueri eadem iura ac adulti?
+3. In Civitatibus Foederatis, suntne omnes sub lege aequales?
+4. Habentne viri et feminae sub Constitutione eadem iura?
+5. Ius suffragii idemne est omnibus civibus?
+6. Suntne leges eaedem in omnibus civitatibus Americae?
+
+
+
+--
+grounded: page, text
+--
+Somehow, word of the failing grade 
+made its way to the flying club.
+By the weekend, the coordinator 
+had sent a polite but stiff message:
+
+> Given your current academic standing, 
+> we recommend focusing on schoolwork for now. 
+> Flying privileges will be paused 
+> until improvement is demonstrated.
+
+
+At home, his dad closed the laptop slowly.
+“Wind… they’re saying no access to the 
+eGull until your grades come up.”
+
+@background: 
+icy texture, light blue and white, subtle frost patterns.
+
+
+--
+grounded2: page, text
+--
+Wind stared at his dad, "It wasn't a fair test. 
+And both eGulls are ours, not theirs."
+
+His dad looked at him, "It was a fair test. 
+You have a very good teacher, Wind. 
+Give it some time — you'll see."
+
+The eGull wasn’t just grounded —
+the Dragon access was gone too.
+
+@image:
+Wind in his room, looking frustrated and disappointed.The room has posters of airplanes and flying on the walls, and a model airplane hanging from the ceiling. The atmosphere is tense, with a sense of disappointment.
+
+@background: 
+icy texture, light blue and white, subtle frost patterns.
+
+@comment: hidden
+Ability to generalize gets tested by such "unfair" quizzes. And flying solo, after a breakup, is not a good idea. The system around him is relatively fair.
+
+
+
+--
+working: page, text
+--
+Wind cried. Then he sat at his desk 
+and opened his French textbook.
+
+The essay was due the next day.
+ *“My day at school.”* 
+He hadn’t even started. 
+
+The day was a nightmare, he thought.  
+No way.  
+But he had to write something.
+
+He described the most boring day in a classroom —  
+silent students, the clock refusing to move.  
+Only at the end did the perspective flip:  
+a new class of students came in,  
+and it became clear that “my” day 
+had been the teacher’s all along.  
+
+@image:
+Wind sitting at his desk, writing an essay, 
+drops of tears on the paper.
+
+--
+working2: page, text
+--
+It took him an hour, but it got done.  
+He spent another hour to polish it.  
+It wouldn’t win him an A,  
+but it was enough to pass.  
+
+Before bed, he opened the message app, 
+found Sophie’s dad: 
+"Please, tell if Sophie is okay."
+
+In the morning, there was no reply. 
+And the message was buried under 
+weather alerts and homework reminders. 
+
+He sighed, closed the app, 
+and got ready for school.
+
+@background: 
+icy texture, light blue and white, subtle frost patterns.
+Wind sitting at his desk, looking at his phone, feeling down.
+
+
+--
+small_victory: page, text
+--
+A month later, his civics retake came back 
+with a solid 83% in green at the top.
+
+This time he had seen some pattern:
+  Everyone is equal under the law.  
+  Everyone is under the law.  
+  Everyone is different,  
+  and the laws are different  
+  everywhere for everyone.  
+  And that is good, sometimes.
+
+It wasn’t perfect, but it was enough.
+
+That evening, the Mac chimed.
+The Dragon’s avatar shimmered back 
+into view, wings catching golden light.
+
+“Skies are still closed,” it said,
+“but we can train again.”
+
+Wind smiled. It wasn’t flying — not yet — 
+but at least it was a start.
+
+@background: icy texture, light blue and white, a tinge of gold on the right, near the word back, subtle frost patterns.
+
+@comment: hidden
+everywhere and every time.  
+
+
+--
+i_scream: page, text
+--
+On Sunday, he biked to his 
+favorite ice cream shop,
+
+The windows were dark.
+A sign in the door: 
+*Closed for Winter.*
+
+He stood there a long time, 
+staring at the closed shop.
+
+He let Sophie in on everything he loved.
+And now, it felt frozen solid,
+tearing his heart with ice.
+
+@image: It is winter in the Bay Area, with green trees. The sky is cloudy, stormy. Wind standing at a small pedestrian square, full of restaurants and cafes, outside small Gelateria, tucked between a book store and a restaurant. the shop has a sign *closed for winter.*
+
+@background:
+icy texture, light blue and white, subtle frost patterns.
+
+
+--
+anger: page, text, small
+--
+On the ride back, he went between tall buildings,
+riding slowly, not seeing, just going. He crossed a road— 
+one side had a curb, the other did not.
+
+The front wheel slammed into the curb hard,
+he jumped, clearing the handlebars, landing with a jolt.
+
+His jaw tightened. He kicked a nearby bench, 
+A sudden gust of wind caught a paper cup, 
+sent it tumbling into the air. A seagull shrieked far above.
+
+@image:
+Wind standing next to the bike on the ground, 
+looking angry, at the curb that caused his fall.
+
+--
+a_cut_though_the_park: page, text
+--
+He cut through the park. The air felt heavier.
+
+Big leaves, brittle from winter, 
+lifted suddenly from the ground,
+whipping in sharp arcs, snapping 
+against the faces of kids in the playground.
+
+By evening, a rare storm slammed the city, 
+the sky cracked open with thunder.
+
+@image:
+Wind riding his bike through a park,
+big leaves swirling in the air around him,
+dark clouds gathering above,
+
+
+
+@comment: hidden
+No magic is required to explain this sequence:
+- Wind’s “storm” could be perception bias or coincidence.
+- Storm → memory worthy; other angry days without storms → forgotten.
+
+
+--
+dragon_fails: page, image, portrait-oriented
+--
+@text: small
+He tried to get Sophie back with the Dragon's help. 
+But something was off.
+
+“Sim challenge. Your name on the leaderboard and—”
+
+“No.”
+
+“A postcard to her family’s address?”
+
+“No.”
+
+“I can route you a message through her school.”
+
+“No. It wouldn't help.”
+
+The Dragon’s golden head tilted slightly, 
+almost like a bow.
+
+@background:
+icy texture, light blue and white, subtle frost patterns, tinges of gold.
+
+
+
+

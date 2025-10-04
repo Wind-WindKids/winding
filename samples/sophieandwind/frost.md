@@ -33,7 +33,7 @@ A slim, gray-green winter jacket with a zipper front, layered over a hoodie. Dar
 part_cover: page, portrait-oriented, cover-front
 --
 @title: text, centered, playful, rounded lettering, frosty white
-Part 2
+Part 3
 Sophie and Frost
 
 
@@ -289,12 +289,37 @@ Sophie’s face tense.
 
 
 
+
 --
-scared: spread, landscape-oriented
+relationships_work: spread, landscape-oriented
 --
-It wasn’t the gusts that had scared her most — 
-it was the Dragon taking control.
-She felt like that day in Paris.
+@left: page, text, portrait-oriented
+Sophie wasn’t sure what had come over her.
+
+That night, she took out her journal —  
+she was taught that she should work on  
+relationships and ask for help and support.
+
+She wrote:  
+“Today we went flying and I almost died.  
+The Dragon never even said sorry. 
+And Wind thought it was my own mistake.”
+
+She whispered into the silence, 
+asking for help and support.
+
+Then flipped back through the journal. 
+The pages were filled with her worst memories —  
+arguments, accidents, hurts.
+  
+She never thought to write down the best ones.  
+Or simply talk to her brother.
+
+By morning she’d decided: *she was done with Wind*.
+
+@comment: hidden
+Empathy, self-awareness, attention, care, play, compatibility, common interests and external factors. "work" comes way down the list and easily can be negative.
+
 
 
 
@@ -383,37 +408,6 @@ He flew the pattern, landed smooth, taxied in.
 Without Sophie, it wasn’t flying.
 It was just… being in the air.
 
-
-
---
-relationships_work: spread, landscape-oriented
---
-@left: page, text, portrait-oriented
-Sophie wasn’t sure what had come over her.
-
-That night, she took out her journal —  
-she was taught that she should work on  
-relationships and ask for help and support.
-
-She wrote:  
-“Today we went flying and I almost died.  
-The Dragon never even said sorry. 
-And Wind thought it was my own mistake.”
-
-She whispered into the silence, 
-asking for help and support.
-
-Then flipped back through the journal. 
-The pages were filled with her worst memories —  
-arguments, accidents, hurts.
-  
-She never thought to write down the best ones.  
-Or simply talk to her brother.
-
-By morning she’d decided: *she was done with Wind*.
-
-@comment: hidden
-Empathy, self-awareness, attention, care, play, compatibility, common interests and external factors. "work" comes way down the list and easily can be negative.
 
 
 --

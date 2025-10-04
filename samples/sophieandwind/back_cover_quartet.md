@@ -51,7 +51,7 @@ theme: blue sky, hint of sunrise, watercolor style
 Licensing
 Text and source code © authors, CC-BY 4.0. Interior images CC-BY-NC 4.0 (except front/back covers). The back cover photo: Charles J. Sharp, CC BY-SA 4.0, via Wikimedia Commons.
 
-Art in *Aria and Storycats* is not without flaws. To remix or illuminate your own version, visit https://wind.kids
+Art in *Sophie and Wind* is not without flaws. To remix or illuminate your own version, visit https://wind.kids
 
 Story by Wind and Ariane Windkid.
 

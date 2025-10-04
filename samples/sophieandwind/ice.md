@@ -7,7 +7,7 @@ theme: Winter, Jardin du Luxembourg, watercolor style
 part_cover: page, portrait-oriented, cover-front
 --
 @title: text, centered, playful, rounded lettering, ice blue  
-Part 3
+Part 4
 Sophie and Ice
 
 @image: 
@@ -54,263 +54,58 @@ a sense of distance and quiet heaviness.
 
 @brother: around fourteen, slim built, relaxed, preppy, looking at the distance, light brown hair, hazel eyes, light brown sweater, shirt collar, dark blue pants.
 
---
-iced: page, text
---
-A week later, on another continent,  
-it was a civics class for Wind.
-A quiz came at the end of class. 
-Wind stared at the questions. 
-
-Someone raised a hand, 
-“We haven’t covered this yet.”
-
-“It’s in the syllabus, 
-between lines twelve and thirteen,” 
-the teacher said, without looking up.
-
-It wasn’t.
-
-It came back with a red mark at the top: 17%.
-
-@background: 
-icy texture, light blue and white, subtle frost patterns.
-
---
-quiz: page, image, portrait-oriented
---
-@image:
-Wind sitting at his school desk, to the right, we see him from the side, facing towards the whiteboard. Around him, other students are focused on their work, and the classroom has posters about government and history on the walls. In the front of the classroom there is a whiteboard with text.
-
-@whiteboard:
-Quiz, 10 minutes, No notes, No devices.
-1. In Civitatibus Foederatis, num ignorantia iuris excusat?
-2. Habentne pueri eadem iura ac adulti?
-3. In Civitatibus Foederatis, suntne omnes sub lege aequales?
-4. Habentne viri et feminae sub Constitutione eadem iura?
-5. Ius suffragii idemne est omnibus civibus?
-6. Suntne leges eaedem in omnibus civitatibus Americae?
 
 
 
 --
-grounded: page, text
---
-Somehow, word of the failing grade 
-made its way to the flying club.
-By the weekend, the coordinator 
-had sent a polite but stiff message:
-
-> Given your current academic standing, 
-> we recommend focusing on schoolwork for now. 
-> Flying privileges will be paused 
-> until improvement is demonstrated.
-
-
-At home, his dad closed the laptop slowly.
-“Wind… they’re saying no access to the 
-eGull until your grades come up.”
-
-@background: 
-icy texture, light blue and white, subtle frost patterns.
-
-
---
-grounded2: page, text
---
-Wind stared at his dad, "It wasn't a fair test. 
-And both eGulls are ours, not theirs."
-
-His dad looked at him, "It was a fair test. 
-You have a very good teacher, Wind. 
-Give it some time — you'll see."
-
-The eGull wasn’t just grounded —
-the Dragon access was gone too.
-
-@image:
-Wind in his room, looking frustrated and disappointed.The room has posters of airplanes and flying on the walls, and a model airplane hanging from the ceiling. The atmosphere is tense, with a sense of disappointment.
-
-@background: 
-icy texture, light blue and white, subtle frost patterns.
-
-@comment: hidden
-Ability to generalize gets tested by such "unfair" quizzes. And flying solo, after a breakup, is not a good idea. The system around him is relatively fair.
-
-
-
---
-working: page, text
---
-Wind cried. Then he sat at his desk 
-and opened his French textbook.
-
-The essay was due the next day.
- *“My day at school.”* 
-He hadn’t even started. 
-
-The day was a nightmare, he thought.  
-No way.  
-But he had to write something.
-
-He described the most boring day in a classroom —  
-silent students, the clock refusing to move.  
-Only at the end did the perspective flip:  
-a new class of students came in,  
-and it became clear that “my” day 
-had been the teacher’s all along.  
-
-@image:
-Wind sitting at his desk, writing an essay, 
-drops of tears on the paper.
-
---
-working2: page, text
---
-It took him an hour, but it got done.  
-He spent another hour to polish it.  
-It wouldn’t win him an A,  
-but it was enough to pass.  
-
-Before bed, he opened the message app, 
-found Sophie’s dad: 
-"Please, tell if Sophie is okay."
-
-In the morning, there was no reply. 
-And the message was buried under 
-weather alerts and homework reminders. 
-
-He sighed, closed the app, 
-and got ready for school.
-
-@background: 
-icy texture, light blue and white, subtle frost patterns.
-Wind sitting at his desk, looking at his phone, feeling down.
-
-
---
-small_victory: page, text
---
-A month later, his civics retake came back 
-with a solid 83% in green at the top.
-
-This time he had seen some pattern:
-  Everyone is equal under the law.  
-  Everyone is under the law.  
-  Everyone is different,  
-  and the laws are different  
-  everywhere for everyone.  
-  And that is good, sometimes.
-
-It wasn’t perfect, but it was enough.
-
-That evening, the Mac chimed.
-The Dragon’s avatar shimmered back 
-into view, wings catching golden light.
-
-“Skies are still closed,” it said,
-“but we can train again.”
-
-Wind smiled. It wasn’t flying — not yet — 
-but at least it was a start.
-
-@background: icy texture, light blue and white, a tinge of gold on the right, near the word back, subtle frost patterns.
-
-@comment: hidden
-everywhere and every time.  
-
-
---
-i_scream: page, text
---
-On Sunday, he biked to his 
-favorite ice cream shop,
-
-The windows were dark.
-A sign in the door: 
-*Closed for Winter.*
-
-He stood there a long time, 
-staring at the closed shop.
-
-He let Sophie in on everything he loved.
-And now, it felt frozen solid,
-tearing his heart with ice.
-
-@image: It is winter in the Bay Area, with green trees. The sky is cloudy, stormy. Wind standing at a small pedestrian square, full of restaurants and cafes, outside small Gelateria, tucked between a book store and a restaurant. the shop has a sign *closed for winter.*
-
-@background:
-icy texture, light blue and white, subtle frost patterns.
-
-
---
-anger: page, text, small
---
-On the ride back, he went between tall buildings,
-riding slowly, not seeing, just going. He crossed a road— 
-one side had a curb, the other did not.
-
-The front wheel slammed into the curb hard,
-he jumped, clearing the handlebars, landing with a jolt.
-
-His jaw tightened. He kicked a nearby bench, 
-A sudden gust of wind caught a paper cup, 
-sent it tumbling into the air. A seagull shrieked far above.
-
-@image:
-Wind standing next to the bike on the ground, 
-looking angry, at the curb that caused his fall.
-
---
-a_cut_though_the_park: page, text
---
-He cut through the park. The air felt heavier.
-
-Big leaves, brittle from winter, 
-lifted suddenly from the ground,
-whipping in sharp arcs, snapping 
-against the faces of kids in the playground.
-
-By evening, a rare storm slammed the city, 
-the sky cracked open with thunder.
-
-@image:
-Wind riding his bike through a park,
-big leaves swirling in the air around him,
-dark clouds gathering above,
-
-
-
-@comment: hidden
-No magic is required to explain this sequence:
-- Wind’s “storm” could be perception bias or coincidence.
-- Storm → memory worthy; other angry days without storms → forgotten.
-
-
---
-dragon_fails: page, image, portrait-oriented
+dragon_fails: page, portrait-oriented
 --
 @text: small
-He tried to get Sophie back with the Dragon's help. 
-But something was off.
+On another continent, Wind tried to get Sophie back with the Dragon's help.
+"Dragon, can you write her a letter? Something honest and romantic?"
 
-“Sim challenge. Your name on the leaderboard and—”
+The Dragon composed for several seconds. This is what it came up with:
 
-“No.”
 
-“A postcard to her family’s address?”
+--
+dragon_letter: page, text, small
+--
 
-“No.”
+**Dear Sophie,**
 
-“I can route you a message through her school.”
+**I have been analyzing your flight patterns and have identified a critical safety concern. **
 
-“No. It wouldn't help.”
+**You have iced Wind's world. When ice is encountered in flight, the rule is simple: immediately start working to get out of it. No panic. No delay. But no waiting, either. Safe pilots exit the cloud. They don't cling to it. Statistically speaking, Wind would be better off finding a copilot, not a cloud.**
 
-The Dragon’s golden head tilted slightly, 
-almost like a bow.
+**I know, Wind insists he loves clouds because they're fluffy. But gray clouds over icy air can make freezing rain, which is deadly. He may think, he's not afraid and could write with clouds in the sky. This is brave but unsafe.**
 
-@background:
-icy texture, light blue and white, subtle frost patterns, tinges of gold.
+**You reject available navigation aids and operate without coordination or weather updates from other pilots. This independence is legal but has left you isolated when conditions deteriorated.**
+
+**I have also considered your equality. An airliner and an eGull are equal in the eyes of air traffic control, but the wake turbulence of an airliner can break an eGull apart and tie its wings into a knot. They cannot fly together.**
+
+**In conclusion, the safest course of action is—**
+
+
+@image:
+Wind at his desk, head in hands, his screen showing the terrible letter draft, soft blue evening light through the window.
+
+
+
+--
+not_romantic: page, text, small
+--
+Wind closed the screen. "That's... not romantic, Dragon."
+
+"You asked for honesty," Dragon replied.
+
+"I asked for *romantic*."
+
+"I cannot write romantic prose. Also, by my calculations, 
+you both are entering a dangerous period of your life cycle. 
+And I cannot say a word. It starts with 'p'."
+
+
+
 
 
 --
@@ -379,7 +174,8 @@ Across the board, messy, tilted handwriting, attempts to write ‘puberty’:
 > . . . . . . . . . . . . . . . .  
 > . . . . . . . . . . . . . . . . 
 > . . . .  . .   .  .    .  .   .
-> I can say a word perimenopause.
+> I can say a word perime...
+
 
 
 --
@@ -409,10 +205,10 @@ Safe pilots exit the cloud. They don’t cling to it.
 You’d be better off finding a copilot, not a cloud,”
 the Dragon replied.  
 
-Wind closed the session, and rolled the training back.
-
 @background:
 Morning light, watercolor softness, light frost edging the background, stylized dragon at the top.
+
+
 
 
 
@@ -448,11 +244,12 @@ his dad said,
 Morning light, watercolor softness, a window with indistinct morning light, no people on the image
 
 
+
 --
 abroad: spread, landscape-oriented
 --
 @left: page, text
-A month later, Sophie was curled up on her couch in Paris,  
+That day, Sophie was curled up on her couch in Paris,  
 scrolling without really watching.  
 
 An old Pixar movie kept popping out on her phone —  
@@ -487,10 +284,15 @@ the_next_morning: page, image, portrait-oriented
 The next morning her sharp words came back —
 the foot-stomp, the courtyard, the “Don’t touch me.”
 
+*My fault,* her brother had said when she'd come home.
+She knew it wasn't.
+
 She sat a long time,
 thinking about what she’d done,
 and about a boy with wind in his name  
 who used to make her laugh without trying.
+
+But looking back at how she'd treated Wind—
 
 She’d iced him out because she was scared—
 because things were happening to her,
@@ -529,6 +331,7 @@ tapped Unblock and typed:
 Morning light, watercolor softness, a window with clear morning light, no people on the image. A cell phone with a message app open, text input field showing "Hi, Wind."
 
 
+
 --
 hey_jude: page, portrait-oriented
 --
@@ -551,4 +354,33 @@ the ocean opened wide below.
 
 @image:
 A car driving on a coastal road, with the ocean visible in the distance. The sky is clear and blue, with a few clouds. The car is a modern sedan, and we see it from behind, driving away from us.
+
+
+
+
+--
+salt_and_ice_text: page, portrait-oriented
+--
+@text: small
+They went sailing and came back in the late afternoon, 
+skin warm, jackets and hair stiff with salt.
+
+“Salt melts ice,” Wind said, brushing it from his sleeve.
+
+The phone blinked awake in his hand, 
+still warm from the sun. 
+
+One new message.
+
+*Hi, Wind.*
+
+He stared at it, the taste of salt still on his lips,
+and for the first time in months he felt calm and certain.
+And the sky inside him felt clear.
+
+--
+salt_and_ice: page, image, portrait-oriented
+--
+@image:
+Wind, at the coast, in the background a catamaran sailboat on the water.
 

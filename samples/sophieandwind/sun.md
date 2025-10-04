@@ -25,7 +25,7 @@ A light, slim summer dress, soft linen in pale cream or light sky-blue tones. Dr
 part_cover: page, portrait-oriented
 --
 @title: text, centered, playful, rounded lettering, golden
-Part 4
+Part 1
 Sophie and Sun
 
 @image:
@@ -296,76 +296,18 @@ it’s gliding now,” Sophie said.
 “Yeah, flying free — it looks great,” Wind replied.  
 “Love it.”  
 
---
-reflection: page, text, centered
---
-Sunlight caught in Sophie’s hair, 
-turned it bright, iridescent gold.
-
-“That color… it’s my favorite,” Wind said, 
-twirling a strand in the light.
-
-“See? This is what Sundays should be for — 
-sun, friends, dragons, and ice cream.”
-
-Wind grinned.
-"Proper workshops? We just have to show up. 
-And they're ours."
-
-She laughed and pulled her hair back,
-“Maybe next time.”
-
-Wind looked away.
 
 --
-renewed_castle: page, image, portrait-oriented
+park_walk: page, portrait-oriented, image
 --
-Sophie and Wind at a small café table in a green Paris square, each with a pistachio ice-cream cone; two mugs on the table. Behind them, a friendly, castle silhouette: soft turrets, blue roofs, small banners, kites drift overhead, it looks suspiciously like Notre-Dame. A giant golden dragon kite is soaring above that castle. A playground and strolling families dot the lawn. Watercolor light, bright and kind.
+@text: small
+They walked through the park, 
+the dragon kite a bright shape against the sky.
 
-@Notre-Dame: A reimagined Notre-Dame rendered as a castle: a perfectly symmetrical façade with twin square towers, each crowned by a blue conical spire and orange pennant; a steep blue pyramidal roof over the central nave; a large rose window centered above the iconic triple pointed portals; vertical buttress-like piers and narrow lancet openings articulating the towers; bands of blind arcades across the mid-façade; and small corner turrets and side aisles capped with matching blue pyramidal roofs—preserving the classic twin-towers + rose-window + triple-portal silhouette in castle form. All in warm, sunlit honey-stone that gives the whole structure a softly inviting look.
+Sophie laughed, remembering. “You should have seen my mom's face 
+when I told her Sundays are windier because the sun makes wind, 
+and since you're not at school on Sundays, there's more wind around.”
 
-
---
-reflections: page, text, centered
---
-She said it so easily — *maybe next time* — the
-way she always did. But this time, Wind didn’t smile.
-
-He just looked away, toward the dragon kite drifting above the park.
-“Wind —” she started.
-
-He turned back, and there was something different in his eyes.
-Not anger. Something quieter. Saddness? Disappointment?
-
-“What?” he asked. Not mean, just... tired. Sophie felt something in her chest  — 
-the same feeling she'd had when her brother sat slumped in that chair, looking into distance.
-*My fault,* her brother had said. She knew it wasn't.
-
-And looking at Wind now, she felt it again. *My fault.* 
-And she started to cry, “Wind, I’m sorry. I didn’t mean to—”
-
-Wind looked at her, really looked at her.
-
-
---
-park_walk: page, text, centered
---
-
-She looked back—
-and saw how suddenly tired he was.
-
-Wind didn't reach for her. 
-He didn't walk away either.
-
-After a moment, she stood.
-"Come on," she said quietly.
-
-They walked through the park and she started feeling better, 
-the warmth of day and sun again.
-
-They haven't held hands, but in a little while,
-they've walked closer together and started to talk and smile again.
-
-
-
-
+Wind blinked and then laughed, “Wait, you said that?
+And she lets you get away with it?  Your parents are too nice. 
+I'd be grounded.  But you know, it's the ground that makes wind, so there'd be just more wind around.”
