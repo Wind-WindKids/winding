@@ -182,7 +182,7 @@ is it yours?”
 
 
 @right: page, image
-Sophie catching up to the boy with the bottle, sunlight flashing on the crinkled plastic, the kite and kids visible in the background. Boy going to the trash can near the café, but stopped to hand the bottle to Sophie.
+Sophie catching up to the boy with the plastic water bottle, the kite and kids visible in the background. Boy going to a small summer park café. The café is closed, tables without chairs, chairs stacked next to the walls, door locked.
 
 --
 cafe_table_patch: spread, landscape-oriented
@@ -205,6 +205,7 @@ Kids gathered around the café table, Sophie leaning over the kite, carefully pr
 --
 wind_returns: page, text, centered
 --
+@text: small
 “Oh, Wind — nice,” Sophie said, 
 giving him a quick kiss on the cheek, 
 “You’re late.”
@@ -219,10 +220,13 @@ when you made it through a window?”
 but the benches are very sticky,
 you are fixing a kite?”
 
+@image:
+Sophie and Wind meeting at the closed café. The café is closed, tables without chairs, chairs stacked next to the walls, door locked. In the background at one of the tables kids with the kite on the table.
 
 --
-kite_flies: page, portrait-oriented, image
+kite_fixed: page, portrait-oriented, image
 --
+@text:
 Wind looked at the patch.
 “A water bottle label— 
 we have proper tape at the workshop.”
@@ -236,11 +240,21 @@ we have proper tape at the workshop.”
 They launched again. It lifted, twisted— 
 then flopped onto the ground with a pop.
 
+@image:
+The kite is diving toward the ground.
+
+
+--
+kite_down: page, portrait-oriented, image
+--
 When they've checked, the bottle label flown off.
 The left wing was torn in two places.
 
 They gathered around, inspecting the damage.
 One of the kids looked close to tears.
+
+@image:
+The kite on the ground, the left wing torn in two places. Sophie, Wind, and the two kids looking at it.
 
 
 --
@@ -280,6 +294,9 @@ properly this time, restoring its torn wing.
 “There, good as new, it`s a great workshop,” Wind said.
 the only thing missing here is ice cream. Come on. 
 New place—pistachio.”
+
+@image:
+Sophie, Wind, and the two kids entering the workshop space, there are many tables, chairs, shelves with art supplies, work benches with tools near the walls.
 
 
 @comment: hidden

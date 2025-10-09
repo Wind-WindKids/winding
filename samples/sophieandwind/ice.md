@@ -375,8 +375,30 @@ One new message.
 *Hi, Wind.*
 
 He stared at it, the taste of salt still on his lips,
-and for the first time in months he felt calm and certain.
-And the sky inside him felt clear.
+then looked at the horizon.
+
+Sophie was very far away.  
+
+@background:
+Sea and beach, the text is placed so Hi, Wind text is on the horizon line.
+
+
+--
+there: page, portrait-oriented
+--
+"Hey Jude" still played in his mind. He typed back: 
+"Call?"  
+
+They talked. She asked - 
+"Will Sundays be windy again this spring in Paris?" 
+
+He smiled,
+"You are there.  
+The wind is always there.  
+And never the same.  
+Just like you." 
+
+
 
 --
 salt_and_ice: page, image, portrait-oriented

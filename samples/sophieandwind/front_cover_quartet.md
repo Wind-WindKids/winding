@@ -21,10 +21,10 @@ Blue/azure sky, only hint of sunrise, hinting at wonder, love, and flight.
 dedication: page, portrait-oriented
 --
 @text: centered, cursive, golden
-To Sophie, 
-who learned
-to fly.
- Love, Wind.
+You are here.
+The wind is always here.
+And never the same.
+Just like you.
 
 @image: centered, logo, small, golden
 Two birds, facing each other, with a heart between them. The birds are inside the shape of a heart, with the tails forming the top of the heart. 

@@ -346,6 +346,36 @@ so he changed his routine — pausing on the flying,
 to keep her company.
 
 --
+closed_door: spread, landscape-oriented
+--
+@left: page, text
+Wind felt helpless. Their easy trust — 
+nothing between them — was gone. 
+
+He tried — warm tea with a flower smell,
+her rose mug with “kindness” on it.
+
+“Don’t move my stuff,” Sophie said, pointing to the bag.
+
+“It's in the doorway,” he said. “I put it back.”
+
+She stepped into the doorway. “Leave it.”
+
+She looked at him, eyes hard. He left. 
+And the door closed softly between them. 
+The latch clicked.
+
+They were like two young seagulls in a gust — 
+stalling, tumbling, feathers ruffled — 
+dropping toward the ocean. 
+The water hit like ice.
+
+@right: page, image
+The bag in the doorway, the door is closed.
+
+
+
+--
 sunday: spread, landscape-oriented
 --
 One bright Sunday, 
@@ -409,34 +439,6 @@ Without Sophie, it wasn’t flying.
 It was just… being in the air.
 
 
-
---
-closed_door: spread, landscape-oriented
---
-@left: page, text
-Wind felt helpless. Their easy trust — 
-nothing between them — was gone. 
-
-He tried — warm tea with a flower smell,
-her rose mug with “kindness” on it.
-
-“Don’t move my stuff,” Sophie said, pointing to the bag.
-
-“It's in the doorway,” he said. “I put it back.”
-
-She stepped into the doorway. “Leave it.”
-
-She looked at him, eyes hard. He left. 
-And the door closed softly between them. 
-The latch clicked.
-
-They were like two young seagulls in a gust — 
-stalling, tumbling, feathers ruffled — 
-dropping toward the ocean. 
-The water hit like ice.
-
-@right: page, image
-The bag in the doorway, the door is closed.
 
 
 --

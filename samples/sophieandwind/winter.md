@@ -44,8 +44,9 @@ lonely_garden: page, portrait-oriented, image
 Sophie in the Luxembourg Gardens, bundled in coat and scarf. The park is bare and quiet, the fountain drained. There is stillness in the air, a pale winter light. Low clouds. She looks toward the distance as if imagining someplace far away.
 
 --
-news_from_mom: page, text, centered
+news_from_mom: page, portrait-oriented, image
 --
+@text: small
 One gray afternoon, 
 Sophie’s mother smiled at her over the kitchen table.  
 “How would you like to go to Winter Camp in California?  
@@ -56,7 +57,7 @@ Sophie’s spoon stopped halfway to her mouth.
 “Really.”
 
 @image:
-Sophie sitting at the kitchen table, eating salad, Parisian apartment kitchen in the background.
+Sophie sitting at the kitchen table, eating salad, Parisian apartment kitchen in the background. Mom is not in the frame.
 
 --
 packing: page, portrait-oriented, image
@@ -68,7 +69,7 @@ and her favorite toy she’d had since she was a baby.
 
 
 @image:
-Sophie folding clothes into a small rolling suitcase.In the background a European looking kids bedroom, posters, bed, Golden Gate bridge on one of the posters, her suitcase. Small Bashful Lamb stuffed toy on the floor, far in the background. A backpack with Hawaiian patterns on it. A globe on her desk.
+Sophie folding clothes into a small rolling suitcase.In the background a European looking kids bedroom, posters, bed, Golden Gate bridge on one of the posters, her suitcase. Small Bashful Lamb stuffed toy on the floor, far in the background. A blue backpack with Hawaiian patterns on it. A globe on her desk.
 
 @anchor: 
 ![A stuffed toy, Bashful Lamb.](bashful_lamb.jpg)
@@ -147,8 +148,9 @@ Glass walls at San Francisco International. No people visible.
 
 
 --
-waymo_to_sunnyvale: page, text, portrait-oriented
+waymo_to_sunnyvale: page, image, portrait-oriented
 --
+@text: small
 Wind called a car from his phone and typed: 
 *“Sunnyvale.”*  
 
@@ -161,11 +163,10 @@ The car eased forward,
 merging into the stream of cars, 
 then slid toward the airport exit.
 
-
-@image:
-Sophie is looking at the window on the left, Sophie and Wind in the back seat of a driverless car, no backpack or Bashful Lamb toy.
-
-Interior of a driverless car, California scenery visible through the windows — palm trees, low hills, and cars on the road.
+--
+waymo_to_sunnyvale: page, image, portrait-oriented
+--
+@image: Sophie and Wind in the back seat of a driverless car, both have seat-belts on. Sophie is looking at the window on the left, curious. California scenery visible through the windows — palm trees, low hills, and cars on the road.
 
 @image.viewpoint: from the back of the vehicle, pointing forward
 
@@ -173,6 +174,7 @@ Interior of a driverless car, California scenery visible through the windows —
 --
 hidden_valley_arrival: page, text, small portrait-oriented
 --
+@text: small
 Wind’s townhouse looked bigger on the inside. 
 Light poured in from skylights and wide windows.  
 The living room ceiling rose so high it felt like a hall.  
@@ -183,6 +185,9 @@ the travel catching up to her.
 “No sleeping now! To the pool”, Wind said.  
 
 Five minutes later they were splashing in the turquoise water.
+
+@image:
+Wind’s townhouse living room, bright and spacious, with a golden-yellow sofa. Sophie sank on the sofa, looking sleepy.
 
 
 --
@@ -199,13 +204,13 @@ to the ice cream shop,
 at a small pedestrian square, 
 full of restaurants and cafes.
 
-@background: 
-Murphy Square, in the distance Sophie and Wind are walking their bikes. No orange trees visible.
+@image: 
+It is winter in the Bay Area, with green trees. Murphy Square, a small pedestrian square/street, full of restaurants and cafes, outside small Gelateria, tucked between a book store and a restaurant. Sophie and Wind are walking towards it. Keep the level of detail high.
 
 --
 bike_ride: page, portrait-oriented, image
 --
-Sophie and Wind on bikes in a Bay Area neighborhood — Sophie’s bike with a small rear basket lime-green, Wind’s bright orange bike with a silver bell. Bike lane. Low houses with gardens, flowering bushes, and one orange tree glowing in the afternoon sun, oranges hanging heavy on the branches.
+Sophie and Wind on bikes in a Bay Area neighborhood — Sophie’s bike with a small rear basket lime-green, Wind’s bright orange bike with a silver bell. Bike lane. Low houses with gardens, flowering bushes, and one orange tree glowing in the afternoon sun, oranges hanging heavy on the branches. Helmets on their heads. 
 
 
 
@@ -226,7 +231,7 @@ but kids were friendly to a newcomer from Paris.
 They played games, made art, it was fun.
 
 @image:
-The courtyard of a school. Children playing basketball, sitting at tables with art projects. Sophie and Wind among them. A few trees, a low building with large windows, and bright blue sky overhead.
+The courtyard of a school. Kids playing basketball, sitting at tables reading or with art projects. Sophie and Wind among them. A few trees, a low building with large windows, and bright blue sky overhead.
 
 --
 the_secret: page, portrait-oriented
@@ -234,21 +239,19 @@ the_secret: page, portrait-oriented
 @text: small
 And then, Wind told her a secret.
 
-“I can fly, here, in California. 
-I have a real airplane.”
+“I got my own eGull," he said, grinning.
 
-Sophie looked at him, puzzled. 
-“What do you mean? How can you have an airplane?”
+Sophie's eyes went wide. "Wait—your own? Like, yours?”
 
+“Yeah. My dad and I found one. It's at the airport now.”
 
-“It's not possible in Paris, but here, in California, 
-rules are not the same," he said, grinning,  
+“But... why? You can't fly it by yourself, anyway.”
 
-“It's an ultralight, an eGull, and kids can fly it, 
-rules are this way. It is called Part 103.”
-
-“No license. Away from crowds. No passengers,” 
+“It's an ultralight, and I'll fly it by myself soon,
+there are special rules here — Part 103,
+No license. Away from crowds. No passengers,” 
 Wind added, like he’d said it a hundred times.
+
 
 @image:
 The courtyard of a school. Children playing basketball, sitting at tables with art projects. Sophie and Wind among them. A few trees, a low building with large windows, and bright blue sky overhead. Wind animatedly explaining something, his hands gesturing. Sophie listens intently, her eyes wide with curiosity.
@@ -273,45 +276,32 @@ Small airplanes on the ramp. Wind with Sophie are walking. Beyond them, red-and-
 Reid-Hillview Airport, San Jose, California, Young Eagles Chapter.
 
 
---
-you_can_fly: page, portrait-oriented
---
-@text: small
-“Wait — it's yours? You really can fly an airplane?” 
-Sophie stared at him.  
-
-“Yeah. I’ve been flying since I was eight,” Wind said.
-
-@image:
-Sophie and Wind, looking at the eGull next to them, chocks, tie-downs are visible. In the background airport hangars, taxiways.
-
-@notes:
-Use the reference image for continuity. Sophie and Wind are the same height, they are looking at each other. Sophie can't believe it.
-
-
 
 --
 where_do_i_sit: page, portrait-oriented
 --
 @text: small
+“It's really yours? Electric, right? Wow,”
+Sophie stared at him.  
+
 She looked at the little white eGull,
 “It’s so small. Where do I sit?” 
 
-Wind grinned. “Here. But eGull only got one seat.” 
+Wind grinned. “Here. But the eGull only has one seat.” 
 
 “One seat? Can we fit in, both of us?”
 
 @image:
-Sophie and Wind, Sophie is looking at the seat of the eGull through the canopy, curious. In the background airport hangars, taxiways.
-
+Sophie and Wind, Sophie is looking at the seat of the eGull through the canopy, curious. In the background airport hangars, taxiways. Focus on emotions and characters, not on the airplane.
 
 
 --
 the_rule: page, portrait-oriented
 --
 @text: small
-“No passengers, I'm not allowed,” Wind said, sadly.
+“No passengers, I'm not allowed,” Wind said.
 “So if you want to fly with me, you have to learn.”  
+
 “Okay, I want to learn!” Sophie replied eagerly.  
 
 @image:
@@ -322,8 +312,7 @@ Sophie and Wind, looking at the eGull next to them, chocks, tie-downs are visibl
 inside_the_egull: page, portrait-oriented
 --
 @text: small
-"How can I learn to fly it?” Sophie asked, eyes bright. 
-"Can I get in?"
+“Can I see inside? Can I sit in it?” Sophie asked, eyes bright. 
 
 “Sure — but it’s tied down. 
 There'll be no flying today.”  
