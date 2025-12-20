@@ -9,7 +9,7 @@ A Python implementation of Winding Markdown - a lightweight CommonMark extension
 
 ## Introduction to Evaluating Winding Expressions
 
-Winding lets you write concise programs that can be "illuminated" into full implementations. Instead of verbose templates or complex configurations, you prompt (send messages) to agents:
+Winding lets you write structured prompts that can be artifacted into full implementations. Instead of verbose templates or complex configurations, you prompt (send messages or express *intent*) to agents:
 
 ```markdown
 ---
@@ -20,7 +20,12 @@ Make it shine.
 @style: pythonic, minimal
 ```
 
-If you run this Winding Markdown, it will produce a Python file that prints "Hello, World!" in a minimalistic style. Like this:
+If you *illuminate* this Winding Markdown:
+```bash
+illuminate hello_world
+```
+
+It will *artifact* a Python file that prints "Hello, World!" in a minimalistic style. Like this:
 
 ```python
 #!/usr/bin/env python3
@@ -32,6 +37,13 @@ def main():
 if __name__ == "__main__":
     main()
 ```
+
+And then it will *run* this artifact, producing:
+
+```bash
+✨ Hello, World! ✨
+```
+
 
 You have just evaluated your first Winding expression! You sent a message to the 'hello_world' agent with arguments message ['file', 'py'], followed by a message containing a list of Windings:
 * The Markdown text "Make it shine."
@@ -76,7 +88,7 @@ winding: cli, tools
 Winding Markdown CLI suite
 
 @messages.vm:  
-illuminate, wind, unwind, deluminate
+artifact, wind, unwind, deluminate
 
 @arguments:  
 files, intent, pipes, include, exclude, context
@@ -85,10 +97,10 @@ files, intent, pipes, include, exclude, context
 fresh, freshen, draft, dry, wet, kiss, brush, lift, cool, heat, safe
 
 @messages.dev:  
-aloha, whisper, whine, lull, towel, wing, kite, kid, boy, girl, Wind, Sophie, please, help
+aloha, whisper, whine, lull, towel, wing, kite, kid
 
 @messages.experimental:  
-venturi, whirl, whirling, whirlwind, reilluminate, rewind
+rewind
 
 @kid:  
 I’m a kid, ELI5.
@@ -96,7 +108,7 @@ I’m a kid, ELI5.
 --
 examples
 --
-aloha | illuminate "Hello World!"
+illuminate "Hello World!"
 ```
 
 

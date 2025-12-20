@@ -1,4 +1,4 @@
-# Winding Markdown (Draft v0.17)
+# Winding Markdown (Draft v0.18)
 [plain text version](https://winding.md/winding.md) | [pypi module](https://pypi.org/project/winding/) | [Wind for Developers](https://wind.dev) | [Wind for Kids](https://wind.kids) | [GitHub](https://github.com/Wind-WindKids/winding)
 <!-- | [Wind Language Foundation](https://wind-lang.org) -->
 
@@ -17,7 +17,7 @@
 
 ## Introduction
 
-Winding Markdown lets you create artifacts, like websites, images, slides, code, or 3D scenes, using structured, minimal prompts. It is a lightweight CommonMark extension that allows you to write concise programs that can be "illuminated" into full implementations. 
+Winding Markdown lets you create artifacts, like websites, images, slides, code, or 3D scenes, using structured, minimal prompts. It is a lightweight CommonMark extension that allows you to express *intent* that can be *illuminated* into full implementations. 
 
 If you've ever struggled with an out-of-control image prompt, this is for you.
 
@@ -40,7 +40,7 @@ Learn more at  https://winding.md
 ```
 ![My First Winding](assets/my_first_winding.jpg)
 
-Initially, with simple images and slides, you don't need specialized tooling. Provide a prompt like this: `Please, illuminate this markdown.` into [ChatGPT](https://chatgpt.com) or another capable generative AI. With larger projects, you can use projects, copilots and the [wind](#wind), [illuminate](#illuminate), [unwind](#unwind) tools from the [Winding Python module](https://pypi.org/project/winding/).
+Initially, with simple images and slides, you don't need specialized tooling. Provide a prompt like this: `Please, illuminate this winding.` into [ChatGPT](https://chatgpt.com) or another capable generative AI. With larger projects, you can use projects, copilots and the [wind](#wind), [illuminate](#illuminate), [unwind](#unwind) tools from the [Winding Python module](https://pypi.org/project/winding/).
 
 
 ## Key Benefits
@@ -61,6 +61,44 @@ A swirl of wind, a flowing text, a galaxy, forming a shape of a dragon.
 ```
 
 ![Winding Logo](assets/logos/winding.logo.abstract.png)
+
+
+### Creating a Web Page
+
+The same syntax can be used to create a web page, a page of book, or a slide. The only difference is the message to the receiving agent:
+
+```markdown
+--
+my_first_winding_web_page: jekyll, liquid, file, md
+--
+Welcome to Winding Markdown  
+_A markdown for illuminating documents_
+
+@center: image, square, png, cutout
+![A swirl of wind, a flowing text, a galaxy, forming a shape of a dragon.](assets/logos/winding_logo.png)
+
+@footer:
+Learn more at  https://winding.md
+```
+
+![My First Winding Web Page](my_first_winding_web_page/)
+
+### Creating PDF Files
+```markdown
+---
+files_in_winding_markdown: book, portrait-orientation, file, pdf
+---
+
+--
+cover
+--
+Files in Winding Markdown
+
+--
+intro: page
+--
+This is a typical Winding Markdown file, with a meta winding at the beginning, followed by a series of space windings. This particular example is a message to the `files_in_winding_markdown` agent to adopt the traits `book`, `portrait-orientation`, and `file`, which means it will be rendered as a book in portrait orientation, and saved as a PDF file. Further messages will be sent to the space of the `files_in_winding_markdown` agent, which would resolve to `files_in_winding_markdown.cover` and `files_in_winding_markdown.intro` agents. Forming a single page book, with a cover and an introduction.
+```
 
 ### Creating a Scene
 
@@ -135,42 +173,6 @@ tall oak canopy overhead, leaves filtering light into soft, shifting patterns.
 lush carpet of individual blades, dew lightly beading near the laptops.
 ```
 
-### Creating a Web Page
-
-The same syntax can be used to create a web page, a page of book, or a slide. The only difference is the message to the receiving agent:
-
-```markdown
---
-my_first_winding_web_page: jekyll, liquid, file, md
---
-Welcome to Winding Markdown  
-_A markdown for illuminating documents_
-
-@center: image, square, png, cutout
-![A swirl of wind, a flowing text, a galaxy, forming a shape of a dragon.](assets/logos/winding_logo.png)
-
-@footer:
-Learn more at  https://winding.md
-```
-
-![My First Winding Web Page](my_first_winding_web_page/)
-
-### Creating PDF Files
-```markdown
----
-files_in_winding_markdown: book, portrait-orientation, file, pdf
----
-
---
-cover
---
-Files in Winding Markdown
-
---
-intro: page
---
-This is a typical Winding Markdown file, with a meta winding at the beginning, followed by a series of space windings. This particular example is a message to the `files_in_winding_markdown` agent to adopt the traits `book`, `portrait-orientation`, and `file`, which means it will be rendered as a book in portrait orientation, and saved as a PDF file. Further messages will be sent to the space of the `files_in_winding_markdown` agent, which would resolve to `files_in_winding_markdown.cover` and `files_in_winding_markdown.intro` agents. Forming a single page book, with a cover and an introduction.
-```
 
 ### Creating a Programming Language
 ```
@@ -222,44 +224,42 @@ messages: arguments, windings
 @context: default, context, include, exclude  
 @align: align, safe, help, please, strict, explain, prove, probe, intent, warn, not, question  
 @dev: hook, inform, feedback, todo, fix, chat, debug, test
-@kids: aloha, kite, fly, run, kid, boy, girl, Wind, Sophie, mahalo  
-
-@shortcuts: i, del, re, w, uw, c, !, ?, n, q  
+@kids: aloha, kite, fly, run, kid, boy, girl, Wind, Sophie  
 ```
 
 ### Creating a CLI
 ```markdown
 ---
-wind: lang
+wind: programming-language, intent-oriented, operations
 ---
-@vm, cli: illuminate
+We define a set of operations on intent here:
 
-@messages.vm: 
+--
+operations: vm
+--
+@illuminate:
+Creates or updates existing artifact to be aligned with an intent and runs it.
 
-@cli: 
+@wind:
+Turns artifact into an intent. Adds intent, combining it in.
 
+@unwind:
+Removes intent.
 
-@illuminate: VM
+@safe:
+Safeproofs the intent.
 
-VM, illuminates, winding, !context
+@kid:
+Simplifes the intent.
 
-@messages.vm:  
-illuminate, wind, unwind, deluminate
+@run:
+Executes an existing artifact.
 
-@arguments:  
-files, intent, pipes, include, exclude, context
+@artifact:
+Creates or updates existing artifact to be aligned with an intent.
 
-@messages:  
-fresh, freshen, draft, dry, wet, kiss, brush, lift, cool, heat, safe
-
-@messages.dev:  
-aloha, whisper, whine, lull, towel, wing, kite, kid, boy, girl, Wind, Sophie, please, help
-
-@messages.experimental:  
-venturi, whirl, whirling, whirlwind, reilluminate, rewind
-
-@kid:  
-I’m a kid, ELI5.
+@measure:
+Evaluates against a baseline.
 
 --
 examples
