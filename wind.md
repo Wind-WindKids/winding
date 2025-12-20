@@ -7,7 +7,7 @@ We define a set of operations on intent here:
 operations: vm
 --
 @illuminate:
-Creates or updates existing artifact to be aligned with an intent.
+Creates or updates existing artifact to be aligned with an intent and runs it.
 
 @wind:
 Turns artifact into an intent. Adds intent, combining it in.
@@ -22,10 +22,10 @@ Safeproofs the intent.
 Simplifes the intent.
 
 @run:
-Executes an artifact
+Executes an existing artifact.
 
 @artifact:
-Creates an artifact
+Creates or updates existing artifact to be aligned with an intent.
 
 @measure:
 Evaluates against a baseline.

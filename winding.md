@@ -222,44 +222,42 @@ messages: arguments, windings
 @context: default, context, include, exclude  
 @align: align, safe, help, please, strict, explain, prove, probe, intent, warn, not, question  
 @dev: hook, inform, feedback, todo, fix, chat, debug, test
-@kids: aloha, kite, fly, run, kid, boy, girl, Wind, Sophie, mahalo  
-
-@shortcuts: i, del, re, w, uw, c, !, ?, n, q  
+@kids: aloha, kite, fly, run, kid, boy, girl, Wind, Sophie  
 ```
 
 ### Creating a CLI
 ```markdown
 ---
-wind: lang
+wind: programming-language, intent-oriented, operations
 ---
-@vm, cli: illuminate
+We define a set of operations on intent here:
 
-@messages.vm: 
+--
+operations: vm
+--
+@illuminate:
+Creates or updates existing artifact to be aligned with an intent and runs it.
 
-@cli: 
+@wind:
+Turns artifact into an intent. Adds intent, combining it in.
 
+@unwind:
+Removes intent.
 
-@illuminate: VM
+@safe:
+Safeproofs the intent.
 
-VM, illuminates, winding, !context
+@kid:
+Simplifes the intent.
 
-@messages.vm:  
-illuminate, wind, unwind, deluminate
+@run:
+Executes an existing artifact.
 
-@arguments:  
-files, intent, pipes, include, exclude, context
+@artifact:
+Creates or updates existing artifact to be aligned with an intent.
 
-@messages:  
-fresh, freshen, draft, dry, wet, kiss, brush, lift, cool, heat, safe
-
-@messages.dev:  
-aloha, whisper, whine, lull, towel, wing, kite, kid, boy, girl, Wind, Sophie, please, help
-
-@messages.experimental:  
-venturi, whirl, whirling, whirlwind, reilluminate, rewind
-
-@kid:  
-I’m a kid, ELI5.
+@measure:
+Evaluates against a baseline.
 
 --
 examples
