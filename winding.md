@@ -1,4 +1,4 @@
-# Winding Markdown (Draft v0.18)
+# Winding Markdown (Draft v0.20)
 [plain text version](https://winding.md/winding.md) | [pypi module](https://pypi.org/project/winding/) | [Wind for Developers](https://wind.dev) | [Wind for Kids](https://wind.kids) | [GitHub](https://github.com/Wind-WindKids/winding)
 <!-- | [Wind Language Foundation](https://wind-lang.org) -->
 
@@ -17,7 +17,7 @@
 
 ## Introduction
 
-Winding Markdown lets you create artifacts, like websites, images, slides, code, or 3D scenes, using structured, minimal prompts. It is a lightweight CommonMark extension that allows you to express *intent* that can be *illuminated* into full implementations. 
+Winding Markdown lets you create artifacts, like websites, images, slides, code, or 3D scenes, using structured, minimal prompts. It is a lightweight CommonMark extension that allows you to express and manage *intent* that can be *illuminated* into full implementations. Unlike ephemeral prompts that are lost after generation, Winding Markdown allows you keep your prompts, change them, and align artifacts following these changes.
 
 If you've ever struggled with an out-of-control image prompt, this is for you.
 
@@ -38,9 +38,15 @@ A swirl of wind, a flowing text, forming a shape of a dragon.
 @footer:
 Learn more at  https://winding.md
 ```
-![My First Winding](assets/my_first_winding.jpg)
 
-Initially, with simple images and slides, you don't need specialized tooling. Provide a prompt like this: `Please, illuminate this winding.` into [ChatGPT](https://chatgpt.com) or another capable generative AI. With larger projects, you can use projects, copilots and the [wind](#wind), [illuminate](#illuminate), [unwind](#unwind) tools from the [Winding Python module](https://pypi.org/project/winding/).
+To create an artifact from a winding, you can use the `artifact` command:
+```bash
+artifact my_first_winding
+```
+
+This will create a new artifact from the winding. The artifact will be created in the current directory, and named `my_first_winding.jpg`, that may look like this:
+
+![My First Winding](assets/my_first_winding.jpg)
 
 
 ## Key Benefits
@@ -665,20 +671,6 @@ Winding was designed specifically to create art. It makes it easier to:
 We call the process of writing in it **winding** and a resulting document a **winding**. It allows both to write a story, page by page, and leave precise layout messages for the scenes, text, image, and transparent regions. It strikes a balance between plain-text readability and structured design. 
 
 We call a process of searching for a stable point in a winding **illuminating**. It combines typesetting, illustration, and storytelling.
-
-### Why "Winding"?
-The name comes from multiple sources:
-
-- **Historical:** The first picture book written with this technique was ["Sophie and Wind"](https://sophieandwind.com) by author Wind—the process got called "Sophie-and-Wind-ing a book", and shortened to "winding".
-- **Physical**: A winding is like a wound spring that unwinds during illumination, expanding Big Bang style
-- **Practical**: Book winding is an actual bookbinding technique
-- **Poetic:** Winding sounds like making something by using wind
-
-### Why "Illumination"?
-We call the rendering process "illumination" because:
-
-- **Illuminated manuscripts:** We can produce actual illuminated text, not just typesetting—connecting to the historical technique
-- **Message propagation:** Like light that takes all potential paths, messages propagate through spaces and collapse windings to a defined state
 
 
 ## Reference Examples
