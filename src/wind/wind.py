@@ -5,15 +5,17 @@ import sys
 import json
 import os
 
-def stream_cursor_agent(prompt):
+def stream_cursor_agent(prompt, force=False):
     command = [
         "cursor", "agent",
         "--print",
         "--output-format", "stream-json",
         "--stream-partial-output",
+    ] + (["--force"] if force else []) + [ 
+        "--",
         prompt
     ]
-
+    
     GRAY = "\033[90m"
     BLUE = "\033[94m"
     RESET = "\033[0m"
@@ -128,5 +130,6 @@ Recipe: {recipe.format(target=target, extra_intent=extra_intent)}
 """
 
     print(f"--- Winding: {cmd_name} {target} ---\n")
-    stream_cursor_agent(full_prompt.strip())
+    force = (cmd_name in ["illuminate", "run"])
+    stream_cursor_agent(full_prompt.strip(), force)
     print("\n\n--- Finished ---")
