@@ -17,7 +17,7 @@
 
 ## Introduction
 
-Winding Markdown lets you create artifacts, like websites, images, slides, code, or 3D scenes, using structured, minimal prompts. It is a lightweight CommonMark extension that allows you to write concise programs that can be "illuminated" into full implementations. 
+Winding Markdown lets you create artifacts, like websites, images, slides, code, or 3D scenes, using structured, minimal prompts. It is a lightweight CommonMark extension that allows you to express *intent* that can be *illuminated* into full implementations. 
 
 If you've ever struggled with an out-of-control image prompt, this is for you.
 
@@ -40,7 +40,7 @@ Learn more at  https://winding.md
 ```
 ![My First Winding](assets/my_first_winding.jpg)
 
-Initially, with simple images and slides, you don't need specialized tooling. Provide a prompt like this: `Please, illuminate this markdown.` into [ChatGPT](https://chatgpt.com) or another capable generative AI. With larger projects, you can use projects, copilots and the [wind](#wind), [illuminate](#illuminate), [unwind](#unwind) tools from the [Winding Python module](https://pypi.org/project/winding/).
+Initially, with simple images and slides, you don't need specialized tooling. Provide a prompt like this: `Please, illuminate this winding.` into [ChatGPT](https://chatgpt.com) or another capable generative AI. With larger projects, you can use projects, copilots and the [wind](#wind), [illuminate](#illuminate), [unwind](#unwind) tools from the [Winding Python module](https://pypi.org/project/winding/).
 
 
 ## Key Benefits

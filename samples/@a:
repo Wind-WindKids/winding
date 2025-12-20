@@ -1,0 +1,2 @@
+#!/usr/bin/bash
+echo "aligning $1"
