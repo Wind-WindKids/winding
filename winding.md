@@ -48,8 +48,6 @@ This will create a new artifact from the winding. The artifact will be created i
 
 ![My First Winding](assets/my_first_winding.jpg)
 
-T
-
 
 ## Key Benefits
 - **Efficient**: Projects can be [completed in days instead of months](https://wind.kids)
