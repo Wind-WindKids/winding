@@ -6,7 +6,7 @@ winding: meta_winding | space_winding | inline_winding
 meta_winding: "===\n" receivers ":" arguments header_winding* "\n===\n" windings? 
 space_winding: "--\n" receivers ":" arguments header_winding* "\n--\n" windings?
 header_winding: "\n" receivers ":" arguments
-inline_winding: "@" receivers ":" arguments "\n" markdown
+inline_winding: "@" receivers ":" arguments "\n" markdown?
 
 windings: (inline_winding | markdown)+
 markdown: (image | TEXT)+
