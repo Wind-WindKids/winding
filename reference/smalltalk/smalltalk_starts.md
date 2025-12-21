@@ -1,6 +1,6 @@
----
+===
 smalltalk_starts: page, portrait-orientation
----
+===
 A small group, chit-chatting.
 
 --

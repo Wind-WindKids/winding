@@ -129,7 +129,5 @@ Recipe: {recipe.format(target=target, extra_intent=extra_intent)}
 - Be concise and artifact-focused.
 """
 
-    print(f"--- Winding: {cmd_name} {target} ---\n")
     force = (cmd_name in ["illuminate", "run"])
     stream_cursor_agent(full_prompt.strip(), force)
-    print("\n\n--- Finished ---")

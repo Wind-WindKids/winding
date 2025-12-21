@@ -1,9 +1,9 @@
 # This is a sample Winding Markdown snippet that defines an image and a Python script to parse it.
 # The script uses Pydantic to define the data model and OpenAI's API to parse the snippet.
 
-snippet = '''---
+snippet = '''===
 wind_on_the_grass: image, square, png
----
+===
 Wind lies in the grass in front of two laptops, focused on screen.right.  
 Sunlight glows through his hair. His back is to us.  
 

@@ -3,22 +3,22 @@ import os
 grammar = r"""start: (winding | markdown)+
 
 winding: meta_winding | space_winding | inline_winding
-meta_winding: "---\n" IDENTIFIER ":" attributes header_winding* "\n---\n" content? 
-space_winding: "--\n" IDENTIFIER ":" attributes header_winding* "\n--\n" content?
-header_winding: "\n" IDENTIFIER ":" attributes
-inline_winding: "@" IDENTIFIER ":" attributes "\n" markdown
+meta_winding: "===\n" receivers ":" arguments header_winding* "\n===\n" windings? 
+space_winding: "--\n" receivers ":" arguments header_winding* "\n--\n" windings?
+header_winding: "\n" receivers ":" arguments
+inline_winding: "@" receivers ":" arguments "\n" markdown
 
-content: (inline_winding | markdown)+
-
+windings: (inline_winding | markdown)+
 markdown: (image | TEXT)+
-
-attributes: (IDENTIFIER ("," IDENTIFIER)*)?
-
 image: "![" CAPTION? "]" "(" URI? ")"
+
+receivers: IDENTIFIER ("," IDENTIFIER)*
+arguments: (IDENTIFIER ("," IDENTIFIER)*)?
+
 
 IDENTIFIER: /!?[A-Za-z0-9][ A-Za-z0-9_.-]*/
 URI: /[^\)\n]+/
-TEXT: /(?:(?!@\w+:|--|!\[).)*\n+/ 
+TEXT: /(?:(?!@\w+[A-Za-z0-9_.,-]*:|--|===|!\[).)*\n+/ 
 CAPTION: /[^\]]+/
     
 %ignore /[ \t]+/

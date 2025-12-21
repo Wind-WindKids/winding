@@ -1,6 +1,6 @@
----
+===
 academic_portfolio: al-folio, jekyll, responsive
----
+===
 A beautiful academic portfolio showcasing research, publications, and projects.
 
 @metadata:

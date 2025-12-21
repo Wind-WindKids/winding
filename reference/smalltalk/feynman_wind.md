@@ -1,6 +1,6 @@
----
+===
 feynman_wind: page, portrait-orientation
----
+===
 They continue chitchat, now Feynman engaged Wind.
 
 --

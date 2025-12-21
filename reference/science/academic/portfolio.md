@@ -1,6 +1,6 @@
----
+===
 your_name.portfolio: al-folio, jekyll
----
+===
 A professional academic portfolio showcasing research, publications, and projects.
 
 title: Your Name

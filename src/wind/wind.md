@@ -1,6 +1,6 @@
----
+===
 wind: programming-language, intent-oriented, operations
----
+===
 We define a set of operations on intent here:
 
 --

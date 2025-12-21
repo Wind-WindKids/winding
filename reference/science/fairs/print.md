@@ -1,6 +1,6 @@
----
+===
 science_fair_print: tool, python, service
----
+===
 Transforms science fair windings into physical artifacts via print services.
 
 --
@@ -148,9 +148,9 @@ example_winding:
 What the tool processes:
 
 ```markdown
----
+===
 dragon_wingsuit: science_fair, grade_1
----
+===
 Can I fly with dragon wings?
 
 @hypothesis:
