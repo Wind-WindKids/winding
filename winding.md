@@ -1,10 +1,13 @@
-# Winding Markdown (Draft v0.21)
+---
+winding: spec, markdown, v0.21
+---
 [plain text](https://winding.md/winding.md) | [pypi](https://pypi.org/project/winding/) | [Wind for Developers](https://wind.dev) | [Wind for Kids](https://wind.kids) | [GitHub](https://github.com/Wind-WindKids/winding)
 
-> A CommonMark extension for creating artifacts via concise prompts.
+A CommonMark extension for creating artifacts via concise prompts.
 
-## Quick Start
-
+--
+quick_start
+--
 ```markdown
 --
 my_first_winding: slide, square, jpg
@@ -19,22 +22,27 @@ A swirl of wind, a flowing text, forming a shape of a dragon.
 Learn more at https://winding.md
 ```
 
-Create the artifact:
+@artifacting:
+This is how you'd turn your winding into an artifact:
+
 ```bash
 artifact my_first_winding
 ```
 
+Which may look like this:
 ![My First Winding](assets/my_first_winding.jpg)
 
-## Core Concepts
+--
+core_concepts
+--
 
-### 1. Agents
+@agents:
 Everything is an agent that receives messages:
 - Layout elements (`@center`, `@footer`)
 - Objects in a scene (`@laptop`, `@dragon`)
 - Styles or traits (`@style`, `@wide`)
 
-### 2. Messages
+@messages:
 Every line is a message to an agent:
 ```markdown
 @dragon: green, alive
@@ -42,13 +50,15 @@ The dragon soars through clouds.
 ```
 Here `dragon` receives: `green`, `alive`, and the description text.
 
-### 3. Spaces
-Spaces are bounded contexts that determine how messages propagate. Boundary strength controls context flow:
+@spaces:
+Spaces are bounded contexts. Boundary strength controls context flow:
 - `:` — Light (inline)
 - `--` — Medium (section)
 - `---` — Strong (file/document)
 
-## Syntax Reference
+--
+syntax
+--
 
 | Syntax | Purpose | Example |
 |---|---|---|
@@ -60,7 +70,7 @@ Spaces are bounded contexts that determine how messages propagate. Boundary stre
 | `---` | Strong boundary | `--- document: report ---` |
 | `,` | Multiple traits | `@text: bold, italic, large` |
 
-### Agent Addressing
+@addressing:
 ```markdown
 @agent:              # Direct message
 @agent.sub:          # Sub-agent
@@ -68,20 +78,20 @@ Spaces are bounded contexts that determine how messages propagate. Boundary stre
 @*:                  # All agents in space
 ```
 
-### Arguments
+@arguments:
 ```markdown
 @agent: arg1, arg2, !arg3
 ```
 
-## Examples
+--
+examples
+--
 
-### Logo
 ```markdown
 @winding.logo: square, abstract, png
 A swirl of wind, a flowing text, a galaxy, forming a shape of a dragon.
 ```
 
-### Web Page
 ```markdown
 --
 my_page: jekyll, liquid, file, md
@@ -95,7 +105,6 @@ Welcome to Winding Markdown
 Learn more at https://winding.md
 ```
 
-### PDF Book
 ```markdown
 ---
 my_book: book, portrait-orientation, file, pdf
@@ -112,7 +121,6 @@ intro: page
 Introduction text.
 ```
 
-### Scene
 ```markdown
 --
 laptops: image, landscape-orientation, png
@@ -126,7 +134,6 @@ A dragon with green eyes.
 VSCode
 ```
 
-### Code (Hello World)
 ```markdown
 ---
 hello_world: file, py
@@ -136,8 +143,9 @@ Make it shine.
 @style: pythonic, minimal
 ```
 
-## Formal Grammar (EBNF/Lark)
-
+--
+grammar: ebnf, lark
+--
 ```ebnf
 start: (winding | markdown)+
 
@@ -163,8 +171,9 @@ CAPTION: /[^\]]+/
 %ignore "\r"  
 ```
 
-## AST
-
+--
+ast: python
+--
 ```python
 @dataclass
 class Image:
@@ -182,7 +191,7 @@ class Winding:
     windings: List[Union[Markdown, 'Winding']] = field(default_factory=list)
 ```
 
-### AST Example
+@example:
 ```markdown
 ---
 dragon.portrait: image, jpg, wide
@@ -202,17 +211,15 @@ Winding(receivers=['this'], arguments=[], windings=[
             ])])
 ```
 
-## Philosophy
-
+--
+philosophy
+--
 - No brackets, easy to write on mobile
 - No indentation rules, no nesting
 - Compatible with existing Markdown
 - Spatial thinking over hierarchical
 - Intent-oriented: describe *what*, not *how*
 
-## This
-
-```markdown
 --
 this : this
 --
@@ -232,7 +239,6 @@ Everything is a message.
 Even a page is listening.
 
 Clarity matters more than ceremony.  
-Flat doesn’t mean shallow.  
+Flat doesn't mean shallow.  
 Let things breathe.  
 Negative space is part of the story.
-```
