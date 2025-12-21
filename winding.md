@@ -1,12 +1,12 @@
+[plain text](https://winding.md/winding.md) | [pypi](https://pypi.org/project/winding/) | [Wind for Developers](https://wind.dev) | [Wind for Kids](https://wind.kids) | [GitHub](https://github.com/Wind-WindKids/winding)
+
 ===
 winding: spec, markdown, v0.24
 ===
-[plain text](https://winding.md/winding.md) | [pypi](https://pypi.org/project/winding/) | [Wind for Developers](https://wind.dev) | [Wind for Kids](https://wind.kids) | [GitHub](https://github.com/Wind-WindKids/winding)
-
 A markdown for illuminating documents.
 
 --
-quick_start
+quickstart
 --
 ```markdown
 --
@@ -23,7 +23,8 @@ Learn more at https://winding.md
 ```
 
 @artifacting:
-This is how you'd turn your winding into an artifact:
+This is how you'd turn your winding into an artifact, given that `winding` Python package is installed:
+
 
 ```bash
 artifact my_first_winding
@@ -33,9 +34,8 @@ Which may look like this:
 ![My First Winding](assets/my_first_winding.jpg)
 
 --
-core_concepts
+concepts
 --
-
 @agents:
 Everything is an agent that receives messages:
 - Layout elements (`@center`, `@footer`)
@@ -61,7 +61,7 @@ syntax
 --
 
 | Syntax | Purpose | Example |
-|---|---|---|
+|--------|---------|---------|
 | `@receivers:` | Send message to agent | `@header: bold, centered` |
 | `identifier.sub` | Sub-agent | `@laptop.screen: bright` |
 | `!identifier` | Negate/remove trait | `@screen: !dark, bright` |
@@ -94,7 +94,7 @@ A swirl of wind, a flowing text, a galaxy, forming a shape of a dragon.
 
 ```markdown
 --
-my_page: jekyll, liquid, file, md
+welcome: jekyll, liquid, file, md
 --
 Welcome to Winding Markdown
 
@@ -107,7 +107,7 @@ Learn more at https://winding.md
 
 ```markdown
 ===
-my_book: book, portrait-orientation, file, pdf
+inception: book, portrait-orientation, file, pdf
 ===
 
 --
@@ -146,6 +146,7 @@ Make it shine.
 --
 grammar: ebnf, lark
 --
+
 ```ebnf
 start: (winding | markdown)+
 
