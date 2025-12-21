@@ -1,9 +1,9 @@
----
-winding: spec, markdown, v0.21
----
+===
+winding: spec, markdown, v0.24
+===
 [plain text](https://winding.md/winding.md) | [pypi](https://pypi.org/project/winding/) | [Wind for Developers](https://wind.dev) | [Wind for Kids](https://wind.kids) | [GitHub](https://github.com/Wind-WindKids/winding)
 
-A CommonMark extension for creating artifacts via concise prompts.
+A markdown for illuminating documents.
 
 --
 quick_start
@@ -54,7 +54,7 @@ Here `dragon` receives: `green`, `alive`, and the description text.
 Spaces are bounded contexts. Boundary strength controls context flow:
 - `:` — Light (inline)
 - `--` — Medium (section)
-- `---` — Strong (file/document)
+- `===` — Strong (file/document)
 
 --
 syntax
@@ -67,7 +67,7 @@ syntax
 | `!identifier` | Negate/remove trait | `@screen: !dark, bright` |
 | `:` | Light boundary | `@section:` |
 | `--` | Medium boundary | `-- scene: outdoor --` |
-| `---` | Strong boundary | `--- document: report ---` |
+| `===` | Strong boundary | `=== document: report ===` |
 | `,` | Multiple traits | `@text: bold, italic, large` |
 
 @addressing:
@@ -106,9 +106,9 @@ Learn more at https://winding.md
 ```
 
 ```markdown
----
+===
 my_book: book, portrait-orientation, file, pdf
----
+===
 
 --
 cover
@@ -135,9 +135,9 @@ VSCode
 ```
 
 ```markdown
----
+===
 hello_world: file, py
----
+===
 Make it shine.
 
 @style: pythonic, minimal
@@ -150,7 +150,7 @@ grammar: ebnf, lark
 start: (winding | markdown)+
 
 winding: meta_winding | space_winding | inline_winding
-meta_winding: "---\n" receivers ":" arguments header_winding* "\n---\n" windings? 
+meta_winding: "===\n" receivers ":" arguments header_winding* "\n===\n" windings? 
 space_winding: "--\n" receivers ":" arguments header_winding* "\n--\n" windings?
 header_winding: "\n" receivers ":" arguments
 inline_winding: "@" receivers ":" arguments "\n" markdown
@@ -193,10 +193,10 @@ class Winding:
 
 @example:
 ```markdown
----
+===
 dragon.portrait: image, jpg, wide
 quality: high
----
+===
 Wise eyes.
 ```
 
