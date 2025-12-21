@@ -4,6 +4,7 @@ plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-commonmark-ghfm
 url: "https://winding.md"
 include:
   - winding.md
