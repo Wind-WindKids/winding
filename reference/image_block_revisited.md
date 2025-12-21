@@ -1,6 +1,6 @@
----
+===
 image_block_revisited: md
----
+===
 Image Block Revisited, as an Agent
 
 @image: wind-on-the-grass.png, cutout, square

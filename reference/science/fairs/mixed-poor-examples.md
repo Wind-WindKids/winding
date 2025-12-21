@@ -1,6 +1,6 @@
----
+===
 mixed-poor-examples: collection, python, educational
----
+===
 AI-focused windings that produce Python code for science fairs. Accessible from elementary to high school.
 
 
@@ -137,9 +137,9 @@ Draw what I dreamed about last night.
 @journal: save_dream_diary
 @science: how_memory_works
 
----
+===
 implementation_notes: guide
----
+===
 Each winding should produce Python code that:
 1. Uses pre-trained models when possible (HuggingFace, TensorFlow.js)
 2. Runs on modest hardware (M2 MacBook perfect)

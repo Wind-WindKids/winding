@@ -1,6 +1,6 @@
 ===
 hello_world: file, py
 ===
-Make it shine.
+Make it shine. Something fancy.
 
 @style: pythonic, minimal

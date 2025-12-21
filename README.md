@@ -12,9 +12,9 @@ A Python implementation of Winding Markdown - a lightweight CommonMark extension
 Winding lets you write structured prompts that can be artifacted into full implementations. Instead of verbose templates or complex configurations, you prompt (send messages or express *intent*) to agents:
 
 ```markdown
----
+===
 hello_world: file, py
----
+===
 Make it shine.
 
 @style: pythonic, minimal
@@ -82,9 +82,9 @@ pip install winding
 ## Usage
 
 ```markdown
----
+===
 winding: cli, tools
----
+===
 Winding Markdown CLI suite
 
 @messages.vm:  
@@ -159,9 +159,9 @@ from winding.ast import Winding
 from pprint import pprint
 
 parser = Lark_StandAlone()
-sample = """---
+sample = """===
 dragons: portrait-oriented
----
+===
 A book about dragons
 
 --

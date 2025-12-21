@@ -5,9 +5,9 @@ from pprint import pprint
 
 
 parser = Lark_StandAlone()
-sample = """---
+sample = """===
 dragons: portrait-oriented
----
+===
 A book about dragons
 
 --

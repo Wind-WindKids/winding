@@ -1,6 +1,6 @@
----
+===
 science.fairs.kit: templates, grades_k_12
----
+===
 Ready-to-use windings for common science fair projects.
 
 --

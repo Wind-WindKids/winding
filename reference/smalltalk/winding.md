@@ -1,6 +1,6 @@
 --- 
 smalltalk: comic, portrait-orientation
----
+===
 @style: nwind, illuminating, hand-drawn, sketchy
 
 @outline: !visible
