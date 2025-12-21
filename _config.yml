@@ -1,10 +1,15 @@
 title: "Winding"
 remote_theme: just-the-docs/just-the-docs
+markdown: CommonMark
+commonmark:
+  options: ["SMART", "FOOTNOTES"]
+  extensions: ["strikethrough", "autolink", "table", "tagfilter"]
 plugins:
   - jekyll-remote-theme
+  - jekyll-commonmark-ghpages
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-commonmark-ghfm
+  - jekyll-include-cache
 url: "https://winding.md"
 include:
   - winding.md
