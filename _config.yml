@@ -1,5 +1,14 @@
 title: "Winding"
 remote_theme: just-the-docs/just-the-docs
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: true
+  smartypants: false
+  typographic_symbols:
+    ndash: "--"
+    mdash: "---"
+
 plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
